@@ -1,0 +1,72 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="glochidia_06" itemID="57c221cf-00000d96" lastModified="1472368364">
+  <timeline>
+    <DOMTimeline name="glochidia_06">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-56.45" ty="-102.45"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#736357"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!1529 2196[1534 2106 1482 2070!1482 2070[1436 2038 1360 2055!1360 2055[1288 2071 1226 2121!1226 2121[1161 2174 1142 2238!1142 2238[1099 2388 1194 2504!1194 2504[1293 2624 1444 2570!1444 2570[1517 2543 1528 2463!1528 2463[1533 2428 1520
+ 2311!1520 2311|1529 2196"/>
+                    <Edge cubics="!1529 2196(1529,2196;1544,1941 1193,2061 1142,2238q1529 2196Q1534 2106q1482 2070Q1436 2038q1360 2055Q1288 2071q1226 2121Q1161 2174q1142 2238);"/>
+                    <Edge cubics="!1142 2238(1142,2238;1087,2430 1236,2645 1444,2570q1142 2238Q1099 2388q1194 2504Q1293 2624q1444 2570)1444,2570;"/>
+                    <Edge cubics="!1444 2570(;1556,2529 1531,2411 1520,2311q1444 2570Q1517 2543q1528 2463Q1533 2428q1520 2311);"/>
+                    <Edge cubics="!1520 2311(;1520,2311 1529,2196 1529,2196q1520 2311 1529 2196);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-56.45" ty="-102.45"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#736357"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="
+!1544 2161[1644 2082 1696 2070!1696 2070[1772 2051 1845 2122!1845 2122[1881 2157 1908 2209!1908 2209[1937 2262 1944 2311!1944 2311[1963 2441 1866 2535!1866 2535[1768 2630 1642 2595!1642 2595[1582 2578 1565 2513!1565 2513[1554 2433 1537
+ 2394!1537 2394|1544 2161"/>
+                    <Edge cubics="!1544 2161(1544,2161;1655,2074 1738,2017 1845,2122q1544 2161Q1644 2082q1696 2070Q1772 2051q1845 2122);"/>
+                    <Edge cubics="!1845 2122(;1892,2168 1934,2244 1944,2311q1845 2122Q1881 2157q1908 2209Q1937 2262q1944 2311);"/>
+                    <Edge cubics="!1944 2311(;1969,2481 1812,2643 1642,2595q1944 2311Q1963 2441q1866 2535Q1768 2630q1642 2595);"/>
+                    <Edge cubics="!1642 2595(;1543,2567 1571,2471 1537,2394q1642 2595Q1582 2578q1565 2513Q1554 2433q1537 2394);"/>
+                    <Edge cubics="!1537 2394(1537,2394;1537,2394 1544,2161 1544,2161q1537 2394 1544 2161);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

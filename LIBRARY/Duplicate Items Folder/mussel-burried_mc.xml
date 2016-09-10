@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/mussel-burried_mc" itemID="57d0f625-000017bd" lastModified="1471682440">
+  <timeline>
+    <DOMTimeline name="mussel-burried_mc">
+      <layers>
+        <DOMLayer name="mussel_mc" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/mussel-burried" selected="true">
+                  <matrix>
+                    <Matrix tx="26.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="147" y="263.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="shadow" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Duplicate Items Folder/mussel-shadow">
+                  <matrix>
+                    <Matrix ty="344.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.51953125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

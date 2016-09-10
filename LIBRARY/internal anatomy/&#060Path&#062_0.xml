@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="internal anatomy/&amp;#060Path&amp;#062_0" itemID="57b82781-00000140" lastModified="1471686529">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!93 0[66 51 41 119!41 119[-9 256 2 343!2 343[16 442 82 567!82 567[161 715 255 762!255 762[164 671 104 509!104 509[61 395 52 315!52 315[48 278 71 157!71 157[95 32 93 0"/>
+                    <Edge cubics="!93 0(93,0;93,0 -16,204 2,343q93 0Q66 51q41 119Q-9 256q2 343)2,343;"/>
+                    <Edge cubics="!2 343(2,343;17,451 117,692 255,762q2 343Q16 442q82 567Q161 715q255 762);"/>
+                    <Edge cubics="!255 762(;115,622 59,376 52,315q255 762Q164 671q104 509Q61 395q52 315);"/>
+                    <Edge cubics="!52 315(;44,244 97,69 93,0q52 315Q48 278q71 157Q95 32q93 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

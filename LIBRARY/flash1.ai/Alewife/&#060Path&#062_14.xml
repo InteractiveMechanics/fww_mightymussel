@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash1.ai/Alewife/&amp;#060Path&amp;#062_14" itemID="57957bba-00000028" lastModified="1469414330">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_14">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#58595B"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 0[18 15 35 34!35 34[70 72 66 89!66 89[39 47 32 40!32 40[6 10 0 0"/>
+                    <Edge cubics="!0 0(;-1,-1 73,61 66,89q0 0Q18 15q35 34Q70 72q66 89);"/>
+                    <Edge cubics="!66 89(;66,89 39,47 32,40q66 89Q39 47q32 40);"/>
+                    <Edge cubics="!32 40(;25,32 4,7 0,0q32 40Q6 10q0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

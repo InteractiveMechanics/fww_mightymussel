@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Duplicate Items Folder/bubble copy" itemID="57d0faca-00001ec4" lastModified="1471574129">
+  <timeline>
+    <DOMTimeline name="bubble copy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Duplicate Items Folder/bubble-shine copy" selected="true">
+                      <matrix>
+                        <Matrix tx="-68.55" ty="-68.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="68.55" y="68.55"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.109375"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Duplicate Items Folder/bubble-outline copy" selected="true">
+                      <matrix>
+                        <Matrix tx="7.4" ty="-56.75"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="20.9" y="20.9"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.328125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

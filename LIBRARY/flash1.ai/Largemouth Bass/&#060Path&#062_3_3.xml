@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_3_3" itemID="579e55ab-00000081" lastModified="1469994411">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_3_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!511 714|842 1008!842 1008|1235 1560!1235 1560[1223 1522 1224 1484!1224 1484[1228 1408 1297 1409!1297 1409|0 0!0 0|511 714"/>
+                    <Edge cubics="!1235 1560(;1235,1560 1186,1407 1297,1409q1235 1560Q1223 1522q1224 1484Q1228 1408q1297 1409);"/>
+                    <Edge cubics="!1297 1409(;1297,1409 0,0 0,0q1297 1409 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 511,714 511,714q0 0 511 714);"/>
+                    <Edge cubics="!511 714(;511,714 842,1008 842,1008q511 714 842 1008);"/>
+                    <Edge cubics="!842 1008(;1038,1284 1038,1284 1235,1560q842 1008 1235 1560);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

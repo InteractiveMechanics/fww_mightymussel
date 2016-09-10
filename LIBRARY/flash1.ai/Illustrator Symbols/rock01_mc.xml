@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash1.ai/Illustrator Symbols/rock01_mc" itemID="57b6d68a-00000b1f" lastModified="1471600266">
+  <timeline>
+    <DOMTimeline name="rock01_mc">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="flash1.ai/Assets/rock07" selected="true">
+                      <matrix>
+                        <Matrix tx="-111.35" ty="-82.5"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="108.35" y="74.35"/>
+                      </transformationPoint>
+                      <filters>
+                        <DropShadowFilter alpha="0.258823529411765" angle="69.443958868602" blurX="9" blurY="9" distance="8.5440034866333" quality="2"/>
+                      </filters>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

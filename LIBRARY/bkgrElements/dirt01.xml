@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="bkgrElements/dirt01" itemID="57b93fa5-00000266" lastModified="1473310299">
+  <timeline>
+    <DOMTimeline name="dirt01">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#663300"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!11 108[0 147 0 187!0 187[0 232 17 241!17 241[28 248 70 246!70 246[119 246 165 237!165 237[293 210 298 139!298 139[303 64 259 30!259 30[221 -2 152 0!152 0[99 0 59 42!59 42[47 55 33 77!33 77[14 103 11 108"/>
+                    <Edge cubics="!11 108(;-2,152 -8,229 17,241q11 108Q0 147q0 187Q0 232q17 241);"/>
+                    <Edge cubics="!17 241(;44,254 292,248 298,139q17 241Q28 248q70 246Q119 246q165 237Q293 210q298 139);"/>
+                    <Edge cubics="!298 139(;304,31 234,-2 152,0q298 139Q303 64q259 30Q221 -2q152 0);"/>
+                    <Edge cubics="!152 0(;69,0 37,75 11,108q152 0Q99 0q59 42Q47 55q33 77Q14 103q11 108);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

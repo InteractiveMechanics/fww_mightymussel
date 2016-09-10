@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="flash1.ai_1/life cycle-bkgr/&amp;#060Path&amp;#062_16" itemID="57c24c7e-00000fa2" lastModified="1472351358">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.0030670166015625" b="-0.0019683837890625" c="0.0041046142578125" d="-0.001953125" tx="5.75" ty="3.35"/>
+                        </matrix>
+                        <GradientEntry color="#FADEB8" ratio="0"/>
+                        <GradientEntry color="#E5C9A2" ratio="0.207843137254902"/>
+                        <GradientEntry color="#BD9070" ratio="0.6"/>
+                        <GradientEntry color="#A37C52" ratio="0.941176470588235"/>
+                      </RadialGradient>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#736357"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!85 78[18 116 11 122!11 122[3 129 86 86!86 86[158 48 196 27!196 27[257 -8 192 24!192 24[135 52 85 78"/>
+                    <Edge cubics="!85 78(85,78;58,93 18,115 11,122q85 78Q18 116q11 122)11,122;"/>
+                    <Edge cubics="!11 122(;-1,133 162,46 196,27q11 122Q3 129q86 86Q158 48q196 27);"/>
+                    <Edge cubics="!196 27(;290,-26 127,56 85,78q196 27Q257 -8q192 24Q135 52q85 78);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
