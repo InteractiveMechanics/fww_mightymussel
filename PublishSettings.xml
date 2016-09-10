@@ -6,8 +6,8 @@
     <oam>0</oam>
     <jpegDefaultName>1</jpegDefaultName>
     <oamDefaultName>1</oamDefaultName>
-    <jpegFileName>Untitled-1.jpg</jpegFileName>
-    <oamFileName>Untitled-1.oam</oamFileName>
+    <jpegFileName>FWW-MM_all_v01.jpg</jpegFileName>
+    <oamFileName>FWW-MM_all_v01.oam</oamFileName>
     <publishFormat id="BBC1F406-65F2-4219-9304-FA48C7549E44">0</publishFormat>
     <publishFormat id="C6B9CB0C-C6DC-4FBC-9805-93E9EB37A444">1</publishFormat>
   </PublishFormatProperties>
@@ -32,7 +32,7 @@
     <Property name="copy">true</Property>
     <Property name="default">true</Property>
     <Property name="embed">false</Property>
-    <Property name="filename">Untitled-1.svg</Property>
+    <Property name="filename">FWW-MM_all_v01.svg</Property>
     <Property name="imagesPath">images</Property>
     <Property name="includeHiddenLayers">true</Property>
     <Property name="version">0.1</Property>
@@ -40,9 +40,10 @@
   <PublishProperties id="C6B9CB0C-C6DC-4FBC-9805-93E9EB37A444" name="JavaScript/HTML" otf="true" enabled="true">
     <Property name="SiteUrl"> </Property>
     <Property name="bitDepth">8</Property>
-    <Property name="centerOption">Both</Property>
+    <Property name="centerOption">2</Property>
     <Property name="centerStage">false</Property>
     <Property name="compactPaths">true</Property>
+    <Property name="componentsPath">components/</Property>
     <Property name="createjsNS">createjs</Property>
     <Property name="default">true</Property>
     <Property name="embedJS">false</Property>
@@ -52,11 +53,11 @@
     <Property name="exportImagesToFolder">true</Property>
     <Property name="exportLibs">true</Property>
     <Property name="exportLibsToFolder">true</Property>
-    <Property name="exportSounds">true</Property>
+    <Property name="exportSounds">false</Property>
     <Property name="exportSoundsToFolder">true</Property>
-    <Property name="filename">Untitled-1</Property>
+    <Property name="filename">FWW-MM_all_v01.js</Property>
     <Property name="frameBounds">false</Property>
-    <Property name="hostedLibs">true</Property>
+    <Property name="hostedLibs">false</Property>
     <Property name="imageFormat">0</Property>
     <Property name="imagesNS">images</Property>
     <Property name="imagesPath">images/</Property>
@@ -67,7 +68,7 @@
     <Property name="jpegMaxSheetWidth">8192</Property>
     <Property name="libNS">lib</Property>
     <Property name="libraryPath">libs/</Property>
-    <Property name="loop">true</Property>
+    <Property name="loop">false</Property>
     <Property name="makeResponsive">false</Property>
     <Property name="optimizeExport">true</Property>
     <Property name="pngBackground">#00000000</Property>
@@ -75,8 +76,8 @@
     <Property name="pngMaxSheetWidth">8192</Property>
     <Property name="preloaderName">Default</Property>
     <Property name="quality">80</Property>
-    <Property name="responsiveOption">Both</Property>
-    <Property name="scaleOption">Fit in view</Property>
+    <Property name="responsiveOption">2</Property>
+    <Property name="scaleOption">0</Property>
     <Property name="scaleStage">false</Property>
     <Property name="soundsPath">sounds/</Property>
     <Property name="templateTitle">Default Template</Property>
