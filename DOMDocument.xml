@@ -5,6 +5,7 @@
      <folders>
           <DOMFolderItem name="Assets" itemID="57d55681-00000228"/>
           <DOMFolderItem name="Assets/bkgrElements" itemID="57b98bc1-000001f7"/>
+          <DOMFolderItem name="Assets/bkgrElements copy" itemID="57d56253-00000942"/>
           <DOMFolderItem name="Assets/Duplicate Items Folder" itemID="57c4ec15-00000406"/>
           <DOMFolderItem name="Assets/flash1.ai" itemID="57b67070-000002a8" isExpanded="true"/>
           <DOMFolderItem name="Assets/flash1.ai_1" itemID="57c24c7c-00000f6e"/>
@@ -25,9 +26,8 @@
           <DOMFolderItem name="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets" itemID="57b82768-0000012a"/>
           <DOMFolderItem name="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy" itemID="57b82769-0000012b"/>
           <DOMFolderItem name="Assets/internal anatomy" itemID="57d0f55f-00001720" isExpanded="true"/>
-          <DOMFolderItem name="bkgrElements" itemID="57d55c50-000006ff"/>
+          <DOMFolderItem name="Assets/internal anatomy copy" itemID="57d5624a-00000940"/>
           <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c"/>
-          <DOMFolderItem name="internal anatomy" itemID="57d55d15-0000071d"/>
      </folders>
      <media>
           <DOMBitmapItem name="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;" itemID="57b91453-00000056" sourceLastImported="1471747155" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&amp;#060Mesh&amp;#062" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
@@ -39,7 +39,7 @@
           <DOMBitmapItem name="Assets/flash1.ai_1/life cycle-bkgr/Blend_0" itemID="57c24c7e-00000f9a" sourceLastImported="1472351358" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/flash1.ai_1/life cycle-bkgr/Blend_0" bitmapDataHRef="M 9 1472351358.dat" frameRight="2320" frameBottom="3520"/>
           <DOMBitmapItem name="Assets/internal anatomy/innerShell" itemID="57b98b45-000001ef" sourceLastImported="1471777605" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/internal anatomy/innerShell" bitmapDataHRef="M 20 1473312387.dat" frameRight="15420" frameBottom="8640"/>
           <DOMBitmapItem name="Assets/internal anatomy/innerShell-upperEdge" itemID="57b98b3d-000001ee" sourceLastImported="1471777597" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/internal anatomy/innerShell-upperEdge" bitmapDataHRef="M 21 1473312387.dat" frameRight="9440" frameBottom="1660"/>
-          <DOMBitmapItem name="Assets/mussel-outterShell.png" itemID="57d55c47-000006fc" sourceExternalFilepath="../fww-mighty-mussel/LIBRARY/Assets/mussel-outterShell.png" sourceLastImported="1473599610" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/mussel-outterShell.png" itemID="57d55c47-000006fc" sourceLastImported="1473599610" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
           <DOMBitmapItem name="Assets/flash1.ai/Patterns/New Pattern Swatch 3" itemID="579e55ab-0000001a" sourceLastImported="1469994411" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/flash1.ai/Patterns/New Pattern Swatch 3" bitmapDataHRef="M 5 1472523285.dat" frameRight="200" frameBottom="200"/>
           <DOMBitmapItem name="Assets/flash1.ai/Patterns/New Pattern Swatch 6" itemID="579e55ab-00000075" sourceLastImported="1469994411" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/flash1.ai/Patterns/New Pattern Swatch 6" bitmapDataHRef="M 4 1472523285.dat" frameRight="200" frameBottom="200"/>
           <DOMBitmapItem name="Assets/internal anatomy/stomach" itemID="57b98abb-000001e3" sourceLastImported="1471777467" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/internal anatomy/stomach" bitmapDataHRef="M 19 1473312387.dat" frameRight="4980" frameBottom="3480"/>
@@ -56,6 +56,7 @@
           <Include href="Assets/bkgr.xml" loadImmediate="false" itemID="57b6708b-0000054c" lastModified="1472328207"/>
           <Include href="Assets/bkgr_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c297da-0000011b" lastModified="1472538347"/>
           <Include href="Assets/bkgr-color_mc.xml" loadImmediate="false" itemID="57b67306-00000585" lastModified="1471602982"/>
+          <Include href="Assets/bkgrElements copy/dirt_mc.xml" loadImmediate="false" itemID="57b93fdd-00000276" lastModified="1471840703"/>
           <Include href="Assets/bkgrElements/dirt-lg_01.xml" loadImmediate="false" itemID="57b986c6-00000069" lastModified="1471776767"/>
           <Include href="Assets/bkgrElements/dirt01.xml" loadImmediate="false" itemID="57b93fa5-00000266" lastModified="1473310299"/>
           <Include href="Assets/bkgrElements/dirt02.xml" loadImmediate="false" itemID="57b93faf-0000026a" lastModified="1471758255"/>
@@ -90,7 +91,6 @@
           <Include href="Assets/Duplicate Items Folder/mussel-outterShell_png.xml" loadImmediate="false" itemID="57d0f625-000017c0" lastModified="1471682385"/>
           <Include href="Assets/Duplicate Items Folder/mussel-outterShell_png copy.xml" loadImmediate="false" itemID="57d0faca-00001eb3" lastModified="1471682385"/>
           <Include href="Assets/Duplicate Items Folder/mussel-outterShell copy.xml" loadImmediate="false" itemID="57d0faca-00001eb2" lastModified="1471682411"/>
-          <Include href="Assets/Duplicate Items Folder/mussel-shadow.xml" loadImmediate="false" itemID="57d0f625-000017c1" lastModified="1471582900"/>
           <Include href="Assets/Duplicate Items Folder/mussel-shadow copy.xml" loadImmediate="false" itemID="57d0faca-00001eb4" lastModified="1471582900"/>
           <Include href="Assets/Duplicate Items Folder/outterShell-png.xml" loadImmediate="false" itemID="57d0f625-000017ba" lastModified="1471748100"/>
           <Include href="Assets/Duplicate Items Folder/overlay.xml" loadImmediate="false" itemID="57d0f625-000017bb" lastModified="1471739463"/>
@@ -377,6 +377,12 @@
           <Include href="Assets/glochidia-CloseUp_mc.xml" loadImmediate="false" itemID="57c24cc7-00000faa" lastModified="1473296477"/>
           <Include href="Assets/grass_mc.xml" loadImmediate="false" itemID="57b6da94-00000df8" lastModified="1471601321"/>
           <Include href="Assets/internal_mc.xml" loadImmediate="false" itemID="57b917ec-0000006e" lastModified="1473312167"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc01.xml" loadImmediate="false" itemID="57ba7444-00000427" lastModified="1473313237"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc02.xml" loadImmediate="false" itemID="57ba742d-00000405" lastModified="1473310065"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc03.xml" loadImmediate="false" itemID="57ba771b-00000533" lastModified="1473310806"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04.xml" loadImmediate="false" itemID="57ba7810-000005e8" lastModified="1473310961"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc05.xml" loadImmediate="false" itemID="57ba7d54-0000089c" lastModified="1473310983"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Still.xml" itemIcon="1" loadImmediate="false" itemID="57d0f98f-00001c65" lastModified="1473313218"/>
           <Include href="Assets/internal anatomy/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="57b82781-00000140" lastModified="1471686529"/>
           <Include href="Assets/internal anatomy/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="57b82784-0000014b" lastModified="1471686532"/>
           <Include href="Assets/internal anatomy/adductorMuscle_Anterior.xml" loadImmediate="false" itemID="57b83d33-000001d4" lastModified="1471693497"/>
@@ -403,7 +409,10 @@
           <Include href="Assets/mussel-darkShell.xml" itemIcon="1" loadImmediate="false" itemID="57d0e1f9-00000678" lastModified="1473307130"/>
           <Include href="Assets/mussel-outterShell.xml" loadImmediate="false" itemID="57b6ddf2-00000037" lastModified="1471682411"/>
           <Include href="Assets/mussel-outterShell_png.xml" loadImmediate="false" itemID="57b81751-000000bd" lastModified="1471682385"/>
+          <Include href="Assets/mussel-shadow.xml" loadImmediate="false" itemID="57b692b4-00000b31" lastModified="1471582900"/>
+          <Include href="Assets/mussel-shadow copy.xml" loadImmediate="false" itemID="57d5630d-00000afd" lastModified="1471582900"/>
           <Include href="Assets/opening-test copy.xml" loadImmediate="false" itemID="57b91e1e-0000009f" lastModified="1471753185"/>
+          <Include href="Assets/outterShell-png.xml" loadImmediate="false" itemID="57b91804-0000006f" lastModified="1471748100"/>
           <Include href="Assets/overlay.xml" loadImmediate="false" itemID="57b8f647-0000004d" lastModified="1472371730"/>
           <Include href="Assets/rearFin.xml" loadImmediate="false" itemID="57a7ba15-0000096c" lastModified="1470609942"/>
           <Include href="Assets/rock-Shadow_01.xml" loadImmediate="false" itemID="57b8159a-0000006a" lastModified="1471681946"/>
@@ -422,19 +431,10 @@
           <Include href="Assets/YoungMussel_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c28240-000001a0" lastModified="1473307248"/>
           <Include href="Assets/YoungMussel-brown.xml" itemIcon="1" loadImmediate="false" itemID="57d0e0d0-00000121" lastModified="1473307052"/>
           <Include href="BackgroundLoop.xml" itemIcon="1" loadImmediate="false" itemID="57d555ca-000001ec" lastModified="1473598967"/>
-          <Include href="bkgrElements/dirt_mc.xml" loadImmediate="false" itemID="57b93fdd-00000276" lastModified="1471840703"/>
-          <Include href="internal anatomy/InnerShell-lower-Filtration_mc01.xml" loadImmediate="false" itemID="57ba7444-00000427" lastModified="1473313237"/>
-          <Include href="internal anatomy/InnerShell-lower-Filtration_mc02.xml" loadImmediate="false" itemID="57ba742d-00000405" lastModified="1473310065"/>
-          <Include href="internal anatomy/InnerShell-lower-Filtration_mc03.xml" loadImmediate="false" itemID="57ba771b-00000533" lastModified="1473310806"/>
-          <Include href="internal anatomy/InnerShell-lower-Filtration_mc04.xml" loadImmediate="false" itemID="57ba7810-000005e8" lastModified="1473310961"/>
-          <Include href="internal anatomy/InnerShell-lower-Filtration_mc05.xml" loadImmediate="false" itemID="57ba7d54-0000089c" lastModified="1473310983"/>
-          <Include href="internal anatomy/InnerShell-lower-Still.xml" itemIcon="1" loadImmediate="false" itemID="57d0f98f-00001c65" lastModified="1473313218"/>
-          <Include href="InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1473599196"/>
-          <Include href="mussel-shadow.xml" loadImmediate="false" itemID="57b692b4-00000b31" lastModified="1471582900"/>
-          <Include href="outterShell-png.xml" loadImmediate="false" itemID="57b91804-0000006f" lastModified="1471748100"/>
+          <Include href="Buttons/InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1473599196"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="772">
+          <DOMTimeline name="Scene 1" currentFrame="33">
                <layers>
                     <DOMLayer name="Labels" color="#669900" autoNamed="false">
                          <frames>
@@ -461,7 +461,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4F80FF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="19" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -542,7 +542,7 @@ function openMusselAnimation() {
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="InvisibleButton" name="AttractLoopButton">
+                                        <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="AttractLoopButton">
                                              <matrix>
                                                   <Matrix a="5.39999389648438" d="9.60000610351562"/>
                                              </matrix>
@@ -688,6 +688,29 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="mussel-shadow" color="#FF800A" parentLayerIndex="5" locked="true" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="40" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="40000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499939" xformPtYOffsetPct="0.499726" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,50" next="0,50" previous="0,50" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Assets/mussel-shadow copy" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                                             <matrix>
+                                                  <Matrix tx="377.45" ty="1653.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="204.75" y="45.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0.5"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="5" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
@@ -715,7 +738,7 @@ function openMusselAnimation() {
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="filter-stage03" color="#009999" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="filter-stage03" color="#009999" parentLayerIndex="12" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -725,7 +748,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                               <DOMFrame index="165" duration="53" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="internal anatomy/InnerShell-lower-Filtration_mc03" selected="true" symbolType="graphic" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc03" selected="true" symbolType="graphic" loop="play once">
                                              <matrix>
                                                   <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-786.45" ty="124.2"/>
                                              </matrix>
@@ -740,7 +763,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage02" color="#009999" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="filter-stage02" color="#009999" parentLayerIndex="12" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -750,7 +773,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                               <DOMFrame index="141" duration="24" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="internal anatomy/InnerShell-lower-Filtration_mc02" symbolType="graphic" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc02" symbolType="graphic" loop="play once">
                                              <matrix>
                                                   <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-786.45" ty="124.2"/>
                                              </matrix>
@@ -765,7 +788,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage 01" color="#FF4FFF" parentLayerIndex="11" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="filter-stage 01" color="#FF4FFF" parentLayerIndex="12" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -773,7 +796,7 @@ function openMusselAnimation() {
                               <DOMFrame index="60" duration="81" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="81000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.402625" xformPtYOffsetPct="0.684837" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,7.979" next="0,7.979" previous="0,7.979" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,8.23007" next="0,8.23007" previous="0,8.23007" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,108.636" next="0,108.636" previous="0,108.636" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,99.205" next="0,99.205" previous="0,99.205" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="internal anatomy/InnerShell-lower-Filtration_mc01" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc01" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix a="1.07511901855469" b="0.152267456054688" c="-0.134750366210938" d="0.982391357421875" tx="-782.2" ty="130.55"/>
                                              </matrix>
@@ -791,7 +814,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="sand mask" color="#669900" parentLayerIndex="11" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="sand mask" color="#669900" parentLayerIndex="12" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -801,7 +824,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="15" locked="true" autoNamed="false">
+                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -811,7 +834,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="15" autoNamed="false">
+                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="16" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -821,7 +844,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                               <DOMFrame index="218" duration="70" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="internal anatomy/InnerShell-lower-Filtration_mc04" symbolType="graphic" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04" symbolType="graphic" loop="play once">
                                              <matrix>
                                                   <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-786.1" ty="123.55"/>
                                              </matrix>
@@ -833,7 +856,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                               <DOMFrame index="288" duration="12" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="internal anatomy/InnerShell-lower-Filtration_mc05" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc05" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-786.1" ty="123.55"/>
                                              </matrix>
@@ -845,7 +868,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="11" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="12" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -868,7 +891,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="12" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -878,7 +901,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel shadow" color="#4F80FF" parentLayerIndex="11" locked="true" autoNamed="false">
+                    <DOMLayer name="mussel shadow" color="#4F80FF" parentLayerIndex="12" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -888,7 +911,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="11" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="12" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -896,7 +919,7 @@ function openMusselAnimation() {
                               <DOMFrame index="60" duration="240" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="240000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.568333" xformPtYOffsetPct="0.501933" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="8000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="204000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="8000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="204000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="204000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="204000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="204000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="204000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="204000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="8000"/><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="204000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="239000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="bkgrElements/dirt_mc" symbolType="graphic" loop="loop">
+                                        <DOMSymbolInstance libraryItemName="Assets/bkgrElements copy/dirt_mc" symbolType="graphic" loop="loop">
                                              <matrix>
                                                   <Matrix tx="799.5" ty="154.65"/>
                                              </matrix>
@@ -911,8 +934,8 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="stage4 arrow" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="stage4 arrow" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -947,9 +970,9 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="24" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Stage3-gill call-out" color="#669900" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="25" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Stage3-gill call-out" color="#669900" parentLayerIndex="26" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -981,7 +1004,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="stage3 arrow" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="stage3 arrow" color="#4F80FF" parentLayerIndex="26" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1013,7 +1036,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="glochidia" color="#000000" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="glochidia" color="#000000" parentLayerIndex="26" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1045,7 +1068,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="glochidia-bkgr" color="#FF4FFF" parentLayerIndex="25" locked="true" autoNamed="false">
+                    <DOMLayer name="glochidia-bkgr" color="#FF4FFF" parentLayerIndex="26" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1244,7 +1267,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad- close up" color="#4F80FF" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad- close up" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1273,7 +1296,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 4" color="#4F80FF" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 4" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1302,7 +1325,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 3" color="#4F80FF" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 3" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1331,7 +1354,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 2" color="#4F80FF" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 2" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1360,7 +1383,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy" color="#4F80FF" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1389,7 +1412,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad group" color="#FF800A" parentLayerIndex="24" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad group" color="#FF800A" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1434,8 +1457,8 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="22" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" layerType="guide" animationType="motion object">
+                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="23" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="37" locked="true" autoNamed="false" layerType="guide" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1464,7 +1487,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="36" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="37" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1824,7 +1847,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="38" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="39" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1847,7 +1870,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="36" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="37" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2129,7 +2152,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="40" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="41" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2152,7 +2175,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="36" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="37" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2618,7 +2641,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="42" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="43" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2641,7 +2664,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="36" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="37" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2927,7 +2950,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="44" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="45" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2950,7 +2973,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="44" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="45" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2973,8 +2996,8 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel turn" color="#808080" parentLayerIndex="22" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="47" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mussel turn" color="#808080" parentLayerIndex="23" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="48" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3012,7 +3035,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="male-sperm" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="male-sperm" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3073,7 +3096,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass copy 2" color="#FF4FFF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass copy 2" color="#FF4FFF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3099,7 +3122,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass copy" color="#FF4FFF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass copy" color="#FF4FFF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3125,7 +3148,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass" color="#FF4FFF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass" color="#FF4FFF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3151,7 +3174,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="trout migration" color="#9933CC" parentLayerIndex="22" locked="true" autoNamed="false">
+                    <DOMLayer name="trout migration" color="#9933CC" parentLayerIndex="23" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3179,7 +3202,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new grass" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="new grass" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3202,7 +3225,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new grass copy" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="new grass copy" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3248,7 +3271,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="773" keyMode="9728">
                                    <elements>
@@ -3593,7 +3616,7 @@ function openMusselAnimation() {
      <persistentData>
           <PD n="Stop at this Frame" t="i" v="2"/>
           <PD n="snippetCounter" t="i" v="2"/>
-          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;false"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
      </persistentData>
      <PrinterSettings/>
      <publishHistory/>

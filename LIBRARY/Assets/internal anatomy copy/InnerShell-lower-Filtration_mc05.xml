@@ -1,11 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="internal anatomy/InnerShell-lower-Still" itemID="57d0f98f-00001c65" symbolType="graphic" lastModified="1473313218" lastUniqueIdentifier="10">
-  <persistentData>
-    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
-  </persistentData>
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc05" itemID="57ba7d54-0000089c" lastModified="1473310983" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="InnerShell-lower-Still">
+    <DOMTimeline name="InnerShell-lower-Filtration_mc05">
       <layers>
-        <DOMLayer name="Folder 1" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="Folder 1" color="#FF800A" locked="true" autoNamed="false" layerType="folder"/>
         <DOMLayer name="hole in" color="#9933CC" parentLayerIndex="0" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
@@ -91,23 +88,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="adductorMuscle_Anterior" color="#669900" parentLayerIndex="0" locked="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
-                  <matrix>
-                    <Matrix a="0.906707763671875" b="-0.421661376953125" c="0.421661376953125" d="0.906707763671875" tx="1058.15" ty="726.55"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="34.55" y="20.7"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="foot" color="#808080" autoNamed="false">
+        <DOMLayer name="foot" color="#808080" parentLayerIndex="0" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -117,6 +98,25 @@
                   </matrix>
                   <transformationPoint>
                     <Point x="376" y="213.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3203125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="adductorMuscle_Anterior" color="#669900" parentLayerIndex="0" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
+                  <matrix>
+                    <Matrix a="0.906707763671875" b="-0.421661376953125" c="0.421661376953125" d="0.906707763671875" tx="1058.15" ty="726.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.55" y="20.7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>

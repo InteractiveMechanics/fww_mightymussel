@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Duplicate Items Folder/mussel-shadow" itemID="57d0f625-000017c1" lastModified="1471582900">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/mussel-shadow copy" itemID="57d5630d-00000afd" lastModified="1471582900">
   <timeline>
-    <DOMTimeline name="mussel-shadow">
+    <DOMTimeline name="mussel-shadow copy">
       <layers>
         <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
