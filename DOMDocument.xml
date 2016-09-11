@@ -461,23 +461,18 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="19" keyMode="9728">
+                              <DOMFrame index="0" duration="20" keyMode="9728">
                                    <Framescript language="JavaScript">
-                                        <script><![CDATA[this.AttractLoopButton.addEventListener("click", openMusselAnimation.bind(this));
+                                        <script><![CDATA[this.stop();
 
-function openMusselAnimation() {
-	this.gotoAndPlay("Mussel Closed");
+this.AttractLoopButton.addEventListener("click", fl_MouseClickHandler.bind(this));
+
+function fl_MouseClickHandler(){
+	this.goToAndPlay("Mussel Closed");
 }
-
 ]]></script>
-                                   </Framescript>
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="19" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.gotoAndPlay("Attract Loop");]]></script>
                                    </Framescript>
                                    <elements/>
                               </DOMFrame>
@@ -537,7 +532,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="AttractLoop" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="AttractLoop" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="invisButton" color="#4F80FF" parentLayerIndex="2" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
@@ -3271,7 +3266,7 @@ function openMusselAnimation() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="773" keyMode="9728">
                                    <elements>
@@ -3614,6 +3609,7 @@ function openMusselAnimation() {
           </swatchList>
      </extendedSwatchLists>
      <persistentData>
+          <PD n="Mouse Click Event" t="i" v="2"/>
           <PD n="Stop at this Frame" t="i" v="2"/>
           <PD n="snippetCounter" t="i" v="2"/>
           <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
