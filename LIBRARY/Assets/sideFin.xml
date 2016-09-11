@@ -1,0 +1,108 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/sideFin" itemID="579e5a96-000000b5" lastModified="1469995670" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="sideFin">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_12_1" selected="true" centerPoint3DX="2.7" centerPoint3DY="2.85">
+                  <matrix>
+                    <Matrix a="0.587203979492188" d="0.587203979492188" tx="-52.6" ty="-26.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="94.25" y="49.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.390625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_6_4" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-58.05" ty="-32.15"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="94.2" y="49.8"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.73046875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_5_6" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-53.1" ty="-24.9"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="80.55" y="37.05"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.578125"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_4_5" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-25.25" ty="-28.7"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="51" y="9.7"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.44921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_3_5" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-27" ty="-21.6"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="56.9" y="13.1"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.44921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_2_5" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-30" ty="-10.55"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="55.75" y="11.4"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.44921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_1_5" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-21.8" ty="0.75"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="43.1" y="8.15"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.44921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                    <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Largemouth Bass/&amp;#060Path&amp;#062_20" selected="true">
+                      <matrix>
+                        <Matrix a="0.587203979492188" d="0.587203979492188" tx="-17.7" ty="14.45"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="26.8" y="4.7"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.44921875"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

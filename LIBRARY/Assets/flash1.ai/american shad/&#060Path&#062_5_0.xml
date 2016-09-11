@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/flash1.ai/american shad/&amp;#060Path&amp;#062_5_0" itemID="57d0e44e-00000e2e" lastModified="1469414331">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_5_0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 136[117 37 167 0!167 0|162 41!162 41[120 61 86 81!86 81|0 136"/>
+                    <Edge cubics="!0 136(;0,136 117,37 167,0q0 136Q117 37q167 0);"/>
+                    <Edge cubics="!167 0(;167,0 162,41 162,41q167 0 162 41);"/>
+                    <Edge cubics="!162 41(;162,41 120,61 86,81q162 41Q120 61q86 81);"/>
+                    <Edge cubics="!86 81(;43,108 43,108 0,136q86 81 0 136);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

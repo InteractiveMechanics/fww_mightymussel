@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/flash1.ai/Assets/bubble-shine" itemID="57b6d4cc-00000176" lastModified="1471603003">
+  <timeline>
+    <DOMTimeline name="bubble-shine">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2743 1371[2743 1940 2341 2341!2341 2341[1940 2743 1371 2743!1371 2743[803 2743 402 2341!402 2341[0 1939 0 1371!0 1371[0 803 402 402!402 402[592 212 837 108!837 108[1092 0 1371 0!1371 0[1939 0 2341 402!2341 402[2743 803 2743 1371"/>
+                    <Edge cubics="!2743 1371(2743,1371;2743,2129 2129,2743 1371,2743q2743 1371Q2743 1940q2341 2341Q1940 2743q1371 2743)1371,2743;"/>
+                    <Edge cubics="!1371 2743(;614,2743 0,2129 0,1371q1371 2743Q803 2743q402 2341Q0 1939q0 1371);"/>
+                    <Edge cubics="!0 1371(;0,614 614,0 1371,0q0 1371Q0 803q402 402Q592 212q837 108Q1092 0q1371 0);"/>
+                    <Edge cubics="!1371 0(;2129,0 2743,614 2743,1371q1371 0Q1939 0q2341 402Q2743 803q2743 1371);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

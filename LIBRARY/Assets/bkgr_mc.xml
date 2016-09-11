@@ -1,0 +1,554 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/bkgr_mc" itemID="57c297da-0000011b" symbolType="graphic" lastModified="1472538347">
+  <timeline>
+    <DOMTimeline name="bkgr_mc" currentFrame="110">
+      <layers>
+        <DOMLayer name="rocks-foreground" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock05" name="rock04">
+                  <matrix>
+                    <Matrix a="1.33059692382813" d="1.33059692382813" tx="-589.5" ty="703.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3" y="-8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock06" name="rock03">
+                  <matrix>
+                    <Matrix a="1.90818786621094" d="1.90818786621094" tx="-471.55" ty="764.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock01" name="rock02">
+                  <matrix>
+                    <Matrix a="1.33059692382813" d="1.33059692382813" tx="478.25" ty="422.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.1" y="-8.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock07" name="rock">
+                  <matrix>
+                    <Matrix tx="308.6" ty="458"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock03" name="rock09">
+                  <matrix>
+                    <Matrix a="-1.815673828125" d="1.815673828125" tx="730.2" ty="851"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.15" y="-8.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock04" name="rock08">
+                  <matrix>
+                    <Matrix a="1.33059692382813" d="1.33059692382813" tx="-526.1" ty="840.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.1" y="-8.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock02" name="rock05">
+                  <matrix>
+                    <Matrix a="1.99339294433594" d="1.99339294433594" tx="-364.2" ty="880.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock08" name="rock12">
+                  <matrix>
+                    <Matrix a="1.78739929199219" d="1.78739929199219" tx="334.2" ty="899.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.2" y="-8.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Illustrator Symbols/rock10_mc" name="rock10">
+                  <matrix>
+                    <Matrix a="1.23187255859375" b="0.50299072265625" c="-0.50299072265625" d="1.23187255859375" tx="510.35" ty="593.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock09" name="rock11">
+                  <matrix>
+                    <Matrix a="1.33059692382813" d="1.33059692382813" tx="485.2" ty="1018.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock08" name="rock12">
+                  <matrix>
+                    <Matrix a="1.40777587890625" d="1.40777587890625" tx="-279.4" ty="221.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.25" y="-8.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock09" name="rock11">
+                  <matrix>
+                    <Matrix a="1.048095703125" d="1.048095703125" tx="-322.5" ty="297.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grass copy 2" color="#9933CC" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="160" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="160000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.281715" xformPtYOffsetPct="0.905435" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-6.77095" next="0,-6.77095" previous="0,-6.77095" roving="0" timevalue="0"/><Keyframe anchor="0,-2.66458" next="0,-2.66458" previous="0,-2.66458" roving="0" timevalue="27000"/><Keyframe anchor="0,-1.40117" next="0,-1.40117" previous="0,-1.40117" roving="0" timevalue="53000"/><Keyframe anchor="0,-6.05956" next="0,-6.05956" previous="0,-6.05956" roving="0" timevalue="88000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="137000"/><Keyframe anchor="0,-5.58887" next="0,-5.58887" previous="0,-5.58887" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,38.6002" next="0,38.6002" previous="0,38.6002" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,38.5178" next="0,38.5178" previous="0,38.5178" roving="0" timevalue="0"/><Keyframe anchor="0,38.7009" next="0,38.7009" previous="0,38.7009" roving="0" timevalue="159000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,18" next="0,18" previous="0,18" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/grass_mc">
+                  <matrix>
+                    <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="-470.8" ty="-324.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="243.1" y="583.1"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1796875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grass copy" color="#FF800A" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="160" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="160000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.2816" xformPtYOffsetPct="0.905435" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-6.77095" next="0,-6.77095" previous="0,-6.77095" roving="0" timevalue="0"/><Keyframe anchor="0,-2.66458" next="0,-2.66458" previous="0,-2.66458" roving="0" timevalue="47000"/><Keyframe anchor="0,-1.40117" next="0,-1.40117" previous="0,-1.40117" roving="0" timevalue="67000"/><Keyframe anchor="0,-6.05956" next="0,-6.05956" previous="0,-6.05956" roving="0" timevalue="100000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="128000"/><Keyframe anchor="0,-3.55891" next="0,-3.55891" previous="0,-3.55891" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,38.6002" next="0,38.6002" previous="0,38.6002" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,38.5178" next="0,38.5178" previous="0,38.5178" roving="0" timevalue="0"/><Keyframe anchor="0,38.591" next="0,38.591" previous="0,38.591" roving="0" timevalue="159000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,18" next="0,18" previous="0,18" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/grass_mc">
+                  <matrix>
+                    <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="-614.5" ty="-314.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="242.95" y="583.1"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1796875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="grass" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="160" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="160000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.295914" xformPtYOffsetPct="0.90691" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-6.05956" next="0,-6.05956" previous="0,-6.05956" roving="0" timevalue="28000"/><Keyframe anchor="0,-1.40117" next="0,-1.40117" previous="0,-1.40117" roving="0" timevalue="61000"/><Keyframe anchor="0,-2.66458" next="0,-2.66458" previous="0,-2.66458" roving="0" timevalue="81000"/><Keyframe anchor="0,-6.83302" next="0,-6.83302" previous="0,-6.83302" roving="0" timevalue="133000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100.563" next="0,100.563" previous="0,100.563" roving="0" timevalue="28000"/><Keyframe anchor="0,100.005" next="0,100.005" previous="0,100.005" roving="0" timevalue="61000"/><Keyframe anchor="0,100.079" next="0,100.079" previous="0,100.079" roving="0" timevalue="81000"/><Keyframe anchor="0,99.9649" next="0,99.9649" previous="0,99.9649" roving="0" timevalue="92000"/><Keyframe anchor="0,100.568" next="0,100.568" previous="0,100.568" roving="0" timevalue="133000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="159000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/grass_mc">
+                  <matrix>
+                    <Matrix tx="62.15" ty="-60.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="255.3" y="584.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="rocks-bkgr" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix a="-1.0146484375" b="-0.0725250244140625" c="0.082672119140625" d="-0.457901000976563" tx="673.2" ty="-50.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="170.95" y="56.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.08984375"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix tx="-676" ty="10.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="171" y="56.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12890625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock03" name="rock09">
+                  <matrix>
+                    <Matrix a="-1.18038940429688" b="-0.256484985351563" c="-0.1630859375" d="0.75079345703125" tx="-442.1" ty="-47.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.2" y="-8.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock04" name="rock08">
+                  <matrix>
+                    <Matrix a="-0.78228759765625" d="0.78228759765625" tx="-393" ty="-29.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock05" name="rock04">
+                  <matrix>
+                    <Matrix a="1.18899536132813" d="0.553695678710938" tx="415.7" ty="-173.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Illustrator Symbols/rock10_mc" name="rock10">
+                  <matrix>
+                    <Matrix a="0.495391845703125" b="0.040496826171875" c="-0.0623931884765625" d="0.76458740234375" tx="-389.3" ty="28.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock01" name="rock02">
+                  <matrix>
+                    <Matrix a="0.574295043945313" d="0.574295043945313" tx="540" ty="-160.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock02" name="rock05">
+                  <matrix>
+                    <Matrix a="0.78509521484375" d="1.69537353515625" tx="509.2" ty="-132.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.98828125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock07" name="rock">
+                  <matrix>
+                    <Matrix a="0.78759765625" d="0.78759765625" tx="-612.7" ty="-7.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.05" y="-8.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock03" name="rock09">
+                  <matrix>
+                    <Matrix a="-0.400787353515625" b="-0.141693115234375" c="-0.1326904296875" d="0.375289916992188" tx="443.95" ty="-131.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3" y="-8.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.78125"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/Assets/rock06" name="rock03">
+                  <matrix>
+                    <Matrix a="0.517684936523438" d="0.355392456054688" tx="355" ty="-112.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-3.1" y="-8.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.640625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.29803466796875" tx="-382.95" ty="334.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="171.1" y="56.35"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12890625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix a="1.21406555175781" b="0.010406494140625" c="1.97764587402344" d="0.5628662109375" tx="214.8" ty="563.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="170.6" y="57"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12890625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix a="-1.59843444824219" b="-0.0136871337890625" c="0.0301666259765625" d="0.798049926757813" tx="-248.8" ty="885.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="170.4" y="57.05"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12890625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/rock-Shadow_01">
+                  <matrix>
+                    <Matrix a="-1.24525451660156" b="-0.010650634765625" c="0.0301666259765625" d="0.798049926757813" tx="712.8" ty="1021.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="170.4" y="57.1"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.12890625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fish" color="#808080" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="27" duration="45" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="45000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499942" xformPtYOffsetPct="0.510511" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1634.25" next="0,-1634.25" previous="0,-1634.25" roving="0" timevalue="44000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="44000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/fishGroup_mc">
+                  <matrix>
+                    <Matrix tx="628.8" ty="-731.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="216.45" y="85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="72" duration="61" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/fishGroup_mc" centerPoint3DX="845.25" centerPoint3DY="-646.3">
+                  <matrix>
+                    <Matrix tx="628.8" ty="-731.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="216.45" y="85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="133" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bubbles- copy" color="#669900" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="37" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="37000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.478915" xformPtYOffsetPct="0.999539" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.15" next="0,0.15" previous="0,0.15" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1662.15" next="0,-1662.15" previous="0,-1662.15" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,101.556" next="0,101.556" previous="0,101.556" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,101.556" next="0,101.556" previous="0,101.556" roving="0" timevalue="36000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bubbles_mc">
+                  <matrix>
+                    <Matrix a="0.530838012695313" d="0.530838012695313" tx="439.9" ty="479.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.25" y="324.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" duration="94" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="133" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="135" duration="25" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="25000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.478915" xformPtYOffsetPct="0.999539" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.1" next="0,0.1" previous="0,0.1" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1108.1" next="0,-1108.1" previous="0,-1108.1" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,85.3991" next="0,85.3991" previous="0,85.3991" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,85.3991" next="0,85.3991" previous="0,85.3991" roving="0" timevalue="24000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bubbles_mc">
+                  <matrix>
+                    <Matrix a="0.530838012695313" d="0.530838012695313" tx="439.9" ty="479.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.25" y="324.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bubbles- copy 2" color="#FF4F4F" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="60" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="60" duration="37" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="37000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.475614" xformPtYOffsetPct="0.997231" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.15" next="0,0.15" previous="0,0.15" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1662.15" next="0,-1662.15" previous="0,-1662.15" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,101.556" next="0,101.556" previous="0,101.556" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,53.0853" next="0,53.0853" previous="0,53.0853" roving="0" timevalue="0"/><Keyframe anchor="0,101.556" next="0,101.556" previous="0,101.556" roving="0" timevalue="36000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bubbles_mc">
+                  <matrix>
+                    <Matrix a="0.530838012695313" d="0.530838012695313" tx="-425.35" ty="-12.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="64.9" y="324.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="97" duration="36" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="133" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bubbles-" color="#4F80FF" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="30" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="30" duration="33" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="63" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="64" duration="37" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="37000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.478181" xformPtYOffsetPct="0.995693" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.15" next="0,0.15" previous="0,0.15" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1042.25" next="0,-1042.25" previous="0,-1042.25" roving="0" timevalue="36000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,25.0122" next="0,25.0122" previous="0,25.0122" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,25.0122" next="0,25.0122" previous="0,25.0122" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bubbles_mc">
+                  <matrix>
+                    <Matrix a="0.250106811523438" d="0.250106811523438" tx="310.2" ty="-189.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="65.15" y="323.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="101" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="102" duration="25" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="127" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="128" duration="5" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="133" duration="27" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bkgr color" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgr-color_mc">
+                  <matrix>
+                    <Matrix tx="-540" ty="-959.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="581.65" y="1012.45"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.4296875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sand" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="160" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/sand01" centerPoint3DX="41.65" centerPoint3DY="712">
+                  <matrix>
+                    <Matrix tx="-815.2" ty="258.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.85" y="453.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/sand01" centerPoint3DX="81" centerPoint3DY="244.65">
+                  <matrix>
+                    <Matrix a="-0.916000366210938" d="-0.880935668945313" tx="866.35" ty="643"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.75" y="453.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sun beams copy" color="#FF4FFF" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="160" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="160000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.299219" xformPtYOffsetPct="0.527344" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,52" next="0,52" previous="0,52" roving="0" timevalue="25000"/><Keyframe anchor="0,-26" next="0,-26" previous="0,-26" roving="0" timevalue="92000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="25000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="92000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,90.4861" next="0,90.4861" previous="0,90.4861" roving="0" timevalue="92000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,60" next="0,60" previous="0,60" roving="0" timevalue="25000"/><Keyframe anchor="0,89" next="0,89" previous="0,89" roving="0" timevalue="92000"/><Keyframe anchor="0,63" next="0,63" previous="0,63" roving="0" timevalue="129000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="159000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/sunbeams_mc">
+                  <matrix>
+                    <Matrix tx="-1021.4" ty="-960"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="574.5" y="1012.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="sun beams" color="#009999" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="160" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="160000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.299219" xformPtYOffsetPct="0.527344" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-8" next="0,-8" previous="0,-8" roving="0" timevalue="64000"/><Keyframe anchor="0,-37.6" next="0,-37.6" previous="0,-37.6" roving="0" timevalue="140000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.05" next="0,0.05" previous="0,0.05" roving="0" timevalue="64000"/><Keyframe anchor="0,0.06" next="0,0.06" previous="0,0.06" roving="0" timevalue="140000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,88.9969" next="0,88.9969" previous="0,88.9969" roving="0" timevalue="64000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="159000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/sunbeams_mc">
+                  <matrix>
+                    <Matrix tx="-815.25" ty="-960"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="574.5" y="1012.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

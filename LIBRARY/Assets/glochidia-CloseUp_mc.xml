@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/glochidia-CloseUp_mc" itemID="57c24cc7-00000faa" lastModified="1473296477">
+  <timeline>
+    <DOMTimeline name="glochidia-CloseUp_mc" currentFrame="3">
+      <layers>
+        <DOMLayer name="&lt;Clip Group&gt;" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai_1/life cycle-bkgr/&amp;#060Clip Group&amp;#062" selected="true" symbolType="graphic" loop="play once">
+                  <matrix>
+                    <Matrix a="1.74903869628906" d="1.74903869628906" tx="-45.8" ty="-131.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="-0.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="&lt;Path&gt;" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/flash1.ai_1/life cycle-bkgr/&amp;#060Path&amp;#062">
+                  <matrix>
+                    <Matrix a="1.7027587890625" b="-0.3995361328125" c="0.3995361328125" d="1.7027587890625" tx="-141.7" ty="111.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="-45.85" y="370.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.37109375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,274 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy/InnerShell-lower-Still" itemID="57d0f98f-00001c65" symbolType="graphic" lastModified="1473313218" lastUniqueIdentifier="10">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="InnerShell-lower-Still">
+      <layers>
+        <DOMLayer name="Folder 1" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
+        <DOMLayer name="hole in" color="#9933CC" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="1.15908813476563" tx="587.55" ty="-238.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#934511"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19746 21223[19733 21319 19693 21383!19693 21383[19652 21446 19609 21440!19609 21440[19565 21434 19544 21362!19544 21362[19523 21290 19536 21194!19536 21194[19550 21098 19590 21035!19590 21035[19630 20971 19673 20977!19673 20977[19716
+ 20983 19738 21055!19738 21055[19759 21127 19746 21223"/>
+                    <Edge cubics="!19746 21223(;19728,21351 19667,21448 19609,21440q19746 21223Q19733 21319q19693 21383Q19652 21446q19609 21440);"/>
+                    <Edge cubics="!19609 21440(;19551,21432 19518,21322 19536,21194q19609 21440Q19565 21434q19544 21362Q19523 21290q19536 21194);"/>
+                    <Edge cubics="!19536 21194(19536,21194;19554,21066 19615,20969 19673,20977q19536 21194Q19550 21098q19590 21035Q19630 20971q19673 20977);"/>
+                    <Edge cubics="!19673 20977(19673,20977;19731,20985 19763,21095 19746,21223q19673 20977Q19716 20983q19738 21055Q19759 21127q19746 21223);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="hole out" color="#FF800A" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix d="1.33331298828125" tx="748.1" ty="-580.65"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#934511"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!19658 20548[19663 20604 19647 20645!19647 20645[19631 20686 19605 20687!19605 20687[19578 20689 19557 20651!19557 20651[19536 20614 19531 20557!19531 20557[19527 20501 19543 20460!19543 20460[19559 20419 19585 20417!19585 20417[19611
+ 20416 19633 20454!19633 20454[19654 20492 19658 20548"/>
+                    <Edge cubics="!19658 20548(;19664,20622 19640,20685 19605,20687q19658 20548Q19663 20604q19647 20645Q19631 20686q19605 20687);"/>
+                    <Edge cubics="!19605 20687(;19569,20690 19537,20632 19531,20557q19605 20687Q19578 20689q19557 20651Q19536 20614q19531 20557);"/>
+                    <Edge cubics="!19531 20557(;19526,20483 19550,20420 19585,20417q19531 20557Q19527 20501q19543 20460Q19559 20419q19585 20417);"/>
+                    <Edge cubics="!19585 20417(19585,20417;19620,20415 19653,20473 19658,20548q19585 20417Q19611 20416q19633 20454Q19654 20492q19658 20548);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="LabialPalp" color="#FF4FFF" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/LabialPalp" centerPoint3DX="1075.95" centerPoint3DY="820.1">
+                  <matrix>
+                    <Matrix tx="1056.95" ty="779.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19" y="40.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="adductorMuscle_Posterior" color="#009999" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Posterior" centerPoint3DX="1589.25" centerPoint3DY="747.2">
+                  <matrix>
+                    <Matrix tx="1550.95" ty="704.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="36.85" y="40.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="adductorMuscle_Anterior" color="#669900" parentLayerIndex="0" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
+                  <matrix>
+                    <Matrix a="0.906707763671875" b="-0.421661376953125" c="0.421661376953125" d="0.906707763671875" tx="1058.15" ty="726.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="34.55" y="20.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="foot" color="#808080" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/foot" centerPoint3DX="1355" centerPoint3DY="868.75">
+                  <matrix>
+                    <Matrix tx="979" ty="655.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="376" y="213.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="stomach copy" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/stomach copy" centerPoint3DX="1199.85" centerPoint3DY="794.55">
+                  <matrix>
+                    <Matrix tx="1075.35" ty="707.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="124.5" y="87"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="intestine" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/intestine">
+                  <matrix>
+                    <Matrix tx="1289.1" ty="683.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="219.05" y="102.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gills-top" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-top" centerPoint3DX="1360" centerPoint3DY="832.5">
+                  <matrix>
+                    <Matrix tx="1061.2" ty="752.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="298.8" y="79.55"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.87843137254902" angle="78.6900744832108" blurX="9" blurY="9" color="#C66422" distance="5.0990195274353" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gills-btm" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-btm" centerPoint3DX="1355.25" centerPoint3DY="847.75">
+                  <matrix>
+                    <Matrix tx="1056.15" ty="776.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="299.1" y="71.25"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.87843137254902" angle="78.6900744832108" blurX="9" blurY="9" color="#C66422" distance="5.0990195274353" quality="2"/>
+                  </filters>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="v" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="744.65" ty="-238.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.087127685546875" b="-0.00640869140625" c="-0.00640869140625" d="-0.087127685546875" tx="912.25" ty="1054.25"/>
+                        </matrix>
+                        <GradientEntry color="#632E1C" ratio="0"/>
+                        <GradientEntry color="#6C3822" ratio="0.0980392156862745"/>
+                        <GradientEntry color="#835234" ratio="0.266666666666667"/>
+                        <GradientEntry color="#A87C50" ratio="0.482352941176471"/>
+                        <GradientEntry color="#DCB677" ratio="0.733333333333333"/>
+                        <GradientEntry color="#F6D38A" ratio="0.847058823529412"/>
+                        <GradientEntry color="#F8D5AB" ratio="0.968627450980392"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!19572 21419S2[19277 21395 18821 21547!18821 21547[18388 21692 17840 21985!17840 21985[17552 22139 17220 21971!17220 21971[17117 21919 16995 21826!16995 21826[16868 21730 16857 21724!16857 21724[16997 21557 16994 21356!16994 21356[16992
+ 21268 16929 21022!16929 21022[16880 20828 16916 20723!16916 20723[16967 20571 17204 20462!17204 20462[17735 20218 18023 20178!18023 20178[18253 20147 18364 20246!18364 20246[18403 20282 18440 20346!18440 20346[18461 20382 18501 20454
+!18501 20454[18577 20577 18711 20588!18711 20588[18922 20605 19269 20763!19269 20763[19519 20877 19673 20977!19673 20977[19550 21026 19539 21155!19539 21155[19534 21219 19572 21419"/>
+                    <Edge cubics="!19572 21419(;19169,21386 18550,21605 17840,21985q19572 21419Q19277 21395q18821 21547Q18388 21692q17840 21985);"/>
+                    <Edge cubics="!17840 21985(;17380,22231 16974,21788 16857,21724q17840 21985Q17552 22139q17220 21971Q17117 21919q16995 21826Q16868 21730q16857 21724);"/>
+                    <Edge cubics="!16857 21724(;17285,21213 16506,20783 17204,20462q16857 21724Q16997 21557q16994 21356Q16992 21268q16929 21022Q16880 20828q16916 20723Q16967 20571q17204 20462);"/>
+                    <Edge cubics="!17204 20462(;18739,19755 18259,20552 18711,20588q17204 20462Q17735 20218q18023 20178Q18253 20147q18364 20246Q18403 20282q18440 20346Q18461 20382q18501 20454Q18577 20577q18711 20588);"/>
+                    <Edge cubics="!18711 20588(;19036,20614 19553,20899 19673,20977q18711 20588Q18922 20605q19269 20763Q19519 20877q19673 20977);"/>
+                    <Edge cubics="!19673 20977(;19486,21051 19536,21231 19572,21419q19673 20977Q19550 21026q19539 21155Q19534 21219q19572 21419);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mantel-lower" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/mantel-lower" centerPoint3DX="1378" centerPoint3DY="816.5">
+                  <matrix>
+                    <Matrix tx="1033.5" ty="630"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.5" y="186.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="lower shell" color="#FFFF00" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Assets/internal anatomy/innerShell">
+                  <matrix>
+                    <Matrix tx="979" ty="592.15"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Assets/internal anatomy/innerShell-upperEdge">
+                  <matrix>
+                    <Matrix tx="1111.4" ty="585.3"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

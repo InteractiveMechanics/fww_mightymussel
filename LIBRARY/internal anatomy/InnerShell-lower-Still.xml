@@ -63,7 +63,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/LabialPalp" centerPoint3DX="1075.95" centerPoint3DY="820.1">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/LabialPalp" centerPoint3DX="1075.95" centerPoint3DY="820.1">
                   <matrix>
                     <Matrix tx="1056.95" ty="779.7"/>
                   </matrix>
@@ -79,7 +79,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/adductorMuscle_Posterior" centerPoint3DX="1589.25" centerPoint3DY="747.2">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Posterior" centerPoint3DX="1589.25" centerPoint3DY="747.2">
                   <matrix>
                     <Matrix tx="1550.95" ty="704.8"/>
                   </matrix>
@@ -95,7 +95,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
                   <matrix>
                     <Matrix a="0.906707763671875" b="-0.421661376953125" c="0.421661376953125" d="0.906707763671875" tx="1058.15" ty="726.55"/>
                   </matrix>
@@ -111,7 +111,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/foot" centerPoint3DX="1355" centerPoint3DY="868.75">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/foot" centerPoint3DX="1355" centerPoint3DY="868.75">
                   <matrix>
                     <Matrix tx="979" ty="655.25"/>
                   </matrix>
@@ -127,7 +127,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/stomach copy" centerPoint3DX="1199.85" centerPoint3DY="794.55">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/stomach copy" centerPoint3DX="1199.85" centerPoint3DY="794.55">
                   <matrix>
                     <Matrix tx="1075.35" ty="707.55"/>
                   </matrix>
@@ -143,7 +143,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="intestine">
+                <DOMSymbolInstance libraryItemName="Assets/intestine">
                   <matrix>
                     <Matrix tx="1289.1" ty="683.2"/>
                   </matrix>
@@ -159,7 +159,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/gills-top" centerPoint3DX="1360" centerPoint3DY="832.5">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-top" centerPoint3DX="1360" centerPoint3DY="832.5">
                   <matrix>
                     <Matrix tx="1061.2" ty="752.95"/>
                   </matrix>
@@ -178,7 +178,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/gills-btm" centerPoint3DX="1355.25" centerPoint3DY="847.75">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-btm" centerPoint3DX="1355.25" centerPoint3DY="847.75">
                   <matrix>
                     <Matrix tx="1056.15" ty="776.5"/>
                   </matrix>
@@ -238,7 +238,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="internal anatomy/mantel-lower" centerPoint3DX="1378" centerPoint3DY="816.5">
+                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/mantel-lower" centerPoint3DX="1378" centerPoint3DY="816.5">
                   <matrix>
                     <Matrix tx="1033.5" ty="630"/>
                   </matrix>
@@ -254,12 +254,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="internal anatomy/innerShell">
+                <DOMBitmapInstance libraryItemName="Assets/internal anatomy/innerShell">
                   <matrix>
                     <Matrix tx="979" ty="592.15"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="internal anatomy/innerShell-upperEdge">
+                <DOMBitmapInstance libraryItemName="Assets/internal anatomy/innerShell-upperEdge">
                   <matrix>
                     <Matrix tx="1111.4" ty="585.3"/>
                   </matrix>

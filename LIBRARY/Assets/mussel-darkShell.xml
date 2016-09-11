@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/mussel-darkShell" itemID="57d0e1f9-00000678" symbolType="graphic" lastModified="1473307130">
+  <timeline>
+    <DOMTimeline name="mussel-darkShell">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Assets/mussel-outterShell.png">
+                  <matrix>
+                    <Matrix a="0.07928466796875" b="0.092437744140625" c="-0.056060791015625" d="0.0614776611328125" tx="68.75"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
