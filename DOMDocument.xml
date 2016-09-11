@@ -434,7 +434,7 @@
           <Include href="Buttons/InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1473599196"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="33">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="Labels" color="#669900" autoNamed="false">
                          <frames>
