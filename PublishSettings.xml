@@ -141,7 +141,7 @@
     <Property name="exportSoundsToFolder">true</Property>
     <Property name="filename">./fww-mighty-mussel/published/FWW-MM_all_v01.js</Property>
     <Property name="frameBounds">false</Property>
-    <Property name="hostedLibs">true</Property>
+    <Property name="hostedLibs">false</Property>
     <Property name="imageFormat">0</Property>
     <Property name="imagesNS">images</Property>
     <Property name="imagesPath">images/</Property>

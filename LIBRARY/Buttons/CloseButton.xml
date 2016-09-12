@@ -1,0 +1,71 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/CloseButton" itemID="57d6b858-0000165e" lastModified="1473689688">
+  <timeline>
+    <DOMTimeline name="CloseButton">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <matrix>
+                    <Matrix tx="-1044.25" ty="-49.45"/>
+                  </matrix>
+                  <members>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="-1044.25" ty="-49.45"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-951.9" ty="-63.8"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!20238 2497|19038 1297!19038 1297|19060 1276!19060 1276|20260 2476!20260 2476|20238 2497"/>
+                            <Edge cubics="!20238 2497(;20238,2497 19038,1297 19038,1297q20238 2497p19038 1297);"/>
+                            <Edge cubics="!19038 1297(;19038,1297 19060,1276 19060,1276q19038 1297 19060 1276);"/>
+                            <Edge cubics="!19060 1276(19060,1276;19060,1276 20260,2476 20260,2476p19060 1276q20260 2476)20260,2476;"/>
+                            <Edge cubics="!20260 2476(;20260,2476 20238,2497 20238,2497q20260 2476 20238 2497);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                    <DOMGroup selected="true">
+                      <matrix>
+                        <Matrix tx="-1044.25" ty="-49.45"/>
+                      </matrix>
+                      <members>
+                        <DOMShape selected="true" isDrawingObject="true">
+                          <matrix>
+                            <Matrix tx="-951.9" ty="-63.8"/>
+                          </matrix>
+                          <fills>
+                            <FillStyle index="1">
+                              <SolidColor color="#FFFFFF"/>
+                            </FillStyle>
+                          </fills>
+                          <edges>
+                            <Edge fillStyle1="1" edges="!19060 2497|19038 2476!19038 2476|20238 1276!20238 1276|20260 1297!20260 1297|19060 2497"/>
+                            <Edge cubics="!19060 2497(19060,2497;19060,2497 19038,2476 19038,2476q19060 2497 19038 2476)19038,2476;"/>
+                            <Edge cubics="!19038 2476(19038,2476;19038,2476 20238,1276 20238,1276q19038 2476 20238 1276);"/>
+                            <Edge cubics="!20238 1276(;20238,1276 20260,1297 20260,1297p20238 1276 20260 1297);"/>
+                            <Edge cubics="!20260 1297(;20260,1297 19060,2497 19060,2497p20260 1297q19060 2497);"/>
+                          </edges>
+                        </DOMShape>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
