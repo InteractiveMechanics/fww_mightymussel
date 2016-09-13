@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_1" itemID="57d7405f-00001cbe" lastModified="1473724511">
+  <timeline>
+    <DOMTimeline name="&amp;#060Image&amp;#062_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_2">
+                  <matrix>
+                    <Matrix a="0.239990234375" d="0.239990234375"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

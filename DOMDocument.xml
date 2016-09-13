@@ -27,11 +27,22 @@
           <DOMFolderItem name="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy" itemID="57b82769-0000012b"/>
           <DOMFolderItem name="Assets/internal anatomy" itemID="57d0f55f-00001720" isExpanded="true"/>
           <DOMFolderItem name="Assets/internal anatomy copy" itemID="57d5624a-00000940"/>
-          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c"/>
-          <DOMFolderItem name="FlashAICB" itemID="57d6b9be-00001662"/>
-          <DOMFolderItem name="FlashAICB/Isolation Mode" itemID="57d6b9be-00001663"/>
+          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c" isExpanded="true"/>
+          <DOMFolderItem name="Buttons/FlashAICB" itemID="57d6b9be-00001662"/>
+          <DOMFolderItem name="Buttons/FlashAICB_0" itemID="57d73ff0-00001ca1"/>
+          <DOMFolderItem name="Buttons/FlashAICB_0/Icons" itemID="57d73ff0-00001ca2"/>
+          <DOMFolderItem name="Buttons/FlashAICB copy" itemID="57d74068-00001cde"/>
+          <DOMFolderItem name="Buttons/FlashAICB copy/Icons" itemID="57d7405f-00001cb7"/>
+          <DOMFolderItem name="Buttons/FlashAICB/Isolation Mode" itemID="57d6b9be-00001663"/>
      </folders>
      <media>
+          <DOMBitmapItem name="Buttons/FlashAICB_0/Icons/&lt;Image&gt;_0" itemID="57d73ff0-00001ca7" sourceLastImported="1473724400" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB_0/Icons/&amp;#060Image&amp;#062_0" bitmapDataHRef="M 17 1473724400.dat" frameRight="15080" frameBottom="3680"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_0" itemID="57d7405f-00001cbc" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_0" bitmapDataHRef="M 18 1473724511.dat" frameRight="14340" frameBottom="3680"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_10" itemID="57d7405f-00001cd9" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_10" bitmapDataHRef="M 23 1473724511.dat" frameRight="10840" frameBottom="10840"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_2" itemID="57d7405f-00001cc1" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_2" bitmapDataHRef="M 19 1473724511.dat" frameRight="14100" frameBottom="3680"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_4" itemID="57d7405f-00001cc6" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_4" bitmapDataHRef="M 20 1473724511.dat" frameRight="11140" frameBottom="3680"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_6" itemID="57d7405f-00001ccb" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_6" bitmapDataHRef="M 21 1473724511.dat" frameRight="11140" frameBottom="3680"/>
+          <DOMBitmapItem name="Buttons/FlashAICB copy/Icons/&lt;Image&gt;_8" itemID="57d7405f-00001cd2" sourceLastImported="1473724511" sourcePlatform="macintosh" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_8" bitmapDataHRef="M 22 1473724511.dat" frameRight="14060" frameBottom="3680"/>
           <DOMBitmapItem name="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;" itemID="57b91453-00000056" sourceLastImported="1471747155" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&amp;#060Mesh&amp;#062" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
           <DOMBitmapItem name="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&lt;Mesh&gt;" itemID="57b8277f-00000133" sourceLastImported="1471686527" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&amp;#060Mesh&amp;#062" bitmapDataHRef="M 15 1473312293.dat" frameRight="13780" frameBottom="7460"/>
           <DOMBitmapItem name="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&lt;Mesh&gt;_0" itemID="57b82781-0000013c" sourceLastImported="1471686529" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&amp;#060Mesh&amp;#062_0" bitmapDataHRef="M 13 1473312293.dat" frameRight="4980" frameBottom="3480"/>
@@ -434,8 +445,26 @@
           <Include href="Assets/YoungMussel-brown.xml" itemIcon="1" loadImmediate="false" itemID="57d0e0d0-00000121" lastModified="1473307052"/>
           <Include href="BackgroundLoop.xml" itemIcon="1" loadImmediate="false" itemID="57d555ca-000001ec" lastModified="1473598967"/>
           <Include href="Buttons/CloseButton.xml" loadImmediate="false" itemID="57d6b858-0000165e" lastModified="1473689688"/>
+          <Include href="Buttons/CloseMussel.xml" itemIcon="0" loadImmediate="false" itemID="57d7409a-00001ceb" lastModified="1473724570"/>
+          <Include href="Buttons/Filtration.xml" itemIcon="0" loadImmediate="false" itemID="57d740af-00001d0a" lastModified="1473724591"/>
+          <Include href="Buttons/FlashAICB_0/Icons/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="57d73ff0-00001ca9" lastModified="1473724400"/>
+          <Include href="Buttons/FlashAICB_0/Icons/&amp;#060Image&amp;#062.xml" loadImmediate="false" itemID="57d73ff0-00001ca4" lastModified="1473724400"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_1.xml" loadImmediate="false" itemID="57d7405f-00001cdd" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="57d7405f-00001cdb" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_4.xml" loadImmediate="false" itemID="57d7405f-00001cd4" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_6.xml" loadImmediate="false" itemID="57d7405f-00001ccd" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062.xml" loadImmediate="false" itemID="57d7405f-00001cb9" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_1.xml" loadImmediate="false" itemID="57d7405f-00001cbe" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_3.xml" loadImmediate="false" itemID="57d7405f-00001cc3" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_5.xml" loadImmediate="false" itemID="57d7405f-00001cc8" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_7.xml" loadImmediate="false" itemID="57d7405f-00001ccf" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_9.xml" loadImmediate="false" itemID="57d7405f-00001cd6" lastModified="1473724511"/>
+          <Include href="Buttons/FlashAICB/Isolation Mode/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="57d6b9be-00001665" lastModified="1473690046"/>
+          <Include href="Buttons/HideAnatomy.xml" itemIcon="0" loadImmediate="false" itemID="57d740a2-00001cf5" lastModified="1473724630"/>
           <Include href="Buttons/InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1473711315"/>
-          <Include href="FlashAICB/Isolation Mode/&amp;#060Group&amp;#062.xml" loadImmediate="false" itemID="57d6b9be-00001665" lastModified="1473690046"/>
+          <Include href="Buttons/LifeCycle.xml" itemIcon="0" loadImmediate="false" itemID="57d740a8-00001cff" lastModified="1473724585"/>
+          <Include href="Buttons/OpenMussel.xml" itemIcon="0" loadImmediate="false" itemID="57d7408e-00001ce1" lastModified="1473724558"/>
+          <Include href="Buttons/ShowAnatomy.xml" itemIcon="0" loadImmediate="false" itemID="57d74045-00001cab" lastModified="1473724485"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1" currentFrame="20">
@@ -514,7 +543,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -531,6 +560,10 @@ function attractLoopClose() {
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="20" duration="18" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.HideAnatomyButton.visible = false;
+this.CloseMusselButton.visible = false;]]></script>
+                                   </Framescript>
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="38" keyMode="9728">
@@ -596,8 +629,147 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
+                    <DOMLayer name="Navigation" color="#9933CC" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="CloseMussel" color="#9933CC" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499855" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/CloseMussel" name="CloseMusselButton" symbolType="button" centerPoint3DX="166.45" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="80.45" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="86" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="OpenMussel" color="#FF800A" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/OpenMussel" name="OpenMusselButton" symbolType="button" centerPoint3DX="166.6" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="82.25" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="84.35" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="LifeCycle" color="#FF4FFF" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499813" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/LifeCycle" name="LifeCycleButton" symbolType="button" centerPoint3DX="683.05" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="616.25" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="66.8" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Filtration" color="#009999" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499813" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/Filtration" name="FiltrationButton" symbolType="button" centerPoint3DX="925.25" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="858.45" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="66.8" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="HideAnatomy" color="#808080" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/HideAnatomy" name="HideAnatomyButton" symbolType="button" centerPoint3DX="428.9" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="344.3" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="84.6" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="ShowAnatomy" color="#4F80FF" parentLayerIndex="3" autoNamed="false" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="20" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" duration="753" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="12000" Version="1" duration="753000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499862" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Buttons/ShowAnatomy" name="ShowAnatomyButton" symbolType="button" centerPoint3DX="428.6" centerPoint3DY="1752.3">
+                                             <matrix>
+                                                  <Matrix tx="338.15" ty="1657.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="90.45" y="95.1"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="AttractLoop" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="invisButton" color="#4F80FF" parentLayerIndex="3" autoNamed="false">
+                    <DOMLayer name="invisButton" color="#4F80FF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements>
@@ -616,7 +788,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="3" locked="true" autoNamed="false">
+                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements>
@@ -632,8 +804,31 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="MusselOpen" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Layer 6" color="#669900" parentLayerIndex="6" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="MusselOpen" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="anatomyClosed" color="#FF4F4F" parentLayerIndex="13" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="59" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="59" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="anatomyOpen" color="#FF800A" parentLayerIndex="13" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="38" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="38" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="39" duration="21" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="mussel" color="#669900" parentLayerIndex="13" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -682,7 +877,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="7" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="16" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -705,7 +900,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel-inner" color="#669900" parentLayerIndex="7" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mussel-inner" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -725,7 +920,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="6" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -748,7 +943,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel-shadow" color="#FF800A" parentLayerIndex="6" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mussel-shadow" color="#FF800A" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -771,7 +966,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="6" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -798,7 +993,7 @@ function closeFiltration() {
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="CloseButton" color="#009999" parentLayerIndex="13" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="CloseButton" color="#009999" parentLayerIndex="22" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -821,7 +1016,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage03" color="#009999" parentLayerIndex="13" locked="true" autoNamed="false">
+                    <DOMLayer name="filter-stage03" color="#009999" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -846,7 +1041,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage02" color="#009999" parentLayerIndex="13" locked="true" autoNamed="false">
+                    <DOMLayer name="filter-stage02" color="#009999" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -871,7 +1066,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage 01" color="#FF4FFF" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="filter-stage 01" color="#FF4FFF" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -897,7 +1092,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="sand mask" color="#669900" parentLayerIndex="13" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="mask">
+                    <DOMLayer name="sand mask" color="#669900" parentLayerIndex="22" locked="true" autoNamed="false" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -907,7 +1102,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="18" locked="true" autoNamed="false">
+                    <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="27" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -917,7 +1112,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="18" autoNamed="false">
+                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="27" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -951,7 +1146,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="upper inside" color="#FF800A" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -974,7 +1169,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="13" locked="true" autoNamed="false">
+                    <DOMLayer name="bump" color="#FF4FFF" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -984,7 +1179,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel shadow" color="#4F80FF" parentLayerIndex="13" locked="true" autoNamed="false">
+                    <DOMLayer name="mussel shadow" color="#4F80FF" parentLayerIndex="22" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -994,7 +1189,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="13" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="22" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -1018,7 +1213,7 @@ function closeFiltration() {
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="stage4 arrow" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="stage4 arrow" color="#4F80FF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1053,9 +1248,9 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="27" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Stage3-gill call-out" color="#669900" parentLayerIndex="28" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="34" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="36" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Stage3-gill call-out" color="#669900" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1087,7 +1282,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="stage3 arrow" color="#4F80FF" parentLayerIndex="28" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="stage3 arrow" color="#4F80FF" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1119,7 +1314,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="glochidia" color="#000000" parentLayerIndex="28" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="glochidia" color="#000000" parentLayerIndex="37" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1151,7 +1346,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="glochidia-bkgr" color="#FF4FFF" parentLayerIndex="28" locked="true" autoNamed="false">
+                    <DOMLayer name="glochidia-bkgr" color="#FF4FFF" parentLayerIndex="37" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1350,7 +1545,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad- close up" color="#4F80FF" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad- close up" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1379,7 +1574,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 4" color="#4F80FF" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 4" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1408,7 +1603,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 3" color="#4F80FF" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 3" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1437,7 +1632,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy 2" color="#4F80FF" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy 2" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1466,7 +1661,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad copy" color="#4F80FF" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad copy" color="#4F80FF" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1495,7 +1690,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="shad group" color="#FF800A" parentLayerIndex="27" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="shad group" color="#FF800A" parentLayerIndex="36" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1540,8 +1735,8 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="25" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="39" locked="true" autoNamed="false" layerType="guide" animationType="motion object">
+                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="34" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="48" locked="true" autoNamed="false" layerType="guide" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1570,7 +1765,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="39" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="48" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1930,7 +2125,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="41" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="50" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -1953,7 +2148,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="39" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="48" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2235,7 +2430,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="43" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="52" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2258,7 +2453,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="39" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="48" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2724,7 +2919,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="45" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="54" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -2747,7 +2942,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="39" locked="true" outline="true" useOutlineView="true" layerType="mask">
+                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="48" locked="true" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3033,7 +3228,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="47" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="56" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3056,7 +3251,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="47" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="56" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3079,8 +3274,8 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel turn" color="#808080" parentLayerIndex="25" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="50" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="mussel turn" color="#808080" parentLayerIndex="34" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="mussel" color="#4F80FF" parentLayerIndex="59" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3118,7 +3313,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="male-sperm" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false">
+                    <DOMLayer name="male-sperm" color="#4F80FF" parentLayerIndex="34" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3179,7 +3374,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass copy 2" color="#FF4FFF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass copy 2" color="#FF4FFF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3205,7 +3400,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass copy" color="#FF4FFF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass copy" color="#FF4FFF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3231,7 +3426,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="bass" color="#FF4FFF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="bass" color="#FF4FFF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3257,7 +3452,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="trout migration" color="#9933CC" parentLayerIndex="25" locked="true" autoNamed="false">
+                    <DOMLayer name="trout migration" color="#9933CC" parentLayerIndex="34" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3285,7 +3480,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new grass" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="new grass" color="#4F80FF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3308,7 +3503,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="new grass copy" color="#4F80FF" parentLayerIndex="25" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="new grass copy" color="#4F80FF" parentLayerIndex="34" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="300" keyMode="9728">
                                    <elements/>
@@ -3331,9 +3526,8 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Navigation" color="#9933CC" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="Background" color="#4F80FF" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" parentLayerIndex="60" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" parentLayerIndex="68" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -3356,11 +3550,11 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="60" autoNamed="false">
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="773" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="FlashAICB/Isolation Mode/&amp;#060Group&amp;#062">
+                                        <DOMSymbolInstance libraryItemName="Buttons/FlashAICB/Isolation Mode/&amp;#060Group&amp;#062">
                                              <matrix>
                                                   <Matrix tx="399.25" ty="57.95"/>
                                              </matrix>
@@ -3375,7 +3569,7 @@ function closeFiltration() {
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="60" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="68" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="773" keyMode="9728">
                                    <elements>
