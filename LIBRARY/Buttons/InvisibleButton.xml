@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/InvisibleButton" itemID="57d556c0-0000022e" lastModified="1473711315">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/InvisibleButton" itemID="57d556c0-0000022e" lastModified="1473728210">
   <timeline>
     <DOMTimeline name="InvisibleButton">
       <layers>
@@ -9,7 +9,7 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#00FF00" alpha="0"/>
+                      <SolidColor color="#070707" alpha="0.00784313725490196"/>
                     </FillStyle>
                   </fills>
                   <edges>

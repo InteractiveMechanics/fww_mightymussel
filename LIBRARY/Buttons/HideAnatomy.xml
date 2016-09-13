@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/HideAnatomy" itemID="57d740a2-00001cf5" symbolType="button" lastModified="1473724630">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/HideAnatomy" itemID="57d740a2-00001cf5" symbolType="button" lastModified="1473728591">
   <timeline>
     <DOMTimeline name="HideAnatomy">
       <layers>
@@ -7,30 +7,10 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix tx="-474.3" ty="-865.6"/>
-                  </matrix>
                   <members>
-                    <DOMSymbolInstance libraryItemName="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_1" selected="true">
-                      <matrix>
-                        <Matrix ty="146.05"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="84.6" y="22.05"/>
-                      </transformationPoint>
-                      <color>
-                        <Color alphaMultiplier="0.3515625"/>
-                      </color>
-                    </DOMSymbolInstance>
-                    <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-474.3" ty="-865.6"/>
-                      </matrix>
+                    <DOMGroup>
                       <members>
                         <DOMGroup selected="true">
-                          <matrix>
-                            <Matrix tx="-474.3" ty="-865.6"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
@@ -329,19 +309,10 @@
                   <transformationPoint>
                     <Point x="62" y="62"/>
                   </transformationPoint>
-                  <filters>
-                    <DropShadowFilter alpha="0.349019607843137" angle="90" blurX="3" blurY="3" color="#231F20" distance="7" quality="2"/>
-                  </filters>
                 </DOMSymbolInstance>
                 <DOMGroup>
-                  <matrix>
-                    <Matrix tx="-475.15" ty="-865.45"/>
-                  </matrix>
                   <members>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-475.15" ty="-865.45"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -372,7 +343,7 @@
                           </fills>
                           <edges>
                             <Edge fillStyle0="1" edges="
-!8551 34137|8658 34192!8658 34192|7968 35532!7968 35532|7861 35477!7861 35477|8551 34137!8534 34084|7807 35494!7807 35494|7985 35586!7985 35586|8712 34175!8712 34175|8534 34084"/>
+!8534 34084|7807 35494!7807 35494|7985 35586!7985 35586|8712 34175!8712 34175|8534 34084!8551 34137|8658 34192!8658 34192|7968 35532!7968 35532|7861 35477!7861 35477|8551 34137"/>
                             <Edge cubics="!8551 34137(;8551,34137 8658,34192 8658,34192q8551 34137 8658 34192);"/>
                             <Edge cubics="!8658 34192(;8658,34192 7968,35532 7968,35532p8658 34192 7968 35532);"/>
                             <Edge cubics="!7968 35532(;7968,35532 7861,35477 7861,35477q7968 35532 7861 35477);"/>

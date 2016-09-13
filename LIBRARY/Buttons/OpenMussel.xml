@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/OpenMussel" itemID="57d7408e-00001ce1" symbolType="button" lastModified="1473724558">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/OpenMussel" itemID="57d7408e-00001ce1" symbolType="button" lastModified="1473728568">
   <timeline>
     <DOMTimeline name="OpenMussel">
       <layers>
@@ -6,31 +6,11 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-208.7" ty="-465.6"/>
-                  </matrix>
+                <DOMGroup>
                   <members>
-                    <DOMSymbolInstance libraryItemName="Buttons/FlashAICB copy/Icons/&amp;#060Image&amp;#062_7" selected="true">
-                      <matrix>
-                        <Matrix ty="146.05"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="84.35" y="22.05"/>
-                      </transformationPoint>
-                      <color>
-                        <Color alphaMultiplier="0.3515625"/>
-                      </color>
-                    </DOMSymbolInstance>
-                    <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-208.7" ty="-465.6"/>
-                      </matrix>
+                    <DOMGroup>
                       <members>
                         <DOMGroup selected="true">
-                          <matrix>
-                            <Matrix tx="-208.7" ty="-465.6"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
@@ -305,16 +285,13 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_4" selected="true">
+                <DOMSymbolInstance libraryItemName="Buttons/FlashAICB copy/Icons/&amp;#060Group&amp;#062_4">
                   <matrix>
                     <Matrix tx="22.25"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="62" y="62"/>
                   </transformationPoint>
-                  <filters>
-                    <DropShadowFilter alpha="0.349019607843137" angle="90" blurX="3" blurY="3" color="#231F20" distance="7" quality="2"/>
-                  </filters>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
