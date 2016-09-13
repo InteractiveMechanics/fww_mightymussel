@@ -241,7 +241,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/flash1.ai_1/life cycle-bkgr/&amp;#060Path&amp;#062_14">
                   <matrix>
-                    <Matrix a="0.981338500976562" b="0.01885986328125" c="0.265884399414062" d="1.00509643554688" tx="76" ty="251.7"/>
+                    <Matrix a="0.9813232421875" b="0.01885986328125" c="0.265869140625" d="1.00509643554688" tx="76" ty="251.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="431.15" y="59.15"/>
@@ -266,7 +266,7 @@
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <matrix>
-                                <Matrix a="0.999832153320312" d="0.861724853515625" tx="0.6" ty="51.25"/>
+                                <Matrix a="0.99981689453125" d="0.861724853515625" tx="0.6" ty="51.25"/>
                               </matrix>
                               <fills>
                                 <FillStyle index="1">

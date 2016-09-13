@@ -145,7 +145,7 @@
     <Property name="imageFormat">0</Property>
     <Property name="imagesNS">images</Property>
     <Property name="imagesPath">images/</Property>
-    <Property name="includeHiddenLayers">true</Property>
+    <Property name="includeHiddenLayers">false</Property>
     <Property name="includePreloader">false</Property>
     <Property name="jpegBackground">#FFFFFF</Property>
     <Property name="jpegMaxSheetHeight">8192</Property>

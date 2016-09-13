@@ -12,7 +12,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_06">
                   <matrix>
-                    <Matrix a="0.650222778320312" b="-0.759735107421875" c="0.759735107421875" d="0.650222778320312" tx="31.3" ty="153.4"/>
+                    <Matrix a="0.65020751953125" b="-0.759735107421875" c="0.759735107421875" d="0.65020751953125" tx="31.3" ty="153.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="20.45" y="13.9"/>
@@ -46,7 +46,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_02">
                   <matrix>
-                    <Matrix a="0.72869873046875" b="0.684829711914062" c="-0.684829711914062" d="0.72869873046875" tx="108.8" ty="139.4"/>
+                    <Matrix a="0.72869873046875" b="0.684814453125" c="-0.684814453125" d="0.72869873046875" tx="108.8" ty="139.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="15.2" y="16.95"/>
@@ -80,7 +80,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Glochidia_01">
                   <matrix>
-                    <Matrix a="-0.251663208007812" b="0.967788696289062" c="-0.967788696289062" d="-0.251663208007812" tx="-6.8" ty="37.2"/>
+                    <Matrix a="-0.25164794921875" b="0.9677734375" c="-0.9677734375" d="-0.25164794921875" tx="-6.8" ty="37.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="18.5" y="16.8"/>
@@ -95,7 +95,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Glochidia_01" selected="true" centerPoint3DX="-146.8" centerPoint3DY="-95.6">
                   <matrix>
-                    <Matrix a="-0.983352661132812" b="0.18170166015625" c="-0.18170166015625" d="-0.983352661132812" tx="-125.6" ty="-82.45"/>
+                    <Matrix a="-0.98333740234375" b="0.18170166015625" c="-0.18170166015625" d="-0.98333740234375" tx="-125.6" ty="-82.45"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="18.45" y="16.75"/>
@@ -114,7 +114,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_03">
                   <matrix>
-                    <Matrix a="0.577178955078125" b="0.816604614257812" c="-0.816604614257812" d="0.577178955078125" tx="-57" ty="22.1"/>
+                    <Matrix a="0.577178955078125" b="0.81658935546875" c="-0.81658935546875" d="0.577178955078125" tx="-57" ty="22.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="13.05" y="14.65"/>
@@ -231,7 +231,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_06" selected="true" centerPoint3DX="53.05" centerPoint3DY="-142.05">
                   <matrix>
-                    <Matrix a="0.0359039306640625" b="0.999343872070312" c="-0.999343872070312" d="0.0359039306640625" tx="66.2" ty="-162.95"/>
+                    <Matrix a="0.0359039306640625" b="0.99932861328125" c="-0.99932861328125" d="0.0359039306640625" tx="66.2" ty="-162.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="20.4" y="13.85"/>
@@ -250,7 +250,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_02">
                   <matrix>
-                    <Matrix a="0.580886840820312" b="-0.813980102539062" c="0.813980102539062" d="0.580886840820312" tx="-6.45" ty="20.1"/>
+                    <Matrix a="0.58087158203125" b="-0.81396484375" c="0.81396484375" d="0.58087158203125" tx="-6.45" ty="20.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="15.1" y="16.95"/>
@@ -299,7 +299,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Glochidia_01" selected="true" centerPoint3DX="56.85" centerPoint3DY="-48.05">
                   <matrix>
-                    <Matrix a="0.297500610351562" b="-0.9547119140625" c="0.9547119140625" d="0.297500610351562" tx="35.4" ty="-35.4"/>
+                    <Matrix a="0.2974853515625" b="-0.9547119140625" c="0.9547119140625" d="0.2974853515625" tx="35.4" ty="-35.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="18.45" y="16.65"/>
@@ -352,7 +352,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_05">
                   <matrix>
-                    <Matrix a="0.439056396484375" b="-0.898452758789062" c="0.898452758789062" d="0.439056396484375" tx="12.6" ty="-53.5"/>
+                    <Matrix a="0.439056396484375" b="-0.8984375" c="0.8984375" d="0.439056396484375" tx="12.6" ty="-53.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="12.8" y="13.65"/>
@@ -590,7 +590,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_04">
                   <matrix>
-                    <Matrix a="0.272109985351562" b="-0.962265014648438" c="0.962265014648438" d="0.272109985351562" tx="78.35" ty="47.8"/>
+                    <Matrix a="0.2720947265625" b="-0.962265014648438" c="0.962265014648438" d="0.2720947265625" tx="78.35" ty="47.8"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="15.75" y="19.15"/>
@@ -726,7 +726,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_03">
                   <matrix>
-                    <Matrix a="-0.733718872070312" b="-0.679412841796875" c="0.679412841796875" d="-0.733718872070312" tx="-61.15" ty="95.15"/>
+                    <Matrix a="-0.73370361328125" b="-0.679412841796875" c="0.679412841796875" d="-0.73370361328125" tx="-61.15" ty="95.15"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="13.1" y="14.65"/>
@@ -828,7 +828,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/glochidia_06">
                   <matrix>
-                    <Matrix a="0.605300903320312" b="-0.795989990234375" c="0.795989990234375" d="0.605300903320312" tx="119.75" ty="134.35"/>
+                    <Matrix a="0.60528564453125" b="-0.795989990234375" c="0.795989990234375" d="0.60528564453125" tx="119.75" ty="134.35"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="20.5" y="13.9"/>
@@ -896,7 +896,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Glochidia_01">
                   <matrix>
-                    <Matrix a="0.0569000244140625" b="0.998367309570312" c="-0.998367309570312" d="0.0569000244140625" tx="43.15" ty="30.95"/>
+                    <Matrix a="0.0569000244140625" b="0.99835205078125" c="-0.99835205078125" d="0.0569000244140625" tx="43.15" ty="30.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="18.5" y="16.7"/>
