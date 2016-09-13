@@ -8,7 +8,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/flash1.ai_1/life cycle-bkgr/&amp;#060Clip Group&amp;#062" selected="true" symbolType="graphic" loop="play once">
                   <matrix>
-                    <Matrix a="1.74903869628906" d="1.74903869628906" tx="-45.8" ty="-131.6"/>
+                    <Matrix a="1.7490234375" d="1.7490234375" tx="-45.8" ty="-131.6"/>
                   </matrix>
                   <transformationPoint>
                     <Point y="-0.05"/>
