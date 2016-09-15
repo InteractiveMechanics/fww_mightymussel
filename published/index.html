@@ -22,7 +22,10 @@
             stage, 
             stageBg,
             exportRoot,
-            exportRootBg;
+            exportRootBg,
+            timeout = [];
+
+        document.onclick = resetTimeout;
 
         function init() {
             images = images||{};
@@ -32,6 +35,18 @@
         	loader.addEventListener("complete", handleComplete);
         	loader.loadManifest(libMain.properties.manifest);
             handleComplete();
+        }
+        function resetTimeout() {
+            if (timeout) {
+                timeout.forEach(function(value, index){
+                    clearTimeout(value);
+                    timeout.splice(index, 1);
+                });
+            }
+            timeout.push(setTimeout(resetInteractive, 90000));
+        }
+        function resetInteractive() {
+            stage.children[0].resetInteractive();
         }
         function handleFileLoad(evt) {	
         	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
