@@ -9229,11 +9229,11 @@ p.nominalBounds = new cjs.Rectangle(971,585.3,779,510);
 		this.ReplayButtonFiltration.visible = false;
 	}
 	this.frame_140 = function() {
-		this.stop();
+		this.gotoAndPlay("FiltrationStep1");
 		this.FiltrationDirt.play();
 	}
 	this.frame_216 = function() {
-		this.stop();
+		this.gotoAndPlay("FiltrationStep2");
 		this.FiltrationDirt.play();
 	}
 	this.frame_217 = function() {
