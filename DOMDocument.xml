@@ -305,7 +305,7 @@
           <Include href="TapGetStarted.xml" loadImmediate="false" itemID="57dac75d-0000012c" lastModified="1473955677"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="87">
+          <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" visible="false" layerType="mask">
                          <frames>
@@ -382,7 +382,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -487,7 +487,32 @@ this.backToStartLifeCycle = function() {
 }
 this.attractLoopClose = function() {
 	this.gotoAndPlay("MusselClosing");
+	this.endFade(this.TapGetStarted);
 	this.toggleNav();
+}
+
+this.timeout;
+this.inout = true;
+this.startFade = function(elem) {
+	this.timeout = setInterval(function(){
+		if (elem.alpha <= 1){
+			if (root.inout){
+				elem.alpha -= 0.025;
+			} else {
+				elem.alpha += 0.025;
+			}
+			if (elem.alpha >= 1){
+				root.inout = true;          
+			}
+			if (elem.alpha <= 0.65){
+				root.inout = false;          
+			}
+		}
+	}, 100);
+}
+this.endFade = function(elem) {
+	elem.alpha = 1;
+	clearInterval(timeout);
 }
 
 
@@ -519,7 +544,8 @@ if (!this.OpenMusselButton._listeners.click){
 // Frame 1 Specific
 this.stop();
 this.hideAllNav();
-this.hideAnatomy();]]></script>
+this.hideAnatomy();
+this.startFade(this.TapGetStarted);]]></script>
                                    </Framescript>
                                    <elements/>
                               </DOMFrame>
@@ -557,8 +583,9 @@ this.ReplayButtonFiltration.visible = false;]]></script>
                               </DOMFrame>
                               <DOMFrame index="97" keyMode="9728">
                                    <Framescript language="JavaScript">
-                                        <script><![CDATA[this.gotoAndPlay("FiltrationStep1");
-this.FiltrationDirt.play();]]></script>
+                                        <script><![CDATA[this.stop();
+this.FiltrationDirt.play();
+this.FiltrationStep1MC.play();]]></script>
                                    </Framescript>
                                    <elements/>
                               </DOMFrame>
@@ -754,7 +781,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               <DOMFrame index="0" duration="29" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="29000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="20000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="28000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="2" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,90" next="0,90" previous="0,90" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x0000007f"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="TapGetStarted">
+                                        <DOMSymbolInstance libraryItemName="TapGetStarted" name="TapGetStarted">
                                              <matrix>
                                                   <Matrix tx="340.1" ty="1754.85"/>
                                              </matrix>
@@ -994,7 +1021,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="BackHome" color="#9933CC" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
@@ -1189,19 +1216,19 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage01" color="#FF4FFF" parentLayerIndex="23" locked="true" autoNamed="false">
+                    <DOMLayer name="filter-stage01" color="#FF4FFF" parentLayerIndex="23" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="60" duration="38" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc02" selected="true" symbolType="graphic" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc02" name="FiltrationStep1MC">
                                              <matrix>
                                                   <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-786.45" ty="124.2"/>
                                              </matrix>
                                              <transformationPoint>
-                                                  <Point x="1361.15" y="832.9"/>
+                                                  <Point x="1361.1" y="832.9"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
@@ -1308,7 +1335,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="23" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="23" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -3801,7 +3828,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" layerType="folder"/>
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
                     <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="80" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="870" keyMode="9728">
