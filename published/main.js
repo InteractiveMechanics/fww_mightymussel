@@ -9074,6 +9074,8 @@ p.nominalBounds = new cjs.Rectangle(971,585.3,779,510);
 
 	// timeline functions:
 	this.frame_0 = function() {
+        var root = this;
+
 		// Global Variables
 		this.goToFiltration = false;
 		this.stepCount = 1;
@@ -9084,6 +9086,7 @@ p.nominalBounds = new cjs.Rectangle(971,585.3,779,510);
 			this.gotoAndStop("AttractLoop");
 		}
 		this.toggleAnatomy = function() {
+            console.log("toggleAnatomy ran;")
 			if(this.ClosedMusselAnatomy.visible == false){
 				// Toggle anatomy buttons
 				this.HideAnatomyButton.visible 		= true;
@@ -9103,6 +9106,7 @@ p.nominalBounds = new cjs.Rectangle(971,585.3,779,510);
 			}
 		}
 		this.toggleOpenClosed = function() {
+            console.log("toggleOpenClosed ran;")
 			if(this.CloseMusselButton.visible == false) {
 				this.gotoAndPlay("MusselOpening");
 				this.CloseMusselButton.visible 		= true;
@@ -9170,41 +9174,42 @@ p.nominalBounds = new cjs.Rectangle(971,585.3,779,510);
 			this.gotoAndPlay("LifeCycleStep1");
 			this.stepCount = 1;
 		}
-		
-		
-		// Nav Event Listeners
-		this.OpenMusselButton.addEventListener("click", this.toggleOpenClosed.bind(this));
-		this.CloseMusselButton.addEventListener("click", this.toggleOpenClosed.bind(this));
-		
-		this.HideAnatomyButton.addEventListener("click", this.toggleAnatomy.bind(this));
-		this.ShowAnatomyButton.addEventListener("click", this.toggleAnatomy.bind(this));
-		
-		this.FiltrationButton.addEventListener("click", this.playFiltration.bind(this));
-		this.LifeCycleButton.addEventListener("click", this.playLifeCycle.bind(this));
-		
-		// Filtration Event Listeners
-		this.CloseButtonFiltration.addEventListener("click", this.closeAnimation.bind(this));
-		this.NextButtonFiltration.addEventListener("click", this.nextStepFiltration.bind(this));
-		this.ReplayButtonFiltration.addEventListener("click", this.backToStartFiltration.bind(this));
-		
-		// LifeCycle Event Listeners
-		this.CloseButtonLifeCycle.addEventListener("click", this.closeAnimation.bind(this));
-		this.NextButtonLifeCycle.addEventListener("click", this.nextStepLifeCycle.bind(this));
-		this.ReplayButtonLifeCycle.addEventListener("click", this.backToStartLifeCycle.bind(this));
-		
-		
-		// Frame 1 Specific
-		var root = this;
-		
-		this.stop();
-		this.hideAllNav();
-		this.hideAnatomy();
-		
-		this.AttractLoopButton.addEventListener("click", attractLoopClose.bind(this));
-		function attractLoopClose() {
+        this.attractLoopClose = function() {
 			this.gotoAndPlay("MusselClosing");
 			this.toggleNav();
 		}
+		
+		
+		// Nav Event Listeners
+		if (!this.OpenMusselButton._listeners.click){
+            this.OpenMusselButton.addEventListener("click", this.toggleOpenClosed.bind(this));
+    		this.CloseMusselButton.addEventListener("click", this.toggleOpenClosed.bind(this));
+    		
+    		this.HideAnatomyButton.addEventListener("click", this.toggleAnatomy.bind(this));
+    		this.ShowAnatomyButton.addEventListener("click", this.toggleAnatomy.bind(this));
+    		
+    		this.FiltrationButton.addEventListener("click", this.playFiltration.bind(this));
+    		this.LifeCycleButton.addEventListener("click", this.playLifeCycle.bind(this));
+    		
+    		// Filtration Event Listeners
+    		this.CloseButtonFiltration.addEventListener("click", this.closeAnimation.bind(this));
+    		this.NextButtonFiltration.addEventListener("click", this.nextStepFiltration.bind(this));
+    		this.ReplayButtonFiltration.addEventListener("click", this.backToStartFiltration.bind(this));
+    		
+    		// LifeCycle Event Listeners
+    		this.CloseButtonLifeCycle.addEventListener("click", this.closeAnimation.bind(this));
+    		this.NextButtonLifeCycle.addEventListener("click", this.nextStepLifeCycle.bind(this));
+    		this.ReplayButtonLifeCycle.addEventListener("click", this.backToStartLifeCycle.bind(this));
+
+            // Attract Loop Event Listeners
+            this.AttractLoopButton.addEventListener("click", this.attractLoopClose.bind(this));
+        }
+		
+		
+		// Frame 1 Specific		
+		this.stop();
+		this.hideAllNav();
+		this.hideAnatomy();
 	}
 	this.frame_38 = function() {
 		this.stop();
