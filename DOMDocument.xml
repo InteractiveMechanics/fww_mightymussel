@@ -36,7 +36,7 @@
           <DOMFolderItem name="Buttons/FlashAICB copy" itemID="57d74068-00001cde"/>
           <DOMFolderItem name="Buttons/FlashAICB copy/Icons" itemID="57d7405f-00001cb7"/>
           <DOMFolderItem name="Buttons/FlashAICB/Isolation Mode" itemID="57d6b9be-00001663" isExpanded="true"/>
-          <DOMFolderItem name="LifecycleAssets" itemID="57d9764c-00001414"/>
+          <DOMFolderItem name="LifecycleAssets" itemID="57d9764c-00001414" isExpanded="true"/>
      </folders>
      <media>
           <DOMBitmapItem name="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;" itemID="57b91453-00000056" sourceLastImported="1471747155" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&amp;#060Mesh&amp;#062" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
@@ -294,7 +294,8 @@
           <Include href="LifecycleAssets/glochidia-CloseUp_mc.xml" loadImmediate="false" itemID="57c24cc7-00000faa" lastModified="1473296477"/>
           <Include href="LifecycleAssets/grass_mc.xml" loadImmediate="false" itemID="57b6da94-00000df8" lastModified="1471601321"/>
           <Include href="LifecycleAssets/mussel-burried_Male.xml" itemIcon="1" loadImmediate="false" itemID="57cf49ca-00000198" lastModified="1476208041"/>
-          <Include href="LifecycleAssets/mussel-burried_mc.xml" loadImmediate="false" itemID="57b6ddb8-00000034" lastModified="1476208105"/>
+          <Include href="LifecycleAssets/mussel-burried_mc.xml" loadImmediate="false" itemID="57b6ddb8-00000034" lastModified="1476208857"/>
+          <Include href="LifecycleAssets/mussel-burried_open_mc.xml" loadImmediate="false" itemID="57fd2874-00000506" lastModified="1476209440"/>
           <Include href="LifecycleAssets/mussel-burried_rotating_mc.xml" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1472539420"/>
           <Include href="LifecycleAssets/trout_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4e3b8-000002e5" lastModified="1472540224"/>
           <Include href="LifecycleAssets/Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="57c52ed9-00001060" lastModified="1472540377"/>
@@ -306,7 +307,7 @@
           <Include href="TapGetStarted.xml" loadImmediate="false" itemID="57dac75d-0000012c" lastModified="1473955677"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="34">
+          <DOMTimeline name="Scene 1" currentFrame="720">
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="mask">
                          <frames>
@@ -1528,8 +1529,8 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="40" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="47" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="40" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="glochidia" color="#009999" parentLayerIndex="47" locked="true" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="Stage3-gill call-out" color="#669900" parentLayerIndex="48" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
@@ -1606,7 +1607,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="521" duration="84" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-                                   <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="84000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.699874" xformPtYOffsetPct="0.780088" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-71.7" next="0,-71.7" previous="0,-71.7" roving="0" timevalue="15000"/><Keyframe anchor="0,-71.7" next="0,-71.7" previous="0,-71.7" roving="0" timevalue="71000"/><Keyframe anchor="0,-958.85" next="0,-958.85" previous="0,-958.85" roving="0" timevalue="83000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="15000"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="71000"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="83000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-6.96744" next="0,-6.96744" previous="0,-6.96744" roving="0" timevalue="15000"/><Keyframe anchor="0,-6.96744" next="0,-6.96744" previous="0,-6.96744" roving="0" timevalue="71000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-10.3111" next="0,-10.3111" previous="0,-10.3111" roving="0" timevalue="15000"/><Keyframe anchor="0,-10.3111" next="0,-10.3111" previous="0,-10.3111" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="15000"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,11.9858" next="0,11.9858" previous="0,11.9858" roving="0" timevalue="0"/><Keyframe anchor="0,49.2661" next="0,49.2661" previous="0,49.2661" roving="0" timevalue="15000"/><Keyframe anchor="0,49.2661" next="0,49.2661" previous="0,49.2661" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,11.9858" next="0,11.9858" previous="0,11.9858" roving="0" timevalue="0"/><Keyframe anchor="0,49.9695" next="0,49.9695" previous="0,49.9695" roving="0" timevalue="15000"/><Keyframe anchor="0,49.9695" next="0,49.9695" previous="0,49.9695" roving="0" timevalue="71000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="71000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="83000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="84000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.699874" xformPtYOffsetPct="0.780088" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-71.7" next="0,-71.7" previous="0,-71.7" roving="0" timevalue="16000"/><Keyframe anchor="0,-71.7" next="0,-71.7" previous="0,-71.7" roving="0" timevalue="71000"/><Keyframe anchor="0,-958.85" next="0,-958.85" previous="0,-958.85" roving="0" timevalue="83000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="16000"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="71000"/><Keyframe anchor="0,-38.5" next="0,-38.5" previous="0,-38.5" roving="0" timevalue="83000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-6.96744" next="0,-6.96744" previous="0,-6.96744" roving="0" timevalue="16000"/><Keyframe anchor="0,-6.96744" next="0,-6.96744" previous="0,-6.96744" roving="0" timevalue="71000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-10.3111" next="0,-10.3111" previous="0,-10.3111" roving="0" timevalue="16000"/><Keyframe anchor="0,-10.3111" next="0,-10.3111" previous="0,-10.3111" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="16000"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,11.9858" next="0,11.9858" previous="0,11.9858" roving="0" timevalue="0"/><Keyframe anchor="0,49.2661" next="0,49.2661" previous="0,49.2661" roving="0" timevalue="16000"/><Keyframe anchor="0,49.2661" next="0,49.2661" previous="0,49.2661" roving="0" timevalue="71000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,11.9858" next="0,11.9858" previous="0,11.9858" roving="0" timevalue="0"/><Keyframe anchor="0,49.9695" next="0,49.9695" previous="0,49.9695" roving="0" timevalue="16000"/><Keyframe anchor="0,49.9695" next="0,49.9695" previous="0,49.9695" roving="0" timevalue="71000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="71000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="83000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="LifecycleAssets/glochidia_mc" symbolType="graphic" loop="play once">
                                              <matrix>
@@ -1640,55 +1641,58 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               <DOMFrame index="521" duration="16" tweenType="shape" keyMode="17922">
                                    <MorphShape>
                                         <morphSegments>
-                                             <MorphSegment startPointA="#21.6B, #70.9A" startPointB="#D.5B, #60.EE" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
-                                                  <MorphCurves controlPointA="#21.6C, #70.83" anchorPointA="#21.6E, #70.6E" controlPointB="#D.67, #60.3B" anchorPointB="#D.DD, #5F.77"/>
-                                                  <MorphCurves controlPointA="#21.72, #70.44" anchorPointA="#21.7C, #70.22" controlPointB="#E.66, #5E.96" anchorPointB="#F.A, #5D.5C"/>
-                                                  <MorphCurves controlPointA="#21.8B, #6F.F2" anchorPointA="#21.A5, #6F.D4" controlPointB="#10.D5, #5C.27" anchorPointB="#12.51, #5C.0E"/>
-                                                  <MorphCurves controlPointA="#21.A8, #6F.D1" anchorPointA="#21.AB, #6F.CE" controlPointB="#12.8A, #5C.0A" anchorPointB="#12.C5, #5C.0D"/>
-                                                  <MorphCurves controlPointA="#21.C3, #6F.B6" anchorPointA="#21.E5, #6F.A7" controlPointB="#13.D7, #5C.19" anchorPointB="#15.1A, #5C.AF"/>
-                                                  <MorphCurves controlPointA="#22.0B, #6F.96" anchorPointA="#22.3C, #6F.8F" controlPointB="#16.31, #5D.3" anchorPointB="#17.CD, #5E.4E"/>
-                                                  <MorphCurves controlPointA="#22.3E, #6F.8F" anchorPointA="34.25, #6F.8F" controlPointB="#17.DF, #5E.5B" anchorPointB="#17.F1, #5E.67"/>
-                                                  <MorphCurves controlPointA="#22.6B, #6F.8A" anchorPointA="#22.94, #6F.8E" controlPointB="#19.F4, #5F.CB" anchorPointB="#1A.3D, #5F.F7"/>
-                                                  <MorphCurves controlPointA="#22.B2, #6F.91" anchorPointA="#22.CF, #6F.99" controlPointB="#1B.24, #60.84" anchorPointB="#1C.13, #60.ED"/>
-                                                  <MorphCurves controlPointA="#22.D9, #6F.9B" anchorPointA="#22.E2, #6F.9E" controlPointB="#1C.55, #61.0A" anchorPointB="#1C.A7, #61.2D"/>
-                                                  <MorphCurves controlPointA="#22.EC, #6F.A1" anchorPointA="#22.F5, #6F.A5" controlPointB="#1C.F, #61.4D" anchorPointB="#1D.46, #61.72"/>
-                                                  <MorphCurves controlPointA="#23.03, #6F.AA" anchorPointA="#23.1, #6F.B1" controlPointB="#1D.C9, #61.B4" anchorPointB="#1E.18, #62.17"/>
-                                                  <MorphCurves controlPointA="#23.23, #6F.BB" anchorPointA="#23.34, #6F.C7" controlPointB="#1E.73, #62.87" anchorPointB="#1E.CC, #63.6A"/>
-                                                  <MorphCurves controlPointA="#23.5, #6F.DC" anchorPointA="#23.65, #6F.F7" controlPointB="#1F.0F, #64.13" anchorPointB="#1F.CA, #65.71"/>
-                                                  <MorphCurves controlPointA="#23.7A, #70.14" anchorPointA="#23.89, #70.3C" controlPointB="#20.A2, #67.01" anchorPointB="#20.F4, #67.B5"/>
-                                                  <MorphCurves controlPointA="#23.9B, #70.6E" anchorPointA="#23.A6, #70.B3" controlPointB="#22.12, #6A.29" anchorPointB="#21.BB, #6B.D9"/>
-                                                  <MorphCurves controlPointA="#23.A7, #70.BB" anchorPointA="#23.A8, #70.C2" controlPointB="#21.AE, #6C.1A" anchorPointB="#21.98, #6C.56"/>
-                                                  <MorphCurves controlPointA="#23.AF, #70.FD" anchorPointA="#23.AD, #71.2E" controlPointB="#20.F4, #6E.21" anchorPointB="#22.3F, #6F.F7"/>
-                                                  <MorphCurves controlPointA="#23.AC, #71.44" anchorPointA="#23.AA, #71.57" controlPointB="#22.95, #70.71" anchorPointB="#23.3, #71.14"/>
-                                                  <MorphCurves controlPointA="#23.A9, #71.62" anchorPointA="#23.A7, #71.6C" controlPointB="#23.A1, #71.8C" anchorPointB="#23.9B, #71.9E"/>
-                                                  <MorphCurves controlPointA="#23.A6, #71.73" anchorPointA="#23.A5, #71.7A" controlPointB="#23.86, #71.D8" anchorPointB="#23.59, 114"/>
-                                                  <MorphCurves controlPointA="#23.A4, #71.81" anchorPointA="#23.A2, #71.87" controlPointB="#23.2A, #72.2B" anchorPointB="#22.F1, #72.31"/>
-                                                  <MorphCurves controlPointA="#23.9F, #71.91" anchorPointA="#23.9C, #71.9A" controlPointB="#22.DC, #72.33" anchorPointB="#22.48, #71.EE"/>
-                                                  <MorphCurves controlPointA="#23.9C, #71.9C" anchorPointA="#23.9B, #71.9E" controlPointB="#22.3C, #71.E8" anchorPointB="#22.3, #71.E3"/>
-                                                  <MorphCurves controlPointA="#23.95, #71.B" anchorPointA="#23.8C, #71.C" controlPointB="#21.74, #71.8B" anchorPointB="#20.F5, #71.5B"/>
-                                                  <MorphCurves controlPointA="#23.78, #71.E4" anchorPointA="#23.59, 114" controlPointB="#1F.66, #70.C5" anchorPointB="#1E.2A, #70.CC"/>
-                                                  <MorphCurves controlPointA="#23.51, #72.08" anchorPointA="#23.48, #72.0E" controlPointB="#1D.BF, #70.CF" anchorPointB="#1D.5D, #70.E4"/>
-                                                  <MorphCurves controlPointA="#23.2D, #72.22" anchorPointA="#23.1, #72.2B" controlPointB="#1C.87, #71.11" anchorPointB="#1B.26, #70.71"/>
-                                                  <MorphCurves controlPointA="#23.01, #72.2F" anchorPointA="#22.F1, #72.31" controlPointB="#1A.CA, #70.47" anchorPointB="#1A.54, #70.06"/>
-                                                  <MorphCurves controlPointA="#22.D4, #72.34" anchorPointA="#22.B6, #72.2D" controlPointB="#19.9, #6F.9B" anchorPointB="#18.86, #6E.F1"/>
-                                                  <MorphCurves controlPointA="#22.99, #72.26" anchorPointA="#22.7B, #72.17" controlPointB="#17.65, #6E.38" anchorPointB="#16.BC, #6D.CF"/>
-                                                  <MorphCurves controlPointA="#22.7, #72.11" anchorPointA="#22.64, #72.09" controlPointB="#16.3, #6D.79" anchorPointB="#15.F5, #6D.58"/>
-                                                  <MorphCurves controlPointA="#22.4B, #71.FB" anchorPointA="#22.2D, #71.E5" controlPointB="#14.A, #6C.99" anchorPointB="#13.EC, #6C.99"/>
-                                                  <MorphCurves controlPointA="#22.2, #71.DB" anchorPointA="#22.11, #71.CF" controlPointB="#13.6F, #6C.99" anchorPointB="#12.CE, #6C.32"/>
-                                                  <MorphCurves controlPointA="#22.06, #71.C7" anchorPointA="#21.FC, #71.BF" controlPointB="#12.72, #6B.F7" anchorPointB="#12.0A, #6B.9A"/>
-                                                  <MorphCurves controlPointA="#21.D1, #71.9C" anchorPointA="#21.BA, #71.84" controlPointB="#11.05, #6A.B1" anchorPointB="#F.FD, #69.37"/>
-                                                  <MorphCurves controlPointA="#21.95, #71.5E" anchorPointA="#21.82, #71.36" controlPointB="#E.FB, #67.C4" anchorPointB="#E.59, #66.56"/>
-                                                  <MorphCurves controlPointA="#21.7F, #71.2F" anchorPointA="#21.7C, #71.28" controlPointB="#E.3C, #66.14" anchorPointB="#E.23, #65.D6"/>
-                                                  <MorphCurves controlPointA="#21.72, #71.0E" anchorPointA="#21.6E, #70.EE" controlPointB="#D.AC, #64.A9" anchorPointB="#D.AC, #63.DF"/>
-                                                  <MorphCurves controlPointA="#21.6B, #70.D8" anchorPointA="#21.6A, #70.C" controlPointB="#D.AC, #63.34" anchorPointB="#D.7E, #62.3D"/>
-                                                  <MorphCurves controlPointA="#21.6A, #70.AE" anchorPointA="#21.6B, #70.9A" controlPointB="#D.55, #61.5F" anchorPointB="#D.5B, #60.F2"/>
-                                                  <MorphCurves controlPointA="#21.6B, #70.9A" anchorPointA="#21.6B, #70.9A" controlPointB="#D.5B, #60.F2" anchorPointB="#D.5B, #60.EE" isLine="true"/>
+                                             <MorphSegment startPointA="#21.6B, #70.76" startPointB="#D.5B, #60.82" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="0">
+                                                  <MorphCurves controlPointA="#21.6C, #70.5F" anchorPointA="#21.6E, #70.4A" controlPointB="#D.67, #5F.CF" anchorPointB="#D.DD, #5F.0B"/>
+                                                  <MorphCurves controlPointA="#21.72, #70.2" anchorPointA="#21.7C, #6F.FE" controlPointB="#E.66, #5E.2A" anchorPointB="#F.A, #5C.F"/>
+                                                  <MorphCurves controlPointA="#21.8B, #6F.CE" anchorPointA="#21.A5, #6F.B" controlPointB="#10.D5, #5B.BB" anchorPointB="#12.51, #5B.A2"/>
+                                                  <MorphCurves controlPointA="#21.A8, #6F.AD" anchorPointA="#21.AB, #6F.AA" controlPointB="#12.8A, #5B.9E" anchorPointB="#12.C5, #5B.A1"/>
+                                                  <MorphCurves controlPointA="#21.C3, #6F.92" anchorPointA="#21.E5, #6F.83" controlPointB="#13.D7, #5B.AD" anchorPointB="#15.1A, #5C.43"/>
+                                                  <MorphCurves controlPointA="#22.0B, #6F.72" anchorPointA="#22.3C, #6F.6B" controlPointB="#16.31, #5C.C4" anchorPointB="#17.CD, #5D.E2"/>
+                                                  <MorphCurves controlPointA="#22.3E, #6F.6B" anchorPointA="34.25, #6F.6B" controlPointB="#17.DF, #5D.EF" anchorPointB="#17.F1, #5D.FB"/>
+                                                  <MorphCurves controlPointA="#22.6B, #6F.66" anchorPointA="#22.94, #6F.6A" controlPointB="#19.F4, #5F.5F" anchorPointB="#1A.3D, #5F.8B"/>
+                                                  <MorphCurves controlPointA="#22.B2, #6F.6D" anchorPointA="#22.CF, #6F.75" controlPointB="#1B.24, #60.18" anchorPointB="#1C.13, #60.81"/>
+                                                  <MorphCurves controlPointA="#22.D9, #6F.77" anchorPointA="#22.E2, #6F.7A" controlPointB="#1C.55, #60.9E" anchorPointB="#1C.A7, #60.C1"/>
+                                                  <MorphCurves controlPointA="#22.EC, #6F.7D" anchorPointA="#22.F5, #6F.81" controlPointB="#1C.F, #60.E1" anchorPointB="#1D.46, #61.06"/>
+                                                  <MorphCurves controlPointA="#23.03, #6F.86" anchorPointA="#23.1, #6F.8D" controlPointB="#1D.C9, #61.48" anchorPointB="#1E.18, #61.AB"/>
+                                                  <MorphCurves controlPointA="#23.23, #6F.97" anchorPointA="#23.34, #6F.A3" controlPointB="#1E.73, #62.1B" anchorPointB="#1E.CC, #62.FE"/>
+                                                  <MorphCurves controlPointA="#23.5, #6F.B8" anchorPointA="#23.65, #6F.D3" controlPointB="#1F.0F, #63.A7" anchorPointB="#1F.CA, #65.05"/>
+                                                  <MorphCurves controlPointA="#23.7A, #6F.F" anchorPointA="#23.89, #70.18" controlPointB="#20.A2, #66.95" anchorPointB="#20.F4, #67.49"/>
+                                                  <MorphCurves controlPointA="#23.9B, #70.4A" anchorPointA="#23.A6, #70.8F" controlPointB="#22.12, #69.BD" anchorPointB="#21.BB, #6B.6D"/>
+                                                  <MorphCurves controlPointA="#23.A7, #70.97" anchorPointA="#23.A8, #70.9E" controlPointB="#21.AE, #6B.AE" anchorPointB="#21.98, #6B.EA"/>
+                                                  <MorphCurves controlPointA="#23.AF, #70.D9" anchorPointA="#23.AD, #71.0A" controlPointB="#20.F4, #6D.B5" anchorPointB="#22.3F, #6F.8B"/>
+                                                  <MorphCurves controlPointA="#23.AC, #71.2" anchorPointA="#23.AA, #71.33" controlPointB="#22.95, #70.05" anchorPointB="#23.3, #70.A8"/>
+                                                  <MorphCurves controlPointA="#23.A9, #71.3E" anchorPointA="#23.A7, #71.48" controlPointB="#23.A1, #71.2" anchorPointB="#23.9B, #71.32"/>
+                                                  <MorphCurves controlPointA="#23.A6, #71.4F" anchorPointA="#23.A5, #71.56" controlPointB="#23.86, #71.6C" anchorPointB="#23.59, #71.94"/>
+                                                  <MorphCurves controlPointA="#23.A4, #71.5D" anchorPointA="#23.A2, #71.63" controlPointB="#23.2A, #71.BF" anchorPointB="#22.F1, #71.C5"/>
+                                                  <MorphCurves controlPointA="#23.9F, #71.6D" anchorPointA="#23.9C, #71.76" controlPointB="#22.DC, #71.C7" anchorPointB="#22.48, #71.82"/>
+                                                  <MorphCurves controlPointA="#23.9C, #71.78" anchorPointA="#23.9B, #71.7A" controlPointB="#22.3C, #71.7C" anchorPointB="#22.3, #71.77"/>
+                                                  <MorphCurves controlPointA="#23.95, #71.8C" anchorPointA="#23.8C, #71.9C" controlPointB="#21.74, #71.1F" anchorPointB="#20.F5, #70.EF"/>
+                                                  <MorphCurves controlPointA="#23.78, #71.C" anchorPointA="#23.59, #71.DC" controlPointB="#1F.66, #70.59" anchorPointB="#1E.2A, #70.6"/>
+                                                  <MorphCurves controlPointA="#23.51, #71.E4" anchorPointA="#23.48, #71.EA" controlPointB="#1D.BF, #70.63" anchorPointB="#1D.5D, #70.78"/>
+                                                  <MorphCurves controlPointA="#23.2D, #71.FE" anchorPointA="#23.1, #72.07" controlPointB="#1C.87, #70.A5" anchorPointB="#1B.26, #70.05"/>
+                                                  <MorphCurves controlPointA="#23.01, #72.0B" anchorPointA="#22.F1, #72.0D" controlPointB="#1A.CA, #6F.DB" anchorPointB="#1A.54, #6F.9A"/>
+                                                  <MorphCurves controlPointA="#22.D4, #72.1" anchorPointA="#22.B6, #72.09" controlPointB="#19.9, #6F.2F" anchorPointB="#18.86, #6E.85"/>
+                                                  <MorphCurves controlPointA="#22.99, #72.02" anchorPointA="#22.7B, #71.F3" controlPointB="#17.65, #6D.CC" anchorPointB="#16.BC, #6D.63"/>
+                                                  <MorphCurves controlPointA="#22.7, #71.ED" anchorPointA="#22.64, #71.E5" controlPointB="#16.3, #6D.0D" anchorPointB="#15.F5, #6C.EC"/>
+                                                  <MorphCurves controlPointA="#22.4B, #71.D7" anchorPointA="#22.2D, #71.C1" controlPointB="#14.A, #6C.2D" anchorPointB="#13.EC, #6C.2D"/>
+                                                  <MorphCurves controlPointA="#22.2, #71.B7" anchorPointA="#22.11, #71.AB" controlPointB="#13.6F, #6C.2D" anchorPointB="#12.CE, #6B.C6"/>
+                                                  <MorphCurves controlPointA="#22.06, #71.A3" anchorPointA="#21.FC, #71.9B" controlPointB="#12.72, #6B.8B" anchorPointB="#12.0A, #6B.2E"/>
+                                                  <MorphCurves controlPointA="#21.D1, #71.78" anchorPointA="#21.BA, #71.6" controlPointB="#11.05, #6A.45" anchorPointB="#F.FD, #68.CB"/>
+                                                  <MorphCurves controlPointA="#21.95, #71.3A" anchorPointA="#21.82, #71.12" controlPointB="#E.FB, #67.58" anchorPointB="#E.59, #65.EA"/>
+                                                  <MorphCurves controlPointA="#21.7F, #71.0B" anchorPointA="#21.7C, #71.04" controlPointB="#E.3C, #65.A8" anchorPointB="#E.23, #65.6A"/>
+                                                  <MorphCurves controlPointA="#21.72, #70.EA" anchorPointA="#21.6E, #70.CA" controlPointB="#D.AC, #64.3D" anchorPointB="#D.AC, #63.73"/>
+                                                  <MorphCurves controlPointA="#21.6B, #70.B4" anchorPointA="#21.6A, #70.9C" controlPointB="#D.AC, #62.C8" anchorPointB="#D.7E, #61.D1"/>
+                                                  <MorphCurves controlPointA="#21.6A, #70.8A" anchorPointA="#21.6B, #70.76" controlPointB="#D.55, #60.F3" anchorPointB="#D.5B, #60.86"/>
+                                                  <MorphCurves controlPointA="#21.6B, #70.76" anchorPointA="#21.6B, #70.76" controlPointB="#D.5B, #60.86" anchorPointB="#D.5B, #60.82" isLine="true"/>
                                              </MorphSegment>
                                         </morphSegments>
                                         <morphHintsList/>
                                    </MorphShape>
                                    <elements>
-                                        <DOMShape>
+                                        <DOMShape selected="true" isFloating="true">
+                                             <matrix>
+                                                  <Matrix ty="-1.8"/>
+                                             </matrix>
                                              <fills>
                                                   <FillStyle index="1">
                                                        <SolidColor color="#FFFFFF" alpha="0.4"/>
@@ -1716,42 +1720,6 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
 !9115 29086(;9088,29160 9023,29225 8945,29233q9115 29086Q9094 29144q9049 29184Q9002 29227q8945 29233);"/>
                                                   <Edge cubics="
 !8945 29233(;8862,29241 8787,29187 8721,29135q8945 29233Q8889 29238q8827 29207Q8785 29185q8721 29135);"/>
-                                                  <Edge cubics="
-!8857 28891(;8856,28877 8859,28862 8856,28849q8857 28891Q8859 28862q8856 28849)8856,28849;"/>
-                                                  <Edge cubics="
-!8856 28849(;8855,28847 8855,28844 8853,28843q8856 28849Q8853 28843q8853 28843)8853,28843;"/>
-                                                  <Edge cubics="
-!8853 28843(;8851,28841 8850,28839 8848,28837q8853 28843 8848 28837)8848,28837;"/>
-                                                  <Edge cubics="
-!8848 28837(;8839,28831 8828,28826 8817,28824q8848 28837Q8833 28827q8817 28824);"/>
-                                                  <Edge cubics="
-!8817 28824(;8816,28835 8816,28846 8817,28857q8817 28824Q8816 28841q8817 28857)8817,28857;"/>
-                                                  <Edge cubics="
-!8817 28857(;8817,28860 8818,28862 8820,28864q8817 28857Q8817 28861q8820 28864)8820,28864;"/>
-                                                  <Edge cubics="
-!8820 28864(;8822,28867 8824,28869 8827,28871q8820 28864 8827 28871)8827,28871;"/>
-                                                  <Edge cubics="
-!8827 28871(8827,28871;8834,28877 8840,28882 8847,28887q8827 28871 8847 28887)8847,28887;"/>
-                                                  <Edge cubics="
-!8847 28887(;8850,28889 8853,28891 8857,28891q8847 28887Q8853 28891q8857 28891);"/>
-                                                  <Edge cubics="
-!8880 28661(;8927,28672 8971,28695 9007,28726q8880 28661Q8951 28678q9007 28726)9007,28726;"/>
-                                                  <Edge cubics="
-!9007 28726(9007,28726;9066,28780 9101,28859 9101,28938q9007 28726Q9051 28767q9076 28823Q9101 28879q9101 28938);"/>
-                                                  <Edge cubics="
-!9101 28938(;9101,28987 9086,29038 9049,29069q9101 28938Q9101 29025q9049 29069);"/>
-                                                  <Edge cubics="
-!9049 29069(9049,29069;9013,29098 8964,29104 8918,29100q9049 29069Q9002 29107q8918 29100)8918,29100;"/>
-                                                  <Edge cubics="
-!8918 29100(;8857,29097 8797,29080 8743,29053q8918 29100Q8828 29096q8743 29053)8743,29053;"/>
-                                                  <Edge cubics="
-!8743 29053(;8704,29033 8666,29006 8644,28968q8743 29053Q8672 29017q8644 28968)8644,28968;"/>
-                                                  <Edge cubics="
-!8644 28968(8644,28968;8628,28937 8622,28901 8622,28867q8644 28968Q8622 28925q8622 28867)8622,28867;"/>
-                                                  <Edge cubics="
-!8622 28867(;8621,28832 8626,28795 8641,28763q8622 28867Q8620 28807q8641 28763);"/>
-                                                  <Edge cubics="
-!8641 28763(;8681,28678 8789,28640 8880,28661q8641 28763Q8670 28701q8741 28672Q8810 28645q8880 28661);"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -1766,29 +1734,29 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                              </fills>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="
-!7517 28900[7303 28945 6950 28785!6950 28785[6705 28674 6278 28401!6278 28401[5751 28064 5621 27992!5621 27992[5280 27801 5100 27801!5100 27801[4903 27801 4618 27546!4618 27546[4357 27313 4093 26935!4093 26935[3835 26564 3673 26198!3673
- 26198[3500 25810 3500 25567!3500 25567[3500 25396 3454 25149!3454 25149[3412 24923 3419 24814!3419 24814[3431 24635 3549 24439!3549 24439[3686 24214 4000 23900!4000 23900[4309 23591 4689 23566!4689 23566[5009 23545 5402 23727!5402 23727
-[5681 23856 6093 24142!6093 24142[6642 24522 6717 24567!6717 24567[6948 24708 7187 24813!7187 24813[7313 24868 7494 24946!7494 24946[7625 25012 7704 25111!7704 25111[7795 25223 7884 25450!7884 25450[7951 25619 8138 25969!8138 25969[8354
- 26369 8436 26549!8436 26549[8765 27272 8600 27734!8600 27734[8436 28193 8767 28663!8767 28663[8853 28785 9008 28948!9008 28948[9121 29068 9115 29086!9115 29086[9094 29144 9049 29184!9049 29184[9002 29227 8945 29233!8945 29233[8924 29235
- 8776 29166!8776 29166[8572 29070 8437 29019!8437 29019[7904 28818 7517 28900"/>
+!7517 28792[7303 28837 6950 28677!6950 28677[6705 28566 6278 28293!6278 28293[5751 27956 5621 27884!5621 27884[5280 27693 5100 27693!5100 27693[4903 27693 4618 27438!4618 27438[4357 27205 4093 26827!4093 26827[3835 26456 3673 26090!3673
+ 26090[3500 25702 3500 25459!3500 25459[3500 25288 3454 25041!3454 25041[3412 24815 3419 24706!3419 24706[3431 24527 3549 24331!3549 24331[3686 24106 4000 23792!4000 23792[4309 23483 4689 23458!4689 23458[5009 23437 5402 23619!5402 23619
+[5681 23748 6093 24034!6093 24034[6642 24414 6717 24459!6717 24459[6948 24600 7187 24705!7187 24705[7313 24760 7494 24838!7494 24838[7625 24904 7704 25003!7704 25003[7795 25115 7884 25342!7884 25342[7951 25511 8138 25861!8138 25861[8354
+ 26261 8436 26441!8436 26441[8765 27164 8600 27626!8600 27626[8436 28085 8767 28555!8767 28555[8853 28677 9008 28840!9008 28840[9121 28960 9115 28978!9115 28978[9094 29036 9049 29076!9049 29076[9002 29119 8945 29125!8945 29125[8924 29127
+ 8776 29058!8776 29058[8572 28962 8437 28911!8437 28911[7904 28710 7517 28792"/>
                                                   <Edge cubics="
-!7517 28900(;6884,29034 5651,27801 5100,27801q7517 28900Q7303 28945q6950 28785Q6705 28674q6278 28401Q5751 28064q5621 27992Q5280 27801q5100 27801);"/>
+!7517 28792(;6884,28926 5651,27693 5100,27693q7517 28792Q7303 28837q6950 28677Q6705 28566q6278 28293Q5751 27956q5621 27884Q5280 27693q5100 27693);"/>
                                                   <Edge cubics="
-!5100 27801(;4549,27801 3500,26235 3500,25567q5100 27801Q4903 27801q4618 27546Q4357 27313q4093 26935Q3835 26564q3673 26198Q3500 25810q3500 25567);"/>
+!5100 27693(;4549,27693 3500,26127 3500,25459q5100 27693Q4903 27693q4618 27438Q4357 27205q4093 26827Q3835 26456q3673 26090Q3500 25702q3500 25459);"/>
                                                   <Edge cubics="
-!3500 25567(;3500,24899 3117,24783 4000,23900q3500 25567Q3500 25396q3454 25149Q3412 24923q3419 24814Q3431 24635q3549 24439Q3686 24214q4000 23900);"/>
+!3500 25459(;3500,24791 3117,24675 4000,23792q3500 25459Q3500 25288q3454 25041Q3412 24815q3419 24706Q3431 24527q3549 24331Q3686 24106q4000 23792);"/>
                                                   <Edge cubics="
-!4000 23900(;4883,23017 5951,24100 6717,24567q4000 23900Q4309 23591q4689 23566Q5009 23545q5402 23727Q5681 23856q6093 24142Q6642 24522q6717 24567);"/>
+!4000 23792(;4883,22909 5951,23992 6717,24459q4000 23792Q4309 23483q4689 23458Q5009 23437q5402 23619Q5681 23748q6093 24034Q6642 24414q6717 24459);"/>
                                                   <Edge cubics="
-!6717 24567(;7483,25034 7635,24817 7884,25450q6717 24567Q6948 24708q7187 24813Q7313 24868q7494 24946Q7625 25012q7704 25111Q7795 25223q7884 25450);"/>
+!6717 24459(;7483,24926 7635,24709 7884,25342q6717 24459Q6948 24600q7187 24705Q7313 24760q7494 24838Q7625 24904q7704 25003Q7795 25115q7884 25342);"/>
                                                   <Edge cubics="
-!7884 25450(;8133,26083 8867,26985 8600,27734q7884 25450Q7951 25619q8138 25969Q8354 26369q8436 26549Q8765 27272q8600 27734);"/>
+!7884 25342(;8133,25975 8867,26877 8600,27626q7884 25342Q7951 25511q8138 25861Q8354 26261q8436 26441Q8765 27164q8600 27626);"/>
                                                   <Edge cubics="
-!8600 27734(;8333,28483 9141,29011 9115,29086q8600 27734Q8436 28193q8767 28663Q8853 28785q9008 28948Q9121 29068q9115 29086);"/>
+!8600 27626(;8333,28375 9141,28903 9115,28978q8600 27626Q8436 28085q8767 28555Q8853 28677q9008 28840Q9121 28960q9115 28978);"/>
                                                   <Edge cubics="
-!9115 29086(;9088,29160 9023,29225 8945,29233q9115 29086Q9094 29144q9049 29184Q9002 29227q8945 29233);"/>
+!9115 28978(;9088,29052 9023,29117 8945,29125q9115 28978Q9094 29036q9049 29076Q9002 29119q8945 29125);"/>
                                                   <Edge cubics="
-!8945 29233(;8862,29241 8150,28766 7517,28900q8945 29233Q8924 29235q8776 29166Q8572 29070q8437 29019Q7904 28818q7517 28900);"/>
+!8945 29125(;8862,29133 8150,28658 7517,28792q8945 29125Q8924 29127q8776 29058Q8572 28962q8437 28911Q7904 28710q7517 28792);"/>
                                              </edges>
                                         </DOMShape>
                                    </elements>
@@ -1797,7 +1765,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="LifecycleAssets/Tween 2" symbolType="graphic" loop="loop">
                                              <matrix>
-                                                  <Matrix tx="313.3" ty="1319.9"/>
+                                                  <Matrix tx="313.3" ty="1314.5"/>
                                              </matrix>
                                              <transformationPoint>
                                                   <Point/>
@@ -2015,8 +1983,8 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="40" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="59" locked="true" autoNamed="false" layerType="guide" animationType="motion object">
+                    <DOMLayer name="young mussels drop" color="#808080" parentLayerIndex="40" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="dropping young" color="#4F80FF" parentLayerIndex="59" autoNamed="false" visible="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -2045,7 +2013,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="59" locked="true" layerType="mask">
+                    <DOMLayer name="Layer 5" color="#009999" parentLayerIndex="59" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -2324,13 +2292,13 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                              </fills>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="
-!2995 27043S2[3314 27050 3564 27148!3564 27148[3864 27263 4085 27515!4085 27515[4234 27687 4371 27928!4371 27928[4451 28074 4501 28185!4501 28185[4566 28331 4606 28472!4606 28472[4659 28663 4689 28925!4689 28925[4708 29094 4726 29402
-!4726 29402[4745 29699 4752 29843!4752 29843[4760 30031 4760 30191!4760 30191[4760 30239 4759 30284!4759 30284[4757 30436 4742 30685!4742 30685[4725 30987 4721 31085!4721 31085[4715 31242 4712 31535!4712 31535[4709 31846 4704 31986!4704
- 31986[4698 32177 4682 32394!4682 32394[4306 32267 3984 32242!3984 32242[3631 32217 3072 32327!3072 32327[2960 32308 2847 32272!2847 32272[2825 32265 2696 32224!2696 32224[2603 32193 2544 32180!2544 32180[2243 32115 1927 32255!1927 32255
-[1818 32303 1703 32379!1703 32379[1552 32392 1327 32454!1327 32454[1062 32527 894 32527!894 32527[842 32527 799 32520!799 32520[723 32508 567 32458!567 32458[300 32372 22 32358!22 32358[-233 32346 -438 32391!-438 32391[-508 32280 -542
- 32180!-542 32180[-574 32087 -591 31953!-591 31953[-602 31877 -614 31710!-614 31710[-629 31524 -631 31424!-631 31424[-632 31393 -632 31364!-632 31364[-632 31244 -619 31144!-619 31144[-596 30959 -523 30775!-523 30775[-467 30634 -369 30462
-!-369 30462[-302 30341 -235 29919!-235 29919[-203 29714 -121 29058!-121 29058[-50 28481 0 28214!0 28214[75 27813 157 27720!157 27720[662 27149 1202 27368!1202 27368[1365 27434 1521 27570!1521 27570[1597 27635 1642 27678!1642 27678[1759
- 27628 1865 27551!1865 27551[1915 27515 2112 27341!2112 27341[2263 27208 2364 27155!2364 27155[2420 27131 2453 27113!2453 27113[2697 27039 2995 27043"/>
+!2995 27043[3314 27050 3564 27148!3564 27148[3864 27263 4085 27515!4085 27515[4234 27687 4371 27928!4371 27928[4451 28074 4501 28185!4501 28185[4566 28331 4606 28472!4606 28472[4659 28663 4689 28925!4689 28925[4708 29094 4726 29402!4726
+ 29402[4745 29699 4752 29843!4752 29843[4760 30031 4760 30191!4760 30191[4760 30239 4759 30284!4759 30284[4757 30436 4742 30685!4742 30685[4725 30987 4721 31085!4721 31085[4715 31242 4712 31535!4712 31535[4709 31846 4704 31986!4704 31986
+[4698 32177 4682 32394!4682 32394[4306 32267 3984 32242!3984 32242[3631 32217 3072 32327!3072 32327[2960 32308 2847 32272!2847 32272[2825 32265 2696 32224!2696 32224[2603 32193 2544 32180!2544 32180[2243 32115 1927 32255!1927 32255[1818
+ 32303 1703 32379!1703 32379[1552 32392 1327 32454!1327 32454[1062 32527 894 32527!894 32527[842 32527 799 32520!799 32520[723 32508 567 32458!567 32458[300 32372 22 32358!22 32358[-233 32346 -438 32391!-438 32391[-508 32280 -542 32180
+!-542 32180[-574 32087 -591 31953!-591 31953[-602 31877 -614 31710!-614 31710[-629 31524 -631 31424!-631 31424[-632 31393 -632 31364!-632 31364[-632 31244 -619 31144!-619 31144[-596 30959 -523 30775!-523 30775[-467 30634 -369 30462!-369
+ 30462[-302 30341 -235 29919!-235 29919[-203 29714 -121 29058!-121 29058[-50 28481 0 28214!0 28214[75 27813 157 27720!157 27720[662 27149 1202 27368!1202 27368[1365 27434 1521 27570!1521 27570[1597 27635 1642 27678!1642 27678[1759 27628
+ 1865 27551!1865 27551[1915 27515 2112 27341!2112 27341[2263 27208 2364 27155!2364 27155[2420 27131 2453 27113!2453 27113[2697 27039 2995 27043"/>
                                                   <Edge cubics="
 !2453 27113(;2633,27058 2815,27041 2995,27043q2453 27113Q2697 27039q2995 27043);"/>
                                                   <Edge cubics="
@@ -2405,7 +2373,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="61" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="61" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -2428,7 +2396,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="59" locked="true" layerType="mask">
+                    <DOMLayer name="Layer 4" color="#FF4FFF" parentLayerIndex="59" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -2645,7 +2613,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                              </fills>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="
-!15480 28452S2[15644 28067 15758 27877!15758 27877[15940 27574 16169 27410!16169 27410[16398 27249 16787 27153!16787 27153[17440 26994 18148 27050!18148 27050[18300 27062 18409 27082!18409 27082[18549 27108 18659 27153!18659 27153[18824
+!15480 28452[15644 28067 15758 27877!15758 27877[15940 27574 16169 27410!16169 27410[16398 27249 16787 27153!16787 27153[17440 26994 18148 27050!18148 27050[18300 27062 18409 27082!18409 27082[18549 27108 18659 27153!18659 27153[18824
  27219 19001 27356!19001 27356[19107 27439 19303 27621!19303 27621[19781 28075 19998 28354!19998 28354[20342 28796 20433 29234!20433 29234[20459 29358 20469 29513!20469 29513[20533 29506 20591 29539!20591 29539[20699 29598 20745 29784
 !20745 29784[20781 29929 20768 30082!20768 30082[20755 30235 20695 30374!20695 30374[20657 30462 20571 30599!20571 30599[20470 30759 20438 30820!20438 30820[20409 30874 20339 31040!20339 31040[20280 31180 20231 31257!20231 31257[20064
  31530 19679 31716!19679 31716[19555 31778 19344 31860!19344 31860[19081 31962 19007 31994!19007 31994[18809 32086 18707 32124!18707 32124[18534 32190 18395 32193!18395 32193[18326 32195 18244 32182!18244 32182[18195 32174 18095 32152
@@ -2710,7 +2678,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="63" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF800A" parentLayerIndex="63" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -2733,7 +2701,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="59" locked="true" layerType="mask">
+                    <DOMLayer name="Layer 3" color="#FF800A" parentLayerIndex="59" outline="true" current="true" isSelected="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3082,17 +3050,17 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                              </fills>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="
-!3562 27309S2[3568 27293 3611 27208!3611 27208[3642 27147 3644 27098!3644 27098[3646 27066 3637 27011!3637 27011[3623 26930 3622 26920!3622 26920[3616 26854 3640 26768!3640 26768[3672 26675 3681 26625!3681 26625[3683 26609 3698 26435
-!3698 26435[3707 26320 3739 26260!3739 26260[3793 26167 3943 26119!3943 26119[4028 26091 4233 26062!4233 26062[4314 25908 4366 25807!4366 25807[4427 25694 4463 25637!4463 25637[4521 25546 4583 25485!4583 25485[4712 25361 4950 25282!4950
- 25282[5104 25231 5408 25173!5408 25173[5577 25142 5673 25136!5673 25136[5828 25127 5972 25159!5972 25159[6109 25190 6280 25267!6280 25267[6406 25323 6592 25425!6592 25425[6730 25499 6825 25559!6825 25559[6950 25637 7046 25716!7046 25716
-[7157 25806 7269 25927!7269 25927[7349 26015 7462 26155!7462 26155[7582 26305 7648 26395!7648 26395[7745 26529 7801 26637!7801 26637[7875 26777 7921 26942!7921 26942[7950 27047 7985 27235!7985 27235[8032 27467 8032 27592!8032 27592[8035
- 27682 8005 27899!8005 27899[7997 27955 7994 28006!7994 28006[8054 28100 8120 28207!8120 28207[8199 28336 8369 28605!8369 28605[8452 28740 8487 28807!8487 28807[8545 28919 8566 29004!8566 29004[8612 29193 8493 29332!8493 29332[8401 29437
- 8223 29500!8223 29500[8113 29541 7959 29569!7959 29569[7958 29569 7956 29570!7956 29570[7959 29596 7963 29628!7963 29628[7973 29742 7972 29789!7972 29789[7970 29847 7959 29891!7959 29891[7955 29889 7952 29887!7952 29887[7846 29823 7727
- 29804!7727 29804[7647 29791 7514 29795!7514 29795[7358 29801 7301 29797!7301 29797[7177 29788 7071 29743!7071 29743[7055 29688 6994 29630!6994 29630[7005 29648 7011 29666!7011 29666[7044 29747 6998 29800!6998 29800[6956 29849 6868 29851
-!6868 29851[6791 29852 6683 29823!6683 29823[6620 29806 6486 29760!6486 29760[6056 29610 5518 29438!5518 29438[5420 29407 5370 29394!5370 29394[5289 29373 5227 29366!5227 29366[5182 29361 5106 29361!5106 29361[5023 29362 4986 29359!4986
- 29359[4858 29349 4546 29241!4546 29241[4251 29139 4115 29138!4115 29138[4074 29137 3921 29159!3921 29159[3806 29176 3717 29155!3717 29155[3572 29119 3365 28972!3365 28972[3338 28954 3315 28936!3315 28936[3262 28979 3237 29036!3237 29036
-[3193 29014 3151 28995!3151 28995[3120 28981 3091 28968!3091 28968[3080 28896 3071 28852!3071 28852[3047 28745 2980 28646!2980 28646[2901 28530 2790 28473!2790 28473[2720 28438 2653 28435!2653 28435[2709 28179 2974 27976!2974 27976[3073
- 27899 3298 27765!3298 27765[3475 27659 3576 27588!3576 27588[3574 27586 3574 27585!3574 27585[3520 27427 3562 27309"/>
+!3562 27309[3568 27293 3611 27208!3611 27208[3642 27147 3644 27098!3644 27098[3646 27066 3637 27011!3637 27011[3623 26930 3622 26920!3622 26920[3616 26854 3640 26768!3640 26768[3672 26675 3681 26625!3681 26625[3683 26609 3698 26435!3698
+ 26435[3707 26320 3739 26260!3739 26260[3793 26167 3943 26119!3943 26119[4028 26091 4233 26062!4233 26062[4314 25908 4366 25807!4366 25807[4427 25694 4463 25637!4463 25637[4521 25546 4583 25485!4583 25485[4712 25361 4950 25282!4950 25282
+[5104 25231 5408 25173!5408 25173[5577 25142 5673 25136!5673 25136[5828 25127 5972 25159!5972 25159[6109 25190 6280 25267!6280 25267[6406 25323 6592 25425!6592 25425[6730 25499 6825 25559!6825 25559[6950 25637 7046 25716!7046 25716[7157
+ 25806 7269 25927!7269 25927[7349 26015 7462 26155!7462 26155[7582 26305 7648 26395!7648 26395[7745 26529 7801 26637!7801 26637[7875 26777 7921 26942!7921 26942[7950 27047 7985 27235!7985 27235[8032 27467 8032 27592!8032 27592[8035 27682
+ 8005 27899!8005 27899[7997 27955 7994 28006!7994 28006[8054 28100 8120 28207!8120 28207[8199 28336 8369 28605!8369 28605[8452 28740 8487 28807!8487 28807[8545 28919 8566 29004!8566 29004[8612 29193 8493 29332!8493 29332[8401 29437 8223
+ 29500!8223 29500[8113 29541 7959 29569!7959 29569[7958 29569 7956 29570!7956 29570[7959 29596 7963 29628!7963 29628[7973 29742 7972 29789!7972 29789[7970 29847 7959 29891!7959 29891[7955 29889 7952 29887!7952 29887[7846 29823 7727 29804
+!7727 29804[7647 29791 7514 29795!7514 29795[7358 29801 7301 29797!7301 29797[7177 29788 7071 29743!7071 29743[7055 29688 6994 29630!6994 29630[7005 29648 7011 29666!7011 29666[7044 29747 6998 29800!6998 29800[6956 29849 6868 29851!6868
+ 29851[6791 29852 6683 29823!6683 29823[6620 29806 6486 29760!6486 29760[6056 29610 5518 29438!5518 29438[5420 29407 5370 29394!5370 29394[5289 29373 5227 29366!5227 29366[5182 29361 5106 29361!5106 29361[5023 29362 4986 29359!4986 29359
+[4858 29349 4546 29241!4546 29241[4251 29139 4115 29138!4115 29138[4074 29137 3921 29159!3921 29159[3806 29176 3717 29155!3717 29155[3572 29119 3365 28972!3365 28972[3338 28954 3315 28936!3315 28936[3262 28979 3237 29036!3237 29036[3193
+ 29014 3151 28995!3151 28995[3120 28981 3091 28968!3091 28968[3080 28896 3071 28852!3071 28852[3047 28745 2980 28646!2980 28646[2901 28530 2790 28473!2790 28473[2720 28438 2653 28435!2653 28435[2709 28179 2974 27976!2974 27976[3073 27899
+ 3298 27765!3298 27765[3475 27659 3576 27588!3576 27588[3574 27586 3574 27585!3574 27585[3520 27427 3562 27309"/>
                                                   <Edge cubics="
 !3562 27309(;3586,27237 3641,27182 3644,27098q3562 27309Q3568 27293q3611 27208Q3642 27147q3644 27098)3644,27098;"/>
                                                   <Edge cubics="
@@ -3199,7 +3167,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="65" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="65" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3222,7 +3190,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="59" locked="true" layerType="mask">
+                    <DOMLayer name="Layer 2" color="#9933CC" parentLayerIndex="59" outline="true" useOutlineView="true" layerType="mask">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3443,7 +3411,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                              </fills>
                                              <edges>
                                                   <Edge fillStyle1="1" edges="
-!17631 29114S2[17562 29241 17388 29373!17388 29373[17018 29656 16497 29769!16497 29769[16035 29871 15519 29829!15519 29829[15302 29811 15158 29765!15158 29765[14971 29706 14872 29589!14872 29589[14831 29543 14785 29458!14785 29458[14723
+!17631 29114[17562 29241 17388 29373!17388 29373[17018 29656 16497 29769!16497 29769[16035 29871 15519 29829!15519 29829[15302 29811 15158 29765!15158 29765[14971 29706 14872 29589!14872 29589[14831 29543 14785 29458!14785 29458[14723
  29343 14709 29320!14709 29320[#38C6.E9 #7174.E8 14261 29210!14261 29210[#36A3.43 #72BF.47 13693.5 29306!13693.5 29306[#3457.A6 #7234.A1 13125 29184!13125 29184[12939 29275 12798 29278!12798 29278[12663 29283 12523 29215!12523 29215[12419
  29164 12292 29060!12292 29060[12093 28903 11986 28766!11986 28766[11844 28584 11824 28395!11824 28395[11808 28250 11861 28089!11861 28089[11908 27944 12008 27798!12008 27798[12052 27734 12109 27667!12109 27667[12076 27374 12050 27106
 !12050 27106[12017 26815 12007 26653!12007 26653[11991 26401 12008 26195!12008 26195[12026 25944 12105 25631!12105 25631[12151 25442 12265 25074!12265 25074[12334 24850 12377 24739!12377 24739[12448 24556 12536 24421!12536 24421[12645
@@ -3508,7 +3476,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="67" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#808080" parentLayerIndex="67" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3531,7 +3499,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="67" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="YoungMussel" color="#009999" parentLayerIndex="67" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3554,8 +3522,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="mussel turn" color="#808080" parentLayerIndex="40" locked="true" autoNamed="false" layerType="folder"/>
-                    <DOMLayer name="Mama mussel" color="#4F80FF" parentLayerIndex="70" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="Mama mussel" color="#4F80FF" parentLayerIndex="40" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3574,7 +3541,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                               <DOMFrame index="292" duration="34" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="LifecycleAssets/mussel-burried_mc" selected="true" symbolType="graphic" centerPoint3DX="582.2" centerPoint3DY="1536.45" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="LifecycleAssets/mussel-burried_mc" symbolType="graphic" centerPoint3DX="582.2" centerPoint3DY="1536.45" loop="play once">
                                              <matrix>
                                                   <Matrix tx="377.45" ty="1308.8"/>
                                              </matrix>
@@ -3584,10 +3551,25 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="326" duration="279" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-                                   <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="279000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.493638" xformPtYOffsetPct="0.553857" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="266000"/><Keyframe anchor="0,-887.15" next="0,-887.15" previous="0,-887.15" roving="0" timevalue="278000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="266000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="278000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="266000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="266000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="266000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="266000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="266000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="266000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="278000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                              <DOMFrame index="326" duration="189" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="LifecycleAssets/mussel-burried_rotating_mc" symbolType="graphic" centerPoint3DX="582.2" centerPoint3DY="1536.45" loop="play once">
+                                             <matrix>
+                                                  <Matrix tx="377.45" ty="1308.8"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="204.75" y="264.65"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="515" duration="90" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="90000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.498617" xformPtYOffsetPct="0.499885" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="77000"/><Keyframe anchor="0,-887.15" next="0,-887.15" previous="0,-887.15" roving="0" timevalue="89000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="77000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="77000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="77000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="77000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="77000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="77000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="77000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="89000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="LifecycleAssets/mussel-burried_open_mc" selected="true" symbolType="graphic" centerPoint3DX="582.2" centerPoint3DY="1536.45" loop="play once">
                                              <matrix>
                                                   <Matrix tx="377.45" ty="1308.8"/>
                                              </matrix>
@@ -3605,7 +3587,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="male-sperm" color="#4F80FF" parentLayerIndex="40" locked="true" autoNamed="false">
+                    <DOMLayer name="Male mussel" color="#4F80FF" parentLayerIndex="40" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="257" keyMode="9728">
                                    <elements/>
@@ -3842,7 +3824,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="80" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="79" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="870" keyMode="9728">
                                    <elements>
@@ -3861,7 +3843,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="80" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="79" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="870" keyMode="9728">
                                    <Framescript language="JavaScript">
