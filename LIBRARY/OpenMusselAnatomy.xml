@@ -1,0 +1,153 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1473788543">
+  <timeline>
+    <DOMTimeline name="OpenMusselAnatomy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="!14107 -12337[14450 -11994 14467 -11977!14467 -11977[14484 -11960 14467 -2875!14467 -2875[14467 -2860 13847 -2255!13306 -11297[13771 -10832 13786 -10817!13786 -10817[13801 -10802 13786 -2975!11106 -9557[11531 -9132 11546 -9117!11546 -9117
+[11561 -9102 11546 -4315!1403 -10077[1420 -10062 1823 -9657!1823 -9657[1838 -9642 1823 -6636!10766 1687[10783 1701 11166 1287!11166 1287[11177 1276 11172 -445!11172 -445[11170 -1305 11166 -2154!11406 2848[11423 2862 11806 2448!11806 2448
+[11823 2431 11843 -1420!0 0|0 2424!0 2424/424 2848!-520 -4181/-605 3504!-605 3504/-181 3928"/>
+                    <Edge cubics="!0 0(;0,0 0,2424 0,2424q0 0 0 2424);"/>
+                    <Edge cubics="!0 2424(;0,2424 424,2848 424,2848p0 2424q424 2848)424,2848;"/>
+                    <Edge cubics="!-520 -4181(;-520,-4181 -605,3504 -605,3504q-520 -4181 -605 3504);"/>
+                    <Edge cubics="!-605 3504(;-605,3504 -181,3928 -181,3928p-605 3504q-181 3928)-181,3928;"/>
+                    <Edge cubics="!10766 1687(10766,1687;10783,1701 11149,1304 11166,1287q10766 1687Q10783 1701q11166 1287);"/>
+                    <Edge cubics="!11166 1287(;11183,1270 11166,-2168 11166,-2154q11166 1287Q11177 1276q11172 -445Q11170 -1305q11166 -2154)11166,-2140;"/>
+                    <Edge cubics="!11406 2848(11406,2848;11423,2862 11789,2465 11806,2448q11406 2848Q11423 2862q11806 2448);"/>
+                    <Edge cubics="!11806 2448(;11823,2431 11843,-1434 11843,-1420q11806 2448Q11823 2431q11843 -1420)11843,-1406;"/>
+                    <Edge cubics="!11106 -9557(11106,-9557;11123,-9542 11531,-9132 11546,-9117q11106 -9557Q11531 -9132q11546 -9117);"/>
+                    <Edge cubics="!11546 -9117(;11561,-9102 11546,-4330 11546,-4315q11546 -9117Q11561 -9102q11546 -4315)11546,-4300;"/>
+                    <Edge cubics="!13306 -11297(13306,-11297;13323,-11282 13771,-10832 13786,-10817q13306 -11297Q13771 -10832q13786 -10817);"/>
+                    <Edge cubics="!13786 -10817(;13801,-10802 13786,-2990 13786,-2975q13786 -10817Q13801 -10802q13786 -2975)13786,-2960;"/>
+                    <Edge cubics="!14107 -12337(14107,-12337;14124,-12322 14450,-11994 14467,-11977q14107 -12337Q14450 -11994q14467 -11977);"/>
+                    <Edge cubics="!14467 -11977(;14484,-11960 14467,-2890 14467,-2875q14467 -11977Q14484 -11960q14467 -2875);"/>
+                    <Edge cubics="!14467 -2875(;14467,-2860 13842,-2250 13847,-2255q14467 -2875Q14467 -2860q13847 -2255)13852,-2260;"/>
+                    <Edge cubics="!1403 -10077(1403,-10077;1420,-10062 1808,-9672 1823,-9657q1403 -10077Q1420 -10062q1823 -9657);"/>
+                    <Edge cubics="!1823 -9657(;1838,-9642 1823,-6651 1823,-6636q1823 -9657Q1838 -9642q1823 -6636)1823,-6621;"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="42.95" ty="130.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="280" ty="-577.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>INHALENT SIPHON</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.745098039215686" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="320" ty="-629.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>EXHALENT SIPHON</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.745098039215686" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="174.9" ty="-493"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR ADDUCTOR&#xD;MUSCLE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.745098039215686" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-310.25" ty="-519"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ANTERIOR ADDUCTOR&#xD;MUSCLE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.745098039215686" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="8.95" ty="181.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>LABIAL PALPS</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="186.05" ty="130.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>OUTER GILL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="153" ty="72.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>INNER GILL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

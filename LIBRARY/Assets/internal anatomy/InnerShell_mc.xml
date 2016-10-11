@@ -1,0 +1,33 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy/InnerShell_mc" itemID="57b914ef-0000006b" lastModified="1471754567">
+  <timeline>
+    <DOMTimeline name="InnerShell_mc">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="internal anatomy" color="#FFFF00" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;_1">
+                  <matrix>
+                    <Matrix tx="979" ty="592.15"/>
+                  </matrix>
+                </DOMBitmapInstance>
+                <DOMBitmapInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;">
+                  <matrix>
+                    <Matrix tx="1111.4" ty="585.3"/>
+                  </matrix>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

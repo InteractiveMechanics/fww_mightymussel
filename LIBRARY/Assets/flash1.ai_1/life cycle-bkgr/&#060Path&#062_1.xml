@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/flash1.ai_1/life cycle-bkgr/&amp;#060Path&amp;#062_1" itemID="57c24c7d-00000f93" lastModified="1472351357">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!1430 0[1226 88 945 160!945 160[384 304 0 223!0 223[61 251 95 306!95 306[165 418 37 557!37 557|222 538!222 538|631 393!631 393|1430 0"/>
+                    <Edge cubics="!1430 0(1430,0;1430,0 614,353 0,223q1430 0Q1226 88q945 160Q384 304q0 223)0,223;"/>
+                    <Edge cubics="!0 223(;0,223 242,334 37,557q0 223Q61 251q95 306Q165 418q37 557);"/>
+                    <Edge cubics="!37 557(;37,557 222,538 222,538q37 557 222 538);"/>
+                    <Edge cubics="!222 538(;222,538 631,393 631,393q222 538 631 393);"/>
+                    <Edge cubics="!631 393(;1030,196 1030,196 1430,0q631 393 1430 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

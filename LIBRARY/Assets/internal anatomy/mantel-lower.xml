@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy/mantel-lower" itemID="57b8373b-000001aa" lastModified="1471690555">
+  <timeline>
+    <DOMTimeline name="mantel-lower">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMBitmapInstance selected="true" libraryItemName="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&lt;Mesh&gt;_1">
+                      <matrix>
+                        <Matrix ty="0.4"/>
+                      </matrix>
+                    </DOMBitmapInstance>
+                    <DOMBitmapInstance selected="true" libraryItemName="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&lt;Mesh&gt;"/>
+                    <DOMSymbolInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&amp;#060Path&amp;#062" selected="true">
+                      <matrix>
+                        <Matrix tx="284.7" ty="299.9"/>
+                      </matrix>
+                      <transformationPoint>
+                        <Point x="127.3" y="26.75"/>
+                      </transformationPoint>
+                      <color>
+                        <Color alphaMultiplier="0.12890625"/>
+                      </color>
+                    </DOMSymbolInstance>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

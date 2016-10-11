@@ -1,0 +1,54 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/flash1.ai Assets_0/Brook Trout/&amp;#060Path&amp;#062_16" itemID="57a7b7dc-000004ac" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#CEBA61"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle0="1" edges="!0 58[58 89 119 81!119 81[167 78 176 80!176 80[212 86 227 123!227 123[239 161 267 210!267 210[295 258 301 253!301 253[307 263 344 281!344 281[389 302 441 315!441 315[568 339 592 365!592 365[626 391 693 418!693 418[690 377 681 356!681
+ 356[668 326 638 302!638 302[623 285 565 265!565 265[511 247 460 239!460 239[420 230 378 210!378 210[#14F.4E #BD.8B 347 193!347 193[#14E.5B #B5.F 297 86!297 86[254 12 191 2!191 2[164 -2 139 0!139 0[116 4 109 4!109 4[75 9 50 24!50 24[41
+ 29 0 58"/>
+                                <Edge cubics="!0 58(0,58;41,80 75,87 119,81q0 58Q58 89q119 81)119,81;"/>
+                                <Edge cubics="!119 81(;150,79 204,65 227,123q119 81Q167 78q176 80Q212 86q227 123)227,123;"/>
+                                <Edge cubics="!227 123(;243,175 293,260 301,253q227 123Q239 161q267 210Q295 258q301 253);"/>
+                                <Edge cubics="!301 253(;307,263 363,296 441,315q301 253Q307 263q344 281Q389 302q441 315);"/>
+                                <Edge cubics="!441 315(;519,330 576,348 592,365q441 315Q568 339q592 365);"/>
+                                <Edge cubics="!592 365(;624,389 649,400 693,418q592 365Q626 391q693 418);"/>
+                                <Edge cubics="!693 418(;689,371 682,337 638,302q693 418Q690 377q681 356Q668 326q638 302);"/>
+                                <Edge cubics="!638 302(;617,278 523,249 460,239q638 302Q623 285q565 265Q511 247q460 239);"/>
+                                <Edge cubics="!297 86(;274,46 244,10 191,2q297 86Q254 12q191 2);"/>
+                                <Edge cubics="!191 2(;148,-4 123,3 109,4q191 2Q164 -2q139 0Q116 4q109 4);"/>
+                                <Edge cubics="!109 4(;58,12 39,30 0,58q109 4Q75 9q50 24Q41 29q0 58);"/>
+                                <Edge cubics="!378 210(;349,197 339,191 347,193q378 210Q335 190q347 193);"/>
+                                <Edge cubics="!347 193(;338,186 322,150 297,86q347 193Q334 182q297 86);"/>
+                                <Edge cubics="!460 239(;433,233 406,223 378,210q460 239Q420 230q378 210);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
