@@ -1,0 +1,239 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClosedMusselAnatomy-Descriptions" itemID="57fd2278-000004b3" lastModified="1476207247">
+  <timeline>
+    <DOMTimeline name="ClosedMusselAnatomy-Descriptions">
+      <layers>
+        <DOMLayer name="Name/Lines" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="2">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                    <StrokeStyle index="2">
+                      <SolidStroke scaleMode="normal">
+                        <fill>
+                          <SolidColor color="#FFFFFF"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="2" edges="!10958 -8276[10962 -8261 10638 -7956!10638 -7956[10623 -7941 10638 -6175!1877 -9617[1881 -9601 2257 -9237!2257 -9237[2261 -9233 2257 -7216"/>
+                    <Edge strokeStyle="1" edges="!10483 -3161/10403 1916!10403 1916/10827 2340!6460 -1040/6380 4037!6380 4037/6804 4461!-1120 0|-1120 2424!-1120 2424/-863 2681!-863 2681/-696 2848"/>
+                    <Edge cubics="!-1120 0(;-1120,0 -1120,2424 -1120,2424q-1120 0 -1120 2424);"/>
+                    <Edge cubics="!-1120 2424(;-1120,2424 -863,2681 -863,2681q-1120 2424 -863 2681);"/>
+                    <Edge cubics="!-863 2681(;-863,2681 -696,2848 -696,2848q-863 2681 -696 2848);"/>
+                    <Edge cubics="!10958 -8276(10958,-8276;10962,-8261 10653,-7971 10638,-7956q10958 -8276Q10962 -8261q10638 -7956);"/>
+                    <Edge cubics="!10638 -7956(;10623,-7941 10638,-6190 10638,-6175q10638 -7956Q10623 -7941q10638 -6175)10638,-6160;"/>
+                    <Edge cubics="!6460 -1040(;6460,-1040 6380,4037 6380,4037q6460 -1040 6380 4037);"/>
+                    <Edge cubics="!6380 4037(;6380,4037 6804,4461 6804,4461p6380 4037q6804 4461)6804,4461;"/>
+                    <Edge cubics="!1877 -9617(1877,-9617;1881,-9601 2253,-9241 2257,-9237q1877 -9617Q1881 -9601q2257 -9237);"/>
+                    <Edge cubics="!2257 -9237(;2261,-9233 2257,-7232 2257,-7216q2257 -9237Q2261 -9233q2257 -7216)2257,-7200;"/>
+                    <Edge cubics="!10483 -3161(;10483,-3161 10403,1916 10403,1916q10483 -3161 10403 1916);"/>
+                    <Edge cubics="!10403 1916(;10403,1916 10827,2340 10827,2340p10403 1916q10827 2340)10827,2340;"/>
+                  </edges>
+                </DOMShape>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-13.05" ty="130.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="560.1" ty="102.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>PERIOSTRACUM</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="357.95" ty="208.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>GROWTH LINES</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="361.05" ty="104.4"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>VENTRAL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="224" ty="-431.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>DORSAL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="644.15" ty="-212.95"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-235.15" ty="-231"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ANTERIOR</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="3" ty="-496.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>UMBO</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="560.1" ty="-428.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR&#xD;RIDGE</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Description" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="370.1" height="62" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-286.25" ty="-457.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.733333333333333" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="307.5" height="62" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="-13.05" ty="170.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.729411764705882" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="297.15" height="62" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="560.1" ty="-350.05"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.725490196078431" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="297.15" height="62" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="357.95" ty="248.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="297.15" height="62" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="560.1" ty="142.1"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

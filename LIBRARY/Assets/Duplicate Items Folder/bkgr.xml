@@ -9,7 +9,7 @@
           <frames>
             <DOMFrame index="0" duration="230" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/bkgr-color_mc copy" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/bkgr-color_mc copy">
                   <matrix>
                     <Matrix ty="0.05"/>
                   </matrix>
