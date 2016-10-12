@@ -66,7 +66,7 @@
           <Include href="Assets/Duplicate Items Folder/bubble copy.xml" loadImmediate="false" itemID="57d0faca-00001ec4" lastModified="1471574129"/>
           <Include href="Assets/Duplicate Items Folder/bubble-outline copy.xml" loadImmediate="false" itemID="57d0faca-00001ec6" lastModified="1471603002"/>
           <Include href="Assets/Duplicate Items Folder/bubble-shine copy.xml" loadImmediate="false" itemID="57d0faca-00001ec5" lastModified="1471603003"/>
-          <Include href="Assets/Duplicate Items Folder/bubbles_mc copy.xml" loadImmediate="false" itemID="57d0faca-00001ec3" lastModified="1471602985"/>
+          <Include href="Assets/Duplicate Items Folder/bubbles_mc copy.xml" loadImmediate="false" itemID="57d0faca-00001ec3" lastModified="1476304479"/>
           <Include href="Assets/Duplicate Items Folder/fishGroup_mc copy.xml" loadImmediate="false" itemID="57d0faca-00001ec1" lastModified="1471602997"/>
           <Include href="Assets/Duplicate Items Folder/fishShadow_mc copy.xml" loadImmediate="false" itemID="57d0faca-00001ec2" lastModified="1471603009"/>
           <Include href="Assets/Duplicate Items Folder/grass_mc copy.xml" loadImmediate="false" itemID="57d0faca-00001eb7" lastModified="1471601321"/>
@@ -240,7 +240,7 @@
           <Include href="Assets/internal_mc.xml" loadImmediate="false" itemID="57b917ec-0000006e" lastModified="1473312167"/>
           <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc02.xml" loadImmediate="false" itemID="57ba742d-00000405" lastModified="1475010476"/>
           <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc03.xml" loadImmediate="false" itemID="57ba771b-00000533" lastModified="1473310806"/>
-          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04.xml" loadImmediate="false" itemID="57ba7810-000005e8" lastModified="1476302876"/>
+          <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04.xml" loadImmediate="false" itemID="57ba7810-000005e8" lastModified="1476304812"/>
           <Include href="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc05.xml" loadImmediate="false" itemID="57ba7d54-0000089c" lastModified="1473310983"/>
           <Include href="Assets/internal anatomy/&amp;#060Path&amp;#062_0.xml" loadImmediate="false" itemID="57b82781-00000140" lastModified="1471686529"/>
           <Include href="Assets/internal anatomy/&amp;#060Path&amp;#062_2.xml" loadImmediate="false" itemID="57b82784-0000014b" lastModified="1471686532"/>
@@ -321,7 +321,7 @@
           <Include href="Tween 11.xml" itemIcon="1" loadImmediate="false" itemID="57fe76f6-000006af" lastModified="1476294390"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="36">
+          <DOMTimeline name="Scene 1" currentFrame="290">
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" autoNamed="false" visible="false" layerType="mask">
                          <frames>
@@ -1037,7 +1037,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#4F80FF" parentLayerIndex="23" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="BackHome" color="#9933CC" parentLayerIndex="24" locked="true" autoNamed="false">
                          <frames>
@@ -1274,7 +1274,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="33" autoNamed="false">
+                    <DOMLayer name="filter-stage04" color="#669900" parentLayerIndex="33" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="60" keyMode="9728">
                                    <elements/>
@@ -2357,7 +2357,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -2383,8 +2383,8 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="70" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="70" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="923" keyMode="9728">
                                    <elements>
@@ -2403,7 +2403,7 @@ this.ReplayButtonLifeCycle.visible = true;]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="70" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="70" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="923" keyMode="9728">
                                    <Framescript language="JavaScript">
