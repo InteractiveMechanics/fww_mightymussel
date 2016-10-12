@@ -1,10 +1,10 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LifecycleAssets/mussel-burried_Male" itemID="57cf49ca-00000198" symbolType="graphic" lastModified="1476208041" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LifecycleAssets/mussel-burried_Male" itemID="57cf49ca-00000198" symbolType="graphic" lastModified="1476305546" lastUniqueIdentifier="5">
   <timeline>
-    <DOMTimeline name="mussel-burried_Male" currentFrame="38">
+    <DOMTimeline name="mussel-burried_Male">
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" locked="true" outline="true" useOutlineView="true" layerType="mask">
           <frames>
-            <DOMFrame index="0" duration="39" keyMode="9728">
+            <DOMFrame index="0" duration="52" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -49,7 +49,7 @@
         </DOMLayer>
         <DOMLayer name="top shell" color="#FF4FFF" parentLayerIndex="0" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="39" keyMode="9728">
+            <DOMFrame index="0" duration="52" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/mussel-outterShell_png">
                   <matrix>
@@ -63,12 +63,12 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sperm" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="sperm" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="7" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="7" duration="18" tweenType="shape" keyMode="17922">
+            <DOMFrame index="7" duration="27" tweenType="shape" keyMode="17922">
               <MorphShape>
                 <morphSegments>
                   <MorphSegment startPointA="#12.84, #6.CF" startPointB="#15.2B, #4.88" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
@@ -274,7 +274,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="25" duration="5" tweenType="shape" keyMode="17922">
+            <DOMFrame index="34" duration="9" tweenType="shape" keyMode="17922">
               <MorphShape>
                 <morphSegments>
                   <MorphSegment startPointA="#15.2B, #4.88" startPointB="#15.E8, #3.E6" strokeIndex1="0" strokeIndex2="0" fillIndex1="0" fillIndex2="1">
@@ -467,8 +467,8 @@
                         <matrix>
                           <Matrix a="0.289230346679688" b="-0.0213470458984375" c="0.0177764892578125" d="0.240798950195313" tx="508.85" ty="-0.6"/>
                         </matrix>
-                        <GradientEntry color="#FFFFFF" alpha="0.898039215686275" ratio="0"/>
-                        <GradientEntry color="#FFFFFF" alpha="0.215686274509804" ratio="0.992156862745098"/>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" alpha="0.407843137254902" ratio="1"/>
                       </RadialGradient>
                     </FillStyle>
                   </fills>
@@ -492,7 +492,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="30" duration="9" keyMode="9728">
+            <DOMFrame index="43" duration="9" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -596,7 +596,7 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" duration="34" keyMode="9728">
+            <DOMFrame index="5" duration="47" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -654,7 +654,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" duration="28" keyMode="9728">
+            <DOMFrame index="5" duration="41" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/InnerShell_mc">
                   <matrix>
@@ -666,7 +666,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="33" duration="5" tweenType="motion" keyMode="17921">
+            <DOMFrame index="46" duration="5" tweenType="motion" keyMode="17921">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/InnerShell_mc">
                   <matrix>
@@ -678,7 +678,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="38" keyMode="13824">
+            <DOMFrame index="51" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/InnerShell_mc">
                   <matrix>
@@ -692,7 +692,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="shadow" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="shadow" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -709,7 +709,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" duration="28" keyMode="9728">
+            <DOMFrame index="5" duration="41" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/mussel-shadow" centerPoint3DX="193.9" centerPoint3DY="346.35">
                   <matrix>
@@ -724,7 +724,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="33" duration="5" tweenType="motion" keyMode="17921">
+            <DOMFrame index="46" duration="5" tweenType="motion" keyMode="17921">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/mussel-shadow" centerPoint3DX="193.9" centerPoint3DY="346.35">
                   <matrix>
@@ -739,7 +739,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="38" keyMode="13824">
+            <DOMFrame index="51" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/mussel-shadow">
                   <matrix>
