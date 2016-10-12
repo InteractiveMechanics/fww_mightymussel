@@ -1,0 +1,60 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Tween 11" itemID="57fe76f6-000006af" symbolType="graphic" lastModified="1476294390">
+  <timeline>
+    <DOMTimeline name="Tween 11">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sand01 copy" selected="true" centerPoint3DX="651.15" centerPoint3DY="207.15">
+                  <matrix>
+                    <Matrix tx="-205.7" ty="-246"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.85" y="453.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sand01 copy" selected="true" centerPoint3DX="690.5" centerPoint3DY="-260.2">
+                  <matrix>
+                    <Matrix a="-0.916000366210938" d="-0.880935668945313" tx="1475.85" ty="138.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.75" y="453.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1015625"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sand01 copy" selected="true" centerPoint3DX="-651.25" centerPoint3DY="207.15">
+                  <matrix>
+                    <Matrix tx="-1508.1" ty="-246"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.85" y="453.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sand01 copy" selected="true" centerPoint3DX="-611.9" centerPoint3DY="-260.2">
+                  <matrix>
+                    <Matrix a="-0.916000366210938" d="-0.880935668945313" tx="173.45" ty="138.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="856.75" y="453.2"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

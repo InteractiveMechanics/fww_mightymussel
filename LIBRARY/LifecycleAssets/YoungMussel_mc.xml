@@ -1,11 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LifecycleAssets/YoungMussel_mc" itemID="57c28240-000001a0" symbolType="graphic" lastModified="1476211693">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LifecycleAssets/YoungMussel_mc" itemID="57c28240-000001a0" symbolType="graphic" lastModified="1476292509" lastUniqueIdentifier="8">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="YoungMussel_mc">
       <layers>
-        <DOMLayer name="Layer 5" color="#009999" locked="true" outline="true" useOutlineView="true" layerType="mask">
+        <DOMLayer name="Layer 5" color="#009999" locked="true" layerType="mask">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -47,12 +47,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-1.47886657714844" b="-1.45368957519531" c="-1.75814819335938" d="0.883865356445312" tx="412.65" ty="639.8"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="48.75" y="54.75"/>
+                    <Point x="48.75" y="54.7"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -63,7 +63,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
+                <DOMShape isFloating="true">
                   <matrix>
                     <Matrix tx="-429.7" ty="-243.55"/>
                   </matrix>
@@ -120,19 +120,19 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="1.17619323730469" b="-1.22257995605469" c="1.22257995605469" d="1.17619323730469" tx="-677.95" ty="280.85"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="52.35" y="51.7"/>
+                    <Point x="52.35" y="51.65"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 2" color="#9933CC" locked="true" outline="true" useOutlineView="true" layerType="mask">
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" layerType="mask">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -268,11 +268,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="7" locked="true" autoNamed="false">
+        <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="7" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-0.05572509765625" b="-2.59486389160156" c="2.09712219238281" d="-0.534011840820312" tx="-909.9" ty="447.2"/>
                   </matrix>
@@ -287,7 +287,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="shadow" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="shadow" color="#808080" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
