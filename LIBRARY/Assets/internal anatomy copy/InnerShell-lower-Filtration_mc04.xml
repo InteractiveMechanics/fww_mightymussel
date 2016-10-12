@@ -1,11 +1,11 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04" itemID="57ba7810-000005e8" lastModified="1476282132" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy copy/InnerShell-lower-Filtration_mc04" itemID="57ba7810-000005e8" lastModified="1476302876" lastUniqueIdentifier="2">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;false"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="InnerShell-lower-Filtration_mc04" currentFrame="104">
+    <DOMTimeline name="InnerShell-lower-Filtration_mc04" currentFrame="103">
       <layers>
-        <DOMLayer name="water flow arrow02" color="#808080" locked="true" outline="true" useOutlineView="true" autoNamed="false" animationType="motion object">
+        <DOMLayer name="water flow arrow02" color="#808080" locked="true" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="21" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="21000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.241628" xformPtYOffsetPct="0.376955" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="1333,5.00221" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,30.2571" next="960,37.1708" previous="-1334,23.1753" roving="0" timevalue="4000"/><Keyframe anchor="0,66.0313" next="1001,75.3371" previous="-373,64.0898" roving="0" timevalue="8000"/><Keyframe anchor="0,101.958" next="539,110.894" previous="-1000,85.2882" roving="0" timevalue="11000"/><Keyframe anchor="0,120.2" next="1128,126.414" previous="-539,117.18" roving="1" timevalue="12617"/><Keyframe anchor="0,127.299" next="1333,129.098" previous="-1128,125.844" roving="0" timevalue="16000"/><Keyframe anchor="0,119.1" next="0,119.1" previous="-1333,116.998" roving="0" timevalue="20000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="1333,4.09118" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,32.9641" next="960,47.8157" previous="-1334,17.7513" roving="0" timevalue="4000"/><Keyframe anchor="0,68.0919" next="1001,68.9542" previous="-373,67.912" roving="0" timevalue="8000"/><Keyframe anchor="0,81.951" next="539,84.3181" previous="-1000,77.5351" roving="0" timevalue="11000"/><Keyframe anchor="0,99.6" next="1128,94.2354" previous="-539,102.187" roving="1" timevalue="12617"/><Keyframe anchor="0,45.6191" next="1333,19.1234" previous="-1128,67.0404" roving="0" timevalue="16000"/><Keyframe anchor="0,-150.7" next="0,-150.7" previous="-1333,-146.709" roving="0" timevalue="20000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,110.588" next="0,110.588" previous="0,110.588" roving="0" timevalue="0"/><Keyframe anchor="0,112.814" next="0,112.814" previous="0,112.814" roving="0" timevalue="4000"/><Keyframe anchor="0,79.0213" next="0,79.0213" previous="0,79.0213" roving="0" timevalue="11000"/><Keyframe anchor="0,-15.815" next="0,-15.815" previous="0,-15.815" roving="0" timevalue="16000"/><Keyframe anchor="0,-36.9367" next="0,-36.9367" previous="0,-36.9367" roving="0" timevalue="20000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-54.1656" next="0,-54.1656" previous="0,-54.1656" roving="0" timevalue="0"/><Keyframe anchor="0,-54.1656" next="0,-54.1656" previous="0,-54.1656" roving="0" timevalue="11000"/><Keyframe anchor="0,-54.1656" next="0,-54.1656" previous="0,-54.1656" roving="0" timevalue="16000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-38.6203" next="0,-38.6203" previous="0,-38.6203" roving="0" timevalue="0"/><Keyframe anchor="0,-47.4106" next="0,-47.4106" previous="0,-47.4106" roving="0" timevalue="11000"/><Keyframe anchor="0,-51.1409" next="0,-51.1409" previous="0,-51.1409" roving="0" timevalue="16000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,36.5631" next="0,36.5631" previous="0,36.5631" roving="0" timevalue="0"/><Keyframe anchor="0,44.5374" next="0,44.5374" previous="0,44.5374" roving="0" timevalue="11000"/><Keyframe anchor="0,53.5339" next="0,53.5339" previous="0,53.5339" roving="0" timevalue="16000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-52.6489" next="0,-52.6489" previous="0,-52.6489" roving="0" timevalue="0"/><Keyframe anchor="0,-52.3438" next="0,-52.3438" previous="0,-52.3438" roving="0" timevalue="11000"/><Keyframe anchor="0,-59.7153" next="0,-59.7153" previous="0,-59.7153" roving="0" timevalue="16000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="4000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="16000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="20000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
@@ -64,7 +64,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="67" duration="70" keyMode="9728">
+            <DOMFrame index="67" duration="69" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -72,7 +72,7 @@
         <DOMLayer name="Folder 1" color="#FF800A" locked="true" autoNamed="false" open="false" layerType="folder"/>
         <DOMLayer name="hole in" color="#9933CC" parentLayerIndex="1" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -98,7 +98,7 @@
         </DOMLayer>
         <DOMLayer name="hole out" color="#FF800A" parentLayerIndex="1" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -125,7 +125,7 @@
         </DOMLayer>
         <DOMLayer name="LabialPalp" color="#FF4FFF" parentLayerIndex="1" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/LabialPalp" centerPoint3DX="1075.95" centerPoint3DY="820.1">
                   <matrix>
@@ -141,7 +141,7 @@
         </DOMLayer>
         <DOMLayer name="adductorMuscle_Posterior" color="#009999" parentLayerIndex="1" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Posterior" centerPoint3DX="1589.25" centerPoint3DY="747.2">
                   <matrix>
@@ -157,8 +157,8 @@
         </DOMLayer>
         <DOMLayer name="foot" color="#808080" parentLayerIndex="1" locked="true" autoNamed="false" animationType="motion object">
           <frames>
-            <DOMFrame index="0" duration="137" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="137000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499967" xformPtYOffsetPct="0.499941" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32" next="0,32" previous="0,32" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="0" duration="136" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="136000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499967" xformPtYOffsetPct="0.499941" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,32" next="0,32" previous="0,32" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/foot" centerPoint3DX="1355" centerPoint3DY="868.75">
                   <matrix>
@@ -177,7 +177,7 @@
         </DOMLayer>
         <DOMLayer name="adductorMuscle_Anterior" color="#669900" parentLayerIndex="1" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="1097.55" centerPoint3DY="732.05">
                   <matrix>
@@ -193,10 +193,10 @@
         </DOMLayer>
         <DOMLayer name="Layer 2" color="#FF800A" locked="true" outline="true" useOutlineView="true" layerType="mask">
           <frames>
-            <DOMFrame index="0" duration="99" keyMode="9728">
+            <DOMFrame index="0" duration="88" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="99" duration="38" keyMode="9728">
+            <DOMFrame index="88" duration="3" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -236,9 +236,12 @@
                 </DOMShape>
               </elements>
             </DOMFrame>
+            <DOMFrame index="91" duration="45" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="dirt01" color="#9933CC" parentLayerIndex="8" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+        <DOMLayer name="dirt01" color="#9933CC" parentLayerIndex="8" locked="true" autoNamed="false" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="58" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="58000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.408027" xformPtYOffsetPct="0.166667" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-31.55" next="1998,-35.65" previous="0,-31.55" roving="0" timevalue="5000"/><Keyframe anchor="0,34.25" next="0,34.25" previous="-1997,-13.7" roving="0" timevalue="11000"/><Keyframe anchor="0,205.65" next="468,205.65" previous="0,157.7" roving="0" timevalue="16000"/><Keyframe anchor="0,255.25" next="199,256.238" previous="-468,238.65" roving="1" timevalue="17404"/><Keyframe anchor="0,272.55" next="333,274.831" previous="-199,264.95" roving="1" timevalue="18002"/><Keyframe anchor="0,293.895" next="98,295.303" previous="-333,280.318" roving="0" timevalue="19000"/><Keyframe anchor="0,306.2" next="381,313.636" previous="-98,304.805" roving="1" timevalue="19294"/><Keyframe anchor="0,352.2" next="188,368.05" previous="-381,336.4" roving="1" timevalue="20437"/><Keyframe anchor="0,376.6" next="2997,400.85" previous="-188,376.45" roving="0" timevalue="21000"/><Keyframe anchor="0,424.45" next="3663,437.3" previous="0,416.8" roving="0" timevalue="30000"/><Keyframe anchor="0,411.1" next="5328,370.5" previous="0,432.85" roving="0" timevalue="41000"/><Keyframe anchor="0,422.7" next="0,422.7" previous="0,374.35" roving="0" timevalue="57000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-69.05" next="1998,-115.6" previous="0,-69.05" roving="0" timevalue="5000"/><Keyframe anchor="0,-129.3" next="0,-129.3" previous="-1997,-135.7" roving="0" timevalue="11000"/><Keyframe anchor="0,-115.7" next="468,-115.7" previous="0,-122.1" roving="0" timevalue="16000"/><Keyframe anchor="0,-93.1" next="199,-92.262" previous="-468,-107.2" roving="1" timevalue="17404"/><Keyframe anchor="0,-77.4" next="333,-75.2701" previous="-199,-84.5" roving="1" timevalue="18002"/><Keyframe anchor="0,-45.1422" next="98,-43.9478" previous="-333,-56.6576" roving="0" timevalue="19000"/><Keyframe anchor="0,-48.1" next="381,-41.8655" previous="-98,-49.2699" roving="1" timevalue="19294"/><Keyframe anchor="0,-29.95" next="188,-30.3" previous="-381,-29.6" roving="1" timevalue="20437"/><Keyframe anchor="0,-27.2" next="2997,-18.95" previous="-188,-27.75" roving="0" timevalue="21000"/><Keyframe anchor="0,44.4" next="3663,139.15" previous="0,4.9" roving="0" timevalue="30000"/><Keyframe anchor="0,225.55" next="5328,336.7" previous="0,199.55" roving="0" timevalue="41000"/><Keyframe anchor="0,409.4" next="0,409.4" previous="0,398" roving="0" timevalue="57000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,15.4783" next="0,15.4783" previous="0,15.4783" roving="0" timevalue="5000"/><Keyframe anchor="0,103.723" next="0,103.723" previous="0,103.723" roving="0" timevalue="11000"/><Keyframe anchor="0,117.709" next="0,117.709" previous="0,117.709" roving="0" timevalue="16000"/><Keyframe anchor="0,155.154" next="0,155.154" previous="0,155.154" roving="0" timevalue="19000"/><Keyframe anchor="0,114.749" next="0,114.749" previous="0,114.749" roving="0" timevalue="21000"/><Keyframe anchor="0,150.237" next="0,150.237" previous="0,150.237" roving="0" timevalue="30000"/><Keyframe anchor="0,110.513" next="0,110.513" previous="0,110.513" roving="0" timevalue="57000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,63.3162" next="0,63.3162" previous="0,63.3162" roving="0" timevalue="0"/><Keyframe anchor="0,63.3162" next="0,63.3162" previous="0,63.3162" roving="0" timevalue="57000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,71.1767" next="0,71.1767" previous="0,71.1767" roving="0" timevalue="0"/><Keyframe anchor="0,71.1767" next="0,71.1767" previous="0,71.1767" roving="0" timevalue="57000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,237.743" next="0,237.743" previous="0,237.743" roving="0" timevalue="0"/><Keyframe anchor="0,237.743" next="0,237.743" previous="0,237.743" roving="0" timevalue="57000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,115.717" next="0,115.717" previous="0,115.717" roving="0" timevalue="0"/><Keyframe anchor="0,115.717" next="0,115.717" previous="0,115.717" roving="0" timevalue="57000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="57000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
@@ -256,7 +259,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="58" duration="41" keyMode="9728">
+            <DOMFrame index="58" duration="30" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/dirt01" centerPoint3DX="1803.65" centerPoint3DY="1222.7">
                   <matrix>
@@ -271,15 +274,15 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="99" duration="6" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="6000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.397993" xformPtYOffsetPct="0.146341" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-49.2" next="0,-49.2" previous="0,-49.2" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,3.65" next="0,3.65" previous="0,3.65" roving="0" timevalue="5000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-6.01633" next="0,-6.01633" previous="0,-6.01633" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,1.5593" next="0,1.5593" previous="0,1.5593" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-237.225" next="0,-237.225" previous="0,-237.225" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-115.402" next="0,-115.402" previous="0,-115.402" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="88" duration="3" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="3000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.381271" xformPtYOffsetPct="0.138211" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-48.8" next="0,-48.8" previous="0,-48.8" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,6.45" next="0,6.45" previous="0,6.45" roving="0" timevalue="2000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-6.01633" next="0,-6.01633" previous="0,-6.01633" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,1.5593" next="0,1.5593" previous="0,1.5593" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-237.225" next="0,-237.225" previous="0,-237.225" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-115.402" next="0,-115.402" previous="0,-115.402" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/dirt01" selected="true" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="-2.37120056152344" b="-0.06268310546875" c="-0.120697021484375" d="-1.14729309082031" tx="1810.6" ty="1233"/>
+                    <Matrix a="-2.37120056152344" b="-0.06268310546875" c="-0.120697021484375" d="-1.14729309082031" tx="1809.8" ty="1230.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="5.95" y="1.8"/>
+                    <Point x="5.8" y="1.7"/>
                   </transformationPoint>
                   <color>
                     <Color/>
@@ -287,26 +290,14 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="105" duration="32" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/dirt01" centerPoint3DX="1749.05" centerPoint3DY="1231.2">
-                  <matrix>
-                    <Matrix a="-2.37136840820312" b="-0.0719451904296875" c="-0.121810913085938" d="-1.14794921875" tx="1756.4" ty="1241.8"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="6.1" y="2"/>
-                  </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
+            <DOMFrame index="91" duration="45" keyMode="9728">
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="stomach copy" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/stomach copy" centerPoint3DX="1199.85" centerPoint3DY="794.55">
                   <matrix>
@@ -322,7 +313,7 @@
         </DOMLayer>
         <DOMLayer name="intestine" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/intestine">
                   <matrix>
@@ -338,7 +329,7 @@
         </DOMLayer>
         <DOMLayer name="gills-top" color="#FF800A" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-top" centerPoint3DX="1360" centerPoint3DY="832.5">
                   <matrix>
@@ -357,7 +348,7 @@
         </DOMLayer>
         <DOMLayer name="gills-btm" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-btm" centerPoint3DX="1355.25" centerPoint3DY="847.75">
                   <matrix>
@@ -376,7 +367,7 @@
         </DOMLayer>
         <DOMLayer name="v" color="#009999" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -417,7 +408,7 @@
         </DOMLayer>
         <DOMLayer name="mantel-lower" color="#808080" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal anatomy/mantel-lower" centerPoint3DX="1378" centerPoint3DY="816.5">
                   <matrix>
@@ -433,7 +424,7 @@
         </DOMLayer>
         <DOMLayer name="lower shell" color="#FFFF00" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
+            <DOMFrame index="0" duration="136" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="Assets/internal anatomy/innerShell">
                   <matrix>
@@ -454,15 +445,15 @@
             <DOMFrame index="0" duration="68" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="68" duration="69" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="69000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499763" xformPtYOffsetPct="0.501007" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,705.8" next="0,705.8" previous="0,705.8" roving="0" timevalue="19000"/><Keyframe anchor="0,1022.3" next="0,1022.3" previous="0,1022.3" roving="0" timevalue="28000"/><Keyframe anchor="0,1036" next="0,1036" previous="0,1036" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,245.45" next="0,245.45" previous="0,245.45" roving="0" timevalue="19000"/><Keyframe anchor="0,233.75" next="0,233.75" previous="0,233.75" roving="0" timevalue="28000"/><Keyframe anchor="0,233.75" next="0,233.75" previous="0,233.75" roving="0" timevalue="30000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,12.4492" next="0,12.4492" previous="0,12.4492" roving="0" timevalue="0"/><Keyframe anchor="0,11.0801" next="0,11.0801" previous="0,11.0801" roving="0" timevalue="28000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-274.684" next="0,-274.684" previous="0,-274.684" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,274.684" next="0,274.684" previous="0,274.684" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="68" duration="68" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="68000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499763" xformPtYOffsetPct="0.504698" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,1008" next="0,1008" previous="0,1008" roving="0" timevalue="19000"/><Keyframe anchor="0,1027.24" next="0,1027.24" previous="0,1027.24" roving="0" timevalue="21000"/><Keyframe anchor="0,1031.73" next="0,1031.73" previous="0,1031.73" roving="0" timevalue="23000"/><Keyframe anchor="0,1049.19" next="0,1049.19" previous="0,1049.19" roving="0" timevalue="30000"/><Keyframe anchor="0,1023.42" next="0,1023.42" previous="0,1023.42" roving="0" timevalue="40000"/><Keyframe anchor="0,1057.09" next="0,1057.09" previous="0,1057.09" roving="0" timevalue="50000"/><Keyframe anchor="0,2182.65" next="0,2182.65" previous="0,2182.65" roving="0" timevalue="64000"/><Keyframe anchor="0,2334.1" next="0,2334.1" previous="0,2334.1" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,245.05" next="0,245.05" previous="0,245.05" roving="0" timevalue="19000"/><Keyframe anchor="0,261.493" next="0,261.493" previous="0,261.493" roving="0" timevalue="21000"/><Keyframe anchor="0,255.036" next="0,255.036" previous="0,255.036" roving="0" timevalue="23000"/><Keyframe anchor="0,235.15" next="0,235.15" previous="0,235.15" roving="0" timevalue="30000"/><Keyframe anchor="0,294.968" next="0,294.968" previous="0,294.968" roving="0" timevalue="40000"/><Keyframe anchor="0,237.15" next="0,237.15" previous="0,237.15" roving="0" timevalue="50000"/><Keyframe anchor="0,175.35" next="0,175.35" previous="0,175.35" roving="0" timevalue="64000"/><Keyframe anchor="0,54.05" next="0,54.05" previous="0,54.05" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,17.0013" next="0,17.0013" previous="0,17.0013" roving="0" timevalue="0"/><Keyframe anchor="0,9.74902" next="0,9.74902" previous="0,9.74902" roving="0" timevalue="19000"/><Keyframe anchor="0,8.74236" next="0,8.74236" previous="0,8.74236" roving="0" timevalue="21000"/><Keyframe anchor="0,9.27367" next="0,9.27367" previous="0,9.27367" roving="0" timevalue="23000"/><Keyframe anchor="0,-11.0051" next="0,-11.0051" previous="0,-11.0051" roving="0" timevalue="64000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.000869751" next="0,0.000869751" previous="0,0.000869751" roving="0" timevalue="40000"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-2.44557" next="0,-2.44557" previous="0,-2.44557" roving="0" timevalue="40000"/><Keyframe anchor="0,0.563889" next="0,0.563889" previous="0,0.563889" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-274.684" next="0,-274.684" previous="0,-274.684" roving="0" timevalue="0"/><Keyframe anchor="0,-274.915" next="0,-274.915" previous="0,-274.915" roving="0" timevalue="40000"/><Keyframe anchor="0,-274.596" next="0,-274.596" previous="0,-274.596" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,274.684" next="0,274.684" previous="0,274.684" roving="0" timevalue="0"/><Keyframe anchor="0,274.664" next="0,274.664" previous="0,274.664" roving="0" timevalue="40000"/><Keyframe anchor="0,274.594" next="0,274.594" previous="0,274.594" roving="0" timevalue="50000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Alewife" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="-2.68185424804688" b="-0.58502197265625" c="-0.58502197265625" d="2.68185424804688" tx="227.85" ty="856.55"/>
+                    <Matrix a="-2.62678527832031" b="-0.803085327148438" c="-0.803085327148438" d="2.62678527832031" tx="230.9" ty="855.45"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="-0.75" y="11.6"/>
+                    <Point x="-0.75" y="12.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
