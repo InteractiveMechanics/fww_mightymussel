@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="LC_HealthyFish" itemID="57ff8c68-0000013d" symbolType="graphic" lastModified="1476365812">
+  <timeline>
+    <DOMTimeline name="LC_HealthyFish" currentFrame="53">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" duration="100" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/trout_mc" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="1032.2" ty="343.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="662.85" y="275.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

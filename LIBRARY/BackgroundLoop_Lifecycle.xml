@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" duration="65" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Buttons/FlashAICB/Isolation Mode/&amp;#060Group&amp;#062" selected="true">
+                <DOMSymbolInstance libraryItemName="Buttons/FlashAICB/Isolation Mode/&amp;#060Group&amp;#062">
                   <matrix>
                     <Matrix tx="399.25" ty="57.75"/>
                   </matrix>
@@ -28,7 +28,7 @@
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="LC_objects" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="LC_BkgrObjects" symbolType="graphic" loop="loop">
                   <matrix>
                     <Matrix tx="604.65" ty="1353.35"/>
                   </matrix>
@@ -40,7 +40,7 @@
             </DOMFrame>
             <DOMFrame index="64" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LC_objects" selected="true" symbolType="graphic" centerPoint3DX="-2327.4" centerPoint3DY="1353.35" loop="loop">
+                <DOMSymbolInstance libraryItemName="LC_BkgrObjects" symbolType="graphic" centerPoint3DX="-2327.4" centerPoint3DY="1353.35" loop="loop">
                   <matrix>
                     <Matrix tx="-3311.2" ty="1353.35"/>
                   </matrix>
@@ -223,7 +223,7 @@
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sunbeams_mc copy 2" selected="true" centerPoint3DX="350.7" centerPoint3DY="1012.5">
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sunbeams_mc copy 2" centerPoint3DX="350.7" centerPoint3DY="1012.5">
                   <matrix>
                     <Matrix tx="-223.8"/>
                   </matrix>
@@ -251,7 +251,7 @@
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sunbeams_mc copy" selected="true" centerPoint3DX="945.5" centerPoint3DY="956.2">
+                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/sunbeams_mc copy" centerPoint3DX="945.5" centerPoint3DY="956.2">
                   <matrix>
                     <Matrix tx="-17.65"/>
                   </matrix>
