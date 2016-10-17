@@ -1,0 +1,65 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/brookTrout-group_mc" itemID="58051f1f-0000247d" symbolType="graphic" lastModified="1476730655">
+  <timeline>
+    <DOMTimeline name="brookTrout-group_mc">
+      <layers>
+        <DOMLayer name="AmericanShad-all copy" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="87" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" motionTweenSync="true" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="10243">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="87000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.000115996" xformPtYOffsetPct="-0.00353357" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-1038.1" next="0,-1038.1" previous="0,-1038.1" roving="0" timevalue="19000"/><Keyframe anchor="0,-1050.1" next="0,-1050.1" previous="0,-1050.1" roving="0" timevalue="30000"/><Keyframe anchor="0,-1064.1" next="0,-1064.1" previous="0,-1064.1" roving="0" timevalue="45000"/><Keyframe anchor="0,-1030.1" next="0,-1030.1" previous="0,-1030.1" roving="0" timevalue="56000"/><Keyframe anchor="0,-1912.35" next="0,-1912.35" previous="0,-1912.35" roving="0" timevalue="85000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,72.65" next="0,72.65" previous="0,72.65" roving="0" timevalue="19000"/><Keyframe anchor="0,22.65" next="0,22.65" previous="0,22.65" roving="0" timevalue="30000"/><Keyframe anchor="0,68.65" next="0,68.65" previous="0,68.65" roving="0" timevalue="45000"/><Keyframe anchor="0,46.65" next="0,46.65" previous="0,46.65" roving="0" timevalue="56000"/><Keyframe anchor="0,36.65" next="0,36.65" previous="0,36.65" roving="0" timevalue="85000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,121.266" next="0,121.266" previous="0,121.266" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,121.266" next="0,121.266" previous="0,121.266" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/BrookTrout_mc" selected="true" centerPoint3DX="1320.65" centerPoint3DY="178.2">
+                  <matrix>
+                    <Matrix a="1.212646484375" d="1.212646484375" tx="1320.6" ty="178.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AmericanShad-all copy 2" color="#FF4FFF" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="19" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" duration="68" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" motionTweenSync="true" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="10243">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="68000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0" xformPtYOffsetPct="-0.00417604" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-922.7" next="0,-922.7" previous="0,-922.7" roving="0" timevalue="14000"/><Keyframe anchor="0,-933.25" next="0,-933.25" previous="0,-933.25" roving="0" timevalue="30000"/><Keyframe anchor="0,-945.55" next="0,-945.55" previous="0,-945.55" roving="0" timevalue="43000"/><Keyframe anchor="0,-915.65" next="0,-915.65" previous="0,-915.65" roving="0" timevalue="52000"/><Keyframe anchor="0,-1806.9" next="0,-1806.9" previous="0,-1806.9" roving="0" timevalue="65000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,68" next="0,68" previous="0,68" roving="0" timevalue="14000"/><Keyframe anchor="0,24.05" next="0,24.05" previous="0,24.05" roving="0" timevalue="30000"/><Keyframe anchor="0,64.5" next="0,64.5" previous="0,64.5" roving="0" timevalue="43000"/><Keyframe anchor="0,45.15" next="0,45.15" previous="0,45.15" roving="0" timevalue="52000"/><Keyframe anchor="0,36.35" next="0,36.35" previous="0,36.35" roving="0" timevalue="65000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,85.7468" next="0,85.7468" previous="0,85.7468" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,85.7468" next="0,85.7468" previous="0,85.7468" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/BrookTrout_mc" selected="true" centerPoint3DX="1340.4" centerPoint3DY="316.9">
+                  <matrix>
+                    <Matrix a="0.857467651367188" d="0.857467651367188" tx="1340.4" ty="316.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="AmericanShad-all" color="#FF4FFF" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="79" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" motionTweenSync="true" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="10243">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="79000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.000115996" xformPtYOffsetPct="-0.00353357" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-860.2" next="0,-860.2" previous="0,-860.2" roving="0" timevalue="19000"/><Keyframe anchor="0,-872.2" next="0,-872.2" previous="0,-872.2" roving="0" timevalue="30000"/><Keyframe anchor="0,-886.2" next="0,-886.2" previous="0,-886.2" roving="0" timevalue="45000"/><Keyframe anchor="0,-852.2" next="0,-852.2" previous="0,-852.2" roving="0" timevalue="56000"/><Keyframe anchor="0,-1792.09" next="0,-1792.09" previous="0,-1792.09" roving="0" timevalue="78000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,66" next="0,66" previous="0,66" roving="0" timevalue="19000"/><Keyframe anchor="0,16" next="0,16" previous="0,16" roving="0" timevalue="30000"/><Keyframe anchor="0,62" next="0,62" previous="0,62" roving="0" timevalue="45000"/><Keyframe anchor="0,40" next="0,40" previous="0,40" roving="0" timevalue="56000"/><Keyframe anchor="0,31.3953" next="0,31.3953" previous="0,31.3953" roving="0" timevalue="78000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,121.266" next="0,121.266" previous="0,121.266" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,121.266" next="0,121.266" previous="0,121.266" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/BrookTrout_mc" centerPoint3DX="1394.8" centerPoint3DY="30.85">
+                  <matrix>
+                    <Matrix a="1.212646484375" d="1.212646484375" tx="1394.75" ty="30.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.05" y="0.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

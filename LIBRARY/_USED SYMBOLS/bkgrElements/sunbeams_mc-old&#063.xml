@@ -1,0 +1,61 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/bkgrElements/sunbeams_mc-old&amp;#063" itemID="58052126-000025d1" lastModified="1476731174">
+  <timeline>
+    <DOMTimeline name="sunbeams_mc-old&amp;#063">
+      <layers>
+        <DOMLayer name="FlashAICB" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-1.173095703125" c="-1.173095703125" d="0" tx="963.15" ty="956.2"/>
+                        </matrix>
+                        <GradientEntry color="#B1D58D" ratio="0"/>
+                        <GradientEntry color="#8EB77F" ratio="0.247058823529412"/>
+                        <GradientEntry color="#779363" ratio="0.623529411764706"/>
+                        <GradientEntry color="#727D50" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!38483 38344|43 38344!43 38344|43 -96!43 -96|38483 -96!38483 -96|38483 38344"/>
+                    <Edge cubics="!38483 38344(;38483,38344 43,38344 43,38344q38483 38344 43 38344);"/>
+                    <Edge cubics="!43 38344(;43,38344 43,-96 43,-96q43 38344 43 -96);"/>
+                    <Edge cubics="!43 -96(;43,-96 38483,-96 38483,-96q43 -96p38483 -96);"/>
+                    <Edge cubics="!38483 -96(;38483,-96 38483,38344 38483,38344p38483 -96 38483 38344);"/>
+                  </edges>
+                </DOMShape>
+                <DOMShape isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-0.779129028320312" c="-0.779129028320312" d="0" tx="963.15" ty="1278.9"/>
+                        </matrix>
+                        <GradientEntry color="#E7EB9F" ratio="0"/>
+                        <GradientEntry color="#B1D58D" ratio="0.509803921568627"/>
+                        <GradientEntry color="#AACE89" alpha="0.819607843137255" ratio="0.666666666666667"/>
+                        <GradientEntry color="#99BF83" alpha="0.317647058823529" ratio="0.890196078431372"/>
+                        <GradientEntry color="#8EB77F" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!38483 38344|43 38344!43 38344|43 12813!43 12813|38483 12813!38483 12813|38483 38344"/>
+                    <Edge cubics="!38483 38344(;38483,38344 43,38344 43,38344q38483 38344p43 38344);"/>
+                    <Edge cubics="!43 38344(;43,38344 43,12813 43,12813q43 38344 43 12813);"/>
+                    <Edge cubics="!43 12813(;43,12813 38483,12813 38483,12813p43 12813q38483 12813)38483,12813;"/>
+                    <Edge cubics="!38483 12813(;38483,12813 38483,38344 38483,38344p38483 12813 38483 38344);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

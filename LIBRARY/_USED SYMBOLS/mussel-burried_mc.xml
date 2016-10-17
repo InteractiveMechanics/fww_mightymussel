@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/mussel-burried_mc" itemID="58050e69-000009b0" symbolType="graphic" lastModified="1476728315" lastUniqueIdentifier="4">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/mussel-burried_mc" itemID="58050e69-000009b0" symbolType="graphic" lastModified="1476729256" lastUniqueIdentifier="4">
   <timeline>
     <DOMTimeline name="mussel-burried_mc">
       <layers>
@@ -50,7 +50,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mussel-outterShell_png" color="#FF800A" parentLayerIndex="0" locked="true" autoNamed="false">
+        <DOMLayer name="mussel-outterShell_png" color="#FF800A" parentLayerIndex="0" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements>
@@ -212,11 +212,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="shadow" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="shadow" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-shadow">
                   <matrix>
                     <Matrix ty="344.7"/>
                   </matrix>
@@ -246,7 +246,7 @@
             </DOMFrame>
             <DOMFrame index="29" duration="5" tweenType="motion" keyMode="17921">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow" centerPoint3DX="204.75" centerPoint3DY="390.3">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-shadow" centerPoint3DX="204.75" centerPoint3DY="390.3">
                   <matrix>
                     <Matrix a="1.04638671875" b="-0.0146484375" d="1.05528259277344" ty="344.7"/>
                   </matrix>
@@ -261,7 +261,7 @@
             </DOMFrame>
             <DOMFrame index="34" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-shadow" selected="true">
                   <matrix>
                     <Matrix ty="344.7"/>
                   </matrix>

@@ -68,7 +68,7 @@
           <frames>
             <DOMFrame index="0" duration="65" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDbkgr-color_mc copy" centerPoint3DX="576.85" centerPoint3DY="1012.5">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/bkgr-color_mc" centerPoint3DX="576.85" centerPoint3DY="1012.5">
                   <matrix>
                     <Matrix tx="-4.8" ty="0.05"/>
                   </matrix>
@@ -223,7 +223,7 @@
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDsunbeams_mc copy 2" centerPoint3DX="350.7" centerPoint3DY="1012.5">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/sunbeams_mc" centerPoint3DX="350.7" centerPoint3DY="1012.5">
                   <matrix>
                     <Matrix tx="-223.8"/>
                   </matrix>
@@ -235,7 +235,7 @@
             </DOMFrame>
             <DOMFrame index="64" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDsunbeams_mc copy 2" centerPoint3DX="88.3" centerPoint3DY="1012.5">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/sunbeams_mc" centerPoint3DX="88.3" centerPoint3DY="1012.5">
                   <matrix>
                     <Matrix tx="-486.2"/>
                   </matrix>
@@ -251,7 +251,7 @@
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDsunbeams_mc copy" centerPoint3DX="945.5" centerPoint3DY="956.2">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/sunbeams_mc-old&amp;#063" centerPoint3DX="945.5" centerPoint3DY="956.2">
                   <matrix>
                     <Matrix tx="-17.65"/>
                   </matrix>
@@ -263,7 +263,7 @@
             </DOMFrame>
             <DOMFrame index="64" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDsunbeams_mc copy" centerPoint3DX="683.1" centerPoint3DY="956.2">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/sunbeams_mc-old&amp;#063" centerPoint3DX="683.1" centerPoint3DY="956.2">
                   <matrix>
                     <Matrix tx="-280.05"/>
                   </matrix>
