@@ -83,7 +83,7 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 
 
-(lib.Group = function(mode,startPosition,loop) {
+(lib.MMlogo = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -159,6 +159,24 @@ lib.tfontAvailable = function(family, totalTypekitCount) {
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,281.5,192.6);
+
+
+(lib.LCsunbeams_mc = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// FlashAICB
+	this.shape = new cjs.Shape();
+	this.shape.graphics.lf(["#E7EB9F","#B1D58D","rgba(170,206,137,0.82)","rgba(153,191,131,0.318)","rgba(142,183,127,0)"],[0,0.51,0.667,0.89,1],0,638.3,0,-638.2).s().p("EiWIBjuMAAAjHbMEsRAAAMAAADHbg");
+	this.shape.setTransform(963.2,1278.9);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.lf(["#B1D58D","#8EB77F","#779363","#727D50"],[0,0.247,0.624,1],0,961,0,-961).s().p("EiWICWJMAAAksRMEsRAAAMAAAEsRg");
+	this.shape_1.setTransform(963.2,956.2);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(2.2,-4.8,1922,1922);
 
 
 (lib.MKReDs = function(mode,startPosition,loop) {
@@ -341,25 +359,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,626.2,1790.7);
 p.nominalBounds = new cjs.Rectangle(0,0,571.8,1793.7);
 
 
-(lib.sunbeams_mccopy = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// FlashAICB
-	this.shape = new cjs.Shape();
-	this.shape.graphics.lf(["#E7EB9F","#B1D58D","rgba(170,206,137,0.82)","rgba(153,191,131,0.318)","rgba(142,183,127,0)"],[0,0.51,0.667,0.89,1],0,638.3,0,-638.2).s().p("EiWIBjuMAAAjHbMEsRAAAMAAADHbg");
-	this.shape.setTransform(963.2,1278.9);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.lf(["#B1D58D","#8EB77F","#779363","#727D50"],[0,0.247,0.624,1],0,961,0,-961).s().p("EiWICWKMAAAksTMEsRAAAMAAAEsTg");
-	this.shape_1.setTransform(963.2,956.2);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(2.2,-4.8,1922,1922);
-
-
-(lib.rock10_mccopy = function(mode,startPosition,loop) {
+(lib.rock10_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -372,7 +372,7 @@ p.nominalBounds = new cjs.Rectangle(2.2,-4.8,1922,1922);
 p.nominalBounds = new cjs.Rectangle(-34.2,-22.1,68.5,44.3);
 
 
-(lib.rock09copy = function(mode,startPosition,loop) {
+(lib.rock09 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -390,7 +390,7 @@ p.nominalBounds = new cjs.Rectangle(-34.2,-22.1,68.5,44.3);
 p.nominalBounds = new cjs.Rectangle(0,0,83.3,57.3);
 
 
-(lib.rock08copy = function(mode,startPosition,loop) {
+(lib.rock08 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -412,7 +412,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,83.3,57.3);
 p.nominalBounds = new cjs.Rectangle(0,0,111.6,87.1);
 
 
-(lib.rock07copy = function(mode,startPosition,loop) {
+(lib.rock07 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -446,7 +446,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,111.6,87.1);
 p.nominalBounds = new cjs.Rectangle(0.1,0,216.6,148.8);
 
 
-(lib.rock06copy = function(mode,startPosition,loop) {
+(lib.rock06 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -476,7 +476,7 @@ p.nominalBounds = new cjs.Rectangle(0.1,0,216.6,148.8);
 p.nominalBounds = new cjs.Rectangle(0,0,90.3,94.1);
 
 
-(lib.rock05copy = function(mode,startPosition,loop) {
+(lib.rock05 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -498,7 +498,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,90.3,94.1);
 p.nominalBounds = new cjs.Rectangle(0,-0.2,116.3,162.6);
 
 
-(lib.rock04copy = function(mode,startPosition,loop) {
+(lib.rock04 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -532,7 +532,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.2,116.3,162.6);
 p.nominalBounds = new cjs.Rectangle(0,0,116.6,90.2);
 
 
-(lib.rock03copy = function(mode,startPosition,loop) {
+(lib.rock03 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -562,7 +562,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,116.6,90.2);
 p.nominalBounds = new cjs.Rectangle(0,0,121.8,125.6);
 
 
-(lib.rock02copy = function(mode,startPosition,loop) {
+(lib.rock02 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -584,7 +584,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,121.8,125.6);
 p.nominalBounds = new cjs.Rectangle(0,0,52.1,31.6);
 
 
-(lib.rock01copy = function(mode,startPosition,loop) {
+(lib.rock01 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -618,7 +618,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,52.1,31.6);
 p.nominalBounds = new cjs.Rectangle(0,-0.1,144.1,133.4);
 
 
-(lib.rockShadow_01copy = function(mode,startPosition,loop) {
+(lib.rockShadow_01 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -632,7 +632,7 @@ p.nominalBounds = new cjs.Rectangle(0,-0.1,144.1,133.4);
 p.nominalBounds = new cjs.Rectangle(0,0,342.1,112.9);
 
 
-(lib.grass_mccopy = function(mode,startPosition,loop) {
+(lib.grass_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -798,7 +798,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,342.1,112.9);
 p.nominalBounds = new cjs.Rectangle(0,0,862.8,644);
 
 
-(lib.fishShadow_mccopy = function(mode,startPosition,loop) {
+(lib.fishShadow = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -812,35 +812,24 @@ p.nominalBounds = new cjs.Rectangle(0,0,862.8,644);
 p.nominalBounds = new cjs.Rectangle(0,0,121.3,51.8);
 
 
-(lib.bubbleshinecopy = function(mode,startPosition,loop) {
+(lib.bubble = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AnjHkQjJjJAAkbQAAkbDJjIQBfhfB6g0QCAg2CKAAQEbAADJDJQDJDIAAEbQAAEcjJDIQjIDJkcAAQkbAAjIjJg");
-	this.shape.setTransform(68.6,68.6);
+	this.shape.graphics.f("rgba(255,255,255,0.329)").s().p("ABrCMQgdgdgwhDQgwhDgcgdQgvgyg2gZIg8hQQCjgHCAB7QCHB9gLCuQg2gUgvgwg");
+	this.shape.setTransform(28.3,-35.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("rgba(255,255,255,0.11)").s().p("AnjHkQjJjJAAkbQAAkbDJjIQBfhfB6g0QCAg2CKAAQEbAADJDJQDJDIAAEbQAAEcjJDIQjIDJkcAAQkbAAjIjJg");
 
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,137.2,137.2);
-
-
-(lib.bubbleoutlinecopy = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// Layer 1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("ABrCMQgdgdgwhDQgwhDgcgdQgvgyg2gZIg8hQQCjgHCAB7QCHB9gLCuQg2gUgvgwg");
-	this.shape.setTransform(20.9,20.9);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,41.8,41.8);
+p.nominalBounds = new cjs.Rectangle(-68.5,-68.5,137.1,137.1);
 
 
-(lib.bkgrcolor_mccopy = function(mode,startPosition,loop) {
+(lib.bkgrcolor_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
@@ -854,7 +843,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,41.8,41.8);
 p.nominalBounds = new cjs.Rectangle(0,0,1163.3,2025);
 
 
-(lib.sunbeams_mccopy2 = function(mode,startPosition,loop) {
+(lib.sunbeams_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// FlashAICB
@@ -908,66 +897,114 @@ p.nominalBounds = new cjs.Rectangle(0,0,1163.3,2025);
 p.nominalBounds = new cjs.Rectangle(-433.3,-579.3,2735.2,2539);
 
 
-(lib.fishGroup_mccopy = function(mode,startPosition,loop) {
+(lib.bkgrfishGroup_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Layer 1
-	this.instance = new lib.fishShadow_mccopy();
+	// fishShadow
+	this.instance = new lib.fishShadow();
 	this.instance.parent = this;
 	this.instance.setTransform(300.6,40.2,1.543,1.543,0,0,0,60.9,26);
 	this.instance.alpha = 0.078;
 
-	this.instance_1 = new lib.fishShadow_mccopy();
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:60.6,regY:25.9,x:299.6,y:39.1,alpha:0.08},0).wait(1).to({x:299,y:38.1},0).wait(1).to({x:298.4,y:37.1},0).wait(1).to({x:297.8,y:36.1},0).wait(1).to({x:297.2,y:35.1},0).wait(1).to({x:296.6,y:34.1},0).wait(1).to({x:296,y:33.1},0).wait(1).to({x:295.4,y:32.1},0).wait(1).to({x:294.8,y:31.1},0).wait(1).to({x:294.2,y:30.1},0).wait(1).to({x:293.6,y:29.1},0).wait(1).to({x:293,y:28.1},0).wait(1).to({x:292.4,y:27.1},0).wait(1).to({x:291.8,y:26.1},0).wait(1).to({x:291.2,y:25.1},0).wait(1).to({x:290.6,y:24.2},0).wait(1).to({x:290.3,y:25.2},0).wait(1).to({x:290,y:26.3},0).wait(1).to({x:289.8,y:27.4},0).wait(1).to({x:289.5,y:28.5},0).wait(1).to({x:289.2,y:29.5},0).wait(1).to({x:289,y:30.6},0).wait(1).to({x:288.7,y:31.7},0).wait(1).to({x:288.5,y:32.8},0).wait(1).to({x:288.2,y:33.9},0).wait(1).to({x:287.9,y:34.9},0).wait(1).to({x:287.7,y:36},0).wait(1).to({x:287.4,y:37.1},0).wait(1).to({x:287.1,y:38.2},0).wait(1).to({x:286.9,y:39.2},0).wait(1).to({x:286.6,y:40.3},0).wait(1).to({x:286.4,y:41.4},0).wait(1).to({x:287.1,y:41.3},0).wait(1).to({x:287.8,y:41.2},0).wait(1).to({x:288.5,y:41.1},0).wait(1).to({x:289.3},0).wait(1).to({x:290,y:41},0).wait(1).to({x:290.7,y:40.9},0).wait(1).to({x:291.4},0).wait(1).to({x:292.2,y:40.8},0).wait(1).to({x:292.9,y:40.7},0).wait(1).to({x:293.6,y:40.6},0).wait(1).to({x:294.3},0).wait(1).to({x:295.1,y:40.5},0).wait(1).to({x:295.8,y:40.4},0).wait(1).to({x:296.5},0).wait(1).to({x:297.2,y:40.3},0).wait(1).to({x:298,y:40.2},0).wait(1).to({x:298.7,y:40.1},0).wait(1).to({x:299.4},0).wait(1).to({x:300.2,y:40},0).wait(1));
+
+	// fishShadow
+	this.instance_1 = new lib.fishShadow();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(60.6,25.9,1,1,0,0,0,60.6,25.9);
 	this.instance_1.alpha = 0.078;
 
-	this.instance_2 = new lib.fishShadow_mccopy();
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({x:61.3,y:25.5,alpha:0.08},0).wait(1).to({x:61.9,y:25.1},0).wait(1).to({x:62.6,y:24.7},0).wait(1).to({x:63.2,y:24.2},0).wait(1).to({x:63.9,y:23.8},0).wait(1).to({x:64.5,y:23.4},0).wait(1).to({x:65.1,y:23},0).wait(1).to({x:65.8,y:22.5},0).wait(1).to({x:66.5,y:22.1},0).wait(1).to({x:67.1,y:21.7},0).wait(1).to({x:67.7,y:21.2},0).wait(1).to({x:68.4,y:20.8},0).wait(1).to({x:69.1,y:20.4},0).wait(1).to({x:69.7,y:20},0).wait(1).to({x:70.3,y:19.5},0).wait(1).to({x:71,y:19.1},0).wait(1).to({x:72.4,y:19.5},0).wait(1).to({x:73.8,y:19.8},0).wait(1).to({x:75.3,y:20.2},0).wait(1).to({x:76.7,y:20.5},0).wait(1).to({x:78.1,y:20.9},0).wait(1).to({x:79.5,y:21.2},0).wait(1).to({x:81,y:21.6},0).wait(1).to({x:82.4,y:21.9},0).wait(1).to({x:83.8,y:22.3},0).wait(1).to({x:85.2,y:22.6},0).wait(1).to({x:86.6,y:23},0).wait(1).to({x:88.1,y:23.3},0).wait(1).to({x:89.5,y:23.7},0).wait(1).to({x:90.9,y:24},0).wait(1).to({x:92.3,y:24.4},0).wait(1).to({x:93.8,y:24.7},0).wait(1).to({x:92,y:24.8},0).wait(1).to({x:90.3,y:24.9},0).wait(1).to({x:88.5},0).wait(1).to({x:86.8,y:25},0).wait(1).to({x:85,y:25.1},0).wait(1).to({x:83.3},0).wait(1).to({x:81.5,y:25.2},0).wait(1).to({x:79.8,y:25.3},0).wait(1).to({x:78},0).wait(1).to({x:76.3,y:25.4},0).wait(1).to({x:74.6},0).wait(1).to({x:72.8,y:25.5},0).wait(1).to({x:71.1,y:25.6},0).wait(1).to({x:69.3},0).wait(1).to({x:67.6,y:25.7},0).wait(1).to({x:65.8,y:25.8},0).wait(1).to({x:64.1},0).wait(1).to({x:62.3,y:25.9},0).wait(1).to({x:60.6},0).wait(1));
+
+	// fishShadow
+	this.instance_2 = new lib.fishShadow();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(372.3,90.2,1,1,0,0,0,60.6,25.9);
 	this.instance_2.alpha = 0.078;
 
-	this.instance_3 = new lib.fishShadow_mccopy();
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({x:371.5,y:90.3,alpha:0.08},0).wait(1).to({x:370.8,y:90.4},0).wait(1).to({x:370,y:90.5},0).wait(1).to({x:369.3},0).wait(1).to({x:368.6,y:90.6},0).wait(1).to({x:367.8,y:90.7},0).wait(1).to({x:367.1,y:90.8},0).wait(1).to({x:366.4,y:90.9},0).wait(1).to({x:365.6,y:91},0).wait(1).to({x:364.9},0).wait(1).to({x:364.2,y:91.1},0).wait(1).to({x:363.4,y:91.2},0).wait(1).to({x:362.7,y:91.3},0).wait(1).to({x:362,y:91.4},0).wait(1).to({x:361.2,y:91.5},0).wait(1).to({x:360.5,y:91.6},0).wait(1).to({x:361.3,y:90.7},0).wait(1).to({x:362.1,y:89.9},0).wait(1).to({x:362.8,y:89.1},0).wait(1).to({x:363.6,y:88.3},0).wait(1).to({x:364.4,y:87.5},0).wait(1).to({x:365.2,y:86.7},0).wait(1).to({x:365.9,y:85.8},0).wait(1).to({x:366.7,y:85},0).wait(1).to({x:367.5,y:84.2},0).wait(1).to({x:368.3,y:83.4},0).wait(1).to({x:369.1,y:82.6},0).wait(1).to({x:369.8,y:81.8},0).wait(1).to({x:370.6,y:80.9},0).wait(1).to({x:371.4,y:80.1},0).wait(1).to({x:372.2,y:79.3},0).wait(1).to({x:373,y:78.5},0).wait(1).to({x:372.9,y:79.1},0).wait(1).to({y:79.7},0).wait(1).to({x:372.8,y:80.3},0).wait(1).to({y:81},0).wait(1).to({y:81.6},0).wait(1).to({x:372.7,y:82.2},0).wait(1).to({y:82.8},0).wait(1).to({y:83.4},0).wait(1).to({x:372.6,y:84},0).wait(1).to({y:84.7},0).wait(1).to({x:372.5,y:85.3},0).wait(1).to({y:85.9},0).wait(1).to({y:86.5},0).wait(1).to({x:372.4,y:87.1},0).wait(1).to({y:87.7},0).wait(1).to({y:88.4},0).wait(1).to({x:372.3,y:89},0).wait(1).to({y:89.6},0).wait(1).to({y:90.2},0).wait(1));
+
+	// fishShadow
+	this.instance_3 = new lib.fishShadow();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(176.6,76.8,1,1,0,0,0,85.7,36.6);
 	this.instance_3.alpha = 0.078;
 
-	this.instance_4 = new lib.fishShadow_mccopy();
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1).to({regX:60.6,regY:25.9,x:151.4,y:66.7,alpha:0.08},0).wait(1).to({x:151.3,y:67.2},0).wait(1).to({x:151.2,y:67.8},0).wait(1).to({x:151.1,y:68.3},0).wait(1).to({x:151,y:68.9},0).wait(1).to({x:150.9,y:69.5},0).wait(1).to({x:150.8,y:70},0).wait(1).to({y:70.6},0).wait(1).to({x:150.7,y:71.1},0).wait(1).to({x:150.6,y:71.7},0).wait(1).to({x:150.5,y:72.3},0).wait(1).to({x:150.4,y:72.8},0).wait(1).to({x:150.3,y:73.4},0).wait(1).to({x:150.2,y:73.9},0).wait(1).to({x:150.1,y:74.5},0).wait(1).to({y:75.1},0).wait(1).to({x:148.9,y:75.4},0).wait(1).to({x:147.7,y:75.7},0).wait(1).to({x:146.6,y:76.1},0).wait(1).to({x:145.4,y:76.4},0).wait(1).to({x:144.2,y:76.8},0).wait(1).to({x:143.1,y:77.1},0).wait(1).to({x:141.9,y:77.4},0).wait(1).to({x:140.7,y:77.8},0).wait(1).to({x:139.6,y:78.1},0).wait(1).to({x:138.4,y:78.5},0).wait(1).to({x:137.2,y:78.8},0).wait(1).to({x:136.1,y:79.1},0).wait(1).to({x:134.9,y:79.5},0).wait(1).to({x:133.7,y:79.8},0).wait(1).to({x:132.6,y:80.2},0).wait(1).to({x:131.4,y:80.5},0).wait(1).to({x:132.5,y:79.7},0).wait(1).to({x:133.5,y:79},0).wait(1).to({x:134.6,y:78.2},0).wait(1).to({x:135.6,y:77.5},0).wait(1).to({x:136.7,y:76.7},0).wait(1).to({x:137.7,y:76},0).wait(1).to({x:138.8,y:75.2},0).wait(1).to({x:139.8,y:74.4},0).wait(1).to({x:140.9,y:73.7},0).wait(1).to({x:142,y:72.9},0).wait(1).to({x:143,y:72.2},0).wait(1).to({x:144.1,y:71.4},0).wait(1).to({x:145.1,y:70.6},0).wait(1).to({x:146.2,y:69.9},0).wait(1).to({x:147.2,y:69.1},0).wait(1).to({x:148.3,y:68.4},0).wait(1).to({x:149.3,y:67.6},0).wait(1).to({x:150.4,y:66.9},0).wait(1).to({x:151.5,y:66.1},0).wait(1));
+
+	// fishShadow
+	this.instance_4 = new lib.fishShadow();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(262.8,142.4,1,1,0,0,0,64.8,27.6);
 	this.instance_4.alpha = 0.078;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1).to({regX:60.6,regY:25.9,x:257.6,y:140.3,alpha:0.08},0).wait(1).to({x:256.6,y:140},0).wait(1).to({x:255.6,y:139.6},0).wait(1).to({x:254.6,y:139.3},0).wait(1).to({x:253.6,y:138.9},0).wait(1).to({x:252.6,y:138.6},0).wait(1).to({x:251.6,y:138.2},0).wait(1).to({x:250.6,y:137.9},0).wait(1).to({x:249.6,y:137.5},0).wait(1).to({x:248.6,y:137.2},0).wait(1).to({x:247.6,y:136.8},0).wait(1).to({x:246.6,y:136.5},0).wait(1).to({x:245.6,y:136.1},0).wait(1).to({x:244.6,y:135.8},0).wait(1).to({x:243.6,y:135.4},0).wait(1).to({x:242.7,y:135.1},0).wait(1).to({x:242.9,y:134.1},0).wait(1).to({x:243.2,y:133.1},0).wait(1).to({x:243.4,y:132.1},0).wait(1).to({x:243.7,y:131.1},0).wait(1).to({x:244,y:130.1},0).wait(1).to({x:244.2,y:129.2},0).wait(1).to({x:244.5,y:128.2},0).wait(1).to({x:244.8,y:127.2},0).wait(1).to({x:245,y:126.2},0).wait(1).to({x:245.3,y:125.2},0).wait(1).to({x:245.5,y:124.2},0).wait(1).to({x:245.8,y:123.2},0).wait(1).to({x:246.1,y:122.2},0).wait(1).to({x:246.3,y:121.2},0).wait(1).to({x:246.6,y:120.2},0).wait(1).to({x:246.9,y:119.3},0).wait(1).to({x:247.5,y:120.4},0).wait(1).to({x:248.1,y:121.5},0).wait(1).to({x:248.7,y:122.6},0).wait(1).to({x:249.3,y:123.8},0).wait(1).to({x:249.9,y:124.9},0).wait(1).to({x:250.5,y:126},0).wait(1).to({x:251.2,y:127.1},0).wait(1).to({x:251.8,y:128.3},0).wait(1).to({x:252.4,y:129.4},0).wait(1).to({x:253,y:130.5},0).wait(1).to({x:253.6,y:131.6},0).wait(1).to({x:254.2,y:132.8},0).wait(1).to({x:254.9,y:133.9},0).wait(1).to({x:255.5,y:135},0).wait(1).to({x:256.1,y:136.1},0).wait(1).to({x:256.7,y:137.3},0).wait(1).to({x:257.3,y:138.4},0).wait(1).to({x:257.9,y:139.5},0).wait(1).to({x:258.6,y:140.7},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,433,166.5);
 
 
-(lib.bubblecopy = function(mode,startPosition,loop) {
+(lib.BKGRbubbles_mc = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Layer 1
-	this.instance = new lib.bubbleoutlinecopy();
-	this.instance.parent = this;
-	this.instance.setTransform(28.3,-35.8,1,1,0,0,0,20.9,20.9);
-	this.instance.alpha = 0.328;
+	// bubble
+	this.bubble = new lib.bubble();
+	this.bubble.parent = this;
+	this.bubble.setTransform(28,157.5,0.088,0.076);
 
-	this.instance_1 = new lib.bubbleshinecopy();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(0,0,1,1,0,0,0,68.5,68.5);
-	this.instance_1.alpha = 0.109;
+	this.timeline.addTween(cjs.Tween.get(this.bubble).wait(1).to({x:32.8},0).wait(1).to({x:37.7},0).wait(1).to({x:42.5},0).wait(1).to({x:47.4},0).wait(1).to({x:44.1},0).wait(1).to({x:40.9},0).wait(1).to({x:37.7},0).wait(1).to({x:34.5},0).wait(1).to({x:31.2},0).wait(1).to({x:28},0).wait(1));
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	// bubble
+	this.bubble_1 = new lib.bubble();
+	this.bubble_1.parent = this;
+	this.bubble_1.setTransform(55.2,320.5,0.067,0.067);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_1).wait(1).to({x:58.4},0).wait(1).to({x:61.5},0).wait(1).to({x:64.7},0).wait(1).to({x:67.8},0).wait(1).to({x:71},0).wait(1).to({x:74.2},0).wait(1).to({x:69.4},0).wait(1).to({x:64.7},0).wait(1).to({x:59.9},0).wait(1).to({x:55.2},0).wait(1));
+
+	// bubble
+	this.bubble_2 = new lib.bubble();
+	this.bubble_2.parent = this;
+	this.bubble_2.setTransform(78.3,285,0.067,0.067);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_2).wait(1).to({x:72.5},0).wait(1).to({x:66.7},0).wait(1).to({x:61},0).wait(1).to({x:55.2},0).wait(1).to({x:56.7},0).wait(1).to({x:58.3},0).wait(1).to({x:59.8},0).wait(1).to({x:61.3},0).wait(1).to({x:62.9},0).wait(1).to({x:64.4},0).wait(1));
+
+	// bubble
+	this.bubble_3 = new lib.bubble();
+	this.bubble_3.parent = this;
+	this.bubble_3.setTransform(65.4,59.8,0.111,0.111);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_3).wait(1).to({x:59.8,y:59.4},0).wait(1).to({x:54.2,y:59.1},0).wait(1).to({x:48.6,y:58.7},0).wait(1).to({x:43,y:58.4},0).wait(1).to({x:48.3,y:58.6},0).wait(1).to({x:53.7,y:58.8},0).wait(1).to({x:59.1,y:59.1},0).wait(1).to({x:64.5,y:59.3},0).wait(1).to({x:69.8,y:59.6},0).wait(1).to({x:75.2,y:59.8},0).wait(1));
+
+	// bubble
+	this.bubble_4 = new lib.bubble();
+	this.bubble_4.parent = this;
+	this.bubble_4.setTransform(25.4,25.4,0.369,0.369);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_4).wait(1).to({x:30},0).wait(1).to({x:34.7},0).wait(1).to({x:39.4},0).wait(1).to({x:44},0).wait(1).to({x:48.7},0).wait(1).to({x:53.4},0).wait(1).to({x:40.7,y:25.7},0).wait(1).to({x:28,y:26.1},0).wait(1).to({x:15.3,y:26.4},0).wait(1).to({x:2.7,y:26.8},0).wait(1));
+
+	// bubble
+	this.bubble_5 = new lib.bubble();
+	this.bubble_5.parent = this;
+	this.bubble_5.setTransform(48.8,211.1);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_5).wait(1).to({scaleX:0.96,scaleY:0.96,x:63.9},0).wait(1).to({scaleX:0.93,scaleY:0.93,x:79},0).wait(1).to({scaleX:0.89,scaleY:0.89,x:94.2},0).wait(1).to({scaleX:0.86,scaleY:0.86,x:83},0).wait(1).to({scaleX:0.82,scaleY:0.82,x:71.9},0).wait(1).to({scaleX:0.78,scaleY:0.78,x:60.7},0).wait(1).to({scaleX:0.75,scaleY:0.75,x:49.6},0).wait(1).to({scaleX:0.71,scaleY:0.71,x:38.4},0).wait(1).to({scaleX:0.67,scaleY:0.67,x:27.3},0).wait(1).to({scaleX:0.64,scaleY:0.64,x:16.1},0).wait(1));
+
+	// bubble
+	this.bubble_6 = new lib.bubble();
+	this.bubble_6.parent = this;
+	this.bubble_6.setTransform(112.7,147.6,0.345,0.345);
+
+	this.timeline.addTween(cjs.Tween.get(this.bubble_6).wait(1).to({x:107.8,y:147},0).wait(1).to({x:102.9,y:146.4},0).wait(1).to({x:98,y:145.7},0).wait(1).to({x:93.1,y:145.1},0).wait(1).to({x:88.2,y:144.5},0).wait(1).to({x:83.4,y:143.9},0).wait(1).to({x:85.3,y:143.8},0).wait(1).to({x:87.3},0).wait(1).to({x:89.2},0).wait(1).to({x:91.2},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-68.5,-68.5,137.1,137.1);
+p.nominalBounds = new cjs.Rectangle(-19.7,0,156.1,325.1);
 
 
 (lib.bkgr = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// bkgr color
-	this.instance = new lib.bkgrcolor_mccopy();
+	this.instance = new lib.bkgrcolor_mc();
 	this.instance.parent = this;
 	this.instance.setTransform(581.6,1012.6,1,1,0,0,0,581.6,1012.5);
 	this.instance.alpha = 0.43;
@@ -975,14 +1012,14 @@ p.nominalBounds = new cjs.Rectangle(-68.5,-68.5,137.1,137.1);
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},229).wait(1));
 
 	// sun beams copy
-	this.instance_1 = new lib.sunbeams_mccopy2();
+	this.instance_1 = new lib.sunbeams_mc();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(93.1,1012.5,1,1,0,0,0,574.5,1012.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:934.2,regY:690.2,x:452,y:690.2,alpha:0.995},0).wait(1).to({x:451.2,alpha:0.991},0).wait(1).to({x:450.3,alpha:0.986},0).wait(1).to({x:449.5,alpha:0.982},0).wait(1).to({x:448.6,alpha:0.977},0).wait(1).to({x:447.8,alpha:0.973},0).wait(1).to({x:447,alpha:0.968},0).wait(1).to({x:446.1,alpha:0.963},0).wait(1).to({x:445.3,alpha:0.959},0).wait(1).to({x:444.4,alpha:0.954},0).wait(1).to({x:443.6,alpha:0.95},0).wait(1).to({x:442.8,alpha:0.945},0).wait(1).to({x:441.9,alpha:0.941},0).wait(1).to({x:441.1,alpha:0.936},0).wait(1).to({x:440.2,alpha:0.932},0).wait(1).to({x:439.4,alpha:0.927},0).wait(1).to({x:438.6,alpha:0.922},0).wait(1).to({x:437.7,alpha:0.918},0).wait(1).to({x:436.9,alpha:0.913},0).wait(1).to({x:436,alpha:0.909},0).wait(1).to({x:435.2,alpha:0.904},0).wait(1).to({x:434.4,alpha:0.9},0).wait(1).to({x:433.5,alpha:0.895},0).wait(1).to({x:432.7,alpha:0.89},0).wait(1).to({x:431.8,alpha:0.886},0).wait(1).to({x:431,alpha:0.881},0).wait(1).to({x:430.2,alpha:0.877},0).wait(1).to({x:429.3,alpha:0.872},0).wait(1).to({x:428.5,alpha:0.868},0).wait(1).to({x:427.6,alpha:0.863},0).wait(1).to({x:426.8,alpha:0.858},0).wait(1).to({x:426,alpha:0.854},0).wait(1).to({x:425.1,alpha:0.849},0).wait(1).to({x:424.3,alpha:0.845},0).wait(1).to({x:423.4,alpha:0.84},0).wait(1).to({x:422.6,alpha:0.836},0).wait(1).to({x:421.8,alpha:0.831},0).wait(1).to({x:420.9,alpha:0.827},0).wait(1).to({x:420.1,alpha:0.822},0).wait(1).to({x:419.2,alpha:0.817},0).wait(1).to({x:418.4,alpha:0.813},0).wait(1).to({x:417.6,alpha:0.808},0).wait(1).to({x:416.7,alpha:0.804},0).wait(1).to({x:415.9,alpha:0.799},0).wait(1).to({x:415,alpha:0.795},0).wait(1).to({x:414.2,alpha:0.79},0).wait(1).to({x:414.8,alpha:0.788},0).wait(1).to({x:415.5,alpha:0.787},0).wait(1).to({x:416.1,alpha:0.785},0).wait(1).to({x:416.7,alpha:0.783},0).wait(1).to({x:417.3,alpha:0.781},0).wait(1).to({x:418,alpha:0.78},0).wait(1).to({x:418.6,alpha:0.778},0).wait(1).to({x:419.2,alpha:0.776},0).wait(1).to({x:419.8,alpha:0.774},0).wait(1).to({x:420.5,alpha:0.773},0).wait(1).to({x:421.1,alpha:0.771},0).wait(1).to({x:421.7,alpha:0.769},0).wait(1).to({x:422.4,alpha:0.767},0).wait(1).to({x:423,alpha:0.766},0).wait(1).to({x:423.6,alpha:0.764},0).wait(1).to({x:424.2,alpha:0.762},0).wait(1).to({x:424.9,alpha:0.76},0).wait(1).to({x:425.5,alpha:0.759},0).wait(1).to({x:426.1,alpha:0.757},0).wait(1).to({x:426.8,alpha:0.755},0).wait(1).to({x:427.4,alpha:0.754},0).wait(1).to({x:428,alpha:0.752},0).wait(1).to({x:428.6,alpha:0.75},0).wait(1).to({x:429.3,alpha:0.748},0).wait(1).to({x:429.9,alpha:0.747},0).wait(1).to({x:430.5,alpha:0.745},0).wait(1).to({x:431.1,alpha:0.743},0).wait(1).to({x:431.8,alpha:0.741},0).wait(1).to({x:432.4,alpha:0.74},0).wait(1).to({x:433,alpha:0.738},0).wait(1).to({x:433.7,alpha:0.736},0).wait(1).to({x:434.3,alpha:0.734},0).wait(1).to({x:434.9,alpha:0.733},0).wait(1).to({x:435.5,alpha:0.731},0).wait(1).to({x:436.2,alpha:0.729},0).wait(1).to({x:436.8,alpha:0.728},0).wait(1).to({x:437.4,alpha:0.726},0).wait(1).to({x:438,alpha:0.724},0).wait(1).to({x:438.7,alpha:0.722},0).wait(1).to({x:439.3,alpha:0.721},0).wait(1).to({x:439.9,alpha:0.719},0).wait(1).to({x:440.6,alpha:0.717},0).wait(1).to({x:441.2,alpha:0.715},0).wait(1).to({x:441.8,alpha:0.714},0).wait(1).to({x:442.4,alpha:0.712},0).wait(1).to({x:443.1,alpha:0.71},0).wait(1).to({x:443.7,alpha:0.708},0).wait(1).to({x:444.3,alpha:0.707},0).wait(1).to({x:445,alpha:0.705},0).wait(1).to({x:445.6,alpha:0.703},0).wait(1).to({x:446.2,alpha:0.701},0).wait(1).to({x:446.8,alpha:0.7},0).wait(1).to({x:447.5,alpha:0.698},0).wait(1).to({x:448.1,alpha:0.696},0).wait(1).to({x:448.7,alpha:0.695},0).wait(1).to({x:449.3,alpha:0.693},0).wait(1).to({x:450,alpha:0.691},0).wait(1).to({x:450.6,alpha:0.689},0).wait(1).to({x:451.2,alpha:0.688},0).wait(1).to({x:451.9,alpha:0.686},0).wait(1).to({x:452.5,alpha:0.684},0).wait(1).to({x:453.1,alpha:0.682},0).wait(1).to({x:453.7,alpha:0.681},0).wait(1).to({x:454.4,alpha:0.679},0).wait(1).to({x:455,alpha:0.677},0).wait(1).to({x:455.6,alpha:0.675},0).wait(1).to({x:456.2,alpha:0.674},0).wait(1).to({x:456.9,alpha:0.672},0).wait(1).to({x:457.5,alpha:0.67},0).wait(1).to({x:458.1,alpha:0.668},0).wait(1).to({x:458.8,alpha:0.667},0).wait(1).to({x:459.4,alpha:0.665},0).wait(1).to({x:460,alpha:0.663},0).wait(1).to({x:460.6,alpha:0.662},0).wait(1).to({x:461.3,alpha:0.66},0).wait(1).to({x:461.9,alpha:0.658},0).wait(1).to({x:462.5,alpha:0.656},0).wait(1).to({x:463.2,alpha:0.655},0).wait(1).to({x:463.8,alpha:0.653},0).wait(1).to({x:464.4,alpha:0.651},0).wait(1).to({x:465,alpha:0.649},0).wait(1).to({x:465.7,alpha:0.648},0).wait(1).to({x:466.3,alpha:0.646},0).wait(1).to({x:466.9,alpha:0.644},0).wait(1).to({x:467.5,alpha:0.642},0).wait(1).to({x:468.2,alpha:0.641},0).wait(1).to({x:468.8,alpha:0.639},0).wait(1).to({x:469.4,alpha:0.637},0).wait(1).to({x:470.1,alpha:0.635},0).wait(1).to({x:470.7,alpha:0.634},0).wait(1).to({x:471.3,alpha:0.632},0).wait(1).to({x:471.9,alpha:0.63},0).wait(1).to({x:472.6,alpha:0.629},0).wait(1).to({x:473.2,alpha:0.627},0).wait(1).to({x:473.8,alpha:0.625},0).wait(1).to({x:474.4,alpha:0.623},0).wait(1).to({x:475.1,alpha:0.622},0).wait(1).to({x:475.7,alpha:0.62},0).wait(1).to({x:476.3,alpha:0.618},0).wait(1).to({x:477,alpha:0.616},0).wait(1).to({x:477.6,alpha:0.615},0).wait(1).to({x:478.2,alpha:0.613},0).wait(1).to({x:478.8,alpha:0.611},0).wait(1).to({x:479.5,alpha:0.609},0).wait(1).to({x:480.1,alpha:0.608},0).wait(1).to({x:480.7,alpha:0.606},0).wait(1).to({x:481.4,alpha:0.604},0).wait(1).to({x:482,alpha:0.603},0).wait(1).to({x:482.6,alpha:0.601},0).wait(1).to({x:483.2,alpha:0.599},0).wait(1).to({x:483.9,alpha:0.597},0).wait(1).to({x:484.5,alpha:0.596},0).wait(1).to({x:485.1,alpha:0.594},0).wait(1).to({x:485.7,alpha:0.592},0).wait(1).to({x:486.4,alpha:0.59},0).wait(1).to({x:487,alpha:0.589},0).wait(1).to({x:487.6,alpha:0.587},0).wait(1).to({x:488.3,alpha:0.585},0).wait(1).to({x:488.9,alpha:0.583},0).wait(1).to({x:489.5,alpha:0.582},0).wait(1).to({x:490.1,alpha:0.58},0).wait(1).to({x:490.8,alpha:0.578},0).wait(1).to({x:491.4,alpha:0.576},0).wait(1).to({x:492,alpha:0.575},0).wait(1).to({x:492.6,alpha:0.573},0).wait(1).to({x:493.3,alpha:0.571},0).wait(1).to({x:493.9,alpha:0.57},0).wait(1).to({x:494.5,alpha:0.568},0).wait(1).to({x:495.2,alpha:0.566},0).wait(1).to({x:495.8,alpha:0.564},0).wait(1).to({x:496.4,alpha:0.563},0).wait(1).to({x:497,alpha:0.561},0).wait(1).to({x:497.7,alpha:0.559},0).wait(1).to({x:498.3,alpha:0.557},0).wait(1).to({x:498.9,alpha:0.556},0).wait(1).to({x:499.6,alpha:0.554},0).wait(1).to({x:500.2,alpha:0.552},0).wait(1).to({x:500.8,alpha:0.55},0).wait(1).to({x:501.4,alpha:0.549},0).wait(1).to({x:502.1,alpha:0.547},0).wait(1).to({x:502.7,alpha:0.545},0).wait(1).to({x:503.3,alpha:0.543},0).wait(1).to({x:503.9,alpha:0.542},0).wait(1).to({x:504.6,alpha:0.54},0).wait(1).to({x:503.2,alpha:0.552},0).wait(1).to({x:501.9,alpha:0.564},0).wait(1).to({x:500.6,alpha:0.575},0).wait(1).to({x:499.3,alpha:0.587},0).wait(1).to({x:497.9,alpha:0.599},0).wait(1).to({x:496.6,alpha:0.611},0).wait(1).to({x:495.3,alpha:0.623},0).wait(1).to({x:494,alpha:0.634},0).wait(1).to({x:492.6,alpha:0.646},0).wait(1).to({x:491.3,alpha:0.658},0).wait(1).to({x:490,alpha:0.67},0).wait(1).to({x:488.6,alpha:0.682},0).wait(1).to({x:487.3,alpha:0.693},0).wait(1).to({x:486,alpha:0.705},0).wait(1).to({x:484.7,alpha:0.717},0).wait(1).to({x:483.3,alpha:0.729},0).wait(1).to({x:482,alpha:0.741},0).wait(1).to({x:480.7,alpha:0.752},0).wait(1).to({x:479.4,alpha:0.764},0).wait(1).to({x:478,alpha:0.776},0).wait(1).to({x:476.7,alpha:0.788},0).wait(1).to({x:475.4,alpha:0.799},0).wait(1).to({x:474,alpha:0.811},0).wait(1).to({x:472.7,alpha:0.823},0).wait(1).to({x:471.4,alpha:0.835},0).wait(1).to({x:470.1,alpha:0.847},0).wait(1).to({x:468.7,alpha:0.858},0).wait(1).to({x:467.4,alpha:0.87},0).wait(1).to({x:466.1,alpha:0.882},0).wait(1).to({x:464.7,alpha:0.894},0).wait(1).to({x:463.4,alpha:0.906},0).wait(1).to({x:462.1,alpha:0.917},0).wait(1).to({x:460.8,alpha:0.929},0).wait(1).to({x:459.4,alpha:0.941},0).wait(1).to({x:458.1,alpha:0.953},0).wait(1).to({x:456.8,alpha:0.965},0).wait(1).to({x:455.5,alpha:0.976},0).wait(1).to({x:454.1,alpha:0.988},0).to({_off:true},1).wait(1));
 
 	// sun beams
-	this.instance_2 = new lib.sunbeams_mccopy();
+	this.instance_2 = new lib.LCsunbeams_mc();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(299.3,1012.5,1,1,0,0,0,574.5,1012.5);
 
@@ -992,206 +1029,150 @@ p.nominalBounds = new cjs.Rectangle(-68.5,-68.5,137.1,137.1);
 p.nominalBounds = new cjs.Rectangle(-914.7,-579.3,2735.2,2604.3);
 
 
-(lib.bubbles_mccopy = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// bubble
-	this.bubble = new lib.bubblecopy();
-	this.bubble.parent = this;
-	this.bubble.setTransform(28,157.5,0.088,0.076);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble).wait(1).to({x:34.5},0).wait(1).to({x:40.9},0).wait(1).to({x:47.4},0).wait(1).to({x:42.5},0).wait(1).to({x:37.7},0).wait(1).to({x:32.8},0).wait(1).to({x:28},0).wait(1));
-
-	// bubble
-	this.bubble_1 = new lib.bubblecopy();
-	this.bubble_1.parent = this;
-	this.bubble_1.setTransform(55.2,320.5,0.067,0.067);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_1).wait(1).to({x:59.9},0).wait(1).to({x:64.7},0).wait(1).to({x:69.4},0).wait(1).to({x:74.2},0).wait(1).to({x:67.8},0).wait(1).to({x:61.5},0).wait(1).to({x:55.2},0).wait(1));
-
-	// bubble
-	this.bubble_2 = new lib.bubblecopy();
-	this.bubble_2.parent = this;
-	this.bubble_2.setTransform(78.3,285,0.067,0.067);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_2).wait(1).to({x:70.6},0).wait(1).to({x:62.9},0).wait(1).to({x:55.2},0).wait(1).to({x:57.5},0).wait(1).to({x:59.8},0).wait(1).to({x:62.1},0).wait(1).to({x:64.4},0).wait(1));
-
-	// bubble
-	this.bubble_3 = new lib.bubblecopy();
-	this.bubble_3.parent = this;
-	this.bubble_3.setTransform(65.4,59.8,0.111,0.111);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_3).wait(1).to({x:57.9,y:59.3},0).wait(1).to({x:50.4,y:58.8},0).wait(1).to({x:43,y:58.4},0).wait(1).to({x:51,y:58.7},0).wait(1).to({x:59.1,y:59.1},0).wait(1).to({x:67.1,y:59.4},0).wait(1).to({x:75.2,y:59.8},0).wait(1));
-
-	// bubble
-	this.bubble_4 = new lib.bubblecopy();
-	this.bubble_4.parent = this;
-	this.bubble_4.setTransform(25.4,25.4,0.369,0.369);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_4).wait(1).to({x:32.4},0).wait(1).to({x:39.4},0).wait(1).to({x:46.4},0).wait(1).to({x:53.4},0).wait(1).to({x:36.5,y:25.8},0).wait(1).to({x:19.6,y:26.3},0).wait(1).to({x:2.7,y:26.8},0).wait(1));
-
-	// bubble
-	this.bubble_5 = new lib.bubblecopy();
-	this.bubble_5.parent = this;
-	this.bubble_5.setTransform(48.9,211.2,0.637,0.637);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_5).wait(1).to({x:71.5},0).wait(1).to({x:94.2},0).wait(1).to({x:78.6},0).wait(1).to({x:63},0).wait(1).to({x:47.4},0).wait(1).to({x:31.8},0).wait(1).to({x:16.2},0).wait(1));
-
-	// bubble
-	this.bubble_6 = new lib.bubblecopy();
-	this.bubble_6.parent = this;
-	this.bubble_6.setTransform(112.7,147.6,0.345,0.345);
-
-	this.timeline.addTween(cjs.Tween.get(this.bubble_6).wait(1).to({x:105.4,y:146.7},0).wait(1).to({x:98,y:145.7},0).wait(1).to({x:90.7,y:144.8},0).wait(1).to({x:83.4,y:143.9},0).wait(1).to({x:86,y:143.8},0).wait(1).to({x:88.6},0).wait(1).to({x:91.2},0).wait(1));
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,136.3,325);
-
-
 (lib.BackgroundLoop = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// rocks-foreground
-	this.rock11 = new lib.rock09copy();
+	this.rock11 = new lib.rock09();
 	this.rock11.parent = this;
 	this.rock11.setTransform(214.3,1248.9,1.048,1.048,0,0,0,-3.1,-8.1);
 
-	this.rock12 = new lib.rock08copy();
+	this.rock12 = new lib.rock08();
 	this.rock12.parent = this;
 	this.rock12.setTransform(256.1,1170,1.408,1.408,0,0,0,-3.2,-8.1);
 
-	this.rock11_1 = new lib.rock09copy();
+	this.rock11_1 = new lib.rock09();
 	this.rock11_1.parent = this;
 	this.rock11_1.setTransform(1021.1,1967.3,1.331,1.331,0,0,0,-3.1,-8.1);
 
-	this.rock10 = new lib.rock10_mccopy();
+	this.rock10 = new lib.rock10_mc();
 	this.rock10.parent = this;
 	this.rock10.setTransform(1050.4,1553.8,1.331,1.331,22.2);
 
-	this.rock12_1 = new lib.rock08copy();
+	this.rock12_1 = new lib.rock08();
 	this.rock12_1.parent = this;
 	this.rock12_1.setTransform(868.5,1845,1.787,1.787,0,0,0,-3.2,-8.1);
 
-	this.rock05 = new lib.rock02copy();
+	this.rock05 = new lib.rock02();
 	this.rock05.parent = this;
 	this.rock05.setTransform(169.6,1824.6,1.993,1.993,0,0,0,-3.1,-8.2);
 
-	this.rock08 = new lib.rock04copy();
+	this.rock08 = new lib.rock04();
 	this.rock08.parent = this;
 	this.rock08.setTransform(9.8,1789.2,1.331,1.331,0,0,0,-3.1,-8.2);
 
-	this.rock09 = new lib.rock03copy();
+	this.rock09 = new lib.rock03();
 	this.rock09.parent = this;
 	this.rock09.setTransform(1275.9,1796.1,1.816,1.816,0,0,180,-3.1,-8.2);
 
-	this.rock = new lib.rock07copy();
+	this.rock = new lib.rock07();
 	this.rock.parent = this;
 	this.rock.setTransform(845.5,1409.8,1,1,0,0,0,-3.1,-8.2);
 
-	this.rock02 = new lib.rock01copy();
+	this.rock02 = new lib.rock01();
 	this.rock02.parent = this;
 	this.rock02.setTransform(1014.2,1372,1.331,1.331,0,0,0,-3.1,-8.2);
 
-	this.rock03 = new lib.rock06copy();
+	this.rock03 = new lib.rock06();
 	this.rock03.parent = this;
 	this.rock03.setTransform(62.6,1708.9,1.908,1.908,0,0,0,-3.1,-8.1);
 
-	this.rock04 = new lib.rock05copy();
+	this.rock04 = new lib.rock05();
 	this.rock04.parent = this;
 	this.rock04.setTransform(-53.5,1652.7,1.331,1.331,0,0,0,-3,-8.1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.rock04},{t:this.rock03},{t:this.rock02},{t:this.rock},{t:this.rock09},{t:this.rock08},{t:this.rock05},{t:this.rock12_1},{t:this.rock10},{t:this.rock11_1},{t:this.rock12},{t:this.rock11}]}).wait(229));
 
 	// grass copy 2
-	this.instance = new lib.grass_mccopy();
+	this.instance = new lib.grass_mc();
 	this.instance.parent = this;
-	this.instance.setTransform(189.5,858.2,0.386,0.385,0,-6.8,0,239.6,583.6);
+	this.instance.setTransform(189.5,858.2,0.386,0.385,0,-6.8,0,239.4,583.6);
 	this.instance.alpha = 0.18;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:431.4,regY:322,skewX:-6.7,x:251.8,y:758.1},0).wait(1).to({skewX:-6.6,x:252,y:758},0).wait(1).to({skewX:-6.5,x:252.2},0).wait(1).to({skewX:-6.3,x:252.3},0).wait(1).to({skewX:-6.2,x:252.5},0).wait(1).to({skewX:-6.1,x:252.7},0).wait(1).to({skewX:-6,x:252.9,y:757.9},0).wait(1).to({skewX:-5.9,x:253.1},0).wait(1).to({skewX:-5.8,x:253.3},0).wait(1).to({skewX:-5.7,x:253.4},0).wait(1).to({skewX:-5.6,x:253.6,y:757.8},0).wait(1).to({skewX:-5.5,x:253.8},0).wait(1).to({skewX:-5.4,x:254},0).wait(1).to({skewX:-5.3,x:254.2},0).wait(1).to({skewX:-5.2,x:254.3,y:757.7},0).wait(1).to({skewX:-5.1,x:254.6,y:757.8},0).wait(1).to({skewX:-5,x:254.7,y:757.7},0).wait(1).to({skewX:-4.9,x:254.9},0).wait(1).to({skewX:-4.8,x:255.1},0).wait(1).to({skewX:-4.7,x:255.3,y:757.6},0).wait(1).to({skewX:-4.6,x:255.5,y:757.7},0).wait(1).to({skewX:-4.5,x:255.7,y:757.6},0).wait(1).to({skewX:-4.3,x:255.8},0).wait(1).to({skewX:-4.2,x:256},0).wait(1).to({skewX:-4.1,x:256.2},0).wait(1).to({skewX:-4,x:256.4},0).wait(1).to({skewX:-3.9,x:256.6,y:757.5},0).wait(1).to({skewX:-3.8,x:256.7},0).wait(1).to({skewX:-3.7,x:257},0).wait(1).to({skewX:-3.6,x:257.1},0).wait(1).to({skewX:-3.5,x:257.3},0).wait(1).to({skewX:-3.4,x:257.5},0).wait(1).to({skewX:-3.3,x:257.7},0).wait(1).to({skewX:-3.2,x:257.9,y:757.4},0).wait(1).to({skewX:-3.1,x:258.1,y:757.5},0).wait(1).to({skewX:-3,x:258.2,y:757.4},0).wait(1).to({skewX:-2.9,x:258.5},0).wait(1).to({skewX:-2.8,x:258.6},0).wait(1).to({skewX:-2.7,x:258.8},0).wait(1).to({skewX:-2.6,x:258.9},0).wait(1).to({scaleY:0.39},0).wait(1).to({x:259},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({y:757.3},0).wait(1).to({skewX:-2.4,x:259.2,y:757.4},0).wait(1).to({x:259.3},0).wait(2).to({skewX:-2.3,x:259.4},0).wait(1).to({y:757.3},0).wait(1).to({x:259.5},0).wait(1).to({skewX:-2.2,x:259.6},0).wait(2).to({skewX:-2.1,x:259.7,y:757.4},0).wait(1).to({x:259.8,y:757.3},0).wait(1).to({x:259.9},0).wait(1).to({skewX:-2},0).wait(1).to({x:260},0).wait(2).to({skewX:-1.9,x:260.1},0).wait(1).to({x:260.2},0).wait(1).to({skewX:-1.8},0).wait(1).to({x:260.3},0).wait(1).to({x:260.4},0).wait(1).to({skewX:-1.7},0).wait(1).to({x:260.5},0).wait(1).to({x:260.6},0).wait(1).to({skewX:-1.6},0).wait(1).to({x:260.7},0).wait(1).to({skewX:-1.5,x:260.8},0).wait(1).to({y:757.2},0).wait(1).to({x:260.9},0).wait(1).to({skewX:-1.4},0).wait(1).to({x:261},0).wait(1).to({skewX:-1.5,x:260.8},0).wait(1).to({skewX:-1.6,x:260.6},0).wait(1).to({skewX:-1.7,x:260.4},0).wait(1).to({skewX:-1.8,x:260.2},0).wait(1).to({skewX:-2,x:260.1,y:757.3},0).wait(1).to({skewX:-2.1,x:259.9},0).wait(1).to({skewX:-2.2,x:259.6},0).wait(1).to({skewX:-2.3,x:259.4},0).wait(1).to({skewX:-2.4,x:259.3},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({skewX:-2.6,x:258.9},0).wait(1).to({skewX:-2.7,x:258.7},0).wait(1).to({skewX:-2.8,x:258.5},0).wait(1).to({skewX:-3,x:258.3},0).wait(1).to({skewX:-3.1,x:258.1,y:757.4},0).wait(1).to({skewX:-3.2,x:257.9,y:757.3},0).wait(1).to({skewX:-3.3,x:257.7},0).wait(1).to({skewX:-3.4,x:257.5,y:757.4},0).wait(1).to({skewX:-3.5,x:257.3},0).wait(1).to({skewX:-3.6,x:257.1},0).wait(1).to({skewX:-3.7,x:256.9},0).wait(1).to({skewX:-3.8,x:256.7},0).wait(1).to({skewX:-4,x:256.5},0).wait(1).to({skewX:-4.1,x:256.3},0).wait(1).to({skewX:-4.2,x:256.1},0).wait(1).to({skewX:-4.3,x:256,y:757.5},0).wait(1).to({skewX:-4.4,x:255.7,y:757.4},0).wait(1).to({skewX:-4.5,x:255.5,y:757.5},0).wait(1).to({skewX:-4.6,x:255.4},0).wait(1).to({skewX:-4.7,x:255.2},0).wait(1).to({skewX:-4.8,x:255},0).wait(1).to({skewX:-5,x:254.8},0).wait(1).to({skewX:-5.1,x:254.6},0).wait(1).to({skewX:-5.2,x:254.4,y:757.6},0).wait(1).to({skewX:-5.3,x:254.2},0).wait(1).to({skewX:-5.4,x:254},0).wait(1).to({skewX:-5.5,x:253.8},0).wait(1).to({skewX:-5.6,x:253.6},0).wait(1).to({skewX:-5.7,x:253.4},0).wait(1).to({skewX:-5.8,x:253.2},0).wait(1).to({skewX:-5.9,x:253,y:757.7},0).wait(1).to({skewX:-6.1,x:252.8},0).wait(1).to({skewX:-6,x:253},0).wait(1).to({skewX:-5.9,x:253.1,y:757.6},0).wait(1).to({skewX:-5.8,x:253.3},0).wait(1).to({skewX:-5.7,x:253.4},0).wait(1).to({skewX:-5.6,x:253.6},0).wait(1).to({x:253.7},0).wait(1).to({skewX:-5.5,x:253.8},0).wait(1).to({skewX:-5.4,x:254},0).wait(1).to({skewX:-5.3,x:254.1,y:757.5},0).wait(1).to({skewX:-5.2,x:254.3},0).wait(1).to({skewX:-5.1,x:254.4},0).wait(1).to({x:254.5},0).wait(1).to({skewX:-5,x:254.7},0).wait(1).to({skewX:-4.9,x:254.8},0).wait(1).to({skewX:-4.8,x:255,y:757.4},0).wait(1).to({skewX:-4.7,x:255.1},0).wait(1).to({skewX:-4.6,x:255.3},0).wait(1).to({x:255.4},0).wait(1).to({skewX:-4.5,x:255.6},0).wait(1).to({skewX:-4.4,x:255.7},0).wait(1).to({skewX:-4.3,x:255.9,y:757.3},0).wait(1).to({skewX:-4.2,x:256,y:757.4},0).wait(1).to({x:256.2,y:757.3},0).wait(1).to({skewX:-4.1,x:256.3},0).wait(1).to({skewX:-4,x:256.5},0).wait(1).to({skewX:-3.9,x:256.6},0).wait(1).to({skewX:-3.8,x:256.8},0).wait(1).to({skewX:-3.7,x:256.9},0).wait(1).to({x:257},0).wait(1).to({skewX:-3.6,x:257.2},0).wait(1).to({skewX:-3.5,x:257.3,y:757.2},0).wait(1).to({skewX:-3.4,x:257.5,y:757.3},0).wait(1).to({skewX:-3.3,x:257.6,y:757.2},0).wait(1).to({skewX:-3.2,x:257.8},0).wait(1).to({x:257.9},0).wait(1).to({skewX:-3.1,x:258.1},0).wait(1).to({skewX:-3,x:258.2},0).wait(1).to({skewX:-2.9,x:258.4},0).wait(1).to({skewX:-2.8,x:258.5,y:757.1},0).wait(1).to({skewX:-2.7,x:258.7,y:757.2},0).wait(1).to({x:258.8},0).wait(1).to({skewX:-2.6,x:259,y:757.1},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({skewX:-2.4,x:259.2},0).wait(1).to({skewX:-2.3,x:259.4},0).wait(1).to({skewX:-2.2,x:259.5},0).wait(1).to({x:259.7},0).wait(1).to({skewX:-2.1,x:259.8},0).wait(1).to({scaleY:0.39,skewX:-2,x:259.9},0).wait(1).to({skewX:-1.9,x:260.1},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(1).to({skewX:-1.7,x:260.4},0).wait(1).to({x:260.6},0).wait(1).to({skewX:-1.6,x:260.7,y:757},0).wait(1).to({skewX:-1.5,x:260.9},0).wait(1).to({skewX:-1.4,x:261,y:757.1},0).wait(1).to({skewX:-1.3,x:261.2,y:757},0).wait(1).to({skewX:-1.2,x:261.3},0).wait(1).to({x:261.4},0).wait(1).to({skewX:-1.1,x:261.6},0).wait(1).to({skewX:-1,x:261.7},0).wait(1).to({skewX:-0.9,x:261.9},0).wait(1).to({skewX:-0.8,x:262},0).wait(1).to({skewX:-0.7,x:262.1},0).wait(1).to({x:262.3},0).wait(1).to({skewX:-0.6,x:262.5},0).wait(1).to({skewX:-0.5,x:262.6},0).wait(1).to({skewX:-0.4,x:262.8},0).wait(1).to({skewX:-0.3,x:262.9},0).wait(1).to({skewX:-0.2,x:263.1},0).wait(1).to({x:263.2},0).wait(1).to({skewX:-0.1,x:263.4},0).wait(1).to({skewX:0,x:263.5},0).wait(1).to({skewX:-0.1,x:263.2},0).wait(1).to({skewX:-0.3,x:263},0).wait(1).to({skewX:-0.4,x:262.7},0).wait(1).to({skewX:-0.6,x:262.5},0).wait(1).to({skewX:-0.7,x:262.2},0).wait(1).to({skewX:-0.8,x:262},0).wait(1).to({skewX:-1,x:261.7},0).wait(1).to({skewX:-1.1,x:261.5},0).wait(1).to({skewX:-1.3,x:261.3},0).wait(1).to({skewX:-1.4,x:261},0).wait(1).to({skewX:-1.5,x:260.8},0).wait(1).to({skewX:-1.7,x:260.5},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(1).to({skewX:-2,x:260},0).wait(1).to({skewX:-2.1,x:259.8},0).wait(1).to({skewX:-2.2,x:259.5},0).wait(1).to({skewX:-2.4,x:259.3},0).wait(1).to({skewX:-2.5,x:259},0).wait(1).to({skewX:-2.7,x:258.8,y:757.1},0).wait(1).to({skewX:-2.8,x:258.5,y:757},0).wait(1).to({skewX:-2.9,x:258.3,y:757.1},0).wait(1).to({skewX:-3.1,x:258.1},0).wait(1).to({skewX:-3.2,x:257.8},0).wait(1).to({skewX:-3.4,x:257.6},0).wait(1).to({skewX:-3.5,x:257.3},0).wait(1).to({skewX:-3.6,x:257.1},0).wait(1).to({skewX:-3.8,x:256.8},0).wait(1).to({skewX:-3.9,x:256.6,y:757.2},0).wait(1).to({skewX:-4.1,x:256.3,y:757.1},0).wait(1).to({skewX:-4.2,x:256.1,y:757.2},0).wait(1).to({skewX:-4.3,x:255.8},0).wait(1).to({skewX:-4.5,x:255.6},0).wait(1).to({skewX:-4.6,x:255.3},0).wait(1).to({skewX:-4.8,x:255.1},0).wait(1).to({skewX:-4.9,x:254.8,y:757.3},0).wait(1).to({skewX:-5,x:254.6},0).wait(1).to({skewX:-5.2,x:254.4},0).wait(1).to({skewX:-5.3,x:254.1,y:757.4},0).wait(1).to({skewX:-5.4,x:253.9},0).wait(1).to({skewX:-5.6,x:253.6,y:757.3},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1).to({regX:431.4,regY:322,skewX:-6.7,x:251.8,y:758.1},0).wait(1).to({skewX:-6.6,x:252,y:758},0).wait(1).to({skewX:-6.5,x:252.2},0).wait(1).to({skewX:-6.3,x:252.4},0).wait(1).to({skewX:-6.2,x:252.6},0).wait(1).to({skewX:-6.1,x:252.7},0).wait(1).to({skewX:-6,x:253,y:757.9},0).wait(1).to({skewX:-5.9,x:253.1},0).wait(1).to({skewX:-5.8,x:253.3},0).wait(1).to({skewX:-5.7,x:253.5},0).wait(1).to({skewX:-5.6,x:253.7,y:757.8},0).wait(1).to({skewX:-5.5,x:253.9},0).wait(1).to({skewX:-5.4,x:254.1},0).wait(1).to({skewX:-5.3,x:254.2},0).wait(1).to({skewX:-5.2,x:254.4,y:757.7},0).wait(1).to({skewX:-5.1,x:254.6,y:757.8},0).wait(1).to({skewX:-5,x:254.8,y:757.7},0).wait(1).to({skewX:-4.9,x:255},0).wait(1).to({skewX:-4.8,x:255.1},0).wait(1).to({skewX:-4.7,x:255.3,y:757.6},0).wait(1).to({skewX:-4.6,x:255.5,y:757.7},0).wait(1).to({skewX:-4.5,x:255.7,y:757.6},0).wait(1).to({skewX:-4.3,x:255.9},0).wait(1).to({skewX:-4.2,x:256.1},0).wait(1).to({skewX:-4.1,x:256.3},0).wait(1).to({skewX:-4,x:256.5},0).wait(1).to({skewX:-3.9,x:256.6,y:757.5},0).wait(1).to({skewX:-3.8,x:256.8},0).wait(1).to({skewX:-3.7,x:257},0).wait(1).to({skewX:-3.6,x:257.2},0).wait(1).to({skewX:-3.5,x:257.4},0).wait(1).to({skewX:-3.4,x:257.5},0).wait(1).to({skewX:-3.3,x:257.8},0).wait(1).to({skewX:-3.2,x:257.9,y:757.4},0).wait(1).to({skewX:-3.1,x:258.1,y:757.5},0).wait(1).to({skewX:-3,x:258.3,y:757.4},0).wait(1).to({skewX:-2.9,x:258.5},0).wait(1).to({skewX:-2.8,x:258.7},0).wait(1).to({skewX:-2.7,x:258.8},0).wait(1).to({skewX:-2.6,x:258.9},0).wait(1).to({scaleY:0.39,x:259},0).wait(1).to({x:259.1},0).wait(1).to({skewX:-2.5},0).wait(1).to({x:259.2,y:757.3},0).wait(1).to({skewX:-2.4,x:259.3,y:757.4},0).wait(3).to({skewX:-2.3,x:259.4},0).wait(1).to({x:259.5,y:757.3},0).wait(1).to({x:259.6},0).wait(1).to({skewX:-2.2},0).wait(1).to({x:259.7},0).wait(1).to({skewX:-2.1,x:259.8,y:757.4},0).wait(1).to({y:757.3},0).wait(1).to({x:259.9},0).wait(1).to({skewX:-2,x:260},0).wait(2).to({x:260.1},0).wait(1).to({skewX:-1.9},0).wait(1).to({x:260.2},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(2).to({x:260.4},0).wait(1).to({skewX:-1.7,x:260.5},0).wait(1).to({x:260.6},0).wait(2).to({skewX:-1.6,x:260.7},0).wait(1).to({x:260.8},0).wait(1).to({skewX:-1.5},0).wait(1).to({x:260.9,y:757.2},0).wait(2).to({skewX:-1.4,x:261},0).wait(1).to({x:261.1},0).wait(1).to({skewX:-1.5,x:260.9},0).wait(1).to({skewX:-1.6,x:260.7},0).wait(1).to({skewX:-1.7,x:260.5},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(1).to({skewX:-2,x:260.1,y:757.3},0).wait(1).to({skewX:-2.1,x:259.9},0).wait(1).to({skewX:-2.2,x:259.7},0).wait(1).to({skewX:-2.3,x:259.5},0).wait(1).to({skewX:-2.4,x:259.3},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({skewX:-2.6,x:258.9},0).wait(1).to({skewX:-2.7,x:258.7},0).wait(1).to({skewX:-2.8,x:258.5},0).wait(1).to({skewX:-3,x:258.3},0).wait(1).to({skewX:-3.1,x:258.1,y:757.4},0).wait(1).to({skewX:-3.2,x:258,y:757.3},0).wait(1).to({skewX:-3.3,x:257.7},0).wait(1).to({skewX:-3.4,x:257.5,y:757.4},0).wait(1).to({skewX:-3.5,x:257.4},0).wait(1).to({skewX:-3.6,x:257.2},0).wait(1).to({skewX:-3.7,x:257},0).wait(1).to({skewX:-3.8,x:256.8},0).wait(1).to({skewX:-4,x:256.6},0).wait(1).to({skewX:-4.1,x:256.4},0).wait(1).to({skewX:-4.2,x:256.2},0).wait(1).to({skewX:-4.3,x:256,y:757.5},0).wait(1).to({skewX:-4.4,x:255.8,y:757.4},0).wait(1).to({skewX:-4.5,x:255.6,y:757.5},0).wait(1).to({skewX:-4.6,x:255.4},0).wait(1).to({skewX:-4.7,x:255.2},0).wait(1).to({skewX:-4.8,x:255},0).wait(1).to({skewX:-5,x:254.8},0).wait(1).to({skewX:-5.1,x:254.6},0).wait(1).to({skewX:-5.2,x:254.4,y:757.6},0).wait(1).to({skewX:-5.3,x:254.2},0).wait(1).to({skewX:-5.4,x:254.1},0).wait(1).to({skewX:-5.5,x:253.8},0).wait(1).to({skewX:-5.6,x:253.6},0).wait(1).to({skewX:-5.7,x:253.5},0).wait(1).to({skewX:-5.8,x:253.3},0).wait(1).to({skewX:-5.9,x:253.1,y:757.7},0).wait(1).to({skewX:-6.1,x:252.9},0).wait(1).to({skewX:-6,x:253},0).wait(1).to({skewX:-5.9,x:253.2,y:757.6},0).wait(1).to({skewX:-5.8,x:253.3},0).wait(1).to({skewX:-5.7,x:253.5},0).wait(1).to({skewX:-5.6,x:253.6},0).wait(1).to({x:253.7},0).wait(1).to({skewX:-5.5,x:253.9},0).wait(1).to({skewX:-5.4,x:254},0).wait(1).to({skewX:-5.3,x:254.2,y:757.5},0).wait(1).to({skewX:-5.2,x:254.3},0).wait(1).to({skewX:-5.1,x:254.5},0).wait(1).to({x:254.6},0).wait(1).to({skewX:-5,x:254.8},0).wait(1).to({skewX:-4.9,x:254.9},0).wait(1).to({skewX:-4.8,x:255.1,y:757.4},0).wait(1).to({skewX:-4.7,x:255.2},0).wait(1).to({skewX:-4.6,x:255.4},0).wait(1).to({x:255.5},0).wait(1).to({skewX:-4.5,x:255.6},0).wait(1).to({skewX:-4.4,x:255.8},0).wait(1).to({skewX:-4.3,x:255.9,y:757.3},0).wait(1).to({skewX:-4.2,x:256.1,y:757.4},0).wait(1).to({x:256.2,y:757.3},0).wait(1).to({skewX:-4.1,x:256.3},0).wait(1).to({skewX:-4,x:256.5},0).wait(1).to({skewX:-3.9,x:256.7},0).wait(1).to({skewX:-3.8,x:256.8},0).wait(1).to({skewX:-3.7,x:257},0).wait(1).to({x:257.1},0).wait(1).to({skewX:-3.6,x:257.3},0).wait(1).to({skewX:-3.5,x:257.4,y:757.2},0).wait(1).to({skewX:-3.4,x:257.6,y:757.3},0).wait(1).to({skewX:-3.3,x:257.7,y:757.2},0).wait(1).to({skewX:-3.2,x:257.8},0).wait(1).to({x:258},0).wait(1).to({skewX:-3.1,x:258.1},0).wait(1).to({skewX:-3,x:258.3},0).wait(1).to({skewX:-2.9,x:258.4},0).wait(1).to({skewX:-2.8,x:258.5,y:757.1},0).wait(1).to({skewX:-2.7,x:258.7,y:757.2},0).wait(1).to({x:258.8},0).wait(1).to({skewX:-2.6,x:259,y:757.1},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({skewX:-2.4,x:259.3},0).wait(1).to({skewX:-2.3,x:259.4},0).wait(1).to({skewX:-2.2,x:259.6},0).wait(1).to({x:259.7},0).wait(1).to({skewX:-2.1,x:259.9},0).wait(1).to({scaleY:0.39,skewX:-2,x:260},0).wait(1).to({skewX:-1.9,x:260.2},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(1).to({skewX:-1.7,x:260.5},0).wait(1).to({x:260.6},0).wait(1).to({skewX:-1.6,x:260.7,y:757},0).wait(1).to({skewX:-1.5,x:260.9},0).wait(1).to({skewX:-1.4,x:261,y:757.1},0).wait(1).to({skewX:-1.3,x:261.2,y:757},0).wait(1).to({skewX:-1.2,x:261.3},0).wait(1).to({x:261.5},0).wait(1).to({skewX:-1.1,x:261.6},0).wait(1).to({skewX:-1,x:261.8},0).wait(1).to({skewX:-0.9,x:261.9},0).wait(1).to({skewX:-0.8,x:262.1},0).wait(1).to({skewX:-0.7,x:262.2},0).wait(1).to({x:262.4},0).wait(1).to({skewX:-0.6,x:262.5},0).wait(1).to({skewX:-0.5,x:262.7},0).wait(1).to({skewX:-0.4,x:262.8},0).wait(1).to({skewX:-0.3,x:262.9},0).wait(1).to({skewX:-0.2,x:263.1},0).wait(1).to({x:263.2},0).wait(1).to({skewX:-0.1,x:263.4},0).wait(1).to({skewX:0,x:263.5},0).wait(1).to({skewX:-0.1,x:263.3},0).wait(1).to({skewX:-0.3,x:263},0).wait(1).to({skewX:-0.4,x:262.8},0).wait(1).to({skewX:-0.6,x:262.5},0).wait(1).to({skewX:-0.7,x:262.3},0).wait(1).to({skewX:-0.8,x:262},0).wait(1).to({skewX:-1,x:261.8},0).wait(1).to({skewX:-1.1,x:261.6},0).wait(1).to({skewX:-1.3,x:261.3},0).wait(1).to({skewX:-1.4,x:261.1},0).wait(1).to({skewX:-1.5,x:260.8},0).wait(1).to({skewX:-1.7,x:260.6},0).wait(1).to({skewX:-1.8,x:260.3},0).wait(1).to({skewX:-2,x:260.1},0).wait(1).to({skewX:-2.1,x:259.8},0).wait(1).to({skewX:-2.2,x:259.6},0).wait(1).to({skewX:-2.4,x:259.3},0).wait(1).to({skewX:-2.5,x:259.1},0).wait(1).to({skewX:-2.7,x:258.8,y:757.1},0).wait(1).to({skewX:-2.8,x:258.6,y:757},0).wait(1).to({skewX:-2.9,x:258.3,y:757.1},0).wait(1).to({skewX:-3.1,x:258.1},0).wait(1).to({skewX:-3.2,x:257.9},0).wait(1).to({skewX:-3.4,x:257.6},0).wait(1).to({skewX:-3.5,x:257.4},0).wait(1).to({skewX:-3.6,x:257.1},0).wait(1).to({skewX:-3.8,x:256.9},0).wait(1).to({skewX:-3.9,x:256.6,y:757.2},0).wait(1).to({skewX:-4.1,x:256.4,y:757.1},0).wait(1).to({skewX:-4.2,x:256.1,y:757.2},0).wait(1).to({skewX:-4.3,x:255.9},0).wait(1).to({skewX:-4.5,x:255.6},0).wait(1).to({skewX:-4.6,x:255.4},0).wait(1).to({skewX:-4.8,x:255.1},0).wait(1).to({skewX:-4.9,x:254.9,y:757.3},0).wait(1).to({skewX:-5,x:254.6},0).wait(1).to({skewX:-5.2,x:254.4},0).wait(1).to({skewX:-5.3,x:254.2,y:757.4},0).wait(1).to({skewX:-5.4,x:253.9},0).wait(1).to({skewX:-5.6,x:253.7,y:757.3},0).wait(1));
 
 	// grass copy
-	this.instance_1 = new lib.grass_mccopy();
+	this.instance_1 = new lib.grass_mc();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(45.8,868.8,0.386,0.385,0,-6.8,0,237,583.6);
+	this.instance_1.setTransform(45.7,868.8,0.386,0.385,0,-6.8,0,236.7,583.6);
 	this.instance_1.alpha = 0.18;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:431.4,regY:322,skewX:-6.7,x:109,y:768.7},0).wait(1).to({skewX:-6.6,x:109.1},0).wait(1).to({x:109.2},0).wait(1).to({skewX:-6.5,x:109.3},0).wait(1).to({x:109.4},0).wait(1).to({skewX:-6.4,x:109.6,y:768.6},0).wait(1).to({skewX:-6.3,x:109.7,y:768.7},0).wait(1).to({y:768.6},0).wait(1).to({skewX:-6.2,x:109.9},0).wait(1).to({x:110},0).wait(1).to({skewX:-6.1,x:110.1},0).wait(1).to({skewX:-6,x:110.2},0).wait(1).to({x:110.3,y:768.5},0).wait(1).to({skewX:-5.9,x:110.4,y:768.6},0).wait(1).to({x:110.5,y:768.5},0).wait(1).to({skewX:-5.8,x:110.6},0).wait(1).to({skewX:-5.7,x:110.7},0).wait(1).to({x:110.8},0).wait(1).to({skewX:-5.6,x:110.9},0).wait(1).to({skewX:-5.5,x:111.1},0).wait(1).to({x:111.2},0).wait(1).to({skewX:-5.4},0).wait(1).to({x:111.4,y:768.4},0).wait(1).to({skewX:-5.3,x:111.5},0).wait(1).to({skewX:-5.2,x:111.6},0).wait(1).to({x:111.7},0).wait(1).to({skewX:-5.1,x:111.8},0).wait(1).to({x:111.9},0).wait(1).to({skewX:-5,x:112},0).wait(1).to({skewX:-4.9,x:112.1},0).wait(1).to({x:112.2,y:768.3},0).wait(1).to({skewX:-4.8,x:112.3},0).wait(1).to({skewX:-4.7,x:112.4,y:768.4},0).wait(1).to({x:112.6,y:768.3},0).wait(1).to({skewX:-4.6,x:112.7},0).wait(2).to({skewX:-4.5,x:112.9},0).wait(1).to({skewX:-4.4,x:113},0).wait(1).to({x:113.1},0).wait(1).to({skewX:-4.3,x:113.2},0).wait(1).to({x:113.3,y:768.2},0).wait(1).to({skewX:-4.2,x:113.4,y:768.3},0).wait(1).to({skewX:-4.1,x:113.5,y:768.2},0).wait(1).to({x:113.6},0).wait(1).to({skewX:-4,x:113.8},0).wait(2).to({skewX:-3.9,x:113.9},0).wait(1).to({skewX:-3.8,x:114.1},0).wait(1).to({x:114.2},0).wait(1).to({skewX:-3.7,x:114.3},0).wait(1).to({skewX:-3.6,x:114.4},0).wait(1).to({x:114.5},0).wait(1).to({skewX:-3.5,x:114.6},0).wait(1).to({x:114.7},0).wait(1).to({skewX:-3.4,x:114.8,y:768.1},0).wait(1).to({skewX:-3.3,x:114.9},0).wait(1).to({x:115,y:768.2},0).wait(1).to({skewX:-3.2,x:115.1,y:768.1},0).wait(1).to({x:115.2},0).wait(1).to({skewX:-3.1,x:115.4},0).wait(1).to({skewX:-3},0).wait(1).to({x:115.6},0).wait(1).to({skewX:-2.9,x:115.7},0).wait(1).to({skewX:-2.8,x:115.8},0).wait(1).to({x:115.9},0).wait(1).to({skewX:-2.7,x:116},0).wait(1).to({x:116.1},0).wait(1).to({skewX:-2.6,x:116.2,y:768},0).wait(1).to({skewX:-2.5,x:116.3},0).wait(1).to({x:116.4,y:768.1},0).wait(1).to({skewX:-2.4,x:116.5},0).wait(1).to({skewX:-2.3,x:116.7,y:768},0).wait(1).to({x:116.8},0).wait(1).to({skewX:-2.2,x:116.9},0).wait(1).to({x:117},0).wait(1).to({skewX:-2.1,x:117.1},0).wait(1).to({skewX:-2,x:117.2},0).wait(1).to({x:117.3},0).wait(1).to({skewX:-1.9,x:117.5},0).wait(1).to({skewX:-1.8,x:117.6},0).wait(1).to({x:117.7},0).wait(1).to({skewX:-1.7,x:117.8},0).wait(1).to({x:117.9},0).wait(1).to({skewX:-1.6,x:118},0).wait(1).to({skewX:-1.5,x:118.1},0).wait(1).to({x:118.2},0).wait(1).to({skewX:-1.4,x:118.3},0).wait(1).to({skewX:-1.5,x:118.1},0).wait(1).to({skewX:-1.6,x:117.9},0).wait(1).to({skewX:-1.8,x:117.7},0).wait(1).to({skewX:-1.9,x:117.5},0).wait(1).to({skewX:-2,x:117.3},0).wait(1).to({skewX:-2.1,x:117.1},0).wait(1).to({skewX:-2.2,x:116.9},0).wait(1).to({skewX:-2.3,x:116.7},0).wait(1).to({skewX:-2.4,x:116.5},0).wait(1).to({skewX:-2.6,x:116.3},0).wait(1).to({skewX:-2.7,x:116.1,y:768.1},0).wait(1).to({scaleY:0.39,skewX:-2.8,x:115.9},0).wait(1).to({skewX:-2.9,x:115.6,y:768},0).wait(1).to({skewX:-3,x:115.4,y:768.1},0).wait(1).to({skewX:-3.1,x:115.2},0).wait(1).to({skewX:-3.3,x:115},0).wait(1).to({skewX:-3.4,x:114.8},0).wait(1).to({skewX:-3.5,x:114.6},0).wait(1).to({skewX:-3.6,x:114.4},0).wait(1).to({skewX:-3.7,x:114.2},0).wait(1).to({skewX:-3.8,x:114},0).wait(1).to({skewX:-4,x:113.8,y:768.2},0).wait(1).to({skewX:-4.1,x:113.6},0).wait(1).to({skewX:-4.2,x:113.4},0).wait(1).to({skewX:-4.3,x:113.2},0).wait(1).to({skewX:-4.4,x:113},0).wait(1).to({skewX:-4.5,x:112.8},0).wait(1).to({skewX:-4.7,x:112.6,y:768.3},0).wait(1).to({skewX:-4.8,x:112.4},0).wait(1).to({skewX:-4.9,x:112.2},0).wait(1).to({skewX:-5,x:112},0).wait(1).to({skewX:-5.1,x:111.8},0).wait(1).to({skewX:-5.2,x:111.6,y:768.4},0).wait(1).to({skewX:-5.4,x:111.4},0).wait(1).to({skewX:-5.5,x:111.2},0).wait(1).to({skewX:-5.6,x:111},0).wait(1).to({skewX:-5.7,x:110.8},0).wait(1).to({skewX:-5.8,x:110.5},0).wait(1).to({skewX:-5.9,x:110.3,y:768.5},0).wait(1).to({skewX:-6.1,x:110.1},0).wait(1).to({skewX:-5.9,x:110.4},0).wait(1).to({skewX:-5.8,x:110.6,y:768.4},0).wait(1).to({skewX:-5.6,x:110.8},0).wait(1).to({skewX:-5.5,x:111.1},0).wait(1).to({skewX:-5.4,x:111.3,y:768.3},0).wait(1).to({skewX:-5.2,x:111.6},0).wait(1).to({skewX:-5.1,x:111.9},0).wait(1).to({skewX:-5,x:112.1},0).wait(1).to({skewX:-4.8,x:112.3},0).wait(1).to({skewX:-4.7,x:112.6,y:768.2},0).wait(1).to({skewX:-4.5,x:112.8},0).wait(1).to({skewX:-4.4,x:113},0).wait(1).to({skewX:-4.3,x:113.3},0).wait(1).to({skewX:-4.1,x:113.5},0).wait(1).to({skewX:-4,x:113.8,y:768.1},0).wait(1).to({skewX:-3.9,x:114},0).wait(1).to({skewX:-3.7,x:114.2},0).wait(1).to({skewX:-3.6,x:114.5},0).wait(1).to({skewX:-3.4,x:114.7},0).wait(1).to({skewX:-3.3,x:115,y:768},0).wait(1).to({skewX:-3.2,x:115.2,y:768.1},0).wait(1).to({skewX:-3,x:115.4,y:768},0).wait(1).to({skewX:-2.9,x:115.7},0).wait(1).to({skewX:-2.8,x:115.9},0).wait(1).to({skewX:-2.6,x:116.2},0).wait(1).to({skewX:-2.5,x:116.4},0).wait(1).to({skewX:-2.3,x:116.6},0).wait(1).to({skewX:-2.2,x:116.9},0).wait(1).to({skewX:-2.1,x:117.2,y:767.9},0).wait(1).to({skewX:-1.9,x:117.4},0).wait(1).to({skewX:-1.8,x:117.7,y:768},0).wait(1).to({skewX:-1.7,x:117.9,y:767.9},0).wait(1).to({skewX:-1.5,x:118.1},0).wait(1).to({skewX:-1.4,x:118.4},0).wait(1).to({skewX:-1.2,x:118.6},0).wait(1).to({skewX:-1.1,x:118.9},0).wait(1).to({skewX:-1,x:119.1},0).wait(1).to({skewX:-0.8,x:119.3},0).wait(1).to({skewX:-0.7,x:119.6},0).wait(1).to({skewX:-0.6,x:119.8},0).wait(1).to({skewX:-0.4,x:120.1},0).wait(1).to({skewX:-0.3,x:120.3},0).wait(1).to({skewX:-0.1,x:120.6},0).wait(1).to({skewX:0,x:120.8},0).wait(1).to({skewX:-0.1,x:120.7},0).wait(1).to({x:120.6},0).wait(1).to({skewX:-0.2,x:120.5},0).wait(1).to({x:120.4},0).wait(1).to({skewX:-0.3,x:120.2},0).wait(1).to({skewX:-0.4,x:120.1},0).wait(1).to({x:120},0).wait(1).to({skewX:-0.5,x:119.9},0).wait(1).to({skewX:-0.6,x:119.8},0).wait(1).to({x:119.7},0).wait(1).to({skewX:-0.7,x:119.6},0).wait(1).to({x:119.4},0).wait(1).to({skewX:-0.8},0).wait(1).to({skewX:-0.9,x:119.3},0).wait(1).to({x:119.2},0).wait(1).to({skewX:-1,x:119},0).wait(1).to({skewX:-1.1,x:118.9},0).wait(1).to({x:118.8},0).wait(1).to({skewX:-1.2,x:118.7},0).wait(1).to({x:118.6},0).wait(1).to({skewX:-1.3,x:118.5},0).wait(1).to({skewX:-1.4,x:118.4},0).wait(1).to({x:118.2},0).wait(1).to({skewX:-1.5},0).wait(1).to({skewX:-1.6,x:118.1},0).wait(1).to({x:117.9},0).wait(1).to({skewX:-1.7,x:117.8},0).wait(1).to({x:117.7},0).wait(1).to({skewX:-1.8,x:117.6},0).wait(1).to({skewX:-1.9,x:117.5},0).wait(1).to({x:117.4},0).wait(1).to({skewX:-2,x:117.3},0).wait(1).to({skewX:-2.1,x:117.1},0).wait(1).to({x:117},0).wait(1).to({skewX:-2.2},0).wait(1).to({x:116.8},0).wait(1).to({skewX:-2.3,x:116.7},0).wait(1).to({skewX:-2.4,x:116.6},0).wait(1).to({x:116.5,y:768},0).wait(1).to({skewX:-2.5,x:116.4},0).wait(1).to({skewX:-2.6,x:116.3,y:767.9},0).wait(1).to({x:116.2},0).wait(1).to({skewX:-2.7,x:116},0).wait(1).to({x:115.9},0).wait(1).to({skewX:-2.8,y:768},0).wait(1).to({skewX:-2.9,x:115.8},0).wait(1).to({x:115.6},0).wait(1).to({skewX:-3,x:115.5},0).wait(1).to({skewX:-3.1,x:115.4},0).wait(1).to({x:115.3},0).wait(1).to({skewX:-3.2,x:115.2},0).wait(1).to({x:115.1},0).wait(1).to({skewX:-3.3,x:114.9},0).wait(1).to({skewX:-3.4,x:114.8},0).wait(1).to({x:114.7},0).wait(1).to({skewX:-3.5},0).wait(1).to({skewX:-3.6,x:114.5},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({regX:431.4,regY:322,skewX:-6.7,x:109.1,y:768.7},0).wait(1).to({skewX:-6.6,x:109.2},0).wait(1).to({x:109.3},0).wait(1).to({skewX:-6.5,x:109.4},0).wait(1).to({x:109.5},0).wait(1).to({skewX:-6.4,x:109.7,y:768.6},0).wait(1).to({skewX:-6.3,x:109.8,y:768.7},0).wait(1).to({y:768.6},0).wait(1).to({skewX:-6.2,x:110},0).wait(1).to({x:110.1},0).wait(1).to({skewX:-6.1,x:110.2},0).wait(1).to({skewX:-6,x:110.3},0).wait(1).to({x:110.4,y:768.5},0).wait(1).to({skewX:-5.9,x:110.5,y:768.6},0).wait(1).to({x:110.6,y:768.5},0).wait(1).to({skewX:-5.8,x:110.7},0).wait(1).to({skewX:-5.7,x:110.8},0).wait(1).to({x:110.9},0).wait(1).to({skewX:-5.6,x:111},0).wait(1).to({skewX:-5.5,x:111.2},0).wait(1).to({x:111.3},0).wait(1).to({skewX:-5.4},0).wait(1).to({x:111.5,y:768.4},0).wait(1).to({skewX:-5.3,x:111.6},0).wait(1).to({skewX:-5.2,x:111.7},0).wait(1).to({x:111.8},0).wait(1).to({skewX:-5.1,x:111.9},0).wait(1).to({x:112},0).wait(1).to({skewX:-5,x:112.1},0).wait(1).to({skewX:-4.9,x:112.2},0).wait(1).to({x:112.3,y:768.3},0).wait(1).to({skewX:-4.8,x:112.4},0).wait(1).to({skewX:-4.7,x:112.5,y:768.4},0).wait(1).to({x:112.7,y:768.3},0).wait(1).to({skewX:-4.6,x:112.8},0).wait(2).to({skewX:-4.5,x:113},0).wait(1).to({skewX:-4.4,x:113.1},0).wait(1).to({x:113.2},0).wait(1).to({skewX:-4.3,x:113.3},0).wait(1).to({x:113.4,y:768.2},0).wait(1).to({skewX:-4.2,x:113.5,y:768.3},0).wait(1).to({skewX:-4.1,x:113.6,y:768.2},0).wait(1).to({x:113.7},0).wait(1).to({skewX:-4,x:113.9},0).wait(2).to({skewX:-3.9,x:114},0).wait(1).to({skewX:-3.8,x:114.2},0).wait(1).to({x:114.3},0).wait(1).to({skewX:-3.7,x:114.4},0).wait(1).to({skewX:-3.6,x:114.5},0).wait(1).to({x:114.6},0).wait(1).to({skewX:-3.5,x:114.7},0).wait(1).to({x:114.8},0).wait(1).to({skewX:-3.4,x:114.9,y:768.1},0).wait(1).to({skewX:-3.3,x:115},0).wait(1).to({x:115.1,y:768.2},0).wait(1).to({skewX:-3.2,x:115.2,y:768.1},0).wait(1).to({x:115.3},0).wait(1).to({skewX:-3.1,x:115.5},0).wait(1).to({skewX:-3},0).wait(1).to({x:115.7},0).wait(1).to({skewX:-2.9,x:115.8},0).wait(1).to({skewX:-2.8,x:115.9},0).wait(1).to({x:116},0).wait(1).to({skewX:-2.7,x:116.1},0).wait(1).to({x:116.2},0).wait(1).to({skewX:-2.6,x:116.3,y:768},0).wait(1).to({skewX:-2.5,x:116.4},0).wait(1).to({x:116.5,y:768.1},0).wait(1).to({skewX:-2.4,x:116.6},0).wait(1).to({skewX:-2.3,x:116.8,y:768},0).wait(1).to({x:116.9},0).wait(1).to({skewX:-2.2,x:117},0).wait(1).to({x:117.1},0).wait(1).to({skewX:-2.1,x:117.2},0).wait(1).to({skewX:-2,x:117.3},0).wait(1).to({x:117.4},0).wait(1).to({skewX:-1.9,x:117.6},0).wait(1).to({skewX:-1.8,x:117.7},0).wait(1).to({x:117.8},0).wait(1).to({skewX:-1.7,x:117.9},0).wait(1).to({x:118},0).wait(1).to({skewX:-1.6,x:118.1},0).wait(1).to({skewX:-1.5,x:118.2},0).wait(1).to({x:118.3},0).wait(1).to({skewX:-1.4,x:118.4},0).wait(1).to({skewX:-1.5,x:118.2},0).wait(1).to({skewX:-1.6,x:118},0).wait(1).to({skewX:-1.8,x:117.8},0).wait(1).to({skewX:-1.9,x:117.6},0).wait(1).to({skewX:-2,x:117.4},0).wait(1).to({skewX:-2.1,x:117.2},0).wait(1).to({skewX:-2.2,x:117},0).wait(1).to({skewX:-2.3,x:116.8},0).wait(1).to({skewX:-2.4,x:116.6},0).wait(1).to({skewX:-2.6,x:116.4},0).wait(1).to({skewX:-2.7,x:116.2,y:768.1},0).wait(1).to({scaleY:0.39,skewX:-2.8,x:116},0).wait(1).to({skewX:-2.9,x:115.7,y:768},0).wait(1).to({skewX:-3,x:115.5,y:768.1},0).wait(1).to({skewX:-3.1,x:115.3},0).wait(1).to({skewX:-3.3,x:115.1},0).wait(1).to({skewX:-3.4,x:114.9},0).wait(1).to({skewX:-3.5,x:114.7},0).wait(1).to({skewX:-3.6,x:114.5},0).wait(1).to({skewX:-3.7,x:114.3},0).wait(1).to({skewX:-3.8,x:114.1},0).wait(1).to({skewX:-4,x:113.9,y:768.2},0).wait(1).to({skewX:-4.1,x:113.7},0).wait(1).to({skewX:-4.2,x:113.5},0).wait(1).to({skewX:-4.3,x:113.3},0).wait(1).to({skewX:-4.4,x:113.1},0).wait(1).to({skewX:-4.5,x:112.9},0).wait(1).to({skewX:-4.7,x:112.7,y:768.3},0).wait(1).to({skewX:-4.8,x:112.5},0).wait(1).to({skewX:-4.9,x:112.3},0).wait(1).to({skewX:-5,x:112.1},0).wait(1).to({skewX:-5.1,x:111.9},0).wait(1).to({skewX:-5.2,x:111.7,y:768.4},0).wait(1).to({skewX:-5.4,x:111.5},0).wait(1).to({skewX:-5.5,x:111.3},0).wait(1).to({skewX:-5.6,x:111.1},0).wait(1).to({skewX:-5.7,x:110.9},0).wait(1).to({skewX:-5.8,x:110.6},0).wait(1).to({skewX:-5.9,x:110.4,y:768.5},0).wait(1).to({skewX:-6.1,x:110.2},0).wait(1).to({skewX:-5.9,x:110.5},0).wait(1).to({skewX:-5.8,x:110.7,y:768.4},0).wait(1).to({skewX:-5.6,x:110.9},0).wait(1).to({skewX:-5.5,x:111.2},0).wait(1).to({skewX:-5.4,x:111.4,y:768.3},0).wait(1).to({skewX:-5.2,x:111.7},0).wait(1).to({skewX:-5.1,x:112},0).wait(1).to({skewX:-5,x:112.2},0).wait(1).to({skewX:-4.8,x:112.4},0).wait(1).to({skewX:-4.7,x:112.7,y:768.2},0).wait(1).to({skewX:-4.5,x:112.9},0).wait(1).to({skewX:-4.4,x:113.1},0).wait(1).to({skewX:-4.3,x:113.4},0).wait(1).to({skewX:-4.1,x:113.6},0).wait(1).to({skewX:-4,x:113.9,y:768.1},0).wait(1).to({skewX:-3.9,x:114.1},0).wait(1).to({skewX:-3.7,x:114.3},0).wait(1).to({skewX:-3.6,x:114.6},0).wait(1).to({skewX:-3.4,x:114.8},0).wait(1).to({skewX:-3.3,x:115.1,y:768},0).wait(1).to({skewX:-3.2,x:115.3,y:768.1},0).wait(1).to({skewX:-3,x:115.5,y:768},0).wait(1).to({skewX:-2.9,x:115.8},0).wait(1).to({skewX:-2.8,x:116},0).wait(1).to({skewX:-2.6,x:116.3},0).wait(1).to({skewX:-2.5,x:116.5},0).wait(1).to({skewX:-2.3,x:116.7},0).wait(1).to({skewX:-2.2,x:117},0).wait(1).to({skewX:-2.1,x:117.3,y:767.9},0).wait(1).to({skewX:-1.9,x:117.5},0).wait(1).to({skewX:-1.8,x:117.8,y:768},0).wait(1).to({skewX:-1.7,x:118,y:767.9},0).wait(1).to({skewX:-1.5,x:118.2},0).wait(1).to({skewX:-1.4,x:118.5},0).wait(1).to({skewX:-1.2,x:118.7},0).wait(1).to({skewX:-1.1,x:119},0).wait(1).to({skewX:-1,x:119.2},0).wait(1).to({skewX:-0.8,x:119.4},0).wait(1).to({skewX:-0.7,x:119.7},0).wait(1).to({skewX:-0.6,x:119.9},0).wait(1).to({skewX:-0.4,x:120.2},0).wait(1).to({skewX:-0.3,x:120.4},0).wait(1).to({skewX:-0.1,x:120.7},0).wait(1).to({skewX:0,x:120.9},0).wait(1).to({skewX:-0.1,x:120.8},0).wait(1).to({x:120.7},0).wait(1).to({skewX:-0.2,x:120.6},0).wait(1).to({x:120.5},0).wait(1).to({skewX:-0.3,x:120.3},0).wait(1).to({skewX:-0.4,x:120.2},0).wait(1).to({x:120.1},0).wait(1).to({skewX:-0.5,x:120},0).wait(1).to({skewX:-0.6,x:119.9},0).wait(1).to({x:119.8},0).wait(1).to({skewX:-0.7,x:119.7},0).wait(1).to({x:119.5},0).wait(1).to({skewX:-0.8},0).wait(1).to({skewX:-0.9,x:119.4},0).wait(1).to({x:119.3},0).wait(1).to({skewX:-1,x:119.1},0).wait(1).to({skewX:-1.1,x:119},0).wait(1).to({x:118.9},0).wait(1).to({skewX:-1.2,x:118.8},0).wait(1).to({x:118.7},0).wait(1).to({skewX:-1.3,x:118.6},0).wait(1).to({skewX:-1.4,x:118.5},0).wait(1).to({x:118.3},0).wait(1).to({skewX:-1.5},0).wait(1).to({skewX:-1.6,x:118.2},0).wait(1).to({x:118},0).wait(1).to({skewX:-1.7,x:117.9},0).wait(1).to({x:117.8},0).wait(1).to({skewX:-1.8,x:117.7},0).wait(1).to({skewX:-1.9,x:117.6},0).wait(1).to({x:117.5},0).wait(1).to({skewX:-2,x:117.4},0).wait(1).to({skewX:-2.1,x:117.2},0).wait(1).to({x:117.1},0).wait(1).to({skewX:-2.2},0).wait(1).to({x:116.9},0).wait(1).to({skewX:-2.3,x:116.8},0).wait(1).to({skewX:-2.4,x:116.7},0).wait(1).to({x:116.6,y:768},0).wait(1).to({skewX:-2.5,x:116.5},0).wait(1).to({skewX:-2.6,x:116.4,y:767.9},0).wait(1).to({x:116.3},0).wait(1).to({skewX:-2.7,x:116.1},0).wait(1).to({x:116},0).wait(1).to({skewX:-2.8,y:768},0).wait(1).to({skewX:-2.9,x:115.9},0).wait(1).to({x:115.7},0).wait(1).to({skewX:-3,x:115.6},0).wait(1).to({skewX:-3.1,x:115.5},0).wait(1).to({x:115.4},0).wait(1).to({skewX:-3.2,x:115.3},0).wait(1).to({x:115.2},0).wait(1).to({skewX:-3.3,x:115},0).wait(1).to({skewX:-3.4,x:114.9},0).wait(1).to({x:114.8},0).wait(1).to({skewX:-3.5},0).wait(1).to({skewX:-3.6,x:114.6},0).wait(1));
 
 	// grass
-	this.instance_2 = new lib.grass_mccopy();
+	this.instance_2 = new lib.grass_mc();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(857.5,1484.1,1,1,0,0,0,255.3,584.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1).to({regX:431.4,regY:322,skewX:-0.2,x:1032.9,y:1221.9},0).wait(1).to({skewX:-0.3,x:1032.2},0).wait(1).to({skewX:-0.5,x:1031.5,y:1221.8},0).wait(1).to({scaleY:1,skewX:-0.6,x:1030.8},0).wait(1).to({skewX:-0.8,x:1030.1},0).wait(1).to({skewX:-0.9,x:1029.4},0).wait(1).to({skewX:-1.1,x:1028.7,y:1221.7},0).wait(1).to({skewX:-1.2,x:1028},0).wait(1).to({skewX:-1.4,x:1027.3},0).wait(1).to({skewX:-1.5,x:1026.6},0).wait(1).to({scaleY:1,skewX:-1.7,x:1025.9,y:1221.6},0).wait(1).to({skewX:-1.8,x:1025.2,y:1221.7},0).wait(1).to({skewX:-2,x:1024.5,y:1221.6},0).wait(1).to({skewX:-2.1,x:1023.8},0).wait(1).to({skewX:-2.3,x:1023.1},0).wait(1).to({skewX:-2.4,x:1022.4},0).wait(1).to({skewX:-2.6,x:1021.7},0).wait(1).to({scaleY:1,skewX:-2.7,x:1021},0).wait(1).to({skewX:-2.9,x:1020.3},0).wait(1).to({skewX:-3,x:1019.6},0).wait(1).to({skewX:-3.2,x:1018.9},0).wait(1).to({skewX:-3.3,x:1018.2},0).wait(1).to({skewX:-3.5,x:1017.6},0).wait(1).to({skewX:-3.6,x:1016.9},0).wait(1).to({scaleY:1,skewX:-3.8,x:1016.2},0).wait(1).to({skewX:-3.9,x:1015.5},0).wait(1).to({skewX:-4.1,x:1014.8},0).wait(1).to({skewX:-4.2,x:1014.1,y:1221.7},0).wait(1).to({skewX:-4.4,x:1013.4,y:1221.6},0).wait(1).to({skewX:-4.5,x:1012.7,y:1221.7},0).wait(1).to({skewX:-4.7,x:1012},0).wait(1).to({scaleY:1,skewX:-4.8,x:1011.3},0).wait(1).to({skewX:-5,x:1010.6},0).wait(1).to({skewX:-5.2,x:1009.9,y:1221.8},0).wait(1).to({skewX:-5.3,x:1009.2},0).wait(1).to({skewX:-5.5,x:1008.5},0).wait(1).to({skewX:-5.6,x:1007.8,y:1221.9},0).wait(1).to({skewX:-5.8,x:1007.1},0).wait(1).to({scaleY:1.01,skewX:-5.9,x:1006.4},0).wait(1).to({skewX:-6.1,x:1005.7},0).wait(1).to({skewX:-5.9,x:1006.3},0).wait(1).to({scaleY:1,skewX:-5.8,x:1006.8},0).wait(1).to({skewX:-5.7,x:1007.3},0).wait(1).to({skewX:-5.6,x:1007.8},0).wait(1).to({skewX:-5.5,x:1008.3},0).wait(1).to({skewX:-5.4,x:1008.8,y:1221.8},0).wait(1).to({skewX:-5.3,x:1009.4},0).wait(1).to({skewX:-5.2,x:1009.9},0).wait(1).to({scaleY:1,skewX:-5,x:1010.4},0).wait(1).to({skewX:-4.9,x:1011},0).wait(1).to({skewX:-4.8,x:1011.5},0).wait(1).to({skewX:-4.7,x:1012},0).wait(1).to({skewX:-4.6,x:1012.5},0).wait(1).to({skewX:-4.5,x:1013.1},0).wait(1).to({skewX:-4.4,x:1013.6,y:1221.7},0).wait(1).to({scaleY:1,skewX:-4.2,x:1014.1,y:1221.8},0).wait(1).to({skewX:-4.1,x:1014.6},0).wait(1).to({skewX:-4,x:1015.1},0).wait(1).to({skewX:-3.9,x:1015.6},0).wait(1).to({skewX:-3.8,x:1016.2},0).wait(1).to({skewX:-3.7,x:1016.7},0).wait(1).to({skewX:-3.6,x:1017.2,y:1221.7},0).wait(1).to({skewX:-3.4,x:1017.8},0).wait(1).to({scaleY:1,skewX:-3.3,x:1018.3,y:1221.8},0).wait(1).to({skewX:-3.2,x:1018.8},0).wait(1).to({skewX:-3.1,x:1019.3},0).wait(1).to({skewX:-3,x:1019.9},0).wait(1).to({skewX:-2.9,x:1020.4},0).wait(1).to({skewX:-2.8,x:1020.9},0).wait(1).to({skewX:-2.7,x:1021.4},0).wait(1).to({scaleY:1,skewX:-2.5,x:1021.9},0).wait(1).to({skewX:-2.4,x:1022.5},0).wait(1).to({skewX:-2.3,x:1023,y:1221.9},0).wait(1).to({skewX:-2.2,x:1023.5},0).wait(1).to({skewX:-2.1,x:1024},0).wait(1).to({skewX:-2,x:1024.5},0).wait(1).to({skewX:-1.9,x:1025.1},0).wait(1).to({scaleY:1,skewX:-1.7,x:1025.6,y:1222},0).wait(1).to({skewX:-1.6,x:1026.1,y:1221.9},0).wait(1).to({skewX:-1.5,x:1026.6,y:1222},0).wait(1).to({skewX:-1.4,x:1027.1},0).wait(1).to({skewX:-1.5,x:1026.9},0).wait(1).to({x:1026.6},0).wait(1).to({skewX:-1.6,x:1026.4},0).wait(1).to({x:1026.2},0).wait(1).to({skewX:-1.7,x:1025.9},0).wait(1).to({x:1025.7},0).wait(1).to({skewX:-1.8,x:1025.5},0).wait(1).to({x:1025.2},0).wait(1).to({skewX:-1.9,x:1025},0).wait(1).to({x:1024.7},0).wait(1).to({skewX:-2,x:1024.5},0).wait(1).to({x:1024.2},0).wait(1).to({skewX:-2.1,x:1024},0).wait(1).to({scaleY:1,x:1023.7},0).wait(1).to({skewX:-2.2,x:1023.5},0).wait(1).to({x:1023.3},0).wait(1).to({skewX:-2.3,x:1023},0).wait(1).to({x:1022.8},0).wait(1).to({skewX:-2.4,x:1022.6},0).wait(1).to({skewX:-2.5,x:1022.3},0).wait(1).to({x:1022.1},0).wait(1).to({skewX:-2.6,x:1021.9},0).wait(1).to({x:1021.6},0).wait(1).to({skewX:-2.7,x:1021.4},0).wait(1).to({x:1021.1},0).wait(1).to({skewX:-2.8,x:1020.8,y:1222.1},0).wait(1).to({x:1020.5},0).wait(1).to({scaleY:1,skewX:-2.9,x:1020.3,y:1222.2},0).wait(1).to({skewX:-3,x:1020},0).wait(1).to({x:1019.8},0).wait(1).to({skewX:-3.1,x:1019.5,y:1222.3},0).wait(1).to({x:1019.2},0).wait(1).to({skewX:-3.2,x:1019},0).wait(1).to({skewX:-3.3,x:1018.7,y:1222.4},0).wait(1).to({x:1018.4},0).wait(1).to({skewX:-3.4,x:1018.1,y:1222.5},0).wait(1).to({x:1017.9},0).wait(1).to({skewX:-3.5,x:1017.6},0).wait(1).to({x:1017.3},0).wait(1).to({skewX:-3.6,x:1017.1},0).wait(1).to({skewX:-3.7,x:1016.8},0).wait(1).to({x:1016.5},0).wait(1).to({skewX:-3.8,x:1016.3},0).wait(1).to({x:1016,y:1222.4},0).wait(1).to({skewX:-3.9,x:1015.7,y:1222.5},0).wait(1).to({scaleY:1,skewX:-4,x:1015.4},0).wait(1).to({x:1015.2,y:1222.4},0).wait(1).to({skewX:-4.1,x:1014.9},0).wait(1).to({x:1014.6},0).wait(1).to({skewX:-4.2,x:1014.4},0).wait(1).to({x:1014.1},0).wait(1).to({skewX:-4.3,x:1013.8},0).wait(1).to({skewX:-4.4,x:1013.6},0).wait(1).to({x:1013.3},0).wait(1).to({skewX:-4.5,x:1013,y:1222.3},0).wait(1).to({scaleY:1,x:1012.8,y:1222.4},0).wait(1).to({skewX:-4.6,x:1012.5},0).wait(1).to({skewX:-4.7,x:1012.2},0).wait(1).to({x:1012,y:1222.3},0).wait(1).to({skewX:-4.8,x:1011.7},0).wait(1).to({x:1011.4},0).wait(1).to({skewX:-4.9,x:1011.1},0).wait(1).to({skewX:-5,x:1010.8},0).wait(1).to({x:1010.6},0).wait(1).to({scaleY:1,skewX:-5.1,x:1010.3},0).wait(1).to({x:1010},0).wait(1).to({skewX:-5.2,x:1009.8},0).wait(1).to({x:1009.5},0).wait(1).to({skewX:-5.3,x:1009.2},0).wait(1).to({skewX:-5.4,x:1009},0).wait(1).to({x:1008.7},0).wait(1).to({skewX:-5.5,x:1008.4},0).wait(1).to({x:1008.2},0).wait(1).to({skewX:-5.6,x:1007.9},0).wait(1).to({scaleY:1,skewX:-5.7,x:1007.6},0).wait(1).to({x:1007.4},0).wait(1).to({skewX:-5.8,x:1007.1},0).wait(1).to({x:1006.8},0).wait(1).to({skewX:-5.9,x:1006.5},0).wait(1).to({skewX:-6,x:1006.3},0).wait(1).to({x:1006},0).wait(1).to({skewX:-6.1,x:1005.7},0).wait(1).to({x:1005.5},0).wait(1).to({scaleY:1,skewX:-6.2,x:1005.2},0).wait(1).to({x:1004.9},0).wait(1).to({skewX:-6.3,x:1004.6},0).wait(1).to({skewX:-6.4,x:1004.4},0).wait(1).to({x:1004.1},0).wait(1).to({skewX:-6.5,x:1003.8},0).wait(1).to({x:1003.5},0).wait(1).to({skewX:-6.6,x:1003.3},0).wait(1).to({skewX:-6.7,x:1003},0).wait(1).to({x:1002.7},0).wait(1).to({scaleY:1.01,skewX:-6.8,x:1002.5},0).wait(1).to({x:1002.2,y:1222.4},0).wait(1).to({skewX:-6.7,x:1002.8,y:1222.3},0).wait(1).to({scaleY:1,skewX:-6.6,x:1003.4},0).wait(1).to({skewX:-6.4,x:1004,y:1222.2},0).wait(1).to({skewX:-6.3,x:1004.6,y:1222.1},0).wait(1).to({skewX:-6.2,x:1005.2},0).wait(1).to({skewX:-6,x:1005.8},0).wait(1).to({skewX:-5.9,x:1006.4},0).wait(1).to({skewX:-5.8,x:1007,y:1222},0).wait(1).to({skewX:-5.7,x:1007.6},0).wait(1).to({skewX:-5.5,x:1008.2},0).wait(1).to({scaleY:1,skewX:-5.4,x:1008.8,y:1221.9},0).wait(1).to({skewX:-5.3,x:1009.4},0).wait(1).to({skewX:-5.1,x:1010.1},0).wait(1).to({skewX:-5,x:1010.7},0).wait(1).to({skewX:-4.9,x:1011.2,y:1221.8},0).wait(1).to({skewX:-4.7,x:1011.8},0).wait(1).to({skewX:-4.6,x:1012.4},0).wait(1).to({skewX:-4.5,x:1013.1},0).wait(1).to({skewX:-4.3,x:1013.7},0).wait(1).to({skewX:-4.2,x:1014.3,y:1221.7},0).wait(1).to({scaleY:1,skewX:-4.1,x:1014.9},0).wait(1).to({skewX:-3.9,x:1015.5},0).wait(1).to({skewX:-3.8,x:1016.1},0).wait(1).to({skewX:-3.7,x:1016.7},0).wait(1).to({skewX:-3.5,x:1017.3},0).wait(1).to({skewX:-3.4,x:1017.9},0).wait(1).to({skewX:-3.3,x:1018.5},0).wait(1).to({skewX:-3.2,x:1019.1},0).wait(1).to({skewX:-3,x:1019.7,y:1221.6},0).wait(1).to({scaleY:1,skewX:-2.9,x:1020.3},0).wait(1).to({skewX:-2.8,x:1020.9},0).wait(1).to({skewX:-2.6,x:1021.5},0).wait(1).to({skewX:-2.5,x:1022.1},0).wait(1).to({skewX:-2.4,x:1022.7,y:1221.7},0).wait(1).to({skewX:-2.2,x:1023.3},0).wait(1).to({skewX:-2.1,x:1023.9},0).wait(1).to({skewX:-2,x:1024.5},0).wait(1).to({skewX:-1.8,x:1025.1},0).wait(1).to({scaleY:1,skewX:-1.7,x:1025.7},0).wait(1).to({skewX:-1.6,x:1026.3},0).wait(1).to({skewX:-1.4,x:1026.9},0).wait(1).to({skewX:-1.3,x:1027.5},0).wait(1).to({skewX:-1.2,x:1028.1,y:1221.8},0).wait(1).to({skewX:-1.1,x:1028.7},0).wait(1).to({skewX:-0.9,x:1029.3},0).wait(1).to({skewX:-0.8,x:1030},0).wait(1).to({skewX:-0.7,x:1030.5},0).wait(1).to({scaleY:1,skewX:-0.5,x:1031.1},0).wait(1).to({skewX:-0.4,x:1031.7,y:1221.9},0).wait(1).to({skewX:-0.3,x:1032.3},0).wait(1).to({skewX:-0.1,x:1033},0).wait(1).to({skewX:0,x:1033.6,y:1222},0).wait(1));
 
 	// rocks-bkgr
-	this.instance_3 = new lib.rockShadow_01copy();
+	this.instance_3 = new lib.rockShadow_01();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(1042.3,2025.5,1.245,0.799,0,-2.2,-179.5,170.4,57.1);
 	this.instance_3.alpha = 0.129;
 
-	this.instance_4 = new lib.rockShadow_01copy();
+	this.instance_4 = new lib.rockShadow_01();
 	this.instance_4.parent = this;
 	this.instance_4.setTransform(20.6,1888.8,1.599,0.799,0,-2.2,-179.5,170.4,57.1);
 	this.instance_4.alpha = 0.129;
 
-	this.instance_5 = new lib.rockShadow_01copy();
+	this.instance_5 = new lib.rockShadow_01();
 	this.instance_5.parent = this;
 	this.instance_5.setTransform(1074.6,1557.7,1.214,2.056,0,-74.1,0.5,170.6,57);
 	this.instance_5.alpha = 0.129;
 
-	this.instance_6 = new lib.rockShadow_01copy();
+	this.instance_6 = new lib.rockShadow_01();
 	this.instance_6.parent = this;
 	this.instance_6.setTransform(340.7,1296.6,0.816,0.848,0,-69.4,-6,171.1,56.4);
 	this.instance_6.alpha = 0.129;
 
-	this.rock03_1 = new lib.rock06copy();
+	this.rock03_1 = new lib.rock06();
 	this.rock03_1.parent = this;
 	this.rock03_1.setTransform(893.4,845,0.518,0.355,0,0,0,-3.1,-8.2);
 	this.rock03_1.alpha = 0.641;
 
-	this.rock09_1 = new lib.rock03copy();
+	this.rock09_1 = new lib.rock03();
 	this.rock09_1.parent = this;
 	this.rock09_1.setTransform(986.3,826.3,0.425,0.398,0,19.5,-160.5,-3,-8.2);
 	this.rock09_1.alpha = 0.781;
 
-	this.rock_1 = new lib.rock07copy();
+	this.rock_1 = new lib.rock07();
 	this.rock_1.parent = this;
 	this.rock_1.setTransform(-75.1,946,0.788,0.788,0,0,0,-3.1,-8.2);
 
-	this.rock05_1 = new lib.rock02copy();
+	this.rock05_1 = new lib.rock02();
 	this.rock05_1.parent = this;
 	this.rock05_1.setTransform(1046.8,813.9,0.785,1.695,0,0,0,-3.1,-8.2);
 	this.rock05_1.alpha = 0.988;
 
-	this.rock02_1 = new lib.rock01copy();
+	this.rock02_1 = new lib.rock01();
 	this.rock02_1.parent = this;
 	this.rock02_1.setTransform(1078.2,794.9,0.574,0.574,0,0,0,-3.1,-8.2);
 
-	this.rock10_1 = new lib.rock10_mccopy();
+	this.rock10_1 = new lib.rock10_mc();
 	this.rock10_1.parent = this;
 	this.rock10_1.setTransform(150.7,988.5,0.497,0.767,4.7);
 
-	this.rock04_1 = new lib.rock05copy();
+	this.rock04_1 = new lib.rock05();
 	this.rock04_1.parent = this;
 	this.rock04_1.setTransform(952,781.6,1.189,0.554,0,0,0,-3.1,-8.2);
 	this.rock04_1.alpha = 0.75;
 
-	this.rock08_1 = new lib.rock04copy();
+	this.rock08_1 = new lib.rock04();
 	this.rock08_1.parent = this;
 	this.rock08_1.setTransform(149.5,924.3,0.782,0.782,0,0,180,-3.1,-8.1);
 
-	this.rock09_2 = new lib.rock03copy();
+	this.rock09_2 = new lib.rock03();
 	this.rock09_2.parent = this;
 	this.rock09_2.setTransform(103.1,907.2,1.208,0.768,0,12.3,-167.7,-3.2,-8.2);
 
-	this.instance_7 = new lib.rockShadow_01copy();
+	this.instance_7 = new lib.rockShadow_01();
 	this.instance_7.parent = this;
 	this.instance_7.setTransform(35,1026.6,1,1,0,0,0,171,56.4);
 	this.instance_7.alpha = 0.129;
 
-	this.instance_8 = new lib.rockShadow_01copy();
+	this.instance_8 = new lib.rockShadow_01();
 	this.instance_8.parent = this;
 	this.instance_8.setTransform(1044.4,871.2,1.017,0.465,0,-169.8,-175.9,171,56.4);
 	this.instance_8.alpha = 0.09;
@@ -1199,36 +1180,36 @@ p.nominalBounds = new cjs.Rectangle(0,0,136.3,325);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_8},{t:this.instance_7},{t:this.rock09_2},{t:this.rock08_1},{t:this.rock04_1},{t:this.rock10_1},{t:this.rock02_1},{t:this.rock05_1},{t:this.rock_1},{t:this.rock09_1},{t:this.rock03_1},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3}]}).wait(229));
 
 	// fish
-	this.instance_9 = new lib.fishGroup_mccopy();
+	this.instance_9 = new lib.bkgrfishGroup_mc("synched",0);
 	this.instance_9.parent = this;
 	this.instance_9.setTransform(1385.3,313.7,1,1,0,0,0,216.5,85);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(39).to({_off:false},0).wait(1).to({regY:83.2,x:1353.9,y:311.9},0).wait(1).to({x:1322.4},0).wait(1).to({x:1291},0).wait(1).to({x:1259.6},0).wait(1).to({x:1228.2},0).wait(1).to({x:1196.7},0).wait(1).to({x:1165.3},0).wait(1).to({x:1133.9},0).wait(1).to({x:1102.4},0).wait(1).to({x:1071},0).wait(1).to({x:1039.6},0).wait(1).to({x:1008.2},0).wait(1).to({x:976.7},0).wait(1).to({x:945.3},0).wait(1).to({x:913.9},0).wait(1).to({x:882.5},0).wait(1).to({x:851},0).wait(1).to({x:819.6},0).wait(1).to({x:788.2},0).wait(1).to({x:756.7},0).wait(1).to({x:725.3},0).wait(1).to({x:693.9},0).wait(1).to({x:662.5},0).wait(1).to({x:631},0).wait(1).to({x:599.6},0).wait(1).to({x:568.2},0).wait(1).to({x:536.7},0).wait(1).to({x:505.4},0).wait(1).to({x:473.9},0).wait(1).to({x:442.5},0).wait(1).to({x:411.1},0).wait(1).to({x:379.6},0).wait(1).to({x:348.2},0).wait(1).to({x:316.8},0).wait(1).to({x:285.3},0).wait(1).to({x:253.9},0).wait(1).to({x:222.5},0).wait(1).to({x:191.1},0).wait(1).to({x:159.7},0).wait(1).to({x:128.2},0).wait(1).to({x:96.8},0).wait(1).to({x:65.4},0).wait(1).to({x:34},0).wait(1).to({x:2.6},0).wait(1).to({x:-28.9},0).wait(1).to({x:-60.3},0).wait(1).to({x:-91.8},0).wait(1).to({x:-123.2},0).wait(1).to({x:-154.6},0).wait(1).to({x:-186},0).wait(1).to({x:-217.4},0).wait(1).to({x:-248.9},0).wait(1).to({regY:85,x:1385.3,y:313.7},0).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(39).to({_off:false},0).wait(1).to({regX:216.8,regY:75.3,x:1354.2,y:304,startPosition:1},0).wait(1).to({x:1322.7,startPosition:2},0).wait(1).to({x:1291.3,startPosition:3},0).wait(1).to({x:1259.9,startPosition:4},0).wait(1).to({x:1228.5,startPosition:5},0).wait(1).to({x:1197,startPosition:6},0).wait(1).to({x:1165.6,startPosition:7},0).wait(1).to({x:1134.2,startPosition:8},0).wait(1).to({x:1102.7,startPosition:9},0).wait(1).to({x:1071.3,startPosition:10},0).wait(1).to({x:1039.9,startPosition:11},0).wait(1).to({x:1008.5,startPosition:12},0).wait(1).to({x:977,startPosition:13},0).wait(1).to({x:945.6,startPosition:14},0).wait(1).to({x:914.2,startPosition:15},0).wait(1).to({x:882.8,startPosition:16},0).wait(1).to({x:851.3,startPosition:17},0).wait(1).to({x:819.9,startPosition:18},0).wait(1).to({x:788.5,startPosition:19},0).wait(1).to({x:757,startPosition:20},0).wait(1).to({x:725.6,startPosition:21},0).wait(1).to({x:694.2,startPosition:22},0).wait(1).to({x:662.8,startPosition:23},0).wait(1).to({x:631.3,startPosition:24},0).wait(1).to({x:599.9,startPosition:25},0).wait(1).to({x:568.5,startPosition:26},0).wait(1).to({x:537,startPosition:27},0).wait(1).to({x:505.7,startPosition:28},0).wait(1).to({x:474.2,startPosition:29},0).wait(1).to({x:442.8,startPosition:30},0).wait(1).to({x:411.4,startPosition:31},0).wait(1).to({x:379.9,startPosition:32},0).wait(1).to({x:348.5,startPosition:33},0).wait(1).to({x:317.1,startPosition:34},0).wait(1).to({x:285.6,startPosition:35},0).wait(1).to({x:254.2,startPosition:36},0).wait(1).to({x:222.8,startPosition:37},0).wait(1).to({x:191.4,startPosition:38},0).wait(1).to({x:160,startPosition:39},0).wait(1).to({x:128.5,startPosition:40},0).wait(1).to({x:97.1,startPosition:41},0).wait(1).to({x:65.7,startPosition:42},0).wait(1).to({x:34.3,startPosition:43},0).wait(1).to({x:2.9,startPosition:44},0).wait(1).to({x:-28.6,startPosition:45},0).wait(1).to({x:-60,startPosition:46},0).wait(1).to({x:-91.5,startPosition:47},0).wait(1).to({x:-122.9,startPosition:48},0).wait(1).to({x:-154.3,startPosition:49},0).wait(1).to({x:-185.7,startPosition:50},0).wait(1).to({x:-217.1,startPosition:51},0).wait(1).to({x:-248.6,startPosition:0},0).wait(1).to({regX:216.5,regY:85,x:1385.3,y:313.7,mode:"independent"},0).wait(137));
 
 	// bubbles- copy
-	this.instance_10 = new lib.bubbles_mccopy();
+	this.instance_10 = new lib.BKGRbubbles_mc("synched",0);
 	this.instance_10.parent = this;
 	this.instance_10.setTransform(1014.5,1611.7,0.531,0.531,0,0,0,65.2,324.9);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(2).to({_off:false},0).wait(1).to({regX:55.2,regY:162.5,scaleX:0.54,scaleY:0.54,x:1009.1,y:1489.2},0).wait(1).to({scaleX:0.55,scaleY:0.55,x:1009,y:1453},0).wait(1).to({scaleX:0.56,scaleY:0.56,x:1008.9,y:1416.7},0).wait(1).to({scaleX:0.57,scaleY:0.57,x:1008.8,y:1380.5},0).wait(1).to({scaleX:0.58,scaleY:0.58,x:1008.7,y:1344.2},0).wait(1).to({scaleX:0.59,scaleY:0.59,x:1008.6,y:1307.9},0).wait(1).to({scaleX:0.6,scaleY:0.6,x:1008.5,y:1271.6},0).wait(1).to({scaleX:0.61,scaleY:0.61,x:1008.4,y:1235.4},0).wait(1).to({scaleX:0.62,scaleY:0.62,x:1008.3,y:1199.1},0).wait(1).to({scaleX:0.63,scaleY:0.63,x:1008.2,y:1162.8},0).wait(1).to({scaleX:0.64,scaleY:0.64,x:1008.1,y:1126.6},0).wait(1).to({scaleX:0.65,scaleY:0.65,x:1008,y:1090.3},0).wait(1).to({scaleX:0.66,scaleY:0.66,x:1007.9,y:1054.1},0).wait(1).to({scaleX:0.67,scaleY:0.67,x:1007.8,y:1017.8},0).wait(1).to({scaleX:0.68,scaleY:0.68,x:1007.7,y:981.6},0).wait(1).to({scaleX:0.69,scaleY:0.69,x:1007.6,y:945.2},0).wait(1).to({scaleX:0.7,scaleY:0.7,y:909},0).wait(1).to({scaleX:0.71,scaleY:0.71,x:1007.4,y:872.7},0).wait(1).to({scaleX:0.72,scaleY:0.72,x:1007.3,y:836.5},0).wait(1).to({scaleX:0.73,scaleY:0.73,x:1007.2,y:800.2},0).wait(1).to({scaleX:0.74,scaleY:0.74,x:1007.1,y:763.9},0).wait(1).to({scaleX:0.75,scaleY:0.75,x:1007,y:727.6},0).wait(1).to({scaleX:0.76,scaleY:0.76,x:1006.9,y:691.4},0).wait(1).to({scaleX:0.77,scaleY:0.77,y:655.1},0).wait(1).to({scaleX:0.78,scaleY:0.78,x:1006.8,y:618.8},0).wait(1).to({scaleX:0.79,scaleY:0.79,x:1006.6,y:582.6},0).wait(1).to({scaleX:0.8,scaleY:0.8,x:1006.5,y:546.3},0).wait(1).to({scaleX:0.81,scaleY:0.81,x:1006.4,y:510},0).wait(1).to({scaleX:0.82,scaleY:0.82,x:1006.3,y:473.8},0).wait(1).to({scaleX:0.83,scaleY:0.83,x:1006.2,y:437.5},0).wait(1).to({scaleX:0.84,scaleY:0.84,y:401.2},0).wait(1).to({scaleX:0.85,scaleY:0.85,x:1006.1,y:364.9},0).wait(1).to({scaleX:0.86,scaleY:0.86,x:1006,y:328.7},0).wait(1).to({scaleX:0.87,scaleY:0.87,x:1005.9,y:292.4},0).wait(1).to({scaleX:0.88,scaleY:0.88,x:1005.7,y:256.2},0).wait(1).to({scaleX:0.89,scaleY:0.89,x:1005.6,y:219.9},0).wait(1).to({scaleX:0.9,scaleY:0.9,y:183.6},0).wait(1).to({scaleX:0.92,scaleY:0.92,x:1005.5,y:147.4},0).wait(1).to({scaleX:0.93,scaleY:0.93,x:1005.4,y:111.1},0).wait(1).to({scaleX:0.94,scaleY:0.94,x:1005.3,y:74.9},0).wait(1).to({scaleX:0.95,scaleY:0.95,x:1005.2,y:38.6},0).wait(1).to({scaleX:0.96,scaleY:0.96,x:1005.1,y:2.4},0).wait(1).to({scaleX:0.97,scaleY:0.97,x:1005,y:-34},0).wait(1).to({scaleX:0.98,scaleY:0.98,x:1004.9,y:-70.2},0).wait(1).to({scaleX:0.99,scaleY:0.99,x:1004.8,y:-106.5},0).wait(1).to({scaleX:1,scaleY:1,x:1004.7,y:-142.7},0).wait(1).to({scaleX:1,scaleY:1,x:1004.6,y:-179},0).wait(1).to({scaleX:1.02,scaleY:1.02,x:1004.5,y:-215.3},0).to({_off:true},1).wait(178));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(2).to({_off:false},0).wait(1).to({regX:63.9,regY:162.5,scaleX:0.54,scaleY:0.54,x:1013.8,y:1489.2,startPosition:1},0).wait(1).to({scaleX:0.55,scaleY:0.55,y:1453,startPosition:2},0).wait(1).to({scaleX:0.56,scaleY:0.56,y:1416.7,startPosition:3},0).wait(1).to({scaleX:0.57,scaleY:0.57,y:1380.5,startPosition:4},0).wait(1).to({scaleX:0.58,scaleY:0.58,y:1344.2,startPosition:5},0).wait(1).to({scaleX:0.59,scaleY:0.59,y:1307.9,startPosition:6},0).wait(1).to({scaleX:0.6,scaleY:0.6,y:1271.6,startPosition:7},0).wait(1).to({scaleX:0.61,scaleY:0.61,y:1235.4,startPosition:8},0).wait(1).to({scaleX:0.62,scaleY:0.62,x:1013.7,y:1199.1,startPosition:9},0).wait(1).to({scaleX:0.63,scaleY:0.63,y:1162.8,startPosition:10},0).wait(1).to({scaleX:0.64,scaleY:0.64,y:1126.6,startPosition:0},0).wait(1).to({scaleX:0.65,scaleY:0.65,y:1090.3,startPosition:1},0).wait(1).to({scaleX:0.66,scaleY:0.66,y:1054.1,startPosition:2},0).wait(1).to({scaleX:0.67,scaleY:0.67,y:1017.8,startPosition:3},0).wait(1).to({scaleX:0.68,scaleY:0.68,y:981.6,startPosition:4},0).wait(1).to({scaleX:0.69,scaleY:0.69,y:945.2,startPosition:5},0).wait(1).to({scaleX:0.7,scaleY:0.7,y:909,startPosition:6},0).wait(1).to({scaleX:0.71,scaleY:0.71,x:1013.6,y:872.7,startPosition:7},0).wait(1).to({scaleX:0.72,scaleY:0.72,y:836.5,startPosition:8},0).wait(1).to({scaleX:0.73,scaleY:0.73,y:800.2,startPosition:9},0).wait(1).to({scaleX:0.74,scaleY:0.74,y:763.9,startPosition:10},0).wait(1).to({scaleX:0.75,scaleY:0.75,y:727.6,startPosition:0},0).wait(1).to({scaleX:0.76,scaleY:0.76,y:691.4,startPosition:1},0).wait(1).to({scaleX:0.77,scaleY:0.77,y:655.1,startPosition:2},0).wait(1).to({scaleX:0.78,scaleY:0.78,y:618.8,startPosition:3},0).wait(1).to({scaleX:0.79,scaleY:0.79,x:1013.5,y:582.6,startPosition:4},0).wait(1).to({scaleX:0.8,scaleY:0.8,y:546.3,startPosition:5},0).wait(1).to({scaleX:0.81,scaleY:0.81,y:510,startPosition:6},0).wait(1).to({scaleX:0.82,scaleY:0.82,y:473.8,startPosition:7},0).wait(1).to({scaleX:0.83,scaleY:0.83,y:437.5,startPosition:8},0).wait(1).to({scaleX:0.84,scaleY:0.84,y:401.2,startPosition:9},0).wait(1).to({scaleX:0.85,scaleY:0.85,y:364.9,startPosition:10},0).wait(1).to({scaleX:0.86,scaleY:0.86,y:328.7,startPosition:0},0).wait(1).to({scaleX:0.87,scaleY:0.87,y:292.4,startPosition:1},0).wait(1).to({scaleX:0.88,scaleY:0.88,x:1013.4,y:256.2,startPosition:2},0).wait(1).to({scaleX:0.89,scaleY:0.89,y:219.9,startPosition:3},0).wait(1).to({scaleX:0.9,scaleY:0.9,y:183.6,startPosition:4},0).wait(1).to({scaleX:0.92,scaleY:0.92,y:147.4,startPosition:5},0).wait(1).to({scaleX:0.93,scaleY:0.93,y:111.1,startPosition:6},0).wait(1).to({scaleX:0.94,scaleY:0.94,y:74.9,startPosition:7},0).wait(1).to({scaleX:0.95,scaleY:0.95,y:38.6,startPosition:8},0).wait(1).to({scaleX:0.96,scaleY:0.96,y:2.4,startPosition:9},0).wait(1).to({scaleX:0.97,scaleY:0.97,y:-34,startPosition:10},0).wait(1).to({scaleX:0.98,scaleY:0.98,x:1013.3,y:-70.2,startPosition:0},0).wait(1).to({scaleX:0.99,scaleY:0.99,y:-106.5,startPosition:1},0).wait(1).to({scaleX:1,scaleY:1,y:-142.7,startPosition:2},0).wait(1).to({scaleX:1,scaleY:1,y:-179,startPosition:3},0).wait(1).to({scaleX:1.02,scaleY:1.02,y:-215.3,startPosition:4},0).to({_off:true},1).wait(178));
 
 	// bubbles- copy 2
-	this.instance_11 = new lib.bubbles_mccopy();
+	this.instance_11 = new lib.BKGRbubbles_mc();
 	this.instance_11.parent = this;
 	this.instance_11.setTransform(149.1,1120,0.531,0.531,0,0,0,65.2,324.6);
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(80).to({_off:false},0).wait(1).to({regX:55.2,regY:162.5,scaleX:0.54,scaleY:0.54,x:143.6,y:993.4},0).wait(1).to({scaleX:0.55,scaleY:0.55,x:143.5,y:953},0).wait(1).to({scaleX:0.56,scaleY:0.56,x:143.4,y:912.5},0).wait(1).to({scaleX:0.58,scaleY:0.58,x:143.3,y:872},0).wait(1).to({scaleX:0.59,scaleY:0.59,x:143.2,y:831.5},0).wait(1).to({scaleX:0.6,scaleY:0.6,x:143.1,y:791},0).wait(1).to({scaleX:0.61,scaleY:0.61,x:143,y:750.5},0).wait(1).to({scaleX:0.62,scaleY:0.62,x:142.9,y:710},0).wait(1).to({scaleX:0.63,scaleY:0.63,x:142.8,y:669.6},0).wait(1).to({scaleX:0.64,scaleY:0.64,x:142.7,y:629.1},0).wait(1).to({scaleX:0.66,scaleY:0.66,x:142.5,y:588.6},0).wait(1).to({scaleX:0.67,scaleY:0.67,x:142.4,y:548.1},0).wait(1).to({scaleX:0.68,scaleY:0.68,x:142.3,y:507.6},0).wait(1).to({scaleX:0.69,scaleY:0.69,x:142.2,y:467.2},0).wait(1).to({scaleX:0.7,scaleY:0.7,x:142.1,y:426.7},0).wait(1).to({scaleX:0.71,scaleY:0.71,x:142,y:386.2},0).wait(1).to({scaleX:0.72,scaleY:0.72,x:141.9,y:345.7},0).wait(1).to({scaleX:0.73,scaleY:0.73,x:141.8,y:305.2},0).wait(1).to({scaleX:0.75,scaleY:0.75,x:141.7,y:264.7},0).wait(1).to({scaleX:0.76,scaleY:0.76,x:141.6,y:224.3},0).wait(1).to({scaleX:0.77,scaleY:0.77,x:141.4,y:183.8},0).wait(1).to({scaleX:0.78,scaleY:0.78,x:141.3,y:143.3},0).wait(1).to({scaleX:0.79,scaleY:0.79,x:141.2,y:102.9},0).wait(1).to({scaleX:0.8,scaleY:0.8,x:141.1,y:62.4},0).wait(1).to({scaleX:0.81,scaleY:0.81,x:141,y:21.9},0).wait(1).to({scaleX:0.82,scaleY:0.82,x:140.9,y:-18.6},0).wait(1).to({scaleX:0.84,scaleY:0.84,x:140.8,y:-59.1},0).wait(1).to({scaleX:0.85,scaleY:0.85,x:140.7,y:-99.5},0).wait(1).to({scaleX:0.86,scaleY:0.86,x:140.6,y:-140},0).wait(1).to({scaleX:0.87,scaleY:0.87,x:140.4,y:-180.5},0).wait(1).to({scaleX:0.88,scaleY:0.88,y:-220.9},0).wait(1).to({scaleX:0.89,scaleY:0.89,x:140.2,y:-261.4},0).wait(1).to({scaleX:0.9,scaleY:0.9,x:140.1,y:-302},0).wait(1).to({scaleX:0.91,scaleY:0.91,x:140,y:-342.4},0).wait(1).to({scaleX:0.93,scaleY:0.93,x:139.9,y:-382.9},0).wait(1).to({scaleX:0.94,scaleY:0.94,x:139.8,y:-423.4},0).wait(1).to({scaleX:0.95,scaleY:0.95,x:139.7,y:-463.9},0).wait(1).to({scaleX:0.96,scaleY:0.96,x:139.6,y:-504.4},0).wait(1).to({scaleX:0.97,scaleY:0.97,x:139.4,y:-544.8},0).wait(1).to({scaleX:0.98,scaleY:0.98,y:-585.3},0).wait(1).to({scaleX:0.99,scaleY:0.99,x:139.2,y:-625.8},0).wait(1).to({scaleX:1,scaleY:1,y:-666.2},0).wait(1).to({scaleX:1.02,scaleY:1.02,x:139,y:-706.7},0).to({_off:true},1).wait(105));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(80).to({_off:false},0).wait(1).to({regX:63.9,regY:162.5,scaleX:0.54,scaleY:0.54,x:148.4,y:993.4},0).wait(1).to({scaleX:0.55,scaleY:0.55,x:148.3,y:953},0).wait(1).to({scaleX:0.56,scaleY:0.56,x:148.4,y:912.5},0).wait(1).to({scaleX:0.58,scaleY:0.58,x:148.3,y:872},0).wait(1).to({scaleX:0.59,scaleY:0.59,y:831.5},0).wait(1).to({scaleX:0.6,scaleY:0.6,y:791},0).wait(1).to({scaleX:0.61,scaleY:0.61,y:750.5},0).wait(1).to({scaleX:0.62,scaleY:0.62,y:710},0).wait(1).to({scaleX:0.63,scaleY:0.63,y:669.6},0).wait(1).to({scaleX:0.64,scaleY:0.64,x:148.2,y:629.1},0).wait(1).to({scaleX:0.66,scaleY:0.66,y:588.6},0).wait(1).to({scaleX:0.67,scaleY:0.67,y:548.1},0).wait(1).to({scaleX:0.68,scaleY:0.68,y:507.6},0).wait(1).to({scaleX:0.69,scaleY:0.69,y:467.2},0).wait(1).to({scaleX:0.7,scaleY:0.7,y:426.7},0).wait(1).to({scaleX:0.71,scaleY:0.71,y:386.2},0).wait(1).to({scaleX:0.72,scaleY:0.72,y:345.7},0).wait(1).to({scaleX:0.73,scaleY:0.73,y:305.2},0).wait(1).to({scaleX:0.75,scaleY:0.75,x:148.1,y:264.7},0).wait(1).to({scaleX:0.76,scaleY:0.76,x:148.2,y:224.3},0).wait(1).to({scaleX:0.77,scaleY:0.77,x:148.1,y:183.8},0).wait(1).to({scaleX:0.78,scaleY:0.78,y:143.3},0).wait(1).to({scaleX:0.79,scaleY:0.79,y:102.9},0).wait(1).to({scaleX:0.8,scaleY:0.8,y:62.4},0).wait(1).to({scaleX:0.81,scaleY:0.81,y:21.9},0).wait(1).to({scaleX:0.82,scaleY:0.82,y:-18.6},0).wait(1).to({scaleX:0.84,scaleY:0.84,x:148,y:-59.1},0).wait(1).to({scaleX:0.85,scaleY:0.85,x:148.1,y:-99.5},0).wait(1).to({scaleX:0.86,scaleY:0.86,x:148,y:-140},0).wait(1).to({scaleX:0.87,scaleY:0.87,y:-180.5},0).wait(1).to({scaleX:0.88,scaleY:0.88,y:-220.9},0).wait(1).to({scaleX:0.89,scaleY:0.89,y:-261.4},0).wait(1).to({scaleX:0.9,scaleY:0.9,y:-302},0).wait(1).to({scaleX:0.91,scaleY:0.91,y:-342.4},0).wait(1).to({scaleX:0.93,scaleY:0.93,y:-382.9},0).wait(1).to({scaleX:0.94,scaleY:0.94,x:147.9,y:-423.4},0).wait(1).to({scaleX:0.95,scaleY:0.95,y:-463.9},0).wait(1).to({scaleX:0.96,scaleY:0.96,y:-504.4},0).wait(1).to({scaleX:0.97,scaleY:0.97,y:-544.8},0).wait(1).to({scaleX:0.98,scaleY:0.98,y:-585.3},0).wait(1).to({scaleX:0.99,scaleY:0.99,y:-625.8},0).wait(1).to({scaleX:1,scaleY:1,y:-666.2},0).wait(1).to({scaleX:1.02,scaleY:1.02,y:-706.7},0).to({_off:true},1).wait(105));
 
 	// bubbles-
-	this.instance_12 = new lib.bubbles_mccopy();
+	this.instance_12 = new lib.BKGRbubbles_mc();
 	this.instance_12.parent = this;
 	this.instance_12.setTransform(866.5,851.2,0.25,0.25,0,0,0,65.2,324.4);
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(84).to({_off:false},0).wait(1).to({regX:55.2,regY:162.5,x:864,y:786.4},0).wait(1).to({y:762.2},0).wait(1).to({y:737.9},0).wait(1).to({y:713.7},0).wait(1).to({y:689.5},0).wait(1).to({y:665.2},0).wait(1).to({y:641},0).wait(1).to({y:616.7},0).wait(1).to({y:592.5},0).wait(1).to({y:568.3},0).wait(1).to({y:544},0).wait(1).to({y:519.8},0).wait(1).to({y:495.5},0).wait(1).to({y:471.3},0).wait(1).to({x:864.1,y:447.1},0).wait(1).to({y:422.8},0).wait(1).to({y:398.6},0).wait(1).to({y:374.4},0).wait(1).to({y:350.1},0).wait(1).to({y:325.9},0).wait(1).to({y:301.7},0).wait(1).to({y:277.4},0).wait(1).to({y:253.2},0).wait(1).to({y:228.9},0).wait(1).to({y:204.7},0).wait(1).to({y:180.4},0).wait(1).to({y:156.2},0).wait(1).to({y:132},0).wait(1).to({y:107.8},0).wait(1).to({y:83.5},0).wait(1).to({y:59.3},0).wait(1).to({y:35.1},0).wait(1).to({y:10.8},0).wait(1).to({y:-13.4},0).wait(1).to({y:-37.6},0).wait(1).to({y:-61.9},0).wait(1).to({y:-86.1},0).wait(1).to({y:-110.4},0).wait(1).to({y:-134.6},0).wait(1).to({y:-158.8},0).wait(1).to({y:-183.1},0).wait(1).to({y:-207.3},0).wait(1).to({y:-231.6},0).to({_off:true},1).wait(101));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(84).to({_off:false},0).wait(1).to({regX:63.9,regY:162.5,x:866.2,y:786.4},0).wait(1).to({y:762.2},0).wait(1).to({y:737.9},0).wait(1).to({y:713.7},0).wait(1).to({y:689.5},0).wait(1).to({y:665.2},0).wait(1).to({y:641},0).wait(1).to({y:616.7},0).wait(1).to({y:592.5},0).wait(1).to({y:568.3},0).wait(1).to({y:544},0).wait(1).to({y:519.8},0).wait(1).to({y:495.5},0).wait(1).to({y:471.3},0).wait(1).to({x:866.3,y:447.1},0).wait(1).to({y:422.8},0).wait(1).to({y:398.6},0).wait(1).to({y:374.4},0).wait(1).to({y:350.1},0).wait(1).to({y:325.9},0).wait(1).to({y:301.7},0).wait(1).to({y:277.4},0).wait(1).to({y:253.2},0).wait(1).to({y:228.9},0).wait(1).to({y:204.7},0).wait(1).to({y:180.4},0).wait(1).to({y:156.2},0).wait(1).to({y:132},0).wait(1).to({y:107.8},0).wait(1).to({y:83.5},0).wait(1).to({y:59.3},0).wait(1).to({y:35.1},0).wait(1).to({y:10.8},0).wait(1).to({y:-13.4},0).wait(1).to({y:-37.6},0).wait(1).to({y:-61.9},0).wait(1).to({y:-86.1},0).wait(1).to({y:-110.4},0).wait(1).to({y:-134.6},0).wait(1).to({y:-158.8},0).wait(1).to({y:-183.1},0).wait(1).to({y:-207.3},0).wait(1).to({y:-231.6},0).to({_off:true},1).wait(101));
 
 	// bkgr
 	this.instance_13 = new lib.bkgr("synched",0);
@@ -1238,7 +1219,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,136.3,325);
 	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(229));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-922.3,-579.3,2735.1,2704.5);
+p.nominalBounds = new cjs.Rectangle(-922.3,-579.3,2735.1,2651.1);
 
 
 // stage content:
@@ -1252,25 +1233,25 @@ p.nominalBounds = new cjs.Rectangle(-922.3,-579.3,2735.1,2704.5);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(870));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(991));
 
 	// BackgroundLogo
-	this.instance = new lib.Group();
+	this.instance = new lib.MMlogo();
 	this.instance.parent = this;
 	this.instance.setTransform(540.1,154.2,1,1,0,0,0,140.8,96.2);
 	this.instance.shadow = new cjs.Shadow("rgba(35,31,32,0.749)",0,2,15);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(870));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(991));
 
 	// BackgroundLoop
 	this.BackgroundLoop = new lib.BackgroundLoop();
 	this.BackgroundLoop.parent = this;
 	this.BackgroundLoop.setTransform(574.1,626.7,1,1,0,0,0,574.1,626.7);
 
-	this.timeline.addTween(cjs.Tween.get(this.BackgroundLoop).wait(870));
+	this.timeline.addTween(cjs.Tween.get(this.BackgroundLoop).wait(991));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-382.3,380.7,2735.1,2704.5);
+p.nominalBounds = new cjs.Rectangle(-382.3,380.7,2735.1,2651.1);
 
 })(libBackground = libBackground||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var libBackground, images, createjs, ss;

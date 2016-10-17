@@ -1,0 +1,51 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Mussel internal anatomy/mussel-mantel-lower" itemID="580515a4-00000e0a" lastModified="1476728228">
+  <timeline>
+    <DOMTimeline name="mussel-mantel-lower">
+      <layers>
+        <DOMLayer name="highlight" color="#9933CC" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="284.7" ty="299.9"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.129411764705882"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!261 724S2[326 696 669 725!669 725[964 750 1161 784!1161 784[1575 855 1772 872!1772 872[2137 904 2392 848!2392 848[2588 805 2855 775!2855 775[3115 747 3299 704!3299 704[3503 656 3998 493!3998 493[4449 346 4651 267!4651 267[4743 232 4872
+ 133!4872 133[5000 35 5094 0!5094 0[5086 11 5046 124!5046 124[5014 214 4959 240!4959 240[4849 293 4556 465!4556 465[4252 644 4192 694!4192 694[4092 778 3757 827!3757 827[3353 871 3176 897!3176 897[2982 926 2656 988!2656 988[2378 1041
+ 2246 1057!2246 1057[1842 1105 1397 983!1397 983[996 873 689 847!689 847[419 824 188 864!188 864[-80 910 31 836!31 836[92 796 261 724"/>
+                    <Edge cubics="!261 724(261,724;357,683 954,748 1161,784q261 724Q326 696q669 725Q964 750q1161 784)1161,784;"/>
+                    <Edge cubics="!1161 784(;1536,848 2004,933 2392,848q1161 784Q1575 855q1772 872Q2137 904q2392 848);"/>
+                    <Edge cubics="!2392 848(;2785,761 2932,789 3299,704q2392 848Q2588 805q2855 775Q3115 747q3299 704);"/>
+                    <Edge cubics="!3299 704(;3595,634 4417,358 4651,267q3299 704Q3503 656q3998 493Q4449 346q4651 267);"/>
+                    <Edge cubics="!4651 267(;4837,196 4907,69 5094,0q4651 267Q4743 232q4872 133Q5000 35q5094 0);"/>
+                    <Edge cubics="!5094 0(;5052,55 5052,195 4959,240q5094 0Q5086 11q5046 124Q5014 214q4959 240);"/>
+                    <Edge cubics="!4959 240(;4822,306 4277,623 4192,694q4959 240Q4849 293q4556 465Q4252 644q4192 694);"/>
+                    <Edge cubics="!4192 694(;4032,829 3530,845 3176,897q4192 694Q4092 778q3757 827Q3353 871q3176 897);"/>
+                    <Edge cubics="!3176 897(;2369,1018 2096,1174 1397,983q3176 897Q2982 926q2656 988Q2378 1041q2246 1057Q1842 1105q1397 983);"/>
+                    <Edge cubics="!1397 983(;833,828 475,814 188,864q1397 983Q996 873q689 847Q419 824q188 864);"/>
+                    <Edge cubics="!188 864(;-231,936 165,765 261,724q188 864Q-80 910q31 836Q92 796q261 724);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="mussel-mantelColor" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance selected="true" libraryItemName="Assets/Mussel internal anatomy/mussel-mantelColor"/>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

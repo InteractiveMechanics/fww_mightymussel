@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/glochidia_03" itemID="57c221a1-00000d86" lastModified="1472368335">
+  <timeline>
+    <DOMTimeline name="glochidia_03">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#F4F4F1"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" caps="none" joints="miter" miterLimit="4">
+                        <fill>
+                          <SolidColor color="#736357"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle0="1" strokeStyle="1" edges="!86 193[-15 152 3 283!3 283[19 402 69 456!69 456[145 539 206 569!206 569[295 612 372 556!372 556[413 526 430 476!430 476[448 421 418 382!418 382[521 441 520 303!520 303[518 169 457 112!457 112[386 46 293 16!293 16[179 -22 110 29!110 29
+[60 66 71 117!71 117[76 141 115 204!115 204|86 193"/>
+                    <Edge fillStyle0="1" fillStyle1="1" strokeStyle="1" edges="
+!88 100[171 55 299 106!299 106[425 155 471 242!471 242[527 348 455 356!455 356[396 363 317 319!317 319[139 219 88 100!220 523[269 545 320 545!320 545[382 544 414 505!414 505[470 437 319 330!319 330[188 237 101 223!101 223[-41 200 50 346
+!50 346[135 484 220 523"/>
+                    <Edge cubics="!86 193(;-68,131 24,407 69,456q86 193Q-15 152q3 283Q19 402q69 456);"/>
+                    <Edge cubics="!69 456(;145,539 256,640 372,556q69 456Q145 539q206 569Q295 612q372 556);"/>
+                    <Edge cubics="!372 556(;422,520 460,437 418,382q372 556Q413 526q430 476Q448 421q418 382);"/>
+                    <Edge cubics="!418 382(418,382;569,469 525,175 457,112q418 382Q521 441q520 303Q518 169q457 112);"/>
+                    <Edge cubics="!457 112(;380,41 212,-46 110,29q457 112Q386 46q293 16Q179 -22q110 29);"/>
+                    <Edge cubics="!110 29(;34,86 80,147 115,204q110 29Q60 66q71 117Q76 141q115 204);"/>
+                    <Edge cubics="!115 204(;115,204 86,193 86,193q115 204 86 193);"/>
+                    <Edge cubics="!88 100(88,100;201,39 411,129 471,242q88 100Q171 55q299 106Q425 155q471 242)471,242;"/>
+                    <Edge cubics="!471 242(;556,401 394,362 317,319q471 242Q527 348q455 356Q396 363q317 319);"/>
+                    <Edge cubics="!317 319(;230,270 129,196 88,100q317 319Q139 219q88 100);"/>
+                    <Edge cubics="!220 523(220,523;274,548 367,562 414,505q220 523Q269 545q320 545Q382 544q414 505)414,505;"/>
+                    <Edge cubics="!414 505(;499,401 179,236 101,223q414 505Q470 437q319 330Q188 237q101 223);"/>
+                    <Edge cubics="!101 223(101,223;-113,188 138,485 220,523q101 223Q-41 200q50 346Q135 484q220 523);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Fish/Brook Trout- AI symbols/&amp;#060Path&amp;#062_12_0" itemID="57a7b7dc-000004b4" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_12_0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#CEBA61"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle0="1" edges="!186 69[183 46 181 38!181 38[178 27 170 25!170 25[162 23 132 16!132 16[101 9 101 10!101 10[41 -1 28 0!28 0[14 0 0 38!0 38[9 62 11 67!11 67[16 77 23 78!23 78[33 78 86 86!86 86|153 101!153 101[164 103 186 69"/>
+                                <Edge cubics="!186 69(186,69;183,43 181,28 170,25q186 69Q183 46q181 38Q178 27q170 25)170,25;"/>
+                                <Edge cubics="!170 25(170,25;160,22 101,9 101,10q170 25Q162 23q132 16Q101 9q101 10);"/>
+                                <Edge cubics="!101 10(101,10;102,9 41,-1 28,0q101 10Q41 -1q28 0);"/>
+                                <Edge cubics="!28 0(28,0;16,0 9,13 0,38q28 0Q14 0q0 38);"/>
+                                <Edge cubics="!0 38(0,38;9,63 13,77 23,78q0 38Q9 62q11 67Q16 77q23 78);"/>
+                                <Edge cubics="!23 78(23,78;33,78 86,86 86,86q23 78Q33 78q86 86);"/>
+                                <Edge cubics="!86 86(86,86;86,86 141,99 153,101q86 86 153 101);"/>
+                                <Edge cubics="!153 101(;163,103 172,91 186,69q153 101Q164 103q186 69);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

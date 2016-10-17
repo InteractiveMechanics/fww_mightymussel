@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Fish/Brook Trout- AI symbols/&amp;#060Path&amp;#062_22" itemID="57a7b7dc-000004a0" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_22">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#CEBA61"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle0="1" edges="!39 31[77 30 78 27!78 27[79 25 78 15!78 15[79 6 78 4!78 4[77 2 39 0!39 0[1 2 0 4!0 4[-1 6 0 15!0 15|0 27!0 27[1 30 39 31"/>
+                                <Edge cubics="!39 31(39,31;64,30 77,29 78,27q39 31Q77 30q78 27)78,27;"/>
+                                <Edge cubics="!78 27(;79,25 78,15 78,15q78 27Q79 25q78 15);"/>
+                                <Edge cubics="!78 15(;78,15 79,6 78,4q78 15Q79 6q78 4);"/>
+                                <Edge cubics="!78 4(;77,2 64,1 39,0q78 4Q77 2q39 0);"/>
+                                <Edge cubics="!39 0(;14,1 1,2 0,4q39 0Q1 2q0 4);"/>
+                                <Edge cubics="!0 4(;-1,6 0,15 0,15q0 4Q-1 6q0 15);"/>
+                                <Edge cubics="!0 15(;0,15 -1,25 0,27q0 15Q0 15q0 27);"/>
+                                <Edge cubics="!0 27(;1,29 14,30 39,31q0 27Q1 30q39 31);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
