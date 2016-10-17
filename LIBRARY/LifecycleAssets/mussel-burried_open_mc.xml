@@ -4,7 +4,7 @@
       <layers>
         <DOMLayer name="Layer 2" color="#9933CC" locked="true" outline="true" useOutlineView="true" layerType="mask">
           <frames>
-            <DOMFrame index="0" duration="6" keyMode="15872">
+            <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
                 <DOMShape>
                   <fills>
@@ -155,7 +155,7 @@
           <frames>
             <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/InnerShell_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-innerShell">
                   <matrix>
                     <Matrix a="-0.564346313476562" b="-0.3443603515625" c="0.351272583007812" d="-0.474319458007812" tx="667.45" ty="1161.6"/>
                   </matrix>
@@ -167,7 +167,7 @@
             </DOMFrame>
             <DOMFrame index="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/InnerShell_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-innerShell">
                   <matrix>
                     <Matrix a="-0.57305908203125" b="-0.329635620117188" c="0.28466796875" d="-0.49493408203125" tx="726.5" ty="1141.1"/>
                   </matrix>

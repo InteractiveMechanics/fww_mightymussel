@@ -1,0 +1,56 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/Brook Trout- AI symbols/&amp;#060Path&amp;#062_25" itemID="57a7b7dc-0000049a" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_25">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMGroup selected="true">
+                      <members>
+                        <DOMGroup selected="true">
+                          <members>
+                            <DOMShape selected="true" isDrawingObject="true">
+                              <fills>
+                                <FillStyle index="1">
+                                  <SolidColor color="#CEBA61"/>
+                                </FillStyle>
+                              </fills>
+                              <edges>
+                                <Edge fillStyle0="1" edges="!38 88[76 83 135 83!135 83[199 83 238 79!238 79[423 70 518 128!518 128[580 163 585 233!585 233[587 268 576 294!576 294[569 330 555 346!555 346[546 359 508 369!508 369[471 379 425 381!425 381[297 384 239 386!239 386[139 389 107 400!107
+ 400[17 422 3 483!3 483[-4 513 8 542!8 542[16 561 38 588!38 588[37 527 55 506!55 506[70 488 125 476!125 476[148 467 242 464!242 464[297 462 430 459!430 459[500 452 528 445!528 445[582 431 614 397!614 397[638 363 646 335!646 335|652 314
+!652 314[653 315 657 292!657 292[662 264 664 230!664 230[663 185 636 138!636 138[606 87 559 61!559 61[477 13 365 3!365 3[320 -2 233 2!233 2[167 8 122 27!122 27[78 47 38 88"/>
+                                <Edge cubics="!38 88(38,88;112,79 157,87 238,79q38 88Q76 83q135 83Q199 83q238 79)238,79;"/>
+                                <Edge cubics="!238 79(;279,77 423,70 518,128q238 79Q423 70q518 128)518,128;"/>
+                                <Edge cubics="!518 128(;617,183 578,298 576,294q518 128Q580 163q585 233Q587 268q576 294);"/>
+                                <Edge cubics="!576 294(;576,289 569,330 555,346q576 294Q569 330q555 346);"/>
+                                <Edge cubics="!555 346(;543,364 485,378 425,381q555 346Q546 359q508 369Q471 379q425 381);"/>
+                                <Edge cubics="!425 381(;302,385 158,383 107,400q425 381Q297 384q239 386Q139 389q107 400);"/>
+                                <Edge cubics="!107 400(;62,411 14,435 3,483q107 400Q17 422q3 483);"/>
+                                <Edge cubics="!3 483(;-8,528 15,560 38,588q3 483Q-4 513q8 542Q16 561q38 588);"/>
+                                <Edge cubics="!38 588(38,588;36,504 55,491 125,476q38 588Q37 527q55 506Q70 488q125 476)125,476;"/>
+                                <Edge cubics="!125 476(;162,462 298,464 430,459q125 476Q148 467q242 464Q297 462q430 459)430,459;"/>
+                                <Edge cubics="!430 459(;494,453 566,449 614,397q430 459Q500 452q528 445Q582 431q614 397);"/>
+                                <Edge cubics="!614 397(;654,340 646,316 652,314q614 397Q638 363q646 335Q652 314q652 314);"/>
+                                <Edge cubics="!652 314(;653,315 661,283 664,230q652 314Q653 315q657 292Q662 264q664 230);"/>
+                                <Edge cubics="!664 230(;663,175 626,97 559,61q664 230Q663 185q636 138Q606 87q559 61);"/>
+                                <Edge cubics="!559 61(;430,-14 280,0 233,2q559 61Q477 13q365 3Q320 -2q233 2);"/>
+                                <Edge cubics="!233 2(;145,10 91,33 38,88q233 2Q167 8q122 27Q78 47q38 88);"/>
+                              </edges>
+                            </DOMShape>
+                          </members>
+                        </DOMGroup>
+                      </members>
+                    </DOMGroup>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,46 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/Brook Trout- AI symbols/&amp;#060Path&amp;#062_8" itemID="57a7b7dc-00000486" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_8">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.079345703125" d="-0.079345703125" tx="65" ty="89.2"/>
+                        </matrix>
+                        <GradientEntry color="#782200" ratio="0"/>
+                        <GradientEntry color="#924007" ratio="0.192156862745098"/>
+                        <GradientEntry color="#BF7513" ratio="0.568627450980392"/>
+                        <GradientEntry color="#DA971B" ratio="0.847058823529412"/>
+                        <GradientEntry color="#E5A31E" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!894 1696[847 1386 419 1085!419 1085[205 935 0 846!0 846[667 585 1207 378!1207 378[2260 -27 2374 2!2374 2[2534 43 2557 60!2557 60[2600 94 2600 223!2600 223[2600 303 2487 916!2487 916[2374 1529 2374 1689!2374 1689[2374 1876 2390 2003!2390
+ 2003[2400 2079 2427 2236!2427 2236[2470 2532 2482 2681!2482 2681[2510 3010 2467 3156!2467 3156[2449 3216 2431 3331!2431 3331[2413 3444 2402 3483!2402 3483[2360 3621 2227 3529!2227 3529[2078 3427 1256 3008!1256 3008[466 2606 254 2516
+!254 2516[433 2435 602 2292!602 2292[941 2006 894 1696"/>
+                    <Edge cubics="!894 1696(894,1696;818,1200 0,846 0,846q894 1696Q847 1386q419 1085Q205 935q0 846)0,846;"/>
+                    <Edge cubics="!0 846(;240,769 2187,-45 2374,2q0 846Q667 585q1207 378Q2260 -27q2374 2);"/>
+                    <Edge cubics="!2374 2(;2560,49 2600,36 2600,223q2374 2Q2534 43q2557 60Q2600 94q2600 223);"/>
+                    <Edge cubics="!2600 223(;2600,409 2374,1396 2374,1689q2600 223Q2600 303q2487 916Q2374 1529q2374 1689);"/>
+                    <Edge cubics="!2374 1689(;2374,1983 2400,2049 2427,2236q2374 1689Q2374 1876q2390 2003Q2400 2079q2427 2236);"/>
+                    <Edge cubics="!2427 2236(;2454,2423 2534,2929 2467,3156q2427 2236Q2470 2532q2482 2681Q2510 3010q2467 3156);"/>
+                    <Edge cubics="!2467 3156(;2400,3383 2440,3676 2227,3529q2467 3156Q2449 3216q2431 3331Q2413 3444q2402 3483Q2360 3621q2227 3529);"/>
+                    <Edge cubics="!2227 3529(;2014,3383 507,2623 254,2516q2227 3529Q2078 3427q1256 3008Q466 2606q254 2516);"/>
+                    <Edge cubics="!254 2516(;254,2516 969,2192 894,1696q254 2516Q433 2435q602 2292Q941 2006q894 1696);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

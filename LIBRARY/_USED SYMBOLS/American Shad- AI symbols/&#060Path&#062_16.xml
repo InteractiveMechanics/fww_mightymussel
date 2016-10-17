@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/American Shad- AI symbols/&amp;#060Path&amp;#062_16" itemID="57d0e44e-00000e40" lastModified="1469414330">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_16">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#231F20"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!0 0[129 84 192 93!192 93[30 8 0 0"/>
+                    <Edge cubics="!0 0(;0,0 129,84 192,93q0 0Q129 84q192 93);"/>
+                    <Edge cubics="!192 93(;192,93 30,8 0,0q192 93Q30 8q0 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

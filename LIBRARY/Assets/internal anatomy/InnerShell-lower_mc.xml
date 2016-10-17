@@ -1,13 +1,13 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy/InnerShell-lower_mc" itemID="57b930b0-000000d1" lastModified="1473312116">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal anatomy/InnerShell-lower_mc" itemID="57b930b0-000000d1" lastModified="1476722625">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="InnerShell-lower_mc">
       <layers>
-        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+        <DOMLayer name="inards" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="602" keyMode="9728">
+            <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/internal_mc" selected="true" symbolType="graphic" loop="play once">
                   <matrix>
@@ -21,16 +21,16 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="shell" color="#FFFF00" locked="true" autoNamed="false">
+        <DOMLayer name="shell" color="#FFFF00" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="602" keyMode="9728">
+            <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;_1">
+                <DOMBitmapInstance selected="true" libraryItemName="_USED SYMBOLS/Mussel internal anatomy/internal-shell">
                   <matrix>
                     <Matrix tx="979" ty="592.15"/>
                   </matrix>
                 </DOMBitmapInstance>
-                <DOMBitmapInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InnerShell_v01.ai Assets/internal anatomy/&lt;Mesh&gt;">
+                <DOMBitmapInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/internal-upperRidge">
                   <matrix>
                     <Matrix tx="1111.4" ty="585.3"/>
                   </matrix>

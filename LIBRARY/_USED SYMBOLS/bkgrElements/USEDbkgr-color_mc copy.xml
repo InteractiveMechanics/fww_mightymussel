@@ -1,0 +1,49 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/bkgrElements/USEDbkgr-color_mc copy" itemID="580506de-000006df" lastModified="1476724446">
+  <timeline>
+    <DOMTimeline name="USEDbkgr-color_mc copy">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-275.2" ty="-0.05"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0" b="-1.23594665527344" c="-1.23594665527344" d="0" tx="856.8" ty="1012.55"/>
+                        </matrix>
+                        <GradientEntry color="#C7B676" ratio="0"/>
+                        <GradientEntry color="#BFAF70" ratio="0.0117647058823529"/>
+                        <GradientEntry color="#A99C5F" ratio="0.0470588235294118"/>
+                        <GradientEntry color="#9C9055" ratio="0.0823529411764706"/>
+                        <GradientEntry color="#978C51" ratio="0.113725490196078"/>
+                        <GradientEntry color="#B0A67A" ratio="0.247058823529412"/>
+                        <GradientEntry color="#C3B996" ratio="0.341176470588235"/>
+                        <GradientEntry color="#B2BA7A" ratio="0.474509803921569"/>
+                        <GradientEntry color="#4F5530" ratio="0.635294117647059"/>
+                        <GradientEntry color="#739065" ratio="0.776470588235294"/>
+                        <GradientEntry color="#688457" ratio="0.890196078431372"/>
+                        <GradientEntry color="#4E7450" ratio="0.968627450980392"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!28770 40500S2|5504 40500!5504 40500|5504 1!5504 1|28770 1!28770 1|28770 40500"/>
+                    <Edge cubics="!28770 40500(28770,40500;28770,40500 5504,40500 5504,40500q28770 40500 5504 40500)5504,40500;"/>
+                    <Edge cubics="!5504 40500(;5504,40500 5504,1 5504,1q5504 40500 5504 1)5504,1;"/>
+                    <Edge cubics="!5504 1(;5504,1 28770,1 28770,1q5504 1 28770 1)28770,1;"/>
+                    <Edge cubics="!28770 1(;28770,1 28770,40500 28770,40500q28770 1 28770 40500);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

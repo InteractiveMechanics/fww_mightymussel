@@ -1,0 +1,34 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/American Shad- AI symbols/&amp;#060Path&amp;#062_3" itemID="57d0e44e-00000e37" lastModified="1469414331">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_3">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!928 91[828 65 769 52!769 52[664 30 577 34!577 34[535 36 402 32!402 32[317 29 271 43!271 43[166 85 108 106!108 106[3 145 0 119!0 119[143 52 237 34!237 34[375 8 462 2!462 2[642 -9 794 34!794 34[942 76 1103 103!1103 103[1183 117 1234 122
+!1234 122[1021 113 928 91"/>
+                    <Edge cubics="!0 119(;0,119 143,52 237,34q0 119Q143 52q237 34);"/>
+                    <Edge cubics="!237 34(;331,16 558,-33 794,34q237 34Q375 8q462 2Q642 -9q794 34);"/>
+                    <Edge cubics="!794 34(;1031,101 1234,122 1234,122q794 34Q942 76q1103 103Q1183 117q1234 122);"/>
+                    <Edge cubics="!1234 122(;1234,122 1021,113 928,91q1234 122Q1021 113q928 91);"/>
+                    <Edge cubics="!928 91(;834,70 715,28 577,34q928 91Q828 65q769 52Q664 30q577 34);"/>
+                    <Edge cubics="!577 34(;439,40 350,19 271,43q577 34Q535 36q402 32Q317 29q271 43);"/>
+                    <Edge cubics="!271 43(;193,67 5,161 0,119q271 43Q166 85q108 106Q3 145q0 119);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

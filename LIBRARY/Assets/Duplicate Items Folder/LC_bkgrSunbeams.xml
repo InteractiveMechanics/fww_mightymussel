@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_7" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_7" selected="true">
                   <matrix>
                     <Matrix tx="-268.65" ty="-559.05"/>
                   </matrix>
@@ -17,7 +17,7 @@
                     <Color alphaMultiplier="0.25"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_6" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_6" selected="true">
                   <matrix>
                     <Matrix tx="130.7" ty="-351.7"/>
                   </matrix>
@@ -28,7 +28,7 @@
                     <Color alphaMultiplier="0.25"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_5" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_5" selected="true">
                   <matrix>
                     <Matrix tx="427.95" ty="-420.25"/>
                   </matrix>
@@ -39,7 +39,7 @@
                     <Color alphaMultiplier="0.1484375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_4" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_4" selected="true">
                   <matrix>
                     <Matrix tx="696.15" ty="-396.25"/>
                   </matrix>
@@ -50,7 +50,7 @@
                     <Color alphaMultiplier="0.3984375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_3" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_3" selected="true">
                   <matrix>
                     <Matrix tx="989.45" ty="-579.3"/>
                   </matrix>
@@ -61,7 +61,7 @@
                     <Color alphaMultiplier="0.1484375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_2" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_2" selected="true">
                   <matrix>
                     <Matrix tx="1089.25" ty="-160.3"/>
                   </matrix>
@@ -72,7 +72,7 @@
                     <Color alphaMultiplier="0.3984375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/&amp;#060Path&amp;#062_1" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_1" selected="true">
                   <matrix>
                     <Matrix tx="1455.55" ty="-353.8"/>
                   </matrix>
@@ -109,7 +109,7 @@
                     <Edge cubics="!47150 24399(;47150,24399 47150,49930 47150,49930p47150 24399 47150 49930);"/>
                   </edges>
                 </DOMShape>
-                <DOMSymbolInstance libraryItemName="Assets/FlashAICB Assets/Layer 1/MKReDs" selected="true">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/Sunbeams- AI symbols/MKReDs" selected="true">
                   <matrix>
                     <Matrix tx="-433.35" ty="528"/>
                   </matrix>

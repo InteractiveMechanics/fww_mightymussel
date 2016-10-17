@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
                     <DOMSymbolInstance libraryItemName="Assets/flash1.ai_2/life cycle-bkgr/&amp;#060Path&amp;#062">
                       <matrix>

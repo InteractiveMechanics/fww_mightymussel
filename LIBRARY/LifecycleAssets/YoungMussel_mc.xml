@@ -47,7 +47,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-1.47886657714844" b="-1.45368957519531" c="-1.75814819335938" d="0.883865356445312" tx="412.65" ty="639.8"/>
                   </matrix>
@@ -120,7 +120,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="1.17619323730469" b="-1.22257995605469" c="1.22257995605469" d="1.17619323730469" tx="-677.95" ty="280.85"/>
                   </matrix>
@@ -272,7 +272,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-0.05572509765625" b="-2.59486389160156" c="2.09712219238281" d="-0.534011840820312" tx="-909.9" ty="447.2"/>
                   </matrix>
@@ -291,7 +291,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/mussel-shadow">
+                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow">
                   <matrix>
                     <Matrix a="0.807907104492188" c="-1.20234680175781" tx="-973.1" ty="262.25"/>
                   </matrix>
@@ -299,7 +299,7 @@
                     <Point x="204.65" y="45.65"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/mussel-shadow">
+                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow">
                   <matrix>
                     <Matrix a="0.487808227539062" c="-0.139434814453125" d="0.615066528320312" tx="-637.45" ty="211.6"/>
                   </matrix>
@@ -307,7 +307,7 @@
                     <Point x="204.65" y="45.75"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/mussel-shadow">
+                <DOMSymbolInstance libraryItemName="Assets/OLDmussel-shadow">
                   <matrix>
                     <Matrix a="0.649642944335938" b="-0.092315673828125" c="0.7332763671875" d="0.960601806640625" tx="129.85" ty="549.4"/>
                   </matrix>

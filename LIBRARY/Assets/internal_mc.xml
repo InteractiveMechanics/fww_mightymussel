@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal_mc" itemID="57b917ec-0000006e" lastModified="1473312167" lastUniqueIdentifier="1">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/internal_mc" itemID="57b917ec-0000006e" lastModified="1476722589" lastUniqueIdentifier="1">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="internal_mc">
+    <DOMTimeline name="internal_mc" currentFrame="34">
       <layers>
-        <DOMLayer name="internal anatomy" color="#FFFF00" locked="true" autoNamed="false">
+        <DOMLayer name="siphon holes" color="#FFFF00" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-234.35" ty="-842.25"/>
                   </matrix>
@@ -27,7 +27,7 @@
                     <Edge cubics="!19585 20417(19585,20417;19620,20415 19653,20473 19658,20548q19585 20417Q19611 20416q19633 20454Q19654 20492q19658 20548);"/>
                   </edges>
                 </DOMShape>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-234.35" ty="-842.25"/>
                   </matrix>
@@ -50,11 +50,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="&lt;Group&gt;_0" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="LABIAL palp top" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&amp;#060Group&amp;#062_0" centerPoint3DX="100.6" centerPoint3DY="216.1">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-labialPalp-top" selected="true" centerPoint3DX="100.6" centerPoint3DY="216.1">
                   <matrix>
                     <Matrix tx="85.35" ty="176.25"/>
                   </matrix>
@@ -73,7 +73,7 @@
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Posterior">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-adductorMuscle_Posterior" selected="true">
                   <matrix>
                     <Matrix tx="571.95" ty="101.35"/>
                   </matrix>
@@ -90,7 +90,7 @@
             <DOMFrame index="0" duration="36" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="36000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499967" xformPtYOffsetPct="0.499941" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="29000"/><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="34000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/foot">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/USED ANmussel-foot" selected="true">
                   <matrix>
                     <Matrix ty="51.8"/>
                   </matrix>
@@ -105,11 +105,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="&lt;Group&gt;_4" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="labial palp btm" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/FWW-MM_IllustrationStyle-InternalFlash_v03.ai Assets/internal anatomy/&amp;#060Group&amp;#062_4" centerPoint3DX="89.7" centerPoint3DY="219.8">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-labialPalp-btm" selected="true" centerPoint3DX="89.7" centerPoint3DY="219.8">
                   <matrix>
                     <Matrix tx="77.95" ty="182.55"/>
                   </matrix>
@@ -124,11 +124,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Adductor muscle L" color="#009999" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Adductor muscle L" color="#009999" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/adductorMuscle_Anterior" centerPoint3DX="156.55" centerPoint3DY="101.1">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-adductorMuscle_Anterior" selected="true" centerPoint3DX="156.55" centerPoint3DY="101.1">
                   <matrix>
                     <Matrix a="0.906707763671875" b="-0.421661376953125" c="0.421661376953125" d="0.906707763671875" tx="117.15" ty="95.6"/>
                   </matrix>
@@ -140,11 +140,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 7" color="#669900" locked="true">
+        <DOMLayer name="highlight" color="#669900" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
                     <DOMGroup>
                       <members>
@@ -188,7 +188,7 @@
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/stomach">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/USED-AN_mussel-stomach" selected="true">
                   <matrix>
                     <Matrix tx="96.35" ty="104.1"/>
                   </matrix>
@@ -204,7 +204,7 @@
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix c="0.035614013671875" tx="-268" ty="-839.3"/>
                   </matrix>
@@ -291,7 +291,7 @@
                     <Edge cubics="!12765 22140(;12630,22371 12361,22502 11963,22532q12765 22140Q12562 22487q11963 22532);"/>
                   </edges>
                 </DOMShape>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
                     <DOMShape isDrawingObject="true">
                       <matrix>
@@ -386,11 +386,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Blend" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="gills" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-top">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-gills-top" selected="true">
                   <matrix>
                     <Matrix tx="82.2" ty="149.5"/>
                   </matrix>
@@ -405,11 +405,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Blend_1" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="gills-btm" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/gills-btm">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/mussel-gills-btm" selected="true">
                   <matrix>
                     <Matrix tx="77.15" ty="173.05"/>
                   </matrix>
@@ -424,11 +424,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 12" color="#FF4FFF" locked="true">
+        <DOMLayer name="ex siphone" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix tx="-234.35" ty="-842.25"/>
                   </matrix>
@@ -465,11 +465,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mantel-lower" color="#009999" locked="true" autoNamed="false">
+        <DOMLayer name="mantel-lower" color="#009999" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="36" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/internal anatomy/mantel-lower">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/Mussel internal anatomy/USED_ANmussel-mantel-lower" selected="true">
                   <matrix>
                     <Matrix tx="54.5" ty="26.55"/>
                   </matrix>

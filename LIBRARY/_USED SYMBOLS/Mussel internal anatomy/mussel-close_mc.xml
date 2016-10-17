@@ -1,0 +1,372 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/Mussel internal anatomy/mussel-close_mc" itemID="58050512-000006a4" symbolType="graphic" lastModified="1476723986">
+  <timeline>
+    <DOMTimeline name="mussel-close_mc" currentFrame="10">
+      <layers>
+        <DOMLayer name="Layer 2" color="#9933CC" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="34" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="33" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="32" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="31" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="30" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" selected="true" symbolType="graphic" firstFrame="29" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="28" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="27" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="26" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="25" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="24" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="23" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="22" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="21" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="20" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="19" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="18" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="17" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="16" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="15" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="25" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="14" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="26" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="13" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="27" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="12" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="28" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="11" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="29" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="10" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="30" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="9" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="31" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="8" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="7" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="33" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="6" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="34" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="5" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="4" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="36" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="3" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="37" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="2" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="38" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" symbolType="graphic" firstFrame="1" centerPoint3DX="609.1" centerPoint3DY="1100.15" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="39" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/mussel-open_mc" selected="true" symbolType="graphic" loop="play once">
+                  <transformationPoint>
+                    <Point x="630.3" y="1123"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

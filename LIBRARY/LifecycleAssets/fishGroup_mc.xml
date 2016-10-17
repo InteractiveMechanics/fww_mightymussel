@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/fishShadow_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/fishShadow_mc">
                   <matrix>
                     <Matrix tx="197.95" ty="114.75"/>
                   </matrix>
@@ -17,7 +17,7 @@
                     <Color alphaMultiplier="0.078125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/fishShadow_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/fishShadow_mc">
                   <matrix>
                     <Matrix tx="90.85" ty="40.2"/>
                   </matrix>
@@ -28,7 +28,7 @@
                     <Color alphaMultiplier="0.078125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/fishShadow_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/fishShadow_mc">
                   <matrix>
                     <Matrix tx="311.65" ty="64.3"/>
                   </matrix>
@@ -39,7 +39,7 @@
                     <Color alphaMultiplier="0.078125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/fishShadow_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/fishShadow_mc">
                   <transformationPoint>
                     <Point x="60.65" y="25.85"/>
                   </transformationPoint>
@@ -47,7 +47,7 @@
                     <Color alphaMultiplier="0.078125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/flash1.ai/bkgr/fishShadow_mc">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/fishShadow_mc">
                   <matrix>
                     <Matrix a="1.54338073730469" d="1.54338073730469" tx="206.6"/>
                   </matrix>

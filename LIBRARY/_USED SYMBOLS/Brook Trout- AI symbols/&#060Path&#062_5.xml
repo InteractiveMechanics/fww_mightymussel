@@ -1,0 +1,43 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/Brook Trout- AI symbols/&amp;#060Path&amp;#062_5" itemID="57a7b7dc-00000488" lastModified="1470609372">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_5">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.0262451171875" b="0.0589447021484375" c="0.0589447021484375" d="-0.0262451171875" tx="53.25" ty="38.35"/>
+                        </matrix>
+                        <GradientEntry color="#573735" ratio="0.0235294117647059"/>
+                        <GradientEntry color="#D6562B" ratio="0.368627450980392"/>
+                        <GradientEntry color="#ED7C31" ratio="0.701960784313725"/>
+                        <GradientEntry color="#F4BB3A" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!15 120[-48 234 148 498!148 498[275 668 445 827!445 827[549 924 693 1069!693 1069[775 1151 938 1316!938 1316[1084 1462 1158 1521!1158 1521[1290 1627 1415 1663!1415 1663[1591 1716 1733 1622!1733 1622[1876 1528 1895 1346!1895 1346[1934
+ 994 1858 717!1858 717[1759 354 1485 277!1485 277[1369 245 1167 223!1167 223[886 194 842 187!842 187[745 172 513 83!513 83[305 4 188 0!188 0|15 120"/>
+                    <Edge cubics="!15 120(15,120;-83,297 324,714 445,827q15 120Q-48 234q148 498Q275 668q445 827)445,827;"/>
+                    <Edge cubics="!445 827(;613,984 774,1152 938,1316q445 827Q549 924q693 1069Q775 1151q938 1316);"/>
+                    <Edge cubics="!938 1316(;1077,1455 1226,1608 1415,1663q938 1316Q1084 1462q1158 1521Q1290 1627q1415 1663);"/>
+                    <Edge cubics="!1415 1663(;1649,1733 1869,1589 1895,1346q1415 1663Q1591 1716q1733 1622Q1876 1528q1895 1346);"/>
+                    <Edge cubics="!1895 1346(;1935,981 1894,391 1485,277q1895 1346Q1934 994q1858 717Q1759 354q1485 277);"/>
+                    <Edge cubics="!1485 277(;1288,222 1047,219 842,187q1485 277Q1369 245q1167 223Q886 194q842 187);"/>
+                    <Edge cubics="!842 187(842,187;620,153 405,7 188,0q842 187Q745 172q513 83Q305 4q188 0);"/>
+                    <Edge cubics="!188 0(;188,0 15,120 15,120q188 0 15 120);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

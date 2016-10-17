@@ -22,7 +22,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.59843444824219" b="-0.0136871337890625" c="0.0301666259765625" d="0.798049926757813" tx="1935.5" ty="148.7"/>
                   </matrix>
@@ -33,7 +33,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                   <matrix>
                     <Matrix a="-1.97944641113281" b="-0.62225341796875" c="-1.35075378417969" d="1.815673828125" tx="1893" ty="-12.35"/>
                   </matrix>
@@ -41,7 +41,7 @@
                     <Point x="66.8" y="61.85"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.0146484375" b="-0.0725250244140625" c="0.082672119140625" d="-0.457901000976563" tx="2576.1" ty="-443.95"/>
                   </matrix>
@@ -52,7 +52,7 @@
                     <Color alphaMultiplier="0.08984375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock05 copy" name="rock04">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock05 copy" name="rock04">
                   <matrix>
                     <Matrix a="1.18899536132813" d="0.553695678710938" tx="2318.6" ty="-567.25"/>
                   </matrix>
@@ -63,7 +63,7 @@
                     <Color alphaMultiplier="0.75"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock01 copy" name="rock02">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock01 copy" name="rock02">
                   <matrix>
                     <Matrix a="0.574295043945313" d="0.574295043945313" tx="2442.9" ty="-553.8"/>
                   </matrix>
@@ -71,7 +71,7 @@
                     <Point x="-3.05" y="-8.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock02 copy" name="rock05">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock02 copy" name="rock05">
                   <matrix>
                     <Matrix a="0.78509521484375" d="1.69537353515625" tx="2412.1" ty="-525.6"/>
                   </matrix>
@@ -82,7 +82,7 @@
                     <Color alphaMultiplier="0.98828125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                   <matrix>
                     <Matrix a="-0.400787353515625" b="-0.141693115234375" c="-0.1326904296875" d="0.375289916992188" tx="2346.85" ty="-524.45"/>
                   </matrix>
@@ -93,7 +93,7 @@
                     <Color alphaMultiplier="0.78125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                   <matrix>
                     <Matrix a="0.517684936523438" d="0.355392456054688" tx="2257.9" ty="-505.5"/>
                   </matrix>
@@ -104,7 +104,7 @@
                     <Color alphaMultiplier="0.640625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.24525451660156" b="-0.010650634765625" c="0.0301666259765625" d="0.798049926757813" tx="2838" ty="-49"/>
                   </matrix>
@@ -115,7 +115,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                   <matrix>
                     <Matrix a="1.90818786621094" d="1.90818786621094" tx="1719.35" ty="20.9"/>
                   </matrix>
@@ -123,7 +123,7 @@
                     <Point x="-3.05" y="-8.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock08 copy" name="rock12">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock08 copy" name="rock12">
                   <matrix>
                     <Matrix a="2.86526489257812" d="0.8316650390625" tx="2480.2" ty="-88.05"/>
                   </matrix>
@@ -141,7 +141,7 @@
                 </DOMSymbolInstance>
                 <DOMGroup>
                   <members>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix a="-1.0146484375" b="-0.0725250244140625" c="0.082672119140625" d="-0.457901000976563" tx="4543.65" ty="-443.95"/>
                       </matrix>
@@ -152,7 +152,7 @@
                         <Color alphaMultiplier="0.08984375"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix tx="3194.45" ty="-383.2"/>
                       </matrix>
@@ -163,7 +163,7 @@
                         <Color alphaMultiplier="0.12890625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                       <matrix>
                         <Matrix a="-1.18038940429688" b="-0.256484985351563" c="-0.1630859375" d="0.75079345703125" tx="3428.35" ty="-440.85"/>
                       </matrix>
@@ -171,7 +171,7 @@
                         <Point x="-3.2" y="-8.2"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock04 copy" name="rock08">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock04 copy" name="rock08">
                       <matrix>
                         <Matrix a="-0.78228759765625" d="0.78228759765625" tx="3477.45" ty="-422.7"/>
                       </matrix>
@@ -179,7 +179,7 @@
                         <Point x="-3.05" y="-8.1"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock05 copy" name="rock04">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock05 copy" name="rock04">
                       <matrix>
                         <Matrix a="1.18899536132813" d="0.553695678710938" tx="4286.15" ty="-567.25"/>
                       </matrix>
@@ -190,7 +190,7 @@
                         <Color alphaMultiplier="0.75"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock10_mc copy" name="rock10">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock10_mc copy" name="rock10">
                       <matrix>
                         <Matrix a="0.495391845703125" b="0.040496826171875" c="-0.0623931884765625" d="0.76458740234375" tx="3481.15" ty="-364.9"/>
                       </matrix>
@@ -198,7 +198,7 @@
                         <Point/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock01 copy" name="rock02">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock01 copy" name="rock02">
                       <matrix>
                         <Matrix a="0.574295043945313" d="0.574295043945313" tx="4410.45" ty="-553.8"/>
                       </matrix>
@@ -206,7 +206,7 @@
                         <Point x="-3.05" y="-8.25"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock02 copy" name="rock05">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock02 copy" name="rock05">
                       <matrix>
                         <Matrix a="0.78509521484375" d="1.69537353515625" tx="4379.65" ty="-525.6"/>
                       </matrix>
@@ -217,7 +217,7 @@
                         <Color alphaMultiplier="0.98828125"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock07 copy" name="rock">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock07 copy" name="rock">
                       <matrix>
                         <Matrix a="0.78759765625" d="0.78759765625" tx="3257.75" ty="-400.9"/>
                       </matrix>
@@ -225,7 +225,7 @@
                         <Point x="-3.05" y="-8.15"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                       <matrix>
                         <Matrix a="-0.400787353515625" b="-0.141693115234375" c="-0.1326904296875" d="0.375289916992188" tx="4314.4" ty="-524.45"/>
                       </matrix>
@@ -236,7 +236,7 @@
                         <Color alphaMultiplier="0.78125"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                       <matrix>
                         <Matrix a="0.517684936523438" d="0.355392456054688" tx="4225.45" ty="-505.5"/>
                       </matrix>
@@ -247,7 +247,7 @@
                         <Color alphaMultiplier="0.640625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.29803466796875" tx="3487.5" ty="-58.95"/>
                       </matrix>
@@ -258,7 +258,7 @@
                         <Color alphaMultiplier="0.12890625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix a="1.21406555175781" b="0.010406494140625" c="1.97764587402344" d="0.5628662109375" tx="4085.25" ty="170.45"/>
                       </matrix>
@@ -269,7 +269,7 @@
                         <Color alphaMultiplier="0.12890625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix a="-1.59843444824219" b="-0.0136871337890625" c="0.0301666259765625" d="0.798049926757813" tx="3621.65" ty="492.25"/>
                       </matrix>
@@ -280,7 +280,7 @@
                         <Color alphaMultiplier="0.12890625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                       <matrix>
                         <Matrix a="-1.24525451660156" b="-0.010650634765625" c="0.0301666259765625" d="0.798049926757813" tx="4583.25" ty="628.35"/>
                       </matrix>
@@ -291,7 +291,7 @@
                         <Color alphaMultiplier="0.12890625"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                       <matrix>
                         <Matrix tx="3932.6" ty="-453.4"/>
                       </matrix>
@@ -299,7 +299,7 @@
                         <Point x="255.3" y="584.05"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                       <matrix>
                         <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="3258.25" ty="-707.7"/>
                       </matrix>
@@ -310,7 +310,7 @@
                         <Color alphaMultiplier="0.1796875"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                       <matrix>
                         <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="3401" ty="-718.35"/>
                       </matrix>
@@ -321,7 +321,7 @@
                         <Color alphaMultiplier="0.1796875"/>
                       </color>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock05 copy" name="rock04">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock05 copy" name="rock04">
                       <matrix>
                         <Matrix a="1.33059692382813" d="1.33059692382813" tx="3280.95" ty="310.15"/>
                       </matrix>
@@ -329,7 +329,7 @@
                         <Point x="-3" y="-8.1"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                       <matrix>
                         <Matrix a="1.90818786621094" d="1.90818786621094" tx="3398.9" ty="371"/>
                       </matrix>
@@ -337,7 +337,7 @@
                         <Point x="-3.05" y="-8.1"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock01 copy" name="rock02">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock01 copy" name="rock02">
                       <matrix>
                         <Matrix a="1.33059692382813" d="1.33059692382813" tx="4348.7" ty="29.5"/>
                       </matrix>
@@ -345,7 +345,7 @@
                         <Point x="-3.1" y="-8.25"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock07 copy" name="rock">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock07 copy" name="rock">
                       <matrix>
                         <Matrix tx="4179.05" ty="64.65"/>
                       </matrix>
@@ -353,7 +353,7 @@
                         <Point x="-3.05" y="-8.15"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                       <matrix>
                         <Matrix a="-1.815673828125" d="1.815673828125" tx="4600.65" ty="457.65"/>
                       </matrix>
@@ -361,7 +361,7 @@
                         <Point x="-3.15" y="-8.2"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock04 copy" name="rock08">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock04 copy" name="rock08">
                       <matrix>
                         <Matrix a="1.33059692382813" d="1.33059692382813" tx="3344.35" ty="446.7"/>
                       </matrix>
@@ -369,7 +369,7 @@
                         <Point x="-3.1" y="-8.15"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock02 copy" name="rock05">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock02 copy" name="rock05">
                       <matrix>
                         <Matrix a="1.99339294433594" d="1.99339294433594" tx="3506.25" ty="487.55"/>
                       </matrix>
@@ -377,7 +377,7 @@
                         <Point x="-3.05" y="-8.2"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock08 copy" name="rock12">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock08 copy" name="rock12">
                       <matrix>
                         <Matrix a="1.78739929199219" d="1.78739929199219" tx="4204.65" ty="506.1"/>
                       </matrix>
@@ -385,7 +385,7 @@
                         <Point x="-3.2" y="-8.05"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock10_mc copy" name="rock10">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock10_mc copy" name="rock10">
                       <matrix>
                         <Matrix a="1.23187255859375" b="0.50299072265625" c="-0.50299072265625" d="1.23187255859375" tx="4380.8" ty="200.45"/>
                       </matrix>
@@ -401,7 +401,7 @@
                         <Point x="-3.05" y="-8.1"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock08 copy" name="rock12">
+                    <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock08 copy" name="rock12">
                       <matrix>
                         <Matrix a="1.40777587890625" d="1.40777587890625" tx="3591.05" ty="-172"/>
                       </matrix>
@@ -427,7 +427,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.0146484375" b="-0.0725250244140625" c="0.082672119140625" d="-0.457901000976563" tx="608.55" ty="-443.95"/>
                   </matrix>
@@ -438,7 +438,7 @@
                     <Color alphaMultiplier="0.08984375"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix tx="-740.65" ty="-383.2"/>
                   </matrix>
@@ -449,7 +449,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                   <matrix>
                     <Matrix a="-1.18038940429688" b="-0.256484985351563" c="-0.1630859375" d="0.75079345703125" tx="-506.75" ty="-440.85"/>
                   </matrix>
@@ -457,7 +457,7 @@
                     <Point x="-3.2" y="-8.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock04 copy" name="rock08">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock04 copy" name="rock08">
                   <matrix>
                     <Matrix a="-0.78228759765625" d="0.78228759765625" tx="-457.65" ty="-422.7"/>
                   </matrix>
@@ -465,7 +465,7 @@
                     <Point x="-3.05" y="-8.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock05 copy" name="rock04">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock05 copy" name="rock04">
                   <matrix>
                     <Matrix a="1.18899536132813" d="0.553695678710938" tx="351.05" ty="-567.25"/>
                   </matrix>
@@ -476,7 +476,7 @@
                     <Color alphaMultiplier="0.75"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock10_mc copy" name="rock10">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock10_mc copy" name="rock10">
                   <matrix>
                     <Matrix a="0.495391845703125" b="0.040496826171875" c="-0.0623931884765625" d="0.76458740234375" tx="-453.95" ty="-364.9"/>
                   </matrix>
@@ -484,7 +484,7 @@
                     <Point/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock01 copy" name="rock02">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock01 copy" name="rock02">
                   <matrix>
                     <Matrix a="0.574295043945313" d="0.574295043945313" tx="475.35" ty="-553.8"/>
                   </matrix>
@@ -492,7 +492,7 @@
                     <Point x="-3.05" y="-8.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock02 copy" name="rock05">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock02 copy" name="rock05">
                   <matrix>
                     <Matrix a="0.78509521484375" d="1.69537353515625" tx="444.55" ty="-525.6"/>
                   </matrix>
@@ -503,7 +503,7 @@
                     <Color alphaMultiplier="0.98828125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock07 copy" name="rock">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock07 copy" name="rock">
                   <matrix>
                     <Matrix a="0.78759765625" d="0.78759765625" tx="-677.35" ty="-400.9"/>
                   </matrix>
@@ -511,7 +511,7 @@
                     <Point x="-3.05" y="-8.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                   <matrix>
                     <Matrix a="-0.400787353515625" b="-0.141693115234375" c="-0.1326904296875" d="0.375289916992188" tx="379.3" ty="-524.45"/>
                   </matrix>
@@ -522,7 +522,7 @@
                     <Color alphaMultiplier="0.78125"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                   <matrix>
                     <Matrix a="0.517684936523438" d="0.355392456054688" tx="290.35" ty="-505.5"/>
                   </matrix>
@@ -533,7 +533,7 @@
                     <Color alphaMultiplier="0.640625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.29803466796875" tx="-447.6" ty="-58.95"/>
                   </matrix>
@@ -544,7 +544,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="1.21406555175781" b="0.010406494140625" c="1.97764587402344" d="0.5628662109375" tx="150.15" ty="170.45"/>
                   </matrix>
@@ -555,7 +555,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.59843444824219" b="-0.0136871337890625" c="0.0301666259765625" d="0.798049926757813" tx="-313.45" ty="492.25"/>
                   </matrix>
@@ -566,7 +566,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock-Shadow_01 copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock-Shadow_01 copy">
                   <matrix>
                     <Matrix a="-1.24525451660156" b="-0.010650634765625" c="0.0301666259765625" d="0.798049926757813" tx="648.15" ty="628.35"/>
                   </matrix>
@@ -577,7 +577,7 @@
                     <Color alphaMultiplier="0.12890625"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                   <matrix>
                     <Matrix tx="-2.5" ty="-453.4"/>
                   </matrix>
@@ -585,7 +585,7 @@
                     <Point x="255.3" y="584.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                   <matrix>
                     <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="-676.85" ty="-707.7"/>
                   </matrix>
@@ -596,7 +596,7 @@
                     <Color alphaMultiplier="0.1796875"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/grass_mc copy">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDgrass_mc copy">
                   <matrix>
                     <Matrix a="0.386001586914063" c="0.0453033447265625" d="0.382339477539063" tx="-534.1" ty="-718.35"/>
                   </matrix>
@@ -607,7 +607,7 @@
                     <Color alphaMultiplier="0.1796875"/>
                   </color>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock05 copy" name="rock04">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock05 copy" name="rock04">
                   <matrix>
                     <Matrix a="1.33059692382813" d="1.33059692382813" tx="-654.15" ty="310.15"/>
                   </matrix>
@@ -615,7 +615,7 @@
                     <Point x="-3" y="-8.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock06 copy" name="rock03">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock06 copy" name="rock03">
                   <matrix>
                     <Matrix a="1.90818786621094" d="1.90818786621094" tx="-536.2" ty="371"/>
                   </matrix>
@@ -623,7 +623,7 @@
                     <Point x="-3.05" y="-8.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock01 copy" name="rock02">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock01 copy" name="rock02">
                   <matrix>
                     <Matrix a="1.33059692382813" d="1.33059692382813" tx="413.6" ty="29.5"/>
                   </matrix>
@@ -631,7 +631,7 @@
                     <Point x="-3.1" y="-8.25"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock07 copy" name="rock">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock07 copy" name="rock">
                   <matrix>
                     <Matrix tx="243.95" ty="64.65"/>
                   </matrix>
@@ -639,7 +639,7 @@
                     <Point x="-3.05" y="-8.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock03 copy" name="rock09">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock03 copy" name="rock09">
                   <matrix>
                     <Matrix a="-1.815673828125" d="1.815673828125" tx="665.55" ty="457.65"/>
                   </matrix>
@@ -647,7 +647,7 @@
                     <Point x="-3.15" y="-8.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock04 copy" name="rock08">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock04 copy" name="rock08">
                   <matrix>
                     <Matrix a="1.33059692382813" d="1.33059692382813" tx="-590.75" ty="446.7"/>
                   </matrix>
@@ -655,7 +655,7 @@
                     <Point x="-3.1" y="-8.15"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock02 copy" name="rock05">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock02 copy" name="rock05">
                   <matrix>
                     <Matrix a="1.99339294433594" d="1.99339294433594" tx="-428.85" ty="487.55"/>
                   </matrix>
@@ -663,7 +663,7 @@
                     <Point x="-3.05" y="-8.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock08 copy" name="rock12">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock08 copy" name="rock12">
                   <matrix>
                     <Matrix a="1.78739929199219" d="1.78739929199219" tx="269.55" ty="506.1"/>
                   </matrix>
@@ -671,7 +671,7 @@
                     <Point x="-3.2" y="-8.05"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock10_mc copy" name="rock10">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock10_mc copy" name="rock10">
                   <matrix>
                     <Matrix a="1.23187255859375" b="0.50299072265625" c="-0.50299072265625" d="1.23187255859375" tx="445.7" ty="200.45"/>
                   </matrix>
@@ -687,7 +687,7 @@
                     <Point x="-3.05" y="-8.1"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Assets/Duplicate Items Folder/rock08 copy" name="rock12">
+                <DOMSymbolInstance libraryItemName="_USED SYMBOLS/bkgrElements/USEDrock08 copy" name="rock12">
                   <matrix>
                     <Matrix a="1.40777587890625" d="1.40777587890625" tx="-344.05" ty="-172"/>
                   </matrix>

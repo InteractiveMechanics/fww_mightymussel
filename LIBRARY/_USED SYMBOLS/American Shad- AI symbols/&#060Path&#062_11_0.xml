@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_USED SYMBOLS/American Shad- AI symbols/&amp;#060Path&amp;#062_11_0" itemID="57d0e44e-00000e28" lastModified="1469414331">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_11_0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#231F20"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!0 187[20 181 42 170!42 170[87 148 101 120!101 120[121 86 183 45!183 45[255 -2 311 0!311 0[270 12 215 43!215 43[193 55 106 127!106 127[30 190 7 193!7 193|0 187"/>
+                    <Edge cubics="!0 187(;0,187 78,164 101,120q0 187Q20 181q42 170Q87 148q101 120);"/>
+                    <Edge cubics="!101 120(;122,83 228,-3 311,0q101 120Q121 86q183 45Q255 -2q311 0);"/>
+                    <Edge cubics="!311 0(;311,0 270,12 215,43q311 0Q270 12q215 43);"/>
+                    <Edge cubics="!215 43(;160,73 48,187 7,193q215 43Q193 55q106 127Q30 190q7 193);"/>
+                    <Edge cubics="!7 193(;3,190 3,190 0,187q7 193 0 187);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
