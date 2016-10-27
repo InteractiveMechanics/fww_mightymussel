@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/BackgroundLoop_Lifecycle" itemID="57fd46b2-000007b0" symbolType="graphic" lastModified="1476737794" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/BackgroundLoop_Lifecycle" itemID="57fd46b2-000007b0" symbolType="graphic" lastModified="1477083568" lastUniqueIdentifier="8">
   <timeline>
     <DOMTimeline name="BackgroundLoop_Lifecycle">
       <layers>
@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" duration="65" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="MMlogo" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/MMlogo">
                   <matrix>
                     <Matrix tx="399.25" ty="57.75"/>
                   </matrix>
@@ -24,11 +24,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="rocks-foreground" color="#009999" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="rocks-foreground" color="#009999" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" selected="true" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" symbolType="graphic" loop="loop">
                   <matrix>
                     <Matrix tx="604.65" ty="1353.35"/>
                   </matrix>
@@ -40,7 +40,7 @@
             </DOMFrame>
             <DOMFrame index="64" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" selected="true" symbolType="graphic" centerPoint3DX="-2327.4" centerPoint3DY="1353.35" loop="loop">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" symbolType="graphic" centerPoint3DX="-2327.4" centerPoint3DY="1353.35" loop="loop">
                   <matrix>
                     <Matrix tx="-3311.2" ty="1353.35"/>
                   </matrix>
@@ -68,7 +68,7 @@
           <frames>
             <DOMFrame index="0" duration="65" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/bkgr-color_mc" selected="true" centerPoint3DX="576.85" centerPoint3DY="1012.5">
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/bkgr-color_mc" centerPoint3DX="576.85" centerPoint3DY="1012.5">
                   <matrix>
                     <Matrix tx="-4.8" ty="0.05"/>
                   </matrix>
@@ -219,7 +219,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sunbeams_mc copy 2" color="#FF4F4F" locked="true" autoNamed="false">
+        <DOMLayer name="sunbeams_mc copy 2" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -230,6 +230,9 @@
                   <transformationPoint>
                     <Point x="574.5" y="1012.5"/>
                   </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.46875"/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
@@ -242,6 +245,9 @@
                   <transformationPoint>
                     <Point x="574.5" y="1012.5"/>
                   </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.46875"/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
@@ -263,7 +269,7 @@
             </DOMFrame>
             <DOMFrame index="64" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/sunbeams_mc" selected="true" centerPoint3DX="683.1" centerPoint3DY="956.2">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC-sunbeams_mc" centerPoint3DX="683.1" centerPoint3DY="956.2">
                   <matrix>
                     <Matrix tx="-280.05"/>
                   </matrix>

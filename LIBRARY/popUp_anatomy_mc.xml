@@ -1,0 +1,237 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1477576263" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="15" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="9" name="open" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" name="stop" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" duration="9" name="close" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" name="labial palps" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="20" name="Exhalent siphon" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="21" name="inhalent siphon" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="22" name="adductor muscle" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="23" name="gill" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="24" name="foot" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pop-up" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="6" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="19" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="19" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="20" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="1" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="21" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="2" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="22" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="3" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="23" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="4" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="24" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="5" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="OVERLAY" color="#009999" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay">
+                  <matrix>
+                    <Matrix a="0.908859252929688" d="0.934814453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="593.8" y="1032.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="5" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
+                  <matrix>
+                    <Matrix a="0.908859252929688" d="0.934814453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="593.8" y="1032.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
+                  <matrix>
+                    <Matrix a="0.908859252929688" d="0.934814453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="593.8" y="1032.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay">
+                  <matrix>
+                    <Matrix a="0.908859252929688" d="0.934814453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="593.8" y="1032.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="19" duration="6" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
+                  <matrix>
+                    <Matrix a="0.908859252929688" d="0.934814453125"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="593.8" y="1032.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -6,7 +6,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMBitmapInstance selected="true" libraryItemName="Assets/mussel-outterShell.png">
+                <DOMBitmapInstance selected="true" libraryItemName="Assets/Mussel bits/mussel-outterShell.png">
                   <matrix>
                     <Matrix a="0.07928466796875" b="0.092437744140625" c="-0.056060791015625" d="0.0614776611328125" tx="68.75"/>
                   </matrix>

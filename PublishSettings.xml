@@ -141,7 +141,7 @@
     <Property name="exportLibsToFolder">true</Property>
     <Property name="exportSounds">true</Property>
     <Property name="exportSoundsToFolder">true</Property>
-    <Property name="filename">./fww_mightymussel/published/background.js</Property>
+    <Property name="filename">./fww_mightymussel/published/main.js</Property>
     <Property name="frameBounds">false</Property>
     <Property name="hostedLibs">false</Property>
     <Property name="imageFormat">0</Property>
@@ -152,7 +152,7 @@
     <Property name="jpegBackground">#FFFFFF</Property>
     <Property name="jpegMaxSheetHeight">8192</Property>
     <Property name="jpegMaxSheetWidth">8192</Property>
-    <Property name="libNS">libBackground</Property>
+    <Property name="libNS">libMain</Property>
     <Property name="libraryPath">libs/</Property>
     <Property name="loop">true</Property>
     <Property name="makeResponsive">false</Property>

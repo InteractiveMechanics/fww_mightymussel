@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1473788543">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1477408100">
   <timeline>
     <DOMTimeline name="OpenMusselAnatomy">
       <layers>
@@ -60,7 +60,7 @@
                     <DOMTextRun>
                       <characters>INHALENT SIPHON</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.729411764705882" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -73,7 +73,7 @@
                     <DOMTextRun>
                       <characters>EXHALENT SIPHON</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.729411764705882" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -86,12 +86,12 @@
                     <DOMTextRun>
                       <characters>POSTERIOR ADDUCTOR&#xD;MUSCLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.729411764705882" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
                   <matrix>
                     <Matrix tx="-310.25" ty="-519"/>
                   </matrix>
@@ -99,7 +99,7 @@
                     <DOMTextRun>
                       <characters>ANTERIOR ADDUCTOR&#xD;MUSCLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.737254901960784" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.729411764705882" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

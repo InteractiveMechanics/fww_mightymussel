@@ -1,0 +1,153 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1477407859" lastUniqueIdentifier="3">
+  <timeline>
+    <DOMTimeline name="popUp_window-filtration" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1126&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" name="rotate" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="2" name="glochida released" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="icon" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" selected="true" symbolType="graphic" firstFrame="1" loop="single frame">
+                  <matrix>
+                    <Matrix tx="78" ty="1228.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="81.85" y="81.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="1165.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mussels eat by sucking in water and trapping solids... dirt, algae, pollutants</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="1165.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>These solids are processed as nutrients inside the mussel</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="1165.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>These nutrients are released back into the water as food for other living things</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="1165.8"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mussels naturally "clean" the water in which they live!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bkgr" color="#4F80FF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
+                  <matrix>
+                    <Matrix a="0.9141845703125" d="0.378753662109375" tx="171.1" ty="1126.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="411.2" y="222.3"/>
+                  </transformationPoint>
+                  <filters>
+                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
+                  </filters>
+                  <color>
+                    <Color alphaMultiplier="0.48046875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="blackbox" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.9141845703125" d="0.378753662109375" tx="171.1" ty="1126.65"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor alpha="0.298039215686275"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
+                    <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
+                    <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
+                    <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>
+                    <Edge cubics="!60 8892(;60,8892 16387,8892 16387,8892q60 8892p16387 8892);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
