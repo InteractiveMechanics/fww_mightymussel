@@ -7,14 +7,8 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-529.1" ty="-1648.65"/>
-                  </matrix>
                   <members>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-529.1" ty="-1648.65"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -37,9 +31,6 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-529.1" ty="-1648.65"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -76,9 +67,6 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-529.1" ty="-1648.65"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>

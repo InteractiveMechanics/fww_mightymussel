@@ -1,0 +1,96 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/LC_HealthyFish" itemID="57ff8c68-0000013d" symbolType="graphic" lastModified="1476477232">
+  <timeline>
+    <DOMTimeline name="LC_HealthyFish" currentFrame="120">
+      <layers>
+        <DOMLayer name="trout" color="#4F80FF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="87" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Fish/brookTrout-group_mc" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="-1" tx="1223.6" ty="679.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="662.85" y="275.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="87" duration="14" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bass copy 2" color="#FF4FFF" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="77" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="77" duration="98" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="98000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.50106" xformPtYOffsetPct="0.499855" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="16000"/><Keyframe anchor="0,-515.15" next="0,-515.15" previous="0,-515.15" roving="0" timevalue="39000"/><Keyframe anchor="0,-1223.4" next="0,-1223.4" previous="0,-1223.4" roving="0" timevalue="64000"/><Keyframe anchor="0,-2616.85" next="0,-2616.85" previous="0,-2616.85" roving="0" timevalue="96000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="16000"/><Keyframe anchor="0,13.7" next="0,13.7" previous="0,13.7" roving="0" timevalue="39000"/><Keyframe anchor="0,-35.25" next="0,-35.25" previous="0,-35.25" roving="0" timevalue="64000"/><Keyframe anchor="0,-14.25" next="0,-14.25" previous="0,-14.25" roving="0" timevalue="96000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,28.6573" next="0,28.6573" previous="0,28.6573" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-30.8179" next="0,-30.8179" previous="0,-30.8179" roving="0" timevalue="0"/><Keyframe anchor="0,-30.9557" next="0,-30.9557" previous="0,-30.9557" roving="0" timevalue="16000"/><Keyframe anchor="0,-35.0107" next="0,-35.0107" previous="0,-35.0107" roving="0" timevalue="39000"/><Keyframe anchor="0,-35.0646" next="0,-35.0646" previous="0,-35.0646" roving="0" timevalue="64000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-27.5578" next="0,-27.5578" previous="0,-27.5578" roving="0" timevalue="0"/><Keyframe anchor="0,-27.7383" next="0,-27.7383" previous="0,-27.7383" roving="0" timevalue="16000"/><Keyframe anchor="0,-21.8079" next="0,-21.8079" previous="0,-21.8079" roving="0" timevalue="39000"/><Keyframe anchor="0,-30.6564" next="0,-30.6564" previous="0,-30.6564" roving="0" timevalue="64000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,122.733" next="0,122.733" previous="0,122.733" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,124.858" next="0,124.858" previous="0,124.858" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Fish/AmericanShad">
+                  <matrix>
+                    <Matrix a="1.22378540039062" b="0.02191162109375" c="0.0485687255859375" d="1.24407958984375" tx="1653.35" ty="960.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="175" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bass copy" color="#FF4FFF" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="80" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="80" duration="98" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="98000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.501766" xformPtYOffsetPct="0.501309" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/><Keyframe anchor="0,-515.15" next="0,-515.15" previous="0,-515.15" roving="0" timevalue="42000"/><Keyframe anchor="0,-1223.4" next="0,-1223.4" previous="0,-1223.4" roving="0" timevalue="67000"/><Keyframe anchor="0,-2616.85" next="0,-2616.85" previous="0,-2616.85" roving="0" timevalue="96000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/><Keyframe anchor="0,13.7" next="0,13.7" previous="0,13.7" roving="0" timevalue="42000"/><Keyframe anchor="0,-35.25" next="0,-35.25" previous="0,-35.25" roving="0" timevalue="67000"/><Keyframe anchor="0,-14.25" next="0,-14.25" previous="0,-14.25" roving="0" timevalue="96000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,28.6573" next="0,28.6573" previous="0,28.6573" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-30.8179" next="0,-30.8179" previous="0,-30.8179" roving="0" timevalue="0"/><Keyframe anchor="0,-30.9557" next="0,-30.9557" previous="0,-30.9557" roving="0" timevalue="19000"/><Keyframe anchor="0,-35.0107" next="0,-35.0107" previous="0,-35.0107" roving="0" timevalue="42000"/><Keyframe anchor="0,-35.0646" next="0,-35.0646" previous="0,-35.0646" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-27.5578" next="0,-27.5578" previous="0,-27.5578" roving="0" timevalue="0"/><Keyframe anchor="0,-27.7383" next="0,-27.7383" previous="0,-27.7383" roving="0" timevalue="19000"/><Keyframe anchor="0,-21.8079" next="0,-21.8079" previous="0,-21.8079" roving="0" timevalue="42000"/><Keyframe anchor="0,-30.6564" next="0,-30.6564" previous="0,-30.6564" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,122.733" next="0,122.733" previous="0,122.733" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,124.858" next="0,124.858" previous="0,124.858" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Fish/AmericanShad">
+                  <matrix>
+                    <Matrix a="1.22378540039062" b="0.02191162109375" c="0.0485687255859375" d="1.24407958984375" tx="2017.5" ty="840.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="0.3" y="0.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="178" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="bass" color="#FF4FFF" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="38" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="38" duration="93" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="93000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.501178" xformPtYOffsetPct="0.500145" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-435.862" next="0,-435.862" previous="0,-435.862" roving="0" timevalue="14000"/><Keyframe anchor="0,-1100.53" next="0,-1100.53" previous="0,-1100.53" roving="0" timevalue="38000"/><Keyframe anchor="0,-1500.2" next="0,-1500.2" previous="0,-1500.2" roving="0" timevalue="54000"/><Keyframe anchor="0,-1866.18" next="0,-1866.18" previous="0,-1866.18" roving="0" timevalue="73000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,56.94" next="0,56.94" previous="0,56.94" roving="0" timevalue="14000"/><Keyframe anchor="0,-16.4962" next="0,-16.4962" previous="0,-16.4962" roving="0" timevalue="38000"/><Keyframe anchor="0,18.8585" next="0,18.8585" previous="0,18.8585" roving="0" timevalue="54000"/><Keyframe anchor="0,-17.91" next="0,-17.91" previous="0,-17.91" roving="0" timevalue="73000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,24.496" next="0,24.496" previous="0,24.496" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-25.8472" next="0,-25.8472" previous="0,-25.8472" roving="0" timevalue="0"/><Keyframe anchor="0,-35.0107" next="0,-35.0107" previous="0,-35.0107" roving="0" timevalue="14000"/><Keyframe anchor="0,-35.0646" next="0,-35.0646" previous="0,-35.0646" roving="0" timevalue="38000"/><Keyframe anchor="0,-35.0775" next="0,-35.0775" previous="0,-35.0775" roving="0" timevalue="54000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-26.8044" next="0,-26.8044" previous="0,-26.8044" roving="0" timevalue="0"/><Keyframe anchor="0,-21.8079" next="0,-21.8079" previous="0,-21.8079" roving="0" timevalue="14000"/><Keyframe anchor="0,-30.6564" next="0,-30.6564" previous="0,-30.6564" roving="0" timevalue="38000"/><Keyframe anchor="0,-22.8544" next="0,-22.8544" previous="0,-22.8544" roving="0" timevalue="54000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,119.339" next="0,119.339" previous="0,119.339" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,130.011" next="0,130.011" previous="0,130.011" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Fish/AmericanShad">
+                  <matrix>
+                    <Matrix a="1.18922424316406" b="-0.05108642578125" c="0.0332183837890625" d="1.29638671875" tx="1503.95" ty="826.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="131" duration="48" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,65 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Mussel bits/mussel-labialPalp-btm" itemID="58053f13-000045f6" lastModified="1476738862">
+  <timeline>
+    <DOMTimeline name="mussel-labialPalp-btm">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <fills>
+                        <FillStyle index="1">
+                          <LinearGradient>
+                            <matrix>
+                              <Matrix a="0.017730712890625" b="0.03973388671875" c="0.03973388671875" d="-0.017730712890625" tx="15.3" ty="38.75"/>
+                            </matrix>
+                            <GradientEntry color="#F8D5AB" ratio="0.0313725490196078"/>
+                            <GradientEntry color="#F5CEA4" ratio="0.184313725490196"/>
+                            <GradientEntry color="#EEBC90" ratio="0.411764705882353"/>
+                            <GradientEntry color="#E19E6F" ratio="0.682352941176471"/>
+                            <GradientEntry color="#D07542" ratio="0.988235294117647"/>
+                          </LinearGradient>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!292 0[222 64 126 255!126 255[76 355 20 483!20 483[-12 545 6 716!6 716[21 876 57 961!57 961[95 1052 206 1234!206 1234[326 1432 369 1457!369 1457[439 1499 462 1487!462 1487[496 1468 407 1330!407 1330[267 1113 251 963!251 963[258 824 241
+ 748!241 748[230 698 314 546!314 546[359 465 436 341!436 341|292 0"/>
+                        <Edge cubics="!292 0(292,0;179,102 53,418 20,483q292 0Q222 64q126 255Q76 355q20 483);"/>
+                        <Edge cubics="!20 483(;-25,571 14,858 57,961q20 483Q-12 545q6 716Q21 876q57 961);"/>
+                        <Edge cubics="!57 961(;100,1065 306,1420 369,1457q57 961Q95 1052q206 1234Q326 1432q369 1457);"/>
+                        <Edge cubics="!369 1457(;431,1494 543,1541 407,1330q369 1457Q439 1499q462 1487Q496 1468q407 1330);"/>
+                        <Edge cubics="!407 1330(407,1330;179,976 274,900 241,748q407 1330Q267 1113q251 963Q258 824q241 748);"/>
+                        <Edge cubics="!241 748(;223,668 388,426 436,341q241 748Q230 698q314 546Q359 465q436 341);"/>
+                        <Edge cubics="!436 341(436,341;364,170 364,170 292,0q436 341 292 0);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="7.4" ty="31"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.156862745098039"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="
+!93 0S1[66 51 41 119!41 119[-9 256 2 343!2 343[16 442 82 567!82 567[161 715 255 762!255 762[164 671 104 509!104 509[61 395 52 315!52 315[48 278 71 157!71 157[95 32 93 0"/>
+                        <Edge cubics="!93 0(93,0;93,0 -16,204 2,343q93 0Q66 51q41 119Q-9 256q2 343)2,343;"/>
+                        <Edge cubics="!2 343(2,343;17,451 117,692 255,762q2 343Q16 442q82 567Q161 715q255 762);"/>
+                        <Edge cubics="!255 762(;115,622 59,376 52,315q255 762Q164 671q104 509Q61 395q52 315);"/>
+                        <Edge cubics="!52 315(;44,244 97,69 93,0q52 315Q48 278q71 157Q95 32q93 0);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

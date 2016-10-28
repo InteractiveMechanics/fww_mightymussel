@@ -1,0 +1,53 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/bkgrElements/bubble" itemID="58053344-00002fdd" lastModified="1476737998">
+  <timeline>
+    <DOMTimeline name="bubble">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMGroup selected="true">
+                  <members>
+                    <DOMShape isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="-68.55" ty="-68.55"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.109803921568627"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2743 1371[2743 1940 2341 2341!2341 2341[1940 2743 1371 2743!1371 2743[803 2743 402 2341!402 2341[0 1939 0 1371!0 1371[0 803 402 402!402 402[592 212 837 108!837 108[1092 0 1371 0!1371 0[1939 0 2341 402!2341 402[2743 803 2743 1371"/>
+                        <Edge cubics="!2743 1371(2743,1371;2743,2129 2129,2743 1371,2743q2743 1371Q2743 1940q2341 2341Q1940 2743q1371 2743)1371,2743;"/>
+                        <Edge cubics="!1371 2743(;614,2743 0,2129 0,1371q1371 2743Q803 2743q402 2341Q0 1939q0 1371);"/>
+                        <Edge cubics="!0 1371(;0,614 614,0 1371,0q0 1371Q0 803q402 402Q592 212q837 108Q1092 0q1371 0);"/>
+                        <Edge cubics="!1371 0(;2129,0 2743,614 2743,1371q1371 0Q1939 0q2341 402Q2743 803q2743 1371);"/>
+                      </edges>
+                    </DOMShape>
+                    <DOMShape selected="true" isDrawingObject="true">
+                      <matrix>
+                        <Matrix tx="7.4" ty="-56.75"/>
+                      </matrix>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#FFFFFF" alpha="0.329411764705882"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle0="1" edges="!120 161S1[228 210 323 311!323 311[379 369 479 507!479 507[575 640 633 699!633 699[727 794 834 835!834 835[857 487 587 232!587 232[327 -13 0 1!0 1|120 161"/>
+                        <Edge cubics="!120 161(120,161;444,307 514,713 834,835q120 161Q228 210q323 311Q379 369q479 507Q575 640q633 699Q727 794q834 835)834,835;"/>
+                        <Edge cubics="!834 835(;866,356 420,-17 0,1q834 835Q857 487q587 232Q327 -13q0 1);"/>
+                        <Edge cubics="!0 1(;0,1 120,161 120,161q0 1 120 161);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

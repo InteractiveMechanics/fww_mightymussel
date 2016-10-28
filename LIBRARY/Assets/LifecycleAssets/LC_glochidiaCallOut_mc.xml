@@ -1,0 +1,576 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/LC_glochidiaCallOut_mc" itemID="58051b79-00001ad0" lastModified="1476729721">
+  <timeline>
+    <DOMTimeline name="LC_glochidiaCallOut_mc" currentFrame="23">
+      <layers>
+        <DOMLayer name="outter gill cover" color="#808080" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#B7B7B7"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="!2641 4035[2926 4802 3426 5313!3426 5313[3538 5427 3672 5551!3672 5551[3708 5590 3706 5610!3706 5610[3705 5631 3661 5642!3661 5642[3567 5667 3382 5629!3382 5629[3184 5589 2977 5495!2977 5495[2446 5253 2224 4842!2224 4842[2041 4503 1926
+ 3959!1926 3959[1808 3403 1867 3116!1867 3116[1934 2788 2090 2509!2090 2509[2266 2193 2437 2181!2437 2181[2468 2179 2448 2285!2448 2285[2410 2496 2401 2620!2401 2620[2353 3257 2641 4035"/>
+                        <Edge cubics="!2224 4842(;1985,4399 1787,3506 1867,3116q2224 4842Q2041 4503q1926 3959Q1808 3403q1867 3116);"/>
+                        <Edge cubics="!1867 3116(;1947,2727 2191,2198 2437,2181q1867 3116Q1934 2788q2090 2509Q2266 2193q2437 2181);"/>
+                        <Edge cubics="!2437 2181(;2548,2173 2162,2741 2641,4035q2437 2181Q2468 2179q2448 2285Q2410 2496q2401 2620Q2353 3257q2641 4035);"/>
+                        <Edge cubics="!2641 4035(;3134,5361 3901,5580 3661,5642q2641 4035Q2926 4802q3426 5313Q3538 5427q3672 5551Q3708 5590q3706 5610Q3705 5631q3661 5642);"/>
+                        <Edge cubics="!3661 5642(;3422,5704 2555,5454 2224,4842q3661 5642Q3567 5667q3382 5629Q3184 5589q2977 5495Q2446 5253q2224 4842);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+                <DOMGroup>
+                  <members>
+                    <DOMShape>
+                      <fills>
+                        <FillStyle index="1">
+                          <SolidColor color="#999999"/>
+                        </FillStyle>
+                      </fills>
+                      <edges>
+                        <Edge fillStyle1="1" edges="
+!3189 4745[3591 5102 3688 5299!3688 5299[3725 5374 3724 5438!3724 5438[3724 5463 3708 5535!3708 5535[3701 5566 3547 5537!3547 5537[3378 5506 3184 5424!3184 5424[2637 5195 2423 4799!2423 4799[2240 4460 2125 3916!2125 3916[2007 3360 2066
+ 3073!2066 3073[2129 2766 2310 2513!2310 2513[2502 2245 2679 2262!2679 2262[2709 2265 2717 2319!2717 2319[2723 2362 2719 2487!2719 2487[2703 2943 2713 3222!2713 3222[2729 3650 2785 3926!2785 3926[2901 4489 3189 4745"/>
+                        <Edge cubics="!2423 4799(;2184,4356 1986,3463 2066,3073q2423 4799Q2240 4460q2125 3916Q2007 3360q2066 3073);"/>
+                        <Edge cubics="!2066 3073(;2146,2684 2433,2239 2679,2262q2066 3073Q2129 2766q2310 2513Q2502 2245q2679 2262);"/>
+                        <Edge cubics="!2679 2262(;2764,2270 2688,2534 2713,3222q2679 2262Q2709 2265q2717 2319Q2723 2362q2719 2487Q2703 2943q2713 3222);"/>
+                        <Edge cubics="!2713 3222(;2722,3469 2738,4345 3189,4745q2713 3222Q2729 3650q2785 3926Q2901 4489q3189 4745);"/>
+                        <Edge cubics="!3189 4745(;3802,5289 3734,5416 3708,5535q3189 4745Q3591 5102q3688 5299Q3725 5374q3724 5438Q3724 5463q3708 5535);"/>
+                        <Edge cubics="!3708 5535(;3692,5609 2754,5411 2423,4799q3708 5535Q3701 5566q3547 5537Q3378 5506q3184 5424Q2637 5195q2423 4799);"/>
+                      </edges>
+                    </DOMShape>
+                  </members>
+                </DOMGroup>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glochidia_01 copy" color="#808080" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/Glochidia_01">
+                  <matrix>
+                    <Matrix a="-0.4315185546875" b="-0.270843505859375" c="0.270843505859375" d="-0.4315185546875" tx="58.35" ty="239.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="16.7" y="16.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.195387" xformPtYOffsetPct="0.271642" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,43.5706" next="0,43.5706" previous="0,43.5706" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,3.47647" next="0,3.47647" previous="0,3.47647" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-148.326" next="0,-148.326" previous="0,-148.326" roving="0" timevalue="0"/><Keyframe anchor="0,-154.095" next="0,-154.095" previous="0,-154.095" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,3.58598" next="0,3.58598" previous="0,3.58598" roving="0" timevalue="0"/><Keyframe anchor="0,40.6411" next="0,40.6411" previous="0,40.6411" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0.000154832" next="0,0.000154832" previous="0,0.000154832" roving="0" timevalue="0"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,50.258" next="0,50.258" previous="0,50.258" roving="0" timevalue="0"/><Keyframe anchor="0,42.3126" next="0,42.3126" previous="0,42.3126" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0723" next="0,51.0723" previous="0,51.0723" roving="0" timevalue="0"/><Keyframe anchor="0,51.5411" next="0,51.5411" previous="0,51.5411" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/Glochidia_01">
+                  <matrix>
+                    <Matrix a="-0.427444458007812" b="-0.262924194335938" c="0.293289184570312" d="-0.417037963867188" tx="59.9" ty="237.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.2" y="9.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_05 copy" color="#9933CC" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_05">
+                  <matrix>
+                    <Matrix a="0.51025390625" d="0.51025390625" tx="70.85" ty="250.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.7" y="15.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.420744" xformPtYOffsetPct="0.451554" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,29.4279" next="0,29.4279" previous="0,29.4279" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-6.49559" next="0,-6.49559" previous="0,-6.49559" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-8.7365" next="0,-8.7365" previous="0,-8.7365" roving="0" timevalue="0"/><Keyframe anchor="0,-99.0137" next="0,-99.0137" previous="0,-99.0137" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0269" next="0,51.0269" previous="0,51.0269" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0269" next="0,51.0269" previous="0,51.0269" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_05">
+                  <matrix>
+                    <Matrix a="0.504318237304688" b="-0.0759124755859375" c="0.0759124755859375" d="0.504318237304688" tx="74.55" ty="255.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.75" y="12.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gill01" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <HatchedStroke scaleMode="normal" weight="30.05" hatchThickness="thin" space="distant">
+                        <fill>
+                          <SolidColor color="#9F5959"/>
+                        </fill>
+                      </HatchedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2501 2465[2105 2708 1996 3317!1996 3317[1954 3551 1964 3797!1964 3797[1973 4013 2016 4158!2016 4158[2111 4475 2231 4688!2231 4688[2393 4974 2645 5170!2645 5170[2844 5325 3101 5369!3101 5369[3247 5393 3512 5408"/>
+                    <Edge cubics="!2016 4158(;2121,4509 2275,4882 2645,5170q2016 4158Q2111 4475q2231 4688Q2393 4974q2645 5170);"/>
+                    <Edge cubics="!2645 5170(;2960,5416 3257,5374 3512,5408q2645 5170Q2844 5325q3101 5369Q3247 5393q3512 5408)3512,5408;"/>
+                    <Edge cubics="!2501 2465(2501,2465;1905,2831 1911,3807 2016,4158q2501 2465Q2105 2708q1996 3317Q1954 3551q1964 3797Q1973 4013q2016 4158);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_02" color="#669900" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_02">
+                  <matrix>
+                    <Matrix a="-0.510238647460938" b="-0.000457763671875" c="0.000457763671875" d="-0.510238647460938" tx="20.7" ty="161.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.35" y="17.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.133443" xformPtYOffsetPct="0.209985" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,71.3015" next="0,71.3015" previous="0,71.3015" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,14.9559" next="0,14.9559" previous="0,14.9559" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-148" next="0,-148" previous="0,-148" roving="0" timevalue="0"/><Keyframe anchor="0,180.556" next="0,180.556" previous="0,180.556" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.69681" next="0,-2.69681" previous="0,-2.69681" roving="0" timevalue="0"/><Keyframe anchor="0,-30.5638" next="0,-30.5638" previous="0,-30.5638" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0165" next="0,51.0165" previous="0,51.0165" roving="0" timevalue="0"/><Keyframe anchor="0,50.9094" next="0,50.9094" previous="0,50.9094" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,49.7151" next="0,49.7151" previous="0,49.7151" roving="0" timevalue="0"/><Keyframe anchor="0,36.1603" next="0,36.1603" previous="0,36.1603" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_02">
+                  <matrix>
+                    <Matrix a="-0.432632446289062" b="-0.270339965820312" c="0.244384765625" d="-0.432830810546875" tx="19.05" ty="161.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.05" y="7.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_02 copy" color="#669900" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_02">
+                  <matrix>
+                    <Matrix a="-0.510238647460938" b="-0.000457763671875" c="0.000457763671875" d="-0.510238647460938" tx="68.55" ty="294.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.8" y="16.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.138386" xformPtYOffsetPct="0.264317" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,79.4676" next="0,79.4676" previous="0,79.4676" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-12.5603" next="0,-12.5603" previous="0,-12.5603" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-152.103" next="0,-152.103" previous="0,-152.103" roving="0" timevalue="0"/><Keyframe anchor="0,134.056" next="0,134.056" previous="0,134.056" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.69681" next="0,-2.69681" previous="0,-2.69681" roving="0" timevalue="0"/><Keyframe anchor="0,-30.5638" next="0,-30.5638" previous="0,-30.5638" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0165" next="0,51.0165" previous="0,51.0165" roving="0" timevalue="0"/><Keyframe anchor="0,50.9094" next="0,50.9094" previous="0,50.9094" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,49.7151" next="0,49.7151" previous="0,49.7151" roving="0" timevalue="0"/><Keyframe anchor="0,36.1603" next="0,36.1603" previous="0,36.1603" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_02">
+                  <matrix>
+                    <Matrix a="-0.450546264648438" b="-0.237823486328125" c="0.211959838867188" d="-0.448837280273438" tx="68.1" ty="295.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.25" y="9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_03 copy" color="#FF4F4F" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_03">
+                  <matrix>
+                    <Matrix a="-0.470809936523438" b="-0.3729248046875" c="0.303512573242188" d="-0.3831787109375" tx="74.3" ty="283.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.45" y="14.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.215385" xformPtYOffsetPct="0.311224" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,47.5338" next="0,47.5338" previous="0,47.5338" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-4.41029" next="0,-4.41029" previous="0,-4.41029" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-98.195" next="0,-98.195" previous="0,-98.195" roving="0" timevalue="0"/><Keyframe anchor="0,349.393" next="0,349.393" previous="0,349.393" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.91505" next="0,-2.91505" previous="0,-2.91505" roving="0" timevalue="0"/><Keyframe anchor="0,-33.0372" next="0,-33.0372" previous="0,-33.0372" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-1.75481" next="0,-1.75481" previous="0,-1.75481" roving="0" timevalue="0"/><Keyframe anchor="0,-19.8879" next="0,-19.8879" previous="0,-19.8879" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,59.8232" next="0,59.8232" previous="0,59.8232" roving="0" timevalue="0"/><Keyframe anchor="0,56.3507" next="0,56.3507" previous="0,56.3507" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,47.7475" next="0,47.7475" previous="0,47.7475" roving="0" timevalue="0"/><Keyframe anchor="0,35.1776" next="0,35.1776" previous="0,35.1776" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_03">
+                  <matrix>
+                    <Matrix a="-0.101791381835938" b="-0.589141845703125" c="0.4686279296875" d="-0.0897369384765625" tx="73.45" ty="281.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.55" y="9.1"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_04 copy" color="#4F80FF" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_04">
+                  <matrix>
+                    <Matrix a="-0.500885009765625" b="-0.095672607421875" c="0.095672607421875" d="-0.500885009765625" tx="72.2" ty="271"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.75" y="17.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.207937" xformPtYOffsetPct="0.236292" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,34.0265" next="0,34.0265" previous="0,34.0265" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-16.325" next="0,-16.325" previous="0,-16.325" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-166.661" next="0,-166.661" previous="0,-166.661" roving="0" timevalue="0"/><Keyframe anchor="0,-142.188" next="0,-142.188" previous="0,-142.188" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-3.80149" next="0,-3.80149" previous="0,-3.80149" roving="0" timevalue="0"/><Keyframe anchor="0,-43.0836" next="0,-43.0836" previous="0,-43.0836" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.5129" next="0,51.5129" previous="0,51.5129" roving="0" timevalue="0"/><Keyframe anchor="0,56.5353" next="0,56.5353" previous="0,56.5353" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,50.3047" next="0,50.3047" previous="0,50.3047" roving="0" timevalue="0"/><Keyframe anchor="0,42.8421" next="0,42.8421" previous="0,42.8421" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_04">
+                  <matrix>
+                    <Matrix a="-0.507522583007812" b="-0.0850982666015625" c="0.115478515625" d="-0.489212036132812" tx="71" ty="268.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.6" y="9.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_06 copy" color="#FF800A" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_06">
+                  <matrix>
+                    <Matrix a="0.279830932617188" b="-0.425750732421875" c="0.425750732421875" d="0.279830932617188" tx="35.15" ty="279.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.95" y="15.35"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.297066" xformPtYOffsetPct="0.414414" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,64.0794" next="0,64.0794" previous="0,64.0794" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-7.44853" next="0,-7.44853" previous="0,-7.44853" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-62.3687" next="0,-62.3687" previous="0,-62.3687" roving="0" timevalue="0"/><Keyframe anchor="0,-120.769" next="0,-120.769" previous="0,-120.769" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,48.8359" next="0,48.8359" previous="0,48.8359" roving="0" timevalue="0"/><Keyframe anchor="0,26.2115" next="0,26.2115" previous="0,26.2115" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0184" next="0,51.0184" previous="0,51.0184" roving="0" timevalue="0"/><Keyframe anchor="0,50.946" next="0,50.946" previous="0,50.946" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_06">
+                  <matrix>
+                    <Matrix a="0.225753784179688" b="-0.432296752929688" c="0.45159912109375" d="0.23583984375" tx="44.05" ty="281.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.2" y="11.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Glochidia_01" color="#808080" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/Glochidia_01">
+                  <matrix>
+                    <Matrix a="-0.4315185546875" b="-0.270843505859375" c="0.270843505859375" d="-0.4315185546875" tx="35.85" ty="187"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="17.4" y="17.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.208955" xformPtYOffsetPct="0.322388" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,52.7706" next="0,52.7706" previous="0,52.7706" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,8.92647" next="0,8.92647" previous="0,8.92647" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-148.326" next="0,-148.326" previous="0,-148.326" roving="0" timevalue="0"/><Keyframe anchor="0,-154.095" next="0,-154.095" previous="0,-154.095" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,3.58598" next="0,3.58598" previous="0,3.58598" roving="0" timevalue="0"/><Keyframe anchor="0,40.6411" next="0,40.6411" previous="0,40.6411" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0.000154832" next="0,0.000154832" previous="0,0.000154832" roving="0" timevalue="0"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,50.258" next="0,50.258" previous="0,50.258" roving="0" timevalue="0"/><Keyframe anchor="0,42.3126" next="0,42.3126" previous="0,42.3126" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0723" next="0,51.0723" previous="0,51.0723" roving="0" timevalue="0"/><Keyframe anchor="0,51.5411" next="0,51.5411" previous="0,51.5411" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/Glochidia_01">
+                  <matrix>
+                    <Matrix a="-0.427444458007812" b="-0.262924194335938" c="0.293289184570312" d="-0.417037963867188" tx="36.95" ty="185.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="7.75" y="10.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_03" color="#FF4F4F" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_03">
+                  <matrix>
+                    <Matrix a="-0.470809936523438" b="-0.3729248046875" c="0.303512573242188" d="-0.3831787109375" tx="42.1" ty="225.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="13.05" y="16.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.223077" xformPtYOffsetPct="0.348639" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,42.4074" next="0,42.4074" previous="0,42.4074" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,4.02794" next="0,4.02794" previous="0,4.02794" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-98.195" next="0,-98.195" previous="0,-98.195" roving="0" timevalue="0"/><Keyframe anchor="0,349.393" next="0,349.393" previous="0,349.393" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-2.91505" next="0,-2.91505" previous="0,-2.91505" roving="0" timevalue="0"/><Keyframe anchor="0,-33.0372" next="0,-33.0372" previous="0,-33.0372" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-1.75481" next="0,-1.75481" previous="0,-1.75481" roving="0" timevalue="0"/><Keyframe anchor="0,-19.8879" next="0,-19.8879" previous="0,-19.8879" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,59.8232" next="0,59.8232" previous="0,59.8232" roving="0" timevalue="0"/><Keyframe anchor="0,56.3507" next="0,56.3507" previous="0,56.3507" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,47.7475" next="0,47.7475" previous="0,47.7475" roving="0" timevalue="0"/><Keyframe anchor="0,35.1776" next="0,35.1776" previous="0,35.1776" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_03">
+                  <matrix>
+                    <Matrix a="-0.101791381835938" b="-0.589141845703125" c="0.4686279296875" d="-0.0897369384765625" tx="40.15" ty="222.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="5.85" y="10.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_04" color="#4F80FF" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_04">
+                  <matrix>
+                    <Matrix a="-0.500885009765625" b="-0.095672607421875" c="0.095672607421875" d="-0.500885009765625" tx="54.7" ty="168.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="15.55" y="18.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.152381" xformPtYOffsetPct="0.314621" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,37.1265" next="0,37.1265" previous="0,37.1265" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-9.975" next="0,-9.975" previous="0,-9.975" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-166.661" next="0,-166.661" previous="0,-166.661" roving="0" timevalue="0"/><Keyframe anchor="0,-142.188" next="0,-142.188" previous="0,-142.188" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-1.13107" next="0,-1.13107" previous="0,-1.13107" roving="0" timevalue="0"/><Keyframe anchor="0,-12.8188" next="0,-12.8188" previous="0,-12.8188" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,49.7219" next="0,49.7219" previous="0,49.7219" roving="0" timevalue="0"/><Keyframe anchor="0,36.2366" next="0,36.2366" previous="0,36.2366" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0122" next="0,51.0122" previous="0,51.0122" roving="0" timevalue="0"/><Keyframe anchor="0,50.8606" next="0,50.8606" previous="0,50.8606" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_04">
+                  <matrix>
+                    <Matrix a="-0.485488891601562" b="-0.10540771484375" c="0.117111206054688" d="-0.49609375" tx="51.85" ty="166.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="4.85" y="12.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gill02" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <HatchedStroke scaleMode="normal" weight="30.05" hatchThickness="thin" space="distant">
+                        <fill>
+                          <SolidColor color="#804848"/>
+                        </fill>
+                      </HatchedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2484 2499[2147 2702 1990 2953!1990 2953[1848 3183 1847 3469!1847 3469[1845 3806 1897 4133!1897 4133[1975 4624 2152 4812!2152 4812[2189 4852 2317 4991!2317 4991[2453 5128 2589 5220!2589 5220[2992 5495 3436 5408"/>
+                    <Edge cubics="!2484 2499(;2016,2780 1848,3106 1847,3469q2484 2499Q2147 2702q1990 2953Q1848 3183q1847 3469);"/>
+                    <Edge cubics="!2152 4812(;2301,4970 2739,5544 3436,5408q2152 4812Q2189 4852q2317 4991Q2453 5128q2589 5220Q2992 5495q3436 5408);"/>
+                    <Edge cubics="!1847 3469(;1845,3738 1880,4523 2152,4812q1847 3469Q1845 3806q1897 4133Q1975 4624q2152 4812);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="gill03" color="#FF4FFF" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <HatchedStroke scaleMode="normal" weight="30.05" hatchThickness="thin" space="distant">
+                        <fill>
+                          <SolidColor color="#542F2F"/>
+                        </fill>
+                      </HatchedStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge strokeStyle="1" edges="
+!2390 2534[2005 2726 1844 3243!1844 3243[1690 3738 1795 4336!1795 4336[1841 4598 2051 4876!2051 4876[2241 5128 2501 5314!2501 5314[2609 5391 2840 5426!2840 5426[3117 5468 3419 5416"/>
+                    <Edge cubics="!1795 4336(;1859,4704 2179,5083 2501,5314q1795 4336Q1841 4598q2051 4876Q2241 5128q2501 5314);"/>
+                    <Edge cubics="!2501 5314(;2622,5400 2977,5492 3419,5416q2501 5314Q2609 5391q2840 5426Q3117 5468q3419 5416);"/>
+                    <Edge cubics="!2390 2534(;1863,2797 1659,3562 1795,4336q2390 2534Q2005 2726q1844 3243Q1690 3738q1795 4336);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_05" color="#9933CC" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_05">
+                  <matrix>
+                    <Matrix a="0.51025390625" d="0.51025390625" tx="50.8" ty="195.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="14.7" y="15.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.428571" xformPtYOffsetPct="0.418647" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,21.5632" next="0,21.5632" previous="0,21.5632" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-6.29118" next="0,-6.29118" previous="0,-6.29118" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-4.78484" next="0,-4.78484" previous="0,-4.78484" roving="0" timevalue="0"/><Keyframe anchor="0,-54.2282" next="0,-54.2282" previous="0,-54.2282" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0269" next="0,51.0269" previous="0,51.0269" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0269" next="0,51.0269" previous="0,51.0269" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_05">
+                  <matrix>
+                    <Matrix a="0.508346557617188" b="-0.0423126220703125" c="0.0423126220703125" d="0.508346557617188" tx="54.9" ty="200.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="10.95" y="11.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="glochidia_06" color="#FF800A" locked="true" autoNamed="false" animationType="motion object">
+          <frames>
+            <DOMFrame index="0" duration="14" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_06">
+                  <matrix>
+                    <Matrix a="0.279830932617188" b="-0.425750732421875" c="0.425750732421875" d="0.279830932617188" tx="8.45" ty="206.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="19.8" y="15.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" duration="10" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="10000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.300733" xformPtYOffsetPct="0.545946" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,51.2412" next="0,51.2412" previous="0,51.2412" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,8.29706" next="0,8.29706" previous="0,8.29706" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-59.6659" next="0,-59.6659" previous="0,-59.6659" roving="0" timevalue="0"/><Keyframe anchor="0,-90.1373" next="0,-90.1373" previous="0,-90.1373" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,48.8359" next="0,48.8359" previous="0,48.8359" roving="0" timevalue="0"/><Keyframe anchor="0,26.2115" next="0,26.2115" previous="0,26.2115" roving="0" timevalue="9000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,51.0184" next="0,51.0184" previous="0,51.0184" roving="0" timevalue="0"/><Keyframe anchor="0,50.946" next="0,50.946" previous="0,50.946" roving="0" timevalue="9000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/glochidia_06">
+                  <matrix>
+                    <Matrix a="0.246185302734375" b="-0.420944213867188" c="0.43975830078125" d="0.257186889648438" tx="16.45" ty="207.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.35" y="15.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 2" color="#9933CC" locked="true" outline="true" useOutlineView="true" layerType="mask">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-680.2" ty="-56"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!20812 4683[20812 5431 20523 6114!20523 6114[20244 6774 19735 7283!19735 7283[19226 7792 18566 8071!18566 8071[17883 8360 17135 8360!17135 8360[16387 8360 15704 8071!15704 8071[15044 7792 14536 7283!14536 7283[14027 6774 13748 6114!13748
+ 6114[13459 5431 13459 4683!13459 4683[13459 3935 13748 3252!13748 3252[14027 2593 14536 2084!14536 2084[15044 1575 15704 1296!15704 1296[16387 1007 17135 1007!17135 1007[17883 1007 18566 1296!18566 1296[19226 1575 19735 2084!19735 2084
+[20244 2592 20523 3252!20523 3252[20812 3935 20812 4683"/>
+                    <Edge cubics="!20812 4683(;20812,6714 19166,8360 17135,8360q20812 4683Q20812 5431q20523 6114Q20244 6774q19735 7283Q19226 7792q18566 8071Q17883 8360q17135 8360);"/>
+                    <Edge cubics="!17135 8360(;15105,8360 13459,6714 13459,4683q17135 8360Q16387 8360q15704 8071Q15044 7792q14536 7283Q14027 6774q13748 6114Q13459 5431q13459 4683);"/>
+                    <Edge cubics="!13459 4683(;13459,2653 15105,1007 17135,1007q13459 4683Q13459 3935q13748 3252Q14027 2593q14536 2084Q15044 1575q15704 1296Q16387 1007q17135 1007);"/>
+                    <Edge cubics="!17135 1007(;19166,1007 20812,2653 20812,4683q17135 1007Q17883 1007q18566 1296Q19226 1575q19735 2084Q20244 2592q20523 3252Q20812 3935q20812 4683);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="fish" color="#FF800A" parentLayerIndex="16" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-680.2" ty="-56"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!20812 4683[20812 5431 20523 6114!20523 6114[20244 6774 19735 7283!19735 7283[19226 7792 18566 8071!18566 8071[17883 8360 17135 8360!17135 8360[16387 8360 15704 8071!15704 8071[15044 7792 14536 7283!14536 7283[14027 6774 13748 6114!13748
+ 6114[13459 5431 13459 4683!13459 4683[13459 3935 13748 3252!13748 3252[14027 2593 14536 2084!14536 2084[15044 1575 15704 1296!15704 1296[16387 1007 17135 1007!17135 1007[17883 1007 18566 1296!18566 1296[19226 1575 19735 2084!19735 2084
+[20244 2592 20523 3252!20523 3252[20812 3935 20812 4683"/>
+                    <Edge cubics="!20812 4683(;20812,6714 19166,8360 17135,8360q20812 4683Q20812 5431q20523 6114Q20244 6774q19735 7283Q19226 7792q18566 8071Q17883 8360q17135 8360);"/>
+                    <Edge cubics="!17135 8360(;15105,8360 13459,6714 13459,4683q17135 8360Q16387 8360q15704 8071Q15044 7792q14536 7283Q14027 6774q13748 6114Q13459 5431q13459 4683);"/>
+                    <Edge cubics="!13459 4683(;13459,2653 15105,1007 17135,1007q13459 4683Q13459 3935q13748 3252Q14027 2593q14536 2084Q15044 1575q15704 1296Q16387 1007q17135 1007);"/>
+                    <Edge cubics="!17135 1007(;19166,1007 20812,2653 20812,4683q17135 1007Q17883 1007q18566 1296Q19226 1575q19735 2084Q20244 2592q20523 3252Q20812 3935q20812 4683);"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_glochidiaCallOut-Fish">
+                  <matrix>
+                    <Matrix a="1.39543151855469" d="1.46366882324219" tx="-1000.25" ty="-187.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="515.9" y="220.15"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5703125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="zoom triangle" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="24" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix a="0.97454833984375" b="-0.228652954101562" c="0.228652954101562" d="0.97454833984375" tx="-54.25" ty="138.5"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.368627450980392"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!1095 160S2/5795 4866!5795 4866/-1005 7558!-1005 7558/1095 160"/>
+                    <Edge cubics="!1095 160(;1095,160 5795,4866 5795,4866q1095 160 5795 4866);"/>
+                    <Edge cubics="!-1005 7558(;-1005,7558 1095,160 1095,160q-1005 7558 1095 160);"/>
+                    <Edge cubics="!5795 4866(;5795,4866 -1005,7558 -1005,7558q5795 4866 -1005 7558);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

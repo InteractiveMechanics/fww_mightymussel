@@ -7,14 +7,8 @@
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMGroup selected="true">
-                  <matrix>
-                    <Matrix tx="-937.1" ty="-1726.85"/>
-                  </matrix>
                   <members>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-937.1" ty="-1726.85"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -37,9 +31,6 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-937.1" ty="-1726.85"/>
-                      </matrix>
                       <members>
                         <DOMShape selected="true" isDrawingObject="true">
                           <matrix>
@@ -149,19 +140,10 @@
                       </members>
                     </DOMGroup>
                     <DOMGroup selected="true">
-                      <matrix>
-                        <Matrix tx="-937.1" ty="-1726.85"/>
-                      </matrix>
                       <members>
                         <DOMGroup selected="true">
-                          <matrix>
-                            <Matrix tx="-937.1" ty="-1726.85"/>
-                          </matrix>
                           <members>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-937.1" ty="-1726.85"/>
-                              </matrix>
                               <members>
                                 <DOMShape selected="true" isDrawingObject="true">
                                   <matrix>
@@ -184,14 +166,8 @@
                               </members>
                             </DOMGroup>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-937.1" ty="-1726.85"/>
-                              </matrix>
                               <members>
                                 <DOMGroup selected="true">
-                                  <matrix>
-                                    <Matrix tx="-937.1" ty="-1726.85"/>
-                                  </matrix>
                                   <members>
                                     <DOMShape selected="true" isDrawingObject="true">
                                       <matrix>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/LifeCycle" itemID="57d740a8-00001cff" symbolType="button" lastModified="1473783402">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/LifeCycle" itemID="57d740a8-00001cff" symbolType="button" lastModified="1477334542">
   <timeline>
     <DOMTimeline name="LifeCycle">
       <layers>
@@ -242,7 +242,7 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMGroup>
+                <DOMGroup selected="true">
                   <members>
                     <DOMGroup>
                       <members>

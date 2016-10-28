@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/bkgrElements/Sunbeams- AI symbols/&amp;#060Path&amp;#062_1" itemID="57d8122b-00001261" lastModified="1473778219">
+  <timeline>
+    <DOMTimeline name="&amp;#060Path&amp;#062_1">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape selected="true" isDrawingObject="true">
+                  <fills>
+                    <FillStyle index="1">
+                      <LinearGradient>
+                        <matrix>
+                          <Matrix a="0.154937744140625" b="0.0281829833984375" c="0.0281829833984375" d="-0.154937744140625" tx="285.85" ty="896.8"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="0"/>
+                        <GradientEntry color="#FFFFFF" ratio="0.498039215686275"/>
+                        <GradientEntry color="#FFFFFF" alpha="0" ratio="1"/>
+                      </LinearGradient>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!5077 35873|0 34949!0 34949|6357 0!6357 0|11435 924!11435 924|5077 35873"/>
+                    <Edge cubics="!5077 35873(;5077,35873 0,34949 0,34949q5077 35873p0 34949);"/>
+                    <Edge cubics="!0 34949(;0,34949 6357,0 6357,0q0 34949 6357 0);"/>
+                    <Edge cubics="!6357 0(;6357,0 11435,924 11435,924p6357 0q11435 924);"/>
+                    <Edge cubics="!11435 924(;11435,924 5077,35873 5077,35873p11435 924 5077 35873);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
