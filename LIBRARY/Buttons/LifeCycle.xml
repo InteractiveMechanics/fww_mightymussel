@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/LifeCycle" itemID="57d740a8-00001cff" symbolType="button" lastModified="1477334542">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/LifeCycle" itemID="57d740a8-00001cff" symbolType="button" lastModified="1478027111">
   <timeline>
     <DOMTimeline name="LifeCycle">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -242,7 +242,7 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMGroup>
                       <members>
@@ -533,6 +533,17 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                  <matrix>
+                    <Matrix a="0.80999755859375" tx="-15" ty="-8.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

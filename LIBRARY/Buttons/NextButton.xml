@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/NextButton" itemID="57d9ac4a-00000dbf" symbolType="button" lastModified="1473883210">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/NextButton" itemID="57d9ac4a-00000dbf" symbolType="button" lastModified="1478027116">
   <timeline>
     <DOMTimeline name="NextButton">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMGroup selected="true">
                       <members>
@@ -199,6 +199,17 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                  <matrix>
+                    <Matrix a="0.520004272460938" d="0.84002685546875" tx="-15" ty="-19.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.7" y="99.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

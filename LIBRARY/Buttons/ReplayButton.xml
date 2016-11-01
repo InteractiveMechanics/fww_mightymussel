@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/ReplayButton" itemID="57d9ac8b-00000dc8" symbolType="button" lastModified="1473883275">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/ReplayButton" itemID="57d9ac8b-00000dc8" symbolType="button" lastModified="1478027127">
   <timeline>
     <DOMTimeline name="ReplayButton">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup selected="true">
+                <DOMGroup>
                   <members>
                     <DOMGroup selected="true">
                       <members>
@@ -231,6 +231,17 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                  <matrix>
+                    <Matrix a="0.57000732421875" d="0.864974975585938" tx="-15" ty="-18.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="99.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/CloseMussel" itemID="57d7409a-00001ceb" symbolType="button" lastModified="1473729280">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/CloseMussel" itemID="57d7409a-00001ceb" symbolType="button" lastModified="1478027061">
   <timeline>
     <DOMTimeline name="CloseMussel">
       <layers>
@@ -6,6 +6,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton">
+                  <matrix>
+                    <Matrix tx="-15" ty="-8.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
                 <DOMGroup>
                   <members>
                     <DOMGroup>

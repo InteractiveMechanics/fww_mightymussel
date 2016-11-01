@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/OpenMussel" itemID="57d7408e-00001ce1" symbolType="button" lastModified="1473728568">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/OpenMussel" itemID="57d7408e-00001ce1" symbolType="button" lastModified="1478027121">
   <timeline>
     <DOMTimeline name="OpenMussel">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -292,6 +292,17 @@
                   <transformationPoint>
                     <Point x="62" y="62"/>
                   </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                  <matrix>
+                    <Matrix tx="-15" ty="-8.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

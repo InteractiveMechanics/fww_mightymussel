@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Filtration" itemID="57d740af-00001d0a" symbolType="button" lastModified="1473728655">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Filtration" itemID="57d740af-00001d0a" symbolType="button" lastModified="1478027092">
   <timeline>
     <DOMTimeline name="Filtration">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -262,6 +262,17 @@
                   <transformationPoint>
                     <Point x="62" y="62"/>
                   </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                  <matrix>
+                    <Matrix a="0.81500244140625" tx="-15" ty="-8.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

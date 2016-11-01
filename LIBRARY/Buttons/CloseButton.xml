@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/CloseButton" itemID="57d6b858-0000165e" lastModified="1473780992">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/CloseButton" itemID="57d6b858-0000165e" lastModified="1478026758">
   <timeline>
     <DOMTimeline name="CloseButton">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -54,10 +54,10 @@
                 </DOMGroup>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton">
                   <matrix>
-                    <Matrix a="0.455001831054688" d="0.442245483398438" tx="-14.95" ty="-13.45"/>
+                    <Matrix a="0.65032958984375" d="0.632095336914062" tx="-34.45" ty="-32.4"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="100" y="99.95"/>
+                    <Point x="99.95" y="99.9"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
