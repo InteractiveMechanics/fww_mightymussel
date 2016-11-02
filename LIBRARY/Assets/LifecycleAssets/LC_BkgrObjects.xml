@@ -249,7 +249,7 @@
                     </DOMSymbolInstance>
                     <DOMSymbolInstance libraryItemName="Assets/bkgrElements/rock-Shadow_01">
                       <matrix>
-                        <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.29803466796875" tx="3487.5" ty="-58.95"/>
+                        <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.298049926757812" tx="3487.5" ty="-58.95"/>
                       </matrix>
                       <transformationPoint>
                         <Point x="171.1" y="56.35"/>
@@ -535,7 +535,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/rock-Shadow_01">
                   <matrix>
-                    <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.29803466796875" tx="-447.6" ty="-58.95"/>
+                    <Matrix a="0.811553955078125" b="-0.0852813720703125" c="0.79437255859375" d="0.298049926757812" tx="-447.6" ty="-58.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="171.1" y="56.35"/>
