@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-close_mc" itemID="58050512-000006a4" symbolType="graphic" lastModified="1478107656">
   <timeline>
-    <DOMTimeline name="mussel-close_mc">
+    <DOMTimeline name="mussel-close_mc" currentFrame="39">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" autoNamed="false">
           <frames>
@@ -389,7 +389,7 @@
             </DOMFrame>
             <DOMFrame index="39" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" selected="true" symbolType="graphic" loop="play once">
+                <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" symbolType="graphic" loop="play once">
                   <transformationPoint>
                     <Point x="630.3" y="1123"/>
                   </transformationPoint>

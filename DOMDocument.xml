@@ -249,7 +249,7 @@
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
           <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
           <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478107652"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478115351"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
           <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1477408100"/>
           <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1478009599"/>
@@ -264,9 +264,9 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="838" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="294" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
-                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" visible="false" layerType="guide">
+                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="975" keyMode="9728">
                                    <elements>
@@ -906,14 +906,14 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Mussel open/close" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="20" duration="9" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" name="MusselMC" centerPoint3DX="609.1" centerPoint3DY="1100.05">
+                                        <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" name="MusselMC" selected="true" centerPoint3DX="609.1" centerPoint3DY="1100.05">
                                              <transformationPoint>
                                                   <Point x="630.3" y="1123"/>
                                              </transformationPoint>
@@ -2384,7 +2384,7 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#4F80FF" parentLayerIndex="54" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="BackHome" color="#9933CC" parentLayerIndex="55" locked="true" autoNamed="false">
                          <frames>
@@ -2704,7 +2704,7 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="NEW FILT STAGES" color="#4F80FF" parentLayerIndex="54" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="NEW FILT STAGES" color="#4F80FF" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
@@ -2729,7 +2729,7 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="838" duration="137" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="filtration-step3_mc" selected="true" symbolType="graphic" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="filtration-step3_mc" symbolType="graphic" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
                                              <transformationPoint>
                                                   <Point x="630.3" y="1123"/>
                                              </transformationPoint>
@@ -2789,8 +2789,8 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="65" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="65" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="975" keyMode="9728">
                                    <elements>
@@ -2809,7 +2809,7 @@ this.FiltrationDirt.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="65" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="65" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="975" keyMode="9728">
                                    <Framescript language="JavaScript">

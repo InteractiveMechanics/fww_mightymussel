@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1478107652" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1478115351" lastUniqueIdentifier="5">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="35">
+    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="294">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -22,15 +22,18 @@
             <DOMFrame index="70" duration="54" name="FiltrationStep2" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="124" duration="136" name="FiltrationStep3" labelType="name" keyMode="9728">
+            <DOMFrame index="124" duration="135" name="FiltrationStep3" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="260" name="CloseMussel" labelType="name" keyMode="9728">
+            <DOMFrame index="259" name="CloseMussel" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" name="MusselClose" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="19" keyMode="9728">
               <Framescript language="JavaScript">
@@ -83,7 +86,7 @@ this.ReplayButtonFiltration.visible = false;]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="124" duration="135" keyMode="9728">
+            <DOMFrame index="124" duration="134" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[this.CloseButtonFiltration.visible = true;
 this.NextButtonFiltration.visible = false;
@@ -91,22 +94,25 @@ this.ReplayButtonFiltration.visible = true;]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="259" keyMode="9728">
+            <DOMFrame index="258" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[this.gotoAndPlay('FiltrationStep3');]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="260" keyMode="9728">
+            <DOMFrame index="259" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[this.stop();]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="Anatomy" color="#FF4FFF" locked="true" autoNamed="false" layerType="folder"/>
-        <DOMLayer name="anatomyClosed" color="#FF4F4F" parentLayerIndex="2" autoNamed="false">
+        <DOMLayer name="anatomyClosed" color="#FF4F4F" parentLayerIndex="2" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements>
@@ -120,12 +126,24 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="OpenMusselAnatomy" name="OpenMusselAnatomy">
+                  <matrix>
+                    <Matrix tx="273.95" ty="1314"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="207" y="83.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="anatomyOpen" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+        <DOMLayer name="anatomyOpen" color="#FF800A" parentLayerIndex="2" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements>
@@ -139,8 +157,20 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="ClosedMusselAnatomy" name="ClosedMusselAnatomy">
+                  <matrix>
+                    <Matrix tx="274.3" ty="1314.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="207" y="83.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -190,8 +220,56 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             <DOMFrame index="6" duration="29" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="29" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="289" duration="6" keyMode="9728">
+              <elements>
+                <DOMShape isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="404.3" ty="1308.8"/>
+                  </matrix>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FF0000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="
+!314 7181[276 7012 -819 6738!-819 6738[-1584 6546 -3196 6230!-3196 6230[-5223 5833 -5538 5766!-5538 5766[-6590 5540 -6566 5451!-6566 5451[-6520 5281 -6578 4378!-6578 4378|-6645 3509!-6645 3509[-6651 -111 -6529 -4101!-6529 -4101[-6284
+ -12081 -5645 -13934!-5645 -13934[-5166 -15320 -4099 -16358!-4099 -16358[-3104 -17325 -1663 -17930!-1663 -17930[-304 -18501 1328 -18701!1328 -18701[2903 -18893 4543 -18719!4543 -18719[6173 -18546 7647 -18034!7647 -18034[9158 -17509 10306
+ -16695!10306 -16695[11515 -15838 12188 -14751!12188 -14751[12909 -13589 12960 -12252!12960 -12252[12961 -12230 12873 -4554!12873 -4554[12786 3067 12800 3191!12800 3191[12808 3260 11781 3513!11781 3513[11365 3616 9512 4044!9512 4044[7942
+ 4406 7226 4598!7226 4598[6179 4878 6157 4991!6157 4991[6113 5209 5682 6235!5682 6235[5320 7094 5144 7467!5144 7467[5085 7592 4850 7567!4850 7567[4769 7558 4425 7471!4425 7471[4266 7431 3790 7298!3790 7298[3261 7149 3074 7097!3074 7097
+[2871 7041 2460 7051!2460 7051[2019 7061 1959 7050!1959 7050[1899 7040 1678 7087!1678 7087[1390 7154 1224 7187!1224 7187[572 7316 314 7181"/>
+                    <Edge cubics="
+!314 7181(;201,6680 -6639,5723 -6566,5451q314 7181Q276 7012q-819 6738Q-1584 6546q-3196 6230Q-5223 5833q-5538 5766Q-6590 5540q-6566 5451);"/>
+                    <Edge cubics="
+!-6566 5451(;-6493,5179 -6645,3509 -6645,3509q-6566 5451Q-6520 5281q-6578 4378Q-6645 3509q-6645 3509);"/>
+                    <Edge cubics="
+!-5645 -13934(;-3004,-21576 12680,-19613 12960,-12252q-5645 -13934Q-5166 -15320q-4099 -16358Q-3104 -17325q-1663 -17930Q-304 -18501q1328 -18701Q2903 -18893q4543 -18719Q6173 -18546q7647 -18034Q9158 -17509q10306 -16695Q11515 -15838q12188
+ -14751Q12909 -13589q12960 -12252);"/>
+                    <Edge cubics="
+!12960 -12252(;12965,-12105 12777,2982 12800,3191q12960 -12252Q12961 -12230q12873 -4554Q12786 3067q12800 3191);"/>
+                    <Edge cubics="
+!12800 3191(;12823,3400 6223,4656 6157,4991q12800 3191Q12808 3260q11781 3513Q11365 3616q9512 4044Q7942 4406q7226 4598Q6179 4878q6157 4991);"/>
+                    <Edge cubics="
+!6157 4991(;6090,5325 5294,7150 5144,7467q6157 4991Q6113 5209q5682 6235Q5320 7094q5144 7467);"/>
+                    <Edge cubics="
+!5144 7467(;5053,7660 4691,7538 4425,7471q5144 7467Q5085 7592q4850 7567Q4769 7558q4425 7471);"/>
+                    <Edge cubics="
+!4425 7471(;4160,7405 3447,7200 3074,7097q4425 7471Q4266 7431q3790 7298Q3261 7149q3074 7097);"/>
+                    <Edge cubics="
+!3074 7097(;2722,7000 2159,7086 1959,7050q3074 7097Q2871 7041q2460 7051Q2019 7061q1959 7050);"/>
+                    <Edge cubics="
+!1959 7050(;1759,7015 747,7407 314,7181q1959 7050Q1899 7040q1678 7087Q1390 7154q1224 7187Q572 7316q314 7181);"/>
+                    <Edge cubics="
+!-6645 3509(;-6645,3509 -6668,-10970 -5645,-13934q-6645 3509Q-6651 -111q-6529 -4101Q-6284 -12081q-5645 -13934);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -216,12 +294,450 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             <DOMFrame index="29" duration="6" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="266" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="577.4" centerPoint3DY="757.4">
+                  <matrix>
+                    <Matrix a="-0.0392303466796875" b="-0.696670532226562" c="-0.7020263671875" d="0.0093994140625" tx="1021.1" ty="991.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.5" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.4" centerPoint3DY="790.75">
+                  <matrix>
+                    <Matrix a="-0.0619964599609375" b="-0.483108520507812" c="-0.700210571289062" d="0.0185394287109375" tx="1013.8" ty="945.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.45" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="268" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="549.35" centerPoint3DY="824.15">
+                  <matrix>
+                    <Matrix a="-0.0564117431640625" b="-0.2705078125" c="-0.698272705078125" d="0.0276336669921875" tx="996.65" ty="900.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.45" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="269" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="535.3" centerPoint3DY="857.5">
+                  <matrix>
+                    <Matrix a="-0.0181732177734375" b="-0.0631256103515625" c="-0.696197509765625" d="0.03668212890625" tx="968.2" ty="856.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.25" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="270" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="521.25" centerPoint3DY="890.9">
+                  <matrix>
+                    <Matrix a="0.0507965087890625" b="0.135589599609375" c="-0.69403076171875" d="0.0456695556640625" tx="929" ty="816.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.9" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.859375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="271" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="529.1" centerPoint3DY="915">
+                  <matrix>
+                    <Matrix a="0.0769195556640625" b="0.18048095703125" c="-0.685745239257812" d="0.048004150390625" tx="922.8" ty="823.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.8" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.8984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="272" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="536.9" centerPoint3DY="939.2">
+                  <matrix>
+                    <Matrix a="0.107803344726562" b="0.222854614257812" c="-0.677444458007812" d="0.050262451171875" tx="914.9" ty="831.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.85" y="612.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.94921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="273" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="544.75" centerPoint3DY="963.25">
+                  <matrix>
+                    <Matrix a="0.142868041992188" b="0.2625732421875" c="-0.669143676757812" d="0.0524444580078125" tx="905.55" ty="840.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.75" y="612.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="274" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="554.4" centerPoint3DY="1037.1">
+                  <matrix>
+                    <Matrix a="0.138320922851562" b="0.465179443359375" c="-0.669296264648438" d="0.055267333984375" tx="916.85" ty="843"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.7" y="612.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="275" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="276" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="277" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="278" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="279" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="280" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="281" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="282" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="283" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="284" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="563.95" centerPoint3DY="1110.75">
+                  <matrix>
+                    <Matrix a="0.0558929443359375" b="0.669631958007812" c="-0.669631958007812" d="0.0558929443359375" tx="955.05" ty="845.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="562" centerPoint3DY="1156.45">
+                  <matrix>
+                    <Matrix a="0.14813232421875" b="0.627395629882812" c="-0.627395629882812" d="0.14813232421875" tx="895.4" ty="849.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.65" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="560.05" centerPoint3DY="1202.15">
+                  <matrix>
+                    <Matrix a="0.229339599609375" b="0.573226928710938" c="-0.573226928710938" d="0.229339599609375" tx="832.35" ty="864.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.65" y="612.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="558.15" centerPoint3DY="1247.85">
+                  <matrix>
+                    <Matrix a="0.298049926757812" b="0.509445190429688" c="-0.509445190429688" d="0.298049926757812" tx="767.65" ty="889.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.65" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="288" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="556.25" centerPoint3DY="1293.5">
+                  <matrix>
+                    <Matrix a="0.353347778320312" b="0.438507080078125" c="-0.438507080078125" d="0.353347778320312" tx="703.25" ty="925.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.75" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="554.3" centerPoint3DY="1339.15">
+                  <matrix>
+                    <Matrix a="0.394622802734375" b="0.362945556640625" c="-0.362945556640625" d="0.394622802734375" tx="640.8" ty="972.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.65" y="612.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="290" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="554.85" centerPoint3DY="1386.05">
+                  <matrix>
+                    <Matrix a="0.42181396484375" b="0.285293579101562" c="-0.285293579101562" d="0.42181396484375" tx="584.4" ty="1029.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.7" y="612.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="555.25" centerPoint3DY="1432.9">
+                  <matrix>
+                    <Matrix a="0.435211181640625" b="0.208023071289062" c="-0.208023071289062" d="0.435211181640625" tx="532.85" ty="1094.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.85"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="292" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="555.8" centerPoint3DY="1479.75">
+                  <matrix>
+                    <Matrix a="0.435592651367188" b="0.13336181640625" c="-0.13336181640625" d="0.435592651367188" tx="487.5" ty="1166.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.65" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true" centerPoint3DX="556.3" centerPoint3DY="1526.65">
+                  <matrix>
+                    <Matrix a="0.42401123046875" b="0.06341552734375" c="-0.06341552734375" d="0.42401123046875" tx="449.15" ty="1244.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" centerPoint3DX="556.7" centerPoint3DY="1573.45">
+                  <matrix>
+                    <Matrix a="0.401931762695313" d="0.401931762695313" tx="418.3" ty="1327.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="344.6" y="612.8"/>
+                  </transformationPoint>
+                  <color>
+                    <Color/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mussel-inner" color="#669900" parentLayerIndex="5" locked="true" autoNamed="false">
+        <DOMLayer name="mussel-inner" color="#669900" parentLayerIndex="5" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -259,18 +775,234 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="6" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="261" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="5" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="262" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="4" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="263" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="3" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="264" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="2" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="265" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="1" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="266" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" duration="18" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="single frame">
+                  <matrix>
+                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1362.15" y="833.3"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="697.9" centerPoint3DY="1093.1" loop="single frame">
+                  <matrix>
+                    <Matrix a="1.04234313964844" b="-0.0003814697265625" c="0.0045166015625" d="0.951858520507812" tx="-857.8" ty="404.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="678.15" centerPoint3DY="1123" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.987503051757812" b="-0.1439208984375" c="0.135360717773438" d="0.901168823242188" tx="-890.65" ty="684.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="657.6" centerPoint3DY="1156.7" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.913955688476562" b="-0.271957397460938" c="0.251998901367188" d="0.833511352539062" tx="-886.15" ty="958"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.65" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="288" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="636.4" centerPoint3DY="1193.9" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.823837280273438" b="-0.384918212890625" c="0.35479736328125" d="0.750762939453125" tx="-847.6" ty="1223.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="616" centerPoint3DY="1235.1" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.72283935546875" b="-0.475448608398438" c="0.437057495117188" d="0.658203125" tx="-777.15" ty="1466.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.6" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="290" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="596.7" centerPoint3DY="1279.65" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.613815307617188" b="-0.545501708984375" c="0.500595092773438" d="0.558349609375" tx="-680.1" ty="1687.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="578.9" centerPoint3DY="1327.3" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.500442504882812" b="-0.594757080078125" c="0.545120239257812" d="0.454620361328125" tx="-561.3" ty="1883.8"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="292" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="562.65" centerPoint3DY="1377.75" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.384307861328125" b="-0.624771118164062" c="0.57208251953125" d="0.348464965820312" tx="-424.1" ty="2055.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.65" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="549.15" centerPoint3DY="1430.4" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.272933959960938" b="-0.633514404296875" c="0.57958984375" d="0.246719360351562" tx="-277.2" ty="2195.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.65" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="13824">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="538.15" centerPoint3DY="1484.55" loop="single frame">
+                  <matrix>
+                    <Matrix a="0.167877197265625" b="-0.624481201171875" c="0.570953369140625" d="0.150802612304688" tx="-125.45" ty="2305.4"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1361.7" y="833.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="Buttons" color="#669900" locked="true" autoNamed="false" layerType="folder"/>
-        <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="8" autoNamed="false">
+        <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="8" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
+            <DOMFrame index="35" duration="224" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Buttons/ReplayButton" name="ReplayButtonFiltration" symbolType="button" centerPoint3DX="975.8" centerPoint3DY="1771.4">
                   <matrix>
@@ -282,14 +1014,20 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
+            <DOMFrame index="259" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="BackHome" color="#808080" parentLayerIndex="8" autoNamed="false">
+        <DOMLayer name="BackHome" color="#808080" parentLayerIndex="8" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
+            <DOMFrame index="35" duration="224" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Buttons/HomeButton" name="CloseButtonFiltration" symbolType="button" centerPoint3DX="117.05" centerPoint3DY="1787.55">
                   <matrix>
@@ -301,14 +1039,20 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
+            <DOMFrame index="259" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Next" color="#009999" parentLayerIndex="8" autoNamed="false">
+        <DOMLayer name="Next" color="#009999" parentLayerIndex="8" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
+            <DOMFrame index="35" duration="224" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Buttons/NextButton" name="NextButtonFiltration" symbolType="button" centerPoint3DX="975.1" centerPoint3DY="1771.4">
                   <matrix>
@@ -320,9 +1064,15 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
+            <DOMFrame index="259" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="FILTRATION STEPS" color="#009999" autoNamed="false">
+        <DOMLayer name="FILTRATION STEPS" color="#009999" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
@@ -351,7 +1101,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="124" duration="137" keyMode="9728">
+            <DOMFrame index="124" duration="136" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="96" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
                   <matrix>
@@ -362,6 +1112,9 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -383,7 +1136,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
+            <DOMFrame index="35" duration="225" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" symbolType="graphic" loop="loop">
                   <matrix>
@@ -394,6 +1147,498 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                   </transformationPoint>
                   <color>
                     <Color alphaMultiplier="0.16015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="260" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.16015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="261" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3203125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="262" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.48828125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="263" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.66015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="264" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.828125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="265" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.75" centerPoint3DY="762" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07594299316406" b="-0.175613403320312" c="-0.161346435546875" d="-0.988601684570312" tx="-743" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="266" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="561.75" centerPoint3DY="790.65" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07122802734375" b="-0.145111083984375" c="-0.132720947265625" d="-0.813125610351562" tx="-771.15" ty="1624.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="549.6" centerPoint3DY="819.45" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0660400390625" b="-0.111526489257812" c="-0.104095458984375" d="-0.637649536132812" tx="-798.8" ty="1470.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="268" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="537.55" centerPoint3DY="848.1" loop="loop">
+                  <matrix>
+                    <Matrix a="1.05979919433594" b="-0.0783843994140625" c="-0.0754547119140625" d="-0.462188720703125" tx="-825.05" ty="1316.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="269" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="525.45" centerPoint3DY="876.85" loop="loop">
+                  <matrix>
+                    <Matrix a="1.05256652832031" b="-0.0457000732421875" c="-0.04681396484375" d="-0.286727905273438" tx="-849.9" ty="1163.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="270" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="521.6" centerPoint3DY="901.3" loop="loop">
+                  <matrix>
+                    <Matrix a="1.03715515136719" b="-0.0541534423828125" c="-0.0140533447265625" d="-0.0859222412109375" tx="-858.8" ty="1041.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="271" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="519.95" centerPoint3DY="928.05" loop="loop">
+                  <matrix>
+                    <Matrix a="1.06005859375" b="-0.0413665771484375" c="0.0186920166015625" d="0.114822387695312" tx="-916.95" ty="893.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="272" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="528.5" centerPoint3DY="949.4" loop="loop">
+                  <matrix>
+                    <Matrix a="1.06085205078125" b="-0.0135345458984375" c="0.0350799560546875" d="0.2152099609375" tx="-922.35" ty="798.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.55"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="273" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="537" centerPoint3DY="970.85" loop="loop">
+                  <matrix>
+                    <Matrix a="1.06089782714844" b="0.014312744140625" c="0.051483154296875" d="0.315597534179688" tx="-926.8" ty="703.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="274" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="549.9" centerPoint3DY="1014.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.02719116210938" b="0.090667724609375" c="0.0107421875" d="0.0660858154296875" tx="-836.65" ty="840.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="786.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="275" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="562.65" centerPoint3DY="1057.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-738.8" ty="979.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="276" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="564.5" centerPoint3DY="1058.2" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-736.95" ty="980.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.87890625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="277" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="566.35" centerPoint3DY="1058.95" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-735.1" ty="981.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.76953125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="278" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="568.15" centerPoint3DY="1059.75" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-733.3" ty="981.9"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.66015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="279" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="570" centerPoint3DY="1060.5" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-731.45" ty="982.65"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.55078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="280" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="571.8" centerPoint3DY="1061.3" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-729.65" ty="983.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.44140625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="281" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="573.65" centerPoint3DY="1062.05" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-727.8" ty="984.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.328125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="282" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="575.4" centerPoint3DY="1062.85" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-726.05" ty="985"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.21875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="283" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="577.25" centerPoint3DY="1063.6" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-724.2" ty="985.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.109375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="284" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="579.1" centerPoint3DY="1064.4" loop="loop">
+                  <matrix>
+                    <Matrix a="0.987640380859375" b="0.165374755859375" c="-0.0299530029296875" d="-0.183334350585938" tx="-722.35" ty="986.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.55" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="578.65" centerPoint3DY="1034.2" loop="loop">
+                  <matrix>
+                    <Matrix a="1.00152587890625" b="0.1324462890625" c="-0.0431060791015625" d="-0.263870239257812" tx="-731.15" ty="1063.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.4"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="578.1" centerPoint3DY="1004" loop="loop">
+                  <matrix>
+                    <Matrix a="1.01397705078125" b="0.102066040039062" c="-0.0562591552734375" d="-0.344406127929688" tx="-738.05" ty="1137.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="577.55" centerPoint3DY="973.7" loop="loop">
+                  <matrix>
+                    <Matrix a="1.0257568359375" b="0.0676727294921875" c="-0.06939697265625" d="-0.4249267578125" tx="-744.1" ty="1216.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="288" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="577" centerPoint3DY="943.45" loop="loop">
+                  <matrix>
+                    <Matrix a="1.03620910644531" b="0.0360260009765625" c="-0.08251953125" d="-0.505447387695312" tx="-748.35" ty="1292.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.6"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="576.5" centerPoint3DY="913.2" loop="loop">
+                  <matrix>
+                    <Matrix a="1.04573059082031" b="0.0003509521484375" c="-0.0956573486328125" d="-0.585968017578125" tx="-751.3" ty="1373.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="290" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="576" centerPoint3DY="882.9" loop="loop">
+                  <matrix>
+                    <Matrix a="1.05410766601562" b="-0.032470703125" c="-0.108810424804688" d="-0.66650390625" tx="-752.75" ty="1450.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="575.35" centerPoint3DY="852.6" loop="loop">
+                  <matrix>
+                    <Matrix a="1.06121826171875" b="-0.0692901611328125" c="-0.121978759765625" d="-0.74700927734375" tx="-752.55" ty="1532.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="292" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="574.85" centerPoint3DY="822.45" loop="loop">
+                  <matrix>
+                    <Matrix a="1.06741333007812" b="-0.103118896484375" c="-0.135101318359375" d="-0.827560424804688" tx="-751.05" ty="1611"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.6" y="785.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true" symbolType="graphic" centerPoint3DX="574.25" centerPoint3DY="792.15" loop="loop">
+                  <matrix>
+                    <Matrix a="1.072021484375" b="-0.140914916992188" c="-0.148239135742188" d="-0.908065795898438" tx="-747.55" ty="1694.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.75"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="1.07597351074219" b="-0.17559814453125" c="-0.161346435546875" d="-0.988632202148438" tx="-743.1" ty="1774.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1341.65" y="785.7"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
@@ -418,12 +1663,180 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="11" duration="250" keyMode="9728">
+            <DOMFrame index="11" duration="249" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="24" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="284" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.05078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1015625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.1484375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="288" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.19921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.25"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="290" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.30078125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3515625"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="292" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.3984375"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.44921875"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="mussel-shadow" centerPoint3DX="582.2" centerPoint3DY="1699.15">
+                  <matrix>
+                    <Matrix tx="377.45" ty="1653.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="204.75" y="45.65"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.5"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bump" color="#FF4FFF" locked="true" autoNamed="false" animationType="motion object">
+        <DOMLayer name="bump" color="#FF4FFF" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="29" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="29000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.628894" xformPtYOffsetPct="0.991894" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-100.15" next="0,-100.15" previous="0,-100.15" roving="0" timevalue="10000"/><Keyframe anchor="0,-100.15" next="0,-100.15" previous="0,-100.15" roving="0" timevalue="19000"/><Keyframe anchor="0,-139.75" next="0,-139.75" previous="0,-139.75" roving="0" timevalue="21000"/><Keyframe anchor="0,-55.25" next="0,-55.25" previous="0,-55.25" roving="0" timevalue="24000"/><Keyframe anchor="0,-57.2" next="0,-57.2" previous="0,-57.2" roving="0" timevalue="26000"/><Keyframe anchor="0,-56.55" next="0,-56.55" previous="0,-56.55" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,246.15" next="0,246.15" previous="0,246.15" roving="0" timevalue="10000"/><Keyframe anchor="0,246.15" next="0,246.15" previous="0,246.15" roving="0" timevalue="19000"/><Keyframe anchor="0,124.55" next="0,124.55" previous="0,124.55" roving="0" timevalue="21000"/><Keyframe anchor="0,40.85" next="0,40.85" previous="0,40.85" roving="0" timevalue="24000"/><Keyframe anchor="0,-2.65" next="0,-2.65" previous="0,-2.65" roving="0" timevalue="26000"/><Keyframe anchor="0,-8.1" next="0,-8.1" previous="0,-8.1" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/><Keyframe anchor="0,-2.30382" next="0,-2.30382" previous="0,-2.30382" roving="0" timevalue="21000"/><Keyframe anchor="0,1.00006" next="0,1.00006" previous="0,1.00006" roving="0" timevalue="24000"/><Keyframe anchor="0,-2.48134" next="0,-2.48134" previous="0,-2.48134" roving="0" timevalue="26000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/><Keyframe anchor="0,-15.0128" next="0,-15.0128" previous="0,-15.0128" roving="0" timevalue="21000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="24000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/><Keyframe anchor="0,-2.80939" next="0,-2.80939" previous="0,-2.80939" roving="0" timevalue="21000"/><Keyframe anchor="0,-3.96892" next="0,-3.96892" previous="0,-3.96892" roving="0" timevalue="24000"/><Keyframe anchor="0,-3.25052" next="0,-3.25052" previous="0,-3.25052" roving="0" timevalue="26000"/><Keyframe anchor="0,-3.24965" next="0,-3.24965" previous="0,-3.24965" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,76.3077" next="0,76.3077" previous="0,76.3077" roving="0" timevalue="10000"/><Keyframe anchor="0,76.3077" next="0,76.3077" previous="0,76.3077" roving="0" timevalue="19000"/><Keyframe anchor="0,76.4008" next="0,76.4008" previous="0,76.4008" roving="0" timevalue="21000"/><Keyframe anchor="0,115.359" next="0,115.359" previous="0,115.359" roving="0" timevalue="24000"/><Keyframe anchor="0,96.582" next="0,96.582" previous="0,96.582" roving="0" timevalue="26000"/><Keyframe anchor="0,92.543" next="0,92.543" previous="0,92.543" roving="0" timevalue="28000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,76.3077" next="0,76.3077" previous="0,76.3077" roving="0" timevalue="10000"/><Keyframe anchor="0,76.3077" next="0,76.3077" previous="0,76.3077" roving="0" timevalue="19000"/><Keyframe anchor="0,58.4579" next="0,58.4579" previous="0,58.4579" roving="0" timevalue="21000"/><Keyframe anchor="0,43.4799" next="0,43.4799" previous="0,43.4799" roving="0" timevalue="24000"/><Keyframe anchor="0,45.2499" next="0,45.2499" previous="0,45.2499" roving="0" timevalue="26000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="9000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="10000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="19000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="21000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="27000"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="28000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
@@ -441,8 +1854,389 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="29" duration="232" keyMode="9728">
+            <DOMFrame index="29" duration="231" keyMode="9728">
               <elements/>
+            </DOMFrame>
+            <DOMFrame index="260" duration="6" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="266" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="629" centerPoint3DY="901.75" loop="loop">
+                  <matrix>
+                    <Matrix a="0.921051025390625" b="-0.086578369140625" c="0.018218994140625" d="0.452041625976562" tx="594.05" ty="907.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="267" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="628.7" centerPoint3DY="904.5" loop="loop">
+                  <matrix>
+                    <Matrix a="0.94085693359375" b="-0.0915374755859375" c="0.018218994140625" d="0.452041625976562" tx="593" ty="910.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="268" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="628.3" centerPoint3DY="907.2" loop="loop">
+                  <matrix>
+                    <Matrix a="0.9609375" b="-0.093505859375" c="0.018218994140625" d="0.452041625976562" tx="591.85" ty="913"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="269" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="629.3" centerPoint3DY="929" loop="loop">
+                  <matrix>
+                    <Matrix a="1.05670166015625" b="-0.0755157470703125" c="0.00433349609375" d="0.443588256835938" tx="589.15" ty="934"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="270" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="630.3" centerPoint3DY="950.7" loop="loop">
+                  <matrix>
+                    <Matrix a="1.15193176269531" b="-0.056427001953125" c="-0.0075836181640625" d="0.434707641601562" tx="586.45" ty="955"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="271" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="602.05" centerPoint3DY="978.55" loop="loop">
+                  <matrix>
+                    <Matrix a="1.02153015136719" b="-0.06329345703125" c="0.042449951171875" d="0.482681274414062" tx="563.45" ty="983.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="272" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="573.9" centerPoint3DY="1006.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.891342163085938" b="-0.063873291015625" c="0.102462768554688" d="0.524368286132812" tx="540.55" ty="1011.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="273" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="545.75" centerPoint3DY="1034.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.760818481445312" b="-0.066925048828125" c="0.173446655273438" d="0.557632446289062" tx="517.7" ty="1039.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="274" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="565.5" centerPoint3DY="1095.25" loop="loop">
+                  <matrix>
+                    <Matrix a="0.762786865234375" b="-0.030975341796875" c="0.10003662109375" d="0.666000366210938" tx="537" ty="1099.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="275" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="276" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="277" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="278" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="279" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="280" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="281" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="282" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="283" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="284" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="585.3" centerPoint3DY="1156" loop="loop">
+                  <matrix>
+                    <Matrix a="0.763076782226562" d="0.763076782226562" tx="556.3" ty="1159.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="285" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="595.4" centerPoint3DY="1131.35" loop="loop">
+                  <matrix>
+                    <Matrix a="0.786758422851562" d="0.786758422851562" tx="565.45" ty="1135.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="286" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="605.4" centerPoint3DY="1106.7" loop="loop">
+                  <matrix>
+                    <Matrix a="0.810455322265625" d="0.810455322265625" tx="574.55" ty="1110.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="287" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="615.35" centerPoint3DY="1082.1" loop="loop">
+                  <matrix>
+                    <Matrix a="0.834152221679688" d="0.834152221679688" tx="583.65" ty="1086.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="288" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="625.4" centerPoint3DY="1057.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.857833862304688" d="0.857833862304688" tx="592.8" ty="1061.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="289" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="635.45" centerPoint3DY="1032.85" loop="loop">
+                  <matrix>
+                    <Matrix a="0.88153076171875" d="0.88153076171875" tx="601.9" ty="1037.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="290" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="645.45" centerPoint3DY="1008.3" loop="loop">
+                  <matrix>
+                    <Matrix a="0.905227661132812" d="0.905227661132812" tx="611" ty="1012.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38.05" y="-4.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="291" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="655.45" centerPoint3DY="983.6" loop="loop">
+                  <matrix>
+                    <Matrix a="0.928909301757812" d="0.928909301757812" tx="620.15" ty="988.2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="292" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="665.45" centerPoint3DY="959.05" loop="loop">
+                  <matrix>
+                    <Matrix a="0.952606201171875" d="0.952606201171875" tx="629.25" ty="963.7"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="293" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" selected="true" symbolType="graphic" centerPoint3DX="675.45" centerPoint3DY="934.45" loop="loop">
+                  <matrix>
+                    <Matrix a="0.976303100585938" d="0.976303100585938" tx="638.35" ty="939.25"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.9"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="294" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-shellKnot-open" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix tx="647.45" ty="914.75"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="38" y="-4.95"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
