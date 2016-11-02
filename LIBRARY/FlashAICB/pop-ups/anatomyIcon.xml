@@ -450,9 +450,6 @@
                           </edges>
                         </DOMShape>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="-542.2" ty="233.35"/>
-                          </matrix>
                           <members>
                             <DOMShape selected="true" isDrawingObject="true">
                               <fills>
@@ -539,14 +536,8 @@
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="-542.2" ty="233.35"/>
-                          </matrix>
                           <members>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-542.2" ty="233.35"/>
-                              </matrix>
                               <members>
                                 <DOMShape selected="true" isDrawingObject="true">
                                   <fills>
@@ -568,14 +559,8 @@
                               </members>
                             </DOMGroup>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-542.2" ty="233.35"/>
-                              </matrix>
                               <members>
                                 <DOMGroup selected="true">
-                                  <matrix>
-                                    <Matrix tx="-542.2" ty="233.35"/>
-                                  </matrix>
                                   <members>
                                     <DOMShape selected="true" isDrawingObject="true">
                                       <fills>
@@ -601,14 +586,8 @@
                           </members>
                         </DOMGroup>
                         <DOMGroup>
-                          <matrix>
-                            <Matrix tx="-542.2" ty="233.35"/>
-                          </matrix>
                           <members>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-542.2" ty="233.35"/>
-                              </matrix>
                               <members>
                                 <DOMShape selected="true" isDrawingObject="true">
                                   <fills>
@@ -631,14 +610,8 @@
                               </members>
                             </DOMGroup>
                             <DOMGroup selected="true">
-                              <matrix>
-                                <Matrix tx="-542.2" ty="233.35"/>
-                              </matrix>
                               <members>
                                 <DOMGroup selected="true">
-                                  <matrix>
-                                    <Matrix tx="-542.2" ty="233.35"/>
-                                  </matrix>
                                   <members>
                                     <DOMShape selected="true" isDrawingObject="true">
                                       <fills>

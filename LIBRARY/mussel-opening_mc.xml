@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1478107652" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-opening_mc" itemID="581a2230-000002d5" symbolType="graphic" lastModified="1478108743" lastUniqueIdentifier="3">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="35">
+    <DOMTimeline name="mussel-opening_mc" currentFrame="34">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -16,21 +16,9 @@
             <DOMFrame index="29" duration="6" name="FootFade" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="35" name="FiltrationStep1" labelType="name" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="70" duration="54" name="FiltrationStep2" labelType="name" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="124" duration="136" name="FiltrationStep3" labelType="name" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="260" name="CloseMussel" labelType="name" keyMode="9728">
-              <elements/>
-            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="19" keyMode="9728">
               <Framescript language="JavaScript">
@@ -55,54 +43,6 @@ if (this.parent.gotoFiltration == true){
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="34" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.CloseButtonFiltration.visible = true;
-this.NextButtonFiltration.visible = true;
-this.ReplayButtonFiltration.visible = false;]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="69" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.gotoAndPlay('FiltrationStep1');]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="70" duration="53" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.CloseButtonFiltration.visible = true;
-this.NextButtonFiltration.visible = true;
-this.ReplayButtonFiltration.visible = false;]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="123" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.gotoAndPlay('FiltrationStep2');]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="124" duration="135" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.CloseButtonFiltration.visible = true;
-this.NextButtonFiltration.visible = false;
-this.ReplayButtonFiltration.visible = true;]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="259" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.gotoAndPlay('FiltrationStep3');]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="260" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.stop();]]></script>
-              </Framescript>
-              <elements/>
-            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="Anatomy" color="#FF4FFF" locked="true" autoNamed="false" layerType="folder"/>
@@ -120,9 +60,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
-              <elements/>
-            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="anatomyOpen" color="#FF800A" parentLayerIndex="2" autoNamed="false">
@@ -138,9 +75,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
-            </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -190,9 +124,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             <DOMFrame index="6" duration="29" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
-              <elements/>
-            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="mussel-outterShell_png" color="#FF4F4F" parentLayerIndex="5" locked="true" autoNamed="false" animationType="motion object">
@@ -214,9 +145,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
               </elements>
             </DOMFrame>
             <DOMFrame index="29" duration="6" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -259,9 +187,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
-              <elements/>
-            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="Buttons" color="#669900" locked="true" autoNamed="false" layerType="folder"/>
@@ -270,36 +195,12 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Buttons/ReplayButton" name="ReplayButtonFiltration" symbolType="button" centerPoint3DX="975.8" centerPoint3DY="1771.4">
-                  <matrix>
-                    <Matrix tx="934.3" ty="1708.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="41.5" y="62.55"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="BackHome" color="#808080" parentLayerIndex="8" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
-            </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Buttons/HomeButton" name="CloseButtonFiltration" symbolType="button" centerPoint3DX="117.05" centerPoint3DY="1787.55">
-                  <matrix>
-                    <Matrix tx="71" ty="1708.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="46.05" y="78.7"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -308,60 +209,12 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="35" duration="225" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Buttons/NextButton" name="NextButtonFiltration" symbolType="button" centerPoint3DX="975.1" centerPoint3DY="1771.4">
-                  <matrix>
-                    <Matrix tx="937.1" ty="1708.85"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="38" y="62.55"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="FILTRATION STEPS" color="#009999" autoNamed="false">
+        <DOMLayer name="FILTRATION STEPS" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
-            </DOMFrame>
-            <DOMFrame index="35" duration="35" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="7" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
-                  <matrix>
-                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1362.15" y="833.3"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="70" duration="54" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="42" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
-                  <matrix>
-                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1362.15" y="833.3"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="124" duration="137" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="96" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
-                  <matrix>
-                    <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1362.15" y="833.3"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
@@ -379,21 +232,6 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                   </transformationPoint>
                   <color>
                     <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="35" duration="226" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="1.07597351074219" b="-0.17559814453125" c="-0.161346435546875" d="-0.988632202148438" tx="-744.25" ty="1775.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1342.8" y="786.25"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.16015625"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
@@ -418,7 +256,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="11" duration="250" keyMode="9728">
+            <DOMFrame index="11" duration="24" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -441,7 +279,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="29" duration="232" keyMode="9728">
+            <DOMFrame index="29" duration="6" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>

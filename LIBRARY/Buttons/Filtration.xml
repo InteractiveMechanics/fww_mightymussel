@@ -263,16 +263,13 @@
                     <Point x="62" y="62"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton">
                   <matrix>
                     <Matrix a="0.81500244140625" tx="-15" ty="-8.95"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="100" y="100"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

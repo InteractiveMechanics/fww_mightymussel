@@ -54,7 +54,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Fish/AmericanShad">
                   <matrix>
-                    <Matrix a="1.22378540039062" b="0.02191162109375" c="0.0485687255859375" d="1.24407958984375" tx="2017.5" ty="840.7"/>
+                    <Matrix a="1.22378540039062" b="0.02191162109375" c="0.0485687255859375" d="1.24407958984375" tx="2017.55" ty="840.7"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="0.3" y="0.2"/>

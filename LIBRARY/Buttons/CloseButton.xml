@@ -54,7 +54,7 @@
                 </DOMGroup>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton">
                   <matrix>
-                    <Matrix a="0.65032958984375" d="0.632095336914062" tx="-34.45" ty="-32.4"/>
+                    <Matrix a="0.65032958984375" d="0.632080078125" tx="-34.45" ty="-32.4"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.95" y="99.9"/>

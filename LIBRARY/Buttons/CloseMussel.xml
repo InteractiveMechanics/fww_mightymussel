@@ -13,9 +13,6 @@
                   <transformationPoint>
                     <Point x="100" y="100"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
                 <DOMGroup>
                   <members>

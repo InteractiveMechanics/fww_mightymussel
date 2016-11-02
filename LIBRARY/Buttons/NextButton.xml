@@ -206,9 +206,6 @@
                   <transformationPoint>
                     <Point x="99.7" y="99.95"/>
                   </transformationPoint>
-                  <color>
-                    <Color/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

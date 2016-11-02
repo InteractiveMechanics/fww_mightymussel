@@ -12,7 +12,7 @@
           <DOMFolderItem name="Assets/Fish/Brook Trout- AI symbols" itemID="5804f0f0-000004ae"/>
           <DOMFolderItem name="Assets/LifecycleAssets" itemID="57d9764c-00001414"/>
           <DOMFolderItem name="Assets/Mussel bits" itemID="580a7088-00000554"/>
-          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c" isExpanded="true"/>
+          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c"/>
           <DOMFolderItem name="Buttons/Icons- AI symbols" itemID="580507d6-00000713"/>
           <DOMFolderItem name="FlashAICB" itemID="580e3e98-000000f0" isExpanded="true"/>
           <DOMFolderItem name="FlashAICB/pop-ups" itemID="580e3e98-000000f1" isExpanded="true"/>
@@ -224,7 +224,7 @@
           <Include href="Buttons/Icons- AI symbols/&amp;#060Group&amp;#062_2.xml" loadImmediate="false" itemID="57d7405f-00001cdb" lastModified="1473724511"/>
           <Include href="Buttons/Icons- AI symbols/&amp;#060Group&amp;#062_4.xml" loadImmediate="false" itemID="57d7405f-00001cd4" lastModified="1473724511"/>
           <Include href="Buttons/Icons- AI symbols/&amp;#060Group&amp;#062_6.xml" loadImmediate="false" itemID="57d7405f-00001ccd" lastModified="1473724511"/>
-          <Include href="Buttons/InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1473728210"/>
+          <Include href="Buttons/InvisibleButton.xml" loadImmediate="false" itemID="57d556c0-0000022e" lastModified="1478109141"/>
           <Include href="Buttons/LifeCycle.xml" itemIcon="0" loadImmediate="false" itemID="57d740a8-00001cff" lastModified="1478027111"/>
           <Include href="Buttons/NextButton.xml" itemIcon="0" loadImmediate="false" itemID="57d9ac4a-00000dbf" lastModified="1478027116"/>
           <Include href="Buttons/OpenMussel.xml" itemIcon="0" loadImmediate="false" itemID="57d7408e-00001ce1" lastModified="1478027121"/>
@@ -232,20 +232,24 @@
           <Include href="Buttons/ShowAnatomy.xml" itemIcon="0" loadImmediate="false" itemID="57d74045-00001cab" lastModified="1478027130"/>
           <Include href="ClosedMusselAnatomy.xml" loadImmediate="false" itemID="57fd2237-00000392" lastModified="1473788094"/>
           <Include href="ClosedMusselAnatomy-Descriptions.xml" loadImmediate="false" itemID="57fd2278-000004b3" lastModified="1476279792"/>
-          <Include href="filtration1.xml" itemIcon="1" loadImmediate="false" itemID="580a6a0f-00000541" lastModified="1477077519"/>
+          <Include href="filtration-Step1_mc.xml" loadImmediate="false" itemID="581a2684-00000624" lastModified="1478108993"/>
+          <Include href="filtration-Step2_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2a59-0000087e" lastModified="1478113472"/>
+          <Include href="filtration-step3_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2e00-00000ac4" lastModified="1478110768"/>
+          <Include href="filtration1.xml" itemIcon="1" loadImmediate="false" itemID="580a6a0f-00000541" lastModified="1478111378"/>
           <Include href="filtration2.xml" itemIcon="1" loadImmediate="false" itemID="580a6a1e-00000542" lastModified="1477077534"/>
           <Include href="filtration3.xml" itemIcon="1" loadImmediate="false" itemID="580a6a04-0000053f" lastModified="1477077508"/>
           <Include href="FlashAICB/pop-ups/anatomyIcon.xml" loadImmediate="false" itemID="580e55d1-00000601" lastModified="1477335005"/>
           <Include href="FlashAICB/pop-ups/pop-up_whiteBkgr.xml" loadImmediate="false" itemID="580e6c96-00000a57" lastModified="1477340310"/>
           <Include href="FlashAICB/pop-ups/text.xml" loadImmediate="false" itemID="580e6c9d-00000a58" lastModified="1477340317"/>
           <Include href="icon-filtration.xml" loadImmediate="false" itemID="580e6c72-00000a55" lastModified="1477340286"/>
-          <Include href="mussel-AnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a713f-00000558" lastModified="1477079359"/>
+          <Include href="mussel-AnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a713f-00000558" lastModified="1478111395"/>
           <Include href="mussel-burried_Male.xml" itemIcon="1" loadImmediate="false" itemID="580517af-00000f42" lastModified="1476729003"/>
           <Include href="mussel-burried_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050e69-000009b0" lastModified="1476729256"/>
           <Include href="mussel-burried_open_mc.xml" itemIcon="1" loadImmediate="false" itemID="57fd2874-00000506" lastModified="1476739322"/>
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
-          <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478018766"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478027296"/>
+          <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
+          <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478107652"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
           <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1477408100"/>
           <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1478009599"/>
@@ -260,11 +264,11 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="360" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="838" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
-                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
+                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
-                              <DOMFrame index="0" duration="750" keyMode="9728">
+                              <DOMFrame index="0" duration="975" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -315,6 +319,18 @@
                                    <elements/>
                               </DOMFrame>
                               <DOMFrame index="535" duration="215" name="LifeCycleStep4" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="750" duration="38" name="FiltrationStep1" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="788" duration="49" name="FiltrationStep2" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="837" name="FiltrationStep2" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="838" duration="137" name="FiltrationStep3" labelType="name" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
@@ -567,6 +583,50 @@ this.LCgrassWave.play();]]></script>
                                    </Framescript>
                                    <elements/>
                               </DOMFrame>
+                              <DOMFrame index="750" duration="37" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.goToFiltration = false;
+
+this.CloseButtonFiltration.visible = true;
+this.NextButtonFiltration.visible = true;
+this.ReplayButtonFiltration.visible = false;]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="787" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+this.FiltrationDirt.play();
+this.filtration-Step1_mc.play();]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="788" duration="49" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="837" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+this.filtration-step2_mc.play();
+this.FiltrationDirt.play();]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="838" duration="136" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.CloseButtonFiltration.visible = true;
+this.NextButtonFiltration.visible = false;
+this.ReplayButtonFiltration.visible = true;]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="974" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+this.FiltrationDirt.play();]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Navigation" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
@@ -686,7 +746,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="20" duration="9" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/Filtration" name="FiltrationButton" symbolType="button" centerPoint3DX="925.25" centerPoint3DY="1752.3">
+                                        <DOMSymbolInstance libraryItemName="Buttons/Filtration" name="FiltrationButton" selected="true" symbolType="button" centerPoint3DX="925.25" centerPoint3DY="1752.3">
                                              <matrix>
                                                   <Matrix tx="858.45" ty="1657.2"/>
                                              </matrix>
@@ -718,7 +778,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="20" duration="9" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Buttons/HideAnatomy" name="HideAnatomyButton" symbolType="button" centerPoint3DX="428.9" centerPoint3DY="1752.3">
+                                        <DOMSymbolInstance libraryItemName="Buttons/HideAnatomy" name="HideAnatomyButton" selected="true" symbolType="button" centerPoint3DX="428.9" centerPoint3DY="1752.3">
                                              <matrix>
                                                   <Matrix tx="344.3" ty="1657.2"/>
                                              </matrix>
@@ -841,6 +901,9 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="29" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
@@ -857,9 +920,12 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="29" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="17" locked="true" autoNamed="false">
                          <frames>
@@ -1302,7 +1368,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="38" duration="272" keyMode="9728">
+                              <DOMFrame index="38" duration="273" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_lifecycle-titles_mc" symbolType="graphic" firstFrame="16" centerPoint3DX="819.1" centerPoint3DY="1649.65" loop="single frame">
                                              <matrix>
@@ -1314,7 +1380,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="310" duration="6" keyMode="9728">
+                              <DOMFrame index="311" duration="6" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_lifecycle-titles_mc" symbolType="graphic" firstFrame="7" centerPoint3DX="819.1" centerPoint3DY="1649.65" loop="play once">
                                              <matrix>
@@ -1326,12 +1392,12 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="316" duration="434" keyMode="9728">
+                              <DOMFrame index="317" duration="433" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-caption-Alewives" color="#4F80FF" parentLayerIndex="16" locked="true" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="LC-caption-Alewives" color="#4F80FF" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="327" keyMode="9728">
                                    <elements/>
@@ -1429,7 +1495,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-caption-Juv muss" color="#009999" parentLayerIndex="16" autoNamed="false">
+                    <DOMLayer name="LC-caption-Juv muss" color="#009999" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="520" keyMode="9728">
                                    <elements/>
@@ -1950,7 +2016,7 @@ this.LCgrassWave.play();]]></script>
                          </frames>
                     </DOMLayer>
                     <DOMLayer name="alewives" color="#4F80FF" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="AW close up" color="#4F80FF" parentLayerIndex="42" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="AW close up" color="#4F80FF" parentLayerIndex="42" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -2318,14 +2384,14 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
-                    <DOMLayer name="Buttons" color="#4F80FF" parentLayerIndex="54" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackHome" color="#9933CC" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Filtration" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Buttons" color="#4F80FF" parentLayerIndex="54" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackHome" color="#9933CC" parentLayerIndex="55" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="225" keyMode="9728">
+                              <DOMFrame index="750" duration="225" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/HomeButton" name="CloseButtonFiltration" symbolType="button">
                                              <matrix>
@@ -2339,12 +2405,12 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Replay" color="#FF800A" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Replay" color="#FF800A" parentLayerIndex="55" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="225" keyMode="9728">
+                              <DOMFrame index="750" duration="225" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/ReplayButton" name="ReplayButtonFiltration" symbolType="button">
                                              <matrix>
@@ -2358,12 +2424,12 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Next" color="#4F80FF" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Next" color="#4F80FF" parentLayerIndex="55" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="225" keyMode="9728">
+                              <DOMFrame index="750" duration="225" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Buttons/NextButton" name="NextButtonFiltration" symbolType="button">
                                              <matrix>
@@ -2377,15 +2443,15 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Filtration- pop-up" color="#FF4FFF" parentLayerIndex="54" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Filtration- pop-up" color="#FF4FFF" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" keyMode="9728">
+                              <DOMFrame index="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="96" duration="7" keyMode="9728">
+                              <DOMFrame index="751" duration="7" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2397,7 +2463,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="103" duration="30" keyMode="9728">
+                              <DOMFrame index="758" duration="30" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="6" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
                                              <matrix>
@@ -2409,7 +2475,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="133" duration="6" keyMode="9728">
+                              <DOMFrame index="788" duration="6" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="7" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2421,13 +2487,13 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="139" keyMode="9728">
+                              <DOMFrame index="794" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="140" keyMode="9728">
+                              <DOMFrame index="795" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="141" duration="7" keyMode="9728">
+                              <DOMFrame index="796" duration="7" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="13" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2439,7 +2505,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="148" duration="36" keyMode="9728">
+                              <DOMFrame index="803" duration="36" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="19" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
                                              <matrix>
@@ -2451,7 +2517,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="184" duration="6" keyMode="9728">
+                              <DOMFrame index="839" duration="6" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="20" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2463,13 +2529,13 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="190" duration="2" keyMode="9728">
+                              <DOMFrame index="845" duration="2" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="192" keyMode="9728">
+                              <DOMFrame index="847" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="193" duration="7" keyMode="9728">
+                              <DOMFrame index="848" duration="7" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="26" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2481,7 +2547,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="200" duration="49" keyMode="9728">
+                              <DOMFrame index="855" duration="49" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="32" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
                                              <matrix>
@@ -2493,7 +2559,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="249" duration="6" keyMode="9728">
+                              <DOMFrame index="904" duration="6" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="33" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2505,13 +2571,13 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="255" keyMode="9728">
+                              <DOMFrame index="910" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="256" keyMode="9728">
+                              <DOMFrame index="911" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="257" duration="7" keyMode="9728">
+                              <DOMFrame index="912" duration="7" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="39" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2523,7 +2589,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="264" duration="49" keyMode="9728">
+                              <DOMFrame index="919" duration="49" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="45" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
                                              <matrix>
@@ -2535,7 +2601,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="313" duration="6" keyMode="9728">
+                              <DOMFrame index="968" duration="6" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="46" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="play once">
                                              <matrix>
@@ -2547,17 +2613,17 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="319" keyMode="9728">
+                              <DOMFrame index="974" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="filter-text" color="#FF800A" parentLayerIndex="54" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="filter-text" color="#FF800A" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="38" keyMode="9728">
+                              <DOMFrame index="750" duration="38" keyMode="9728">
                                    <elements>
                                         <DOMStaticText fontRenderingMode="standard" width="790.2" height="122" isSelectable="false">
                                              <matrix>
@@ -2574,7 +2640,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="133" duration="50" keyMode="9728">
+                              <DOMFrame index="788" duration="50" keyMode="9728">
                                    <elements>
                                         <DOMStaticText fontRenderingMode="standard" width="790.2" height="352" isSelectable="false">
                                              <matrix>
@@ -2591,7 +2657,7 @@ this.LCgrassWave.play();]]></script>
                                         </DOMStaticText>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="183" duration="137" keyMode="9728">
+                              <DOMFrame index="838" duration="137" keyMode="9728">
                                    <elements>
                                         <DOMStaticText fontRenderingMode="standard" width="790.2" height="260" isSelectable="false">
                                              <matrix>
@@ -2610,12 +2676,12 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="text-gradient" color="#808080" parentLayerIndex="54" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="text-gradient" color="#808080" parentLayerIndex="54" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="225" keyMode="9728">
+                              <DOMFrame index="750" duration="225" keyMode="9728">
                                    <elements>
                                         <DOMShape>
                                              <fills>
@@ -2638,49 +2704,49 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="NEW FILT STAGES" color="#4F80FF" parentLayerIndex="54" locked="true" autoNamed="false" visible="false">
+                    <DOMLayer name="NEW FILT STAGES" color="#4F80FF" parentLayerIndex="54" current="true" isSelected="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="38" keyMode="9728">
+                              <DOMFrame index="750" duration="38" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" symbolType="graphic" firstFrame="35" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="filtration-Step1_mc" symbolType="graphic" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="loop">
                                              <transformationPoint>
                                                   <Point x="630.3" y="1123"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="133" duration="50" keyMode="9728">
+                              <DOMFrame index="788" duration="50" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" symbolType="graphic" firstFrame="73" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="filtration-Step2_mc" symbolType="graphic" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="loop">
                                              <transformationPoint>
                                                   <Point x="630.3" y="1123"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="183" duration="137" keyMode="9728">
+                              <DOMFrame index="838" duration="137" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="mussel-openingAnatomyFiltration_mc" symbolType="graphic" firstFrame="123" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="filtration-step3_mc" selected="true" symbolType="graphic" centerPoint3DX="609.1" centerPoint3DY="1100.05" loop="play once">
                                              <transformationPoint>
                                                   <Point x="630.3" y="1123"/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
-                              <DOMFrame index="320" keyMode="9728">
+                              <DOMFrame index="975" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="54" locked="true" autoNamed="false" visible="false" animationType="motion object">
+                    <DOMLayer name="dirt overlay" color="#9933CC" parentLayerIndex="54" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
-                              <DOMFrame index="0" duration="95" keyMode="9728">
+                              <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
-                              <DOMFrame index="95" duration="204" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+                              <DOMFrame index="750" duration="204" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="204000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.70676" xformPtYOffsetPct="0.504687" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="8000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="99000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="8000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="99000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="99000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="99000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="99000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="99000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="99000"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="8000"/><Keyframe anchor="0,45" next="0,45" previous="0,45" roving="0" timevalue="99000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="134000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Assets/bkgrElements/dirt_mc" name="FiltrationDirt">
@@ -2695,6 +2761,9 @@ this.LCgrassWave.play();]]></script>
                                              </color>
                                         </DOMSymbolInstance>
                                    </elements>
+                              </DOMFrame>
+                              <DOMFrame index="954" motionTweenScale="false" keyMode="8192">
+                                   <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
@@ -2715,12 +2784,15 @@ this.LCgrassWave.play();]]></script>
                                         </DOMSymbolInstance>
                                    </elements>
                               </DOMFrame>
+                              <DOMFrame index="40" duration="935" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="65" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="65" locked="true" autoNamed="false" visible="false">
                          <frames>
-                              <DOMFrame index="0" duration="753" keyMode="9728">
+                              <DOMFrame index="0" duration="975" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Assets/MMlogo">
                                              <matrix>
@@ -2737,9 +2809,9 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="65" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="65" locked="true" autoNamed="false" visible="false">
                          <frames>
-                              <DOMFrame index="0" duration="753" keyMode="9728">
+                              <DOMFrame index="0" duration="975" keyMode="9728">
                                    <Framescript language="JavaScript">
                                         <script><![CDATA[this.stop();
 this.BackgroundLoop.play();]]></script>

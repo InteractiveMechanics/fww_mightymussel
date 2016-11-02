@@ -16,7 +16,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" selected="true" symbolType="graphic" firstFrame="1" loop="single frame">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" firstFrame="1" loop="single frame">
                   <matrix>
                     <Matrix tx="78" ty="1228.7"/>
                   </matrix>
@@ -104,7 +104,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
                     <Matrix a="0.9141845703125" d="0.378753662109375" tx="171.1" ty="1126.65"/>
                   </matrix>
@@ -126,7 +126,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix a="0.9141845703125" d="0.378753662109375" tx="171.1" ty="1126.65"/>
                   </matrix>
