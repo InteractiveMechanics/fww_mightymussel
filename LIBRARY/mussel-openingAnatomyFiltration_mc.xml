@@ -3,7 +3,7 @@
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="34">
+    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="35">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
