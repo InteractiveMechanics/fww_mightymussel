@@ -10242,8 +10242,23 @@ p.nominalBounds = new cjs.Rectangle(131.6,1086.3,751.7,235.9);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Layer 1
+	this.labialpalps = new lib.InvisibleButton();
+	this.labialpalps.setTransform(91.4,196.2,1.015,0.32,0,0,0,99.9,100.2);
+
+	this.gill = new lib.InvisibleButton();
+	this.gill.setTransform(465.2,115.1,1.07,0.64,0,0,0,100,100.2);
+
+	this.foot = new lib.InvisibleButton();
+	this.foot.setTransform(75.9,140.6,0.517,0.235,0,0,0,100,100.2);
+
+	this.exhalentsiphon = new lib.InvisibleButton();
+	this.exhalentsiphon.setTransform(576.3,-616.1,1.291,0.29,0,0,0,100,99.9);
+
+	this.inhalentsiphon = new lib.InvisibleButton();
+	this.inhalentsiphon.setTransform(535.7,-563.1,1.235,0.31,0,0,0,100,99.9);
+
 	this.adductormuscle = new lib.InvisibleButton();
-	this.adductormuscle.setTransform(-71.1,-487.1,1.64,0.56,0,0,0,99.9,100);
+	this.adductormuscle.setTransform(165.2,-471.2,3.891,0.6,0,0,0,99.7,99.8);
 
 	this.shape = new cjs.Shape();
 	this.shape.graphics.f("#FFFFFF").s().p("Ag3CBIAAkBIAdAAIAADqIBSAAIAAAXg");
@@ -10673,10 +10688,10 @@ p.nominalBounds = new cjs.Rectangle(131.6,1086.3,751.7,235.9);
 	this.shape_106.graphics.f().s("#FFFFFF").ss(2,1,1).p("EA4Bg/hQCsCsAIAIUAAJAAJgAJBG8QAAAIk2EuEAxxg3ZQDoDpAIAHUAAHAAIgAHA9HEAglgpzQDUDVAIAHUAAHAAIgAHAlZEgrNgt3QAJAIDJDKQAIAIgIXfEAd7AuBQAIAHDAjPQAFgFgCtdQgBmugCmoEAi7A3GQAIAHDAjPQAIgJAK+FEg2KAg2IAAS8IDUDUEg6OAALMgArA8DIDUDU");
 	this.shape_106.setTransform(346.8,-210.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.adductormuscle}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_106},{t:this.shape_105},{t:this.shape_104},{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape},{t:this.adductormuscle},{t:this.inhalentsiphon},{t:this.exhalentsiphon},{t:this.foot},{t:this.gill},{t:this.labialpalps}]}).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-312.2,-631.1,1037,850.2);
+p.nominalBounds = new cjs.Rectangle(-312.2,-645.1,1037,873.2);
 
 
 (lib.musselburried_rotating_mc = function(mode,startPosition,loop) {
@@ -14714,7 +14729,7 @@ p.nominalBounds = new cjs.Rectangle(1320.6,178.9,522.7,188.8);
 		this.ReplayButtonFiltration.visible = false;
 	}
 	this.frame_145 = function() {
-		this.gotoAndPlay("FiltrationStep2Loop")
+		this.gotoAndPlay("FiltrationStep2Loop");
 	}
 	this.frame_146 = function() {
 		this.CloseButtonFiltration.visible = true;
@@ -17368,7 +17383,8 @@ p.nominalBounds = new cjs.Rectangle(-619.7,858.7,522.7,188.8);
 		// Global Functions
 		this.resetInteractive = function() {
 			this.gotoAndStop("AttractLoop");
-			this.endFade(this.TapGetStarted);
+			this.backgroundOverlay.gotoAndPlay('OverlayFadeOut');
+			this.startFade(this.TapGetStarted);
 		}
 		this.toggleAnatomy = function() {
 			// Toggle anatomy buttons
@@ -17456,7 +17472,9 @@ p.nominalBounds = new cjs.Rectangle(-619.7,858.7,522.7,188.8);
 		this.closeAnimation = function() {
 			this.gotoAndStop("MainMenu");
 			this.MusselMC.gotoAndStop("MusselOpen");
-			this.backgroundOverlay.gotoAndPlay('OverlayFadeIn');
+			this.popupAnatomy.gotoAndStop('open');
+			this.backgroundOverlay.gotoAndStop('OverlayOpen');
+
 			this.toggleNav();
 			this.stepCount = 1;
 			sendGAEvent('Main Menu');
@@ -17497,11 +17515,13 @@ p.nominalBounds = new cjs.Rectangle(-619.7,858.7,522.7,188.8);
 			if (this.anatomyOverlay == false){
 				this.anatomyOverlay = true;
 				this.popupAnatomy.gotoAndPlay('open');
-				this.popupAnatomy.gotoAndStop(anatomy);
+				clearTimeout(eventTimer);
+				var root = this;
+				var eventTimer = window.setTimeout(function(){ root.popupAnatomy.gotoAndPlay(anatomy); }, 500);
 			} else {
-				this.anatomyOverlay = true;
 				this.popupAnatomy.gotoAndStop(anatomy);
 			}
+			sendGAEvent('Anatomy Details: ' + anatomy);
 		}
 		this.hideAnatomyOverlay = function() {
 			if (this.anatomyOverlay == true){
@@ -17562,6 +17582,11 @@ p.nominalBounds = new cjs.Rectangle(-619.7,858.7,522.7,188.8);
 			
 			// Anatomy Overlay Event Listeners
 			this.MusselMC.OpenMusselAnatomy.adductormuscle.addEventListener("click", this.showAnatomyOverlay.bind(this, 'adductormuscle'));
+			this.MusselMC.OpenMusselAnatomy.exhalentsiphon.addEventListener("click", this.showAnatomyOverlay.bind(this, 'exhalentsiphon'));
+			this.MusselMC.OpenMusselAnatomy.inhalentsiphon.addEventListener("click", this.showAnatomyOverlay.bind(this, 'inhalentsiphon'));
+			this.MusselMC.OpenMusselAnatomy.labialpalps.addEventListener("click", this.showAnatomyOverlay.bind(this, 'labialpalps'));
+			this.MusselMC.OpenMusselAnatomy.foot.addEventListener("click", this.showAnatomyOverlay.bind(this, 'foot'));
+			this.MusselMC.OpenMusselAnatomy.gill.addEventListener("click", this.showAnatomyOverlay.bind(this, 'gill'));
 		}
 		
 		// Frame 1 Specific
@@ -21650,12 +21675,11 @@ p.nominalBounds = new cjs.Rectangle(-619.7,858.7,522.7,188.8);
 	// BackgroundOverlay
 	this.backgroundOverlay = new lib.BKGRoverlay();
 	this.backgroundOverlay.setTransform(578.1,1016.3,1,1,0,0,0,594.1,1032.2);
-	this.backgroundOverlay._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.backgroundOverlay).wait(11).to({_off:false},0).to({_off:true},29).wait(710));
+	this.timeline.addTween(cjs.Tween.get(this.backgroundOverlay).wait(750));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-133.2,564,2425.6,2708.7);
+p.nominalBounds = new cjs.Rectangle(524,944.1,1188.3,2064.5);
 
 })(libMain = libMain||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
 var libMain, images, createjs, ss;

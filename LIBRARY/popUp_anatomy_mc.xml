@@ -1,8 +1,8 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1478144974" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="23" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="Labels" color="#808080" locked="true" autoNamed="false">
+        <DOMLayer name="Labels" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="9" name="open" labelType="name" keyMode="9728">
               <elements/>
@@ -33,7 +33,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="9" keyMode="9728">
               <Framescript language="JavaScript">

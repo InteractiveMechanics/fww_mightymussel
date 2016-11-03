@@ -26,7 +26,7 @@
             timeout = [];
 
         document.onclick = resetTimeout;
-        document.onclick = blowBubbles;
+        window.onclick = blowBubbles;
 
         function init() {
             images = images||{};
@@ -111,7 +111,7 @@
 
         #canvas { display: block; position: absolute; top: 0; left: 0; z-index: 9; }
         #background { display: block; position: absolute; top: 0; left: 0; z-index: 1; }
-        #bubbles { display: block; position: absolute; z-index: 19; width: 100px; height: 100px; }
+        #bubbles { display: block; position: absolute; z-index: 19; width: 100px; height: 100px; pointer-events: none; }
 
         .bubble { width: 30px; height: 30px; background: rgba(250, 250, 250, 0.25); border-radius: 150px; position: absolute; -webkit-animation: float 0.5s ease-in; -webkit-animation-fill-mode: forwards; }
         @keyframes float {

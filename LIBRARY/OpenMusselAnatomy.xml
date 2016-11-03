@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1478126447">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1478148898">
   <timeline>
     <DOMTimeline name="OpenMusselAnatomy">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -145,10 +145,50 @@
                 </DOMStaticText>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="adductormuscle">
                   <matrix>
-                    <Matrix a="1.63999938964844" d="0.559906005859375" tx="-235" ty="-543.1"/>
+                    <Matrix a="3.89132690429688" d="0.599853515625" tx="-222.8" ty="-531.05"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="99.9" y="99.95"/>
+                    <Point x="99.65" y="99.75"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="inhalentsiphon">
+                  <matrix>
+                    <Matrix a="1.23451232910156" d="0.30987548828125" tx="412.25" ty="-594.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100.05" y="99.9"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="exhalentsiphon">
+                  <matrix>
+                    <Matrix a="1.29054260253906" d="0.289886474609375" tx="447.25" ty="-645.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="99.85"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="foot">
+                  <matrix>
+                    <Matrix a="0.516921997070312" d="0.234970092773438" tx="24.2" ty="117.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="gill">
+                  <matrix>
+                    <Matrix a="1.06954956054688" d="0.640274047851562" tx="358.2" ty="50.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="100" y="100.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="labialpalps">
+                  <matrix>
+                    <Matrix a="1.01522827148438" d="0.320281982421875" tx="-10" ty="164.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.9" y="100.2"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
