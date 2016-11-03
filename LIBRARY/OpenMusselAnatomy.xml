@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1477408100">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="OpenMusselAnatomy" itemID="57d769b9-00005b34" lastModified="1478126447">
   <timeline>
     <DOMTimeline name="OpenMusselAnatomy">
       <layers>
@@ -91,7 +91,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
-                <DOMStaticText selected="true" fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="370.1" height="74" isSelectable="false">
                   <matrix>
                     <Matrix tx="-310.25" ty="-519"/>
                   </matrix>
@@ -143,6 +143,14 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="adductormuscle">
+                  <matrix>
+                    <Matrix a="1.63999938964844" d="0.559906005859375" tx="-235" ty="-543.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.9" y="99.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

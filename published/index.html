@@ -26,6 +26,7 @@
             timeout = [];
 
         document.onclick = resetTimeout;
+        document.onclick = blowBubbles;
 
         function init() {
             images = images||{};
@@ -35,6 +36,26 @@
         	loader.addEventListener("complete", handleComplete);
         	loader.loadManifest(libMain.properties.manifest);
             handleComplete();
+        }
+        function blowBubbles(evt) {
+            var bubbleContainer = document.getElementById('bubbles');
+            var x = evt.pageX;
+            var y = evt.pageY;
+            var number = Math.floor((Math.random() * 6) + 2);
+
+            bubbleContainer.innerHTML = "";
+            bubbleContainer.style.top = (y - 50) + "px";
+            bubbleContainer.style.left = (x - 50) + "px";
+
+            for(i=0; i<number; i++){
+                var size = Math.floor(Math.random() * (40 - 20 + 1)) + 20;
+                var speed = Math.random() + 0.5;
+                var bx = Math.floor((Math.random() * 100) + 1);
+                var by = Math.floor((Math.random() * 100) + 1);
+
+                bubbleContainer.insertAdjacentHTML('beforeend', 
+                    '<div class="bubble" style="width:'+size+'px;height:'+size+'px;top:'+by+'px;left:'+bx+'px;-webkit-animation-duration:'+speed+'s"></div>');
+            }
         }
         function sendGAEvent(screen) {
 			ga('send', 'screenview', {
@@ -87,8 +108,16 @@
     </script>
     <style>
         html, body { margin: 0; overflow: hidden; }
+
         #canvas { display: block; position: absolute; top: 0; left: 0; z-index: 9; }
         #background { display: block; position: absolute; top: 0; left: 0; z-index: 1; }
+        #bubbles { display: block; position: absolute; z-index: 19; width: 100px; height: 100px; }
+
+        .bubble { width: 30px; height: 30px; background: rgba(250, 250, 250, 0.25); border-radius: 150px; position: absolute; -webkit-animation: float 0.5s ease-in; -webkit-animation-fill-mode: forwards; }
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-200px); opacity: 0; }
+        }
     </style>
 </head>
 <body onload="init();">
@@ -102,6 +131,7 @@
       ga('send', 'pageview');
     </script>
 
+    <div id="bubbles"></div>
 	<canvas id="canvas" width="1080" height="1920"></canvas>
     <canvas id="background" width="1080" height="1920"></canvas>
 </body>

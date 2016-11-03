@@ -12,7 +12,7 @@
           <DOMFolderItem name="Assets/Fish/Brook Trout- AI symbols" itemID="5804f0f0-000004ae"/>
           <DOMFolderItem name="Assets/LifecycleAssets" itemID="57d9764c-00001414"/>
           <DOMFolderItem name="Assets/Mussel bits" itemID="580a7088-00000554"/>
-          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c"/>
+          <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c" isExpanded="true"/>
           <DOMFolderItem name="Buttons/Icons- AI symbols" itemID="580507d6-00000713"/>
           <DOMFolderItem name="FlashAICB" itemID="580e3e98-000000f0" isExpanded="true"/>
           <DOMFolderItem name="FlashAICB/pop-ups" itemID="580e3e98-000000f1" isExpanded="true"/>
@@ -230,7 +230,7 @@
           <Include href="Buttons/OpenMussel.xml" itemIcon="0" loadImmediate="false" itemID="57d7408e-00001ce1" lastModified="1478027121"/>
           <Include href="Buttons/ReplayButton.xml" itemIcon="0" loadImmediate="false" itemID="57d9ac8b-00000dc8" lastModified="1478027127"/>
           <Include href="Buttons/ShowAnatomy.xml" itemIcon="0" loadImmediate="false" itemID="57d74045-00001cab" lastModified="1478027130"/>
-          <Include href="ClosedMusselAnatomy.xml" loadImmediate="false" itemID="57fd2237-00000392" lastModified="1473788094"/>
+          <Include href="ClosedMusselAnatomy.xml" loadImmediate="false" itemID="57fd2237-00000392" lastModified="1478125130"/>
           <Include href="ClosedMusselAnatomy-Descriptions.xml" loadImmediate="false" itemID="57fd2278-000004b3" lastModified="1476279792"/>
           <Include href="filtration-Step1_mc.xml" loadImmediate="false" itemID="581a2684-00000624" lastModified="1478108993"/>
           <Include href="filtration-Step2_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2a59-0000087e" lastModified="1478113472"/>
@@ -249,10 +249,10 @@
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
           <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
           <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478123908"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478125147"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
-          <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1477408100"/>
-          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1478009599"/>
+          <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1478126447"/>
+          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1478144974"/>
           <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1477341095"/>
           <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1477418503"/>
           <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1477421621"/>
@@ -264,7 +264,7 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="20" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
@@ -323,7 +323,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Actions" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Actions" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -332,6 +332,7 @@
 
 // Global Variables
 this.stepCount = 1;
+this.anatomyOverlay = false;
 this.gotoFiltration = false;
 
 
@@ -344,6 +345,8 @@ this.toggleAnatomy = function() {
 	// Toggle anatomy buttons
 	this.HideAnatomyButton.visible 		= !this.HideAnatomyButton.visible;
 	this.ShowAnatomyButton.visible 		= !this.ShowAnatomyButton.visible;
+	
+	this.hideAnatomyOverlay();
 	
 	if(this.CloseMusselButton.visible == true) {			
 		// Hide anatomy layers
@@ -394,6 +397,8 @@ this.hideAnatomy = function() {
 	this.MusselMC.ClosedMusselAnatomy.visible 	= false;
 	this.MusselMC.OpenMusselAnatomy.visible 	= false;
 	
+	this.hideAnatomyOverlay();
+	
 	sendGAEvent('Hide Anatomy');
 }
 
@@ -422,6 +427,7 @@ this.playLifeCycle = function() {
 this.closeAnimation = function() {
 	this.gotoAndStop("MainMenu");
 	this.MusselMC.gotoAndStop("MusselOpen");
+	this.backgroundOverlay.gotoAndPlay('OverlayFadeIn');
 	this.toggleNav();
 	this.stepCount = 1;
 	sendGAEvent('Main Menu');
@@ -456,6 +462,26 @@ this.attractLoopClose = function() {
 	this.endFade(this.TapGetStarted);
 	this.toggleNav();
 }
+
+
+this.showAnatomyOverlay = function(anatomy) {
+	if (this.anatomyOverlay == false){
+		this.anatomyOverlay = true;
+		this.popupAnatomy.gotoAndPlay('open');
+		this.popupAnatomy.gotoAndStop(anatomy);
+	} else {
+		this.anatomyOverlay = true;
+		this.popupAnatomy.gotoAndStop(anatomy);
+	}
+	sendGAEvent('Anatomy Details: ' + anatomy);
+}
+this.hideAnatomyOverlay = function() {
+	if (this.anatomyOverlay == true){
+		this.anatomyOverlay = false;
+		this.popupAnatomy.gotoAndPlay('close');
+	}
+}
+
 
 this.timeout;
 this.inout = true;
@@ -505,6 +531,9 @@ if (!this.OpenMusselButton._listeners.click){
 
 	// Attract Loop Event Listeners
 	this.AttractLoopButton.addEventListener("click", this.attractLoopClose.bind(this));
+	
+	// Anatomy Overlay Event Listeners
+	this.MusselMC.OpenMusselAnatomy.adductormuscle.addEventListener("click", this.showAnatomyOverlay.bind(this, 'adductormuscle'));
 }
 
 // Frame 1 Specific
@@ -573,7 +602,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Navigation" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Navigation" color="#9933CC" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="CloseMussel" color="#9933CC" parentLayerIndex="3" locked="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
@@ -838,7 +867,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="20" duration="9" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="popUp_anatomy_mc" name="popupAnatomy" centerPoint3DX="540" centerPoint3DY="964.95">
+                                        <DOMSymbolInstance libraryItemName="popUp_anatomy_mc" name="popupAnatomy" selected="true" centerPoint3DX="540" centerPoint3DY="964.95">
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
@@ -2354,6 +2383,10 @@ this.LCgrassWave.play();]]></script>
                     <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[this.stop();
+this.BackgroundLoop.play();]]></script>
+                                   </Framescript>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="Assets/MMlogo">
                                              <matrix>
@@ -2373,10 +2406,6 @@ this.LCgrassWave.play();]]></script>
                     <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
-                                   <Framescript language="JavaScript">
-                                        <script><![CDATA[this.stop();
-this.BackgroundLoop.play();]]></script>
-                                   </Framescript>
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="BackgroundLoop">
                                              <transformationPoint>

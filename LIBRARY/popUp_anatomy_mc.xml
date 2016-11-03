@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1478009599" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1478144974" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="9" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Labels" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -13,16 +13,16 @@
             <DOMFrame index="10" duration="9" name="close" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="19" name="labial palps" labelType="name" keyMode="9728">
+            <DOMFrame index="19" name="labialpalps" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="20" name="Exhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="20" name="exhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="21" name="inhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="21" name="inhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="22" name="adductor muscle" labelType="name" keyMode="9728">
+            <DOMFrame index="22" name="adductormuscle" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="23" name="gill" labelType="name" keyMode="9728">
@@ -49,7 +49,7 @@
             </DOMFrame>
             <DOMFrame index="18" keyMode="9728">
               <Framescript language="JavaScript">
-                <script><![CDATA[this.stop();]]></script>
+                <script><![CDATA[this.gotoAndStop('open');]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
