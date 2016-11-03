@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/bkgrElements/BKGR-overlay" itemID="580520bc-000025cd" lastModified="1478023049" lastUniqueIdentifier="1">
   <timeline>
-    <DOMTimeline name="BKGR-overlay">
+    <DOMTimeline name="BKGR-overlay" currentFrame="30">
       <layers>
         <DOMLayer name="Actions" color="#FF800A" autoNamed="false">
           <frames>

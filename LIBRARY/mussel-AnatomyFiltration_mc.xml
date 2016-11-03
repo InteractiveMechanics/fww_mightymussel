@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-AnatomyFiltration_mc" itemID="580a713f-00000558" symbolType="graphic" lastModified="1478111395">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-AnatomyFiltration_mc" itemID="580a713f-00000558" symbolType="graphic" lastModified="1478182928">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-AnatomyFiltration_mc" currentFrame="231">
+    <DOMTimeline name="mussel-AnatomyFiltration_mc" currentFrame="84">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -16,14 +16,14 @@
             <DOMFrame index="43" duration="53" name="Filtration 2" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="96" duration="136" name="Filtration 3" labelType="name" keyMode="9728">
+            <DOMFrame index="96" duration="135" name="Filtration 3" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="LABIAL palp top" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-labialPalp-top" centerPoint3DX="1079.8" centerPoint3DY="818.8">
                   <matrix>
@@ -42,7 +42,7 @@
         </DOMLayer>
         <DOMLayer name="adductor muscle r" color="#FF800A" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-adductorMuscle_Posterior">
                   <matrix>
@@ -58,7 +58,7 @@
         </DOMLayer>
         <DOMLayer name="Adductor muscle L" color="#009999" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-adductorMuscle_Anterior" centerPoint3DX="1135.75" centerPoint3DY="703.8">
                   <matrix>
@@ -72,10 +72,41 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
+        <DOMLayer name="FILTRATION STEPS" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" duration="35" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="filtration1" symbolType="graphic" loop="loop">
+                  <matrix>
+                    <Matrix a="0.997772216796875" b="-0.0660247802734375" c="0.0660247802734375" d="0.997772216796875" tx="-33.1" ty="89.3"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1497.6" y="756.15"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="43" duration="53" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="filtration2" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="1360.45" y="840.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="96" duration="135" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
         <DOMLayer name="foot" color="#FF4FFF" locked="true" autoNamed="false" animationType="motion object">
           <frames>
-            <DOMFrame index="0" duration="232" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
-              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="232000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500033" xformPtYOffsetPct="0.500059" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,33" next="0,33" previous="0,33" roving="0" timevalue="6000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+            <DOMFrame index="0" duration="231" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+              <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="231000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.500033" xformPtYOffsetPct="0.500059" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,33" next="0,33" previous="0,33" roving="0" timevalue="6000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-foot">
                   <matrix>
@@ -92,9 +123,25 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="labial palp btm" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="FILTRATION STEP 3 POO" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="96" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="96" duration="135" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="filtration3" symbolType="graphic" loop="loop">
+                  <transformationPoint>
+                    <Point x="1439.8" y="437.45"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="labial palp btm" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-labialPalp-btm" centerPoint3DX="1068.9" centerPoint3DY="822.5">
                   <matrix>
@@ -113,7 +160,7 @@
         </DOMLayer>
         <DOMLayer name="highlight" color="#669900" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMGroup>
                   <members>
@@ -154,46 +201,9 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="FILTRATION STEPS" color="#9933CC" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" duration="8" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="8" duration="35" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="filtration1" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="0.997772216796875" b="-0.0660247802734375" c="0.0660247802734375" d="0.997772216796875" tx="-33.1" ty="89.3"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1497.6" y="756.15"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="43" duration="53" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="filtration2" symbolType="graphic" loop="loop">
-                  <transformationPoint>
-                    <Point x="1360.45" y="840.25"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="96" duration="136" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="filtration3" symbolType="graphic" loop="loop">
-                  <transformationPoint>
-                    <Point x="1439.8" y="437.45"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
         <DOMLayer name="siphon holes" color="#FFFF00" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -239,7 +249,7 @@
         </DOMLayer>
         <DOMLayer name="stomach" color="#FF4F4F" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-stomach_mc">
                   <matrix>
@@ -255,7 +265,7 @@
         </DOMLayer>
         <DOMLayer name="intestine" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -441,7 +451,7 @@
         </DOMLayer>
         <DOMLayer name="gills" color="#9933CC" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-gills-top">
                   <matrix>
@@ -460,7 +470,7 @@
         </DOMLayer>
         <DOMLayer name="gills-btm" color="#FF800A" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-gills-btm">
                   <matrix>
@@ -479,7 +489,7 @@
         </DOMLayer>
         <DOMLayer name="ex siphone" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
@@ -520,7 +530,7 @@
         </DOMLayer>
         <DOMLayer name="mantel-lower" color="#009999" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-mantel-lower">
                   <matrix>
@@ -536,7 +546,7 @@
         </DOMLayer>
         <DOMLayer name="shell" color="#FFFF00" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="232" keyMode="9728">
+            <DOMFrame index="0" duration="231" keyMode="9728">
               <elements>
                 <DOMBitmapInstance libraryItemName="Assets/Mussel bits/internal-shell">
                   <matrix>
@@ -554,44 +564,22 @@
         </DOMLayer>
         <DOMLayer name="FILT 4 POO fish" color="#FF800A" autoNamed="false" animationType="motion object">
           <frames>
-            <DOMFrame index="0" duration="96" keyMode="9728">
+            <DOMFrame index="0" duration="95" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="96" duration="68" keyMode="9728">
+            <DOMFrame index="95" duration="68" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="164" duration="68" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
+            <DOMFrame index="163" duration="68" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
               <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="68000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.499171" xformPtYOffsetPct="0.504698" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,1008" next="0,1008" previous="0,1008" roving="0" timevalue="19000"/><Keyframe anchor="0,1027.24" next="0,1027.24" previous="0,1027.24" roving="0" timevalue="21000"/><Keyframe anchor="0,1031.73" next="0,1031.73" previous="0,1031.73" roving="0" timevalue="23000"/><Keyframe anchor="0,1049.19" next="0,1049.19" previous="0,1049.19" roving="0" timevalue="30000"/><Keyframe anchor="0,1023.42" next="0,1023.42" previous="0,1023.42" roving="0" timevalue="40000"/><Keyframe anchor="0,1057.09" next="0,1057.09" previous="0,1057.09" roving="0" timevalue="50000"/><Keyframe anchor="0,2182.65" next="0,2182.65" previous="0,2182.65" roving="0" timevalue="64000"/><Keyframe anchor="0,2334.1" next="0,2334.1" previous="0,2334.1" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,245.05" next="0,245.05" previous="0,245.05" roving="0" timevalue="19000"/><Keyframe anchor="0,261.493" next="0,261.493" previous="0,261.493" roving="0" timevalue="21000"/><Keyframe anchor="0,255.036" next="0,255.036" previous="0,255.036" roving="0" timevalue="23000"/><Keyframe anchor="0,235.15" next="0,235.15" previous="0,235.15" roving="0" timevalue="30000"/><Keyframe anchor="0,294.968" next="0,294.968" previous="0,294.968" roving="0" timevalue="40000"/><Keyframe anchor="0,237.15" next="0,237.15" previous="0,237.15" roving="0" timevalue="50000"/><Keyframe anchor="0,175.35" next="0,175.35" previous="0,175.35" roving="0" timevalue="64000"/><Keyframe anchor="0,54.05" next="0,54.05" previous="0,54.05" roving="0" timevalue="67000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,17.0013" next="0,17.0013" previous="0,17.0013" roving="0" timevalue="0"/><Keyframe anchor="0,9.74902" next="0,9.74902" previous="0,9.74902" roving="0" timevalue="19000"/><Keyframe anchor="0,8.74236" next="0,8.74236" previous="0,8.74236" roving="0" timevalue="21000"/><Keyframe anchor="0,9.27367" next="0,9.27367" previous="0,9.27367" roving="0" timevalue="23000"/><Keyframe anchor="0,-11.0051" next="0,-11.0051" previous="0,-11.0051" roving="0" timevalue="64000"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,0.000869751" next="0,0.000869751" previous="0,0.000869751" roving="0" timevalue="40000"/><Keyframe anchor="0,0.00175476" next="0,0.00175476" previous="0,0.00175476" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,-2.44557" next="0,-2.44557" previous="0,-2.44557" roving="0" timevalue="40000"/><Keyframe anchor="0,0.563889" next="0,0.563889" previous="0,0.563889" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,-274.684" next="0,-274.684" previous="0,-274.684" roving="0" timevalue="0"/><Keyframe anchor="0,-274.915" next="0,-274.915" previous="0,-274.915" roving="0" timevalue="40000"/><Keyframe anchor="0,-274.596" next="0,-274.596" previous="0,-274.596" roving="0" timevalue="50000"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,274.684" next="0,274.684" previous="0,274.684" roving="0" timevalue="0"/><Keyframe anchor="0,274.664" next="0,274.664" previous="0,274.664" roving="0" timevalue="40000"/><Keyframe anchor="0,274.594" next="0,274.594" previous="0,274.594" roving="0" timevalue="50000"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/Fish/Alewife-AI symbols/Alewife_mc" symbolType="graphic" loop="loop">
                   <matrix>
-                    <Matrix a="-2.62678527832031" b="-0.803085327148438" c="-0.803085327148438" d="2.62678527832031" tx="230.3" ty="855.6"/>
+                    <Matrix a="-2.62678527832031" b="-0.803085327148438" c="-0.803085327148438" d="2.62678527832031" tx="230.35" ty="855.65"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="-1" y="12.2"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="upper inside" color="#808080" locked="true" autoNamed="false" visible="false" layerType="guide">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements/>
-            </DOMFrame>
-            <DOMFrame index="1" duration="231" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="0.95428466796875" b="-0.329345703125" c="-0.27496337890625" d="-0.962646484375" tx="256.55" ty="1639.7"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1364.5" y="804.15"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.16015625"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
