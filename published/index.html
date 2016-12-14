@@ -58,11 +58,9 @@
             }
         }
         function sendGAEvent(screen) {
-			ga('send', 'screenview', {
-                'appName': 'Mighty Mussel',
-                'screenName': screen
-            });
-		}
+            ga('set', 'page', screen);
+            ga('send', 'pageview');
+        }
         function resetTimeout() {
             if (timeout) {
                 timeout.forEach(function(value, index){
