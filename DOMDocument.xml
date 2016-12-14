@@ -249,14 +249,14 @@
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
           <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
           <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1478185440"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1481743707"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
           <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1478148898"/>
-          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1481741485"/>
+          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1481743670"/>
           <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1477341095"/>
           <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1477418503"/>
           <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1477421621"/>
-          <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1481741826"/>
+          <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1481743055"/>
           <Include href="popUp_window-filtration.xml" itemIcon="1" loadImmediate="false" itemID="580e6bec-00000a4f" lastModified="1477407859"/>
           <Include href="popUp_window-lifecycle.xml" itemIcon="1" loadImmediate="false" itemID="580e6e2b-00000d5f" lastModified="1477403578"/>
           <Include href="popUp_window-titles.xml" itemIcon="1" loadImmediate="false" itemID="580f641f-0000020d" lastModified="1477408438"/>
@@ -872,7 +872,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -891,7 +891,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Mussel open/close" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
