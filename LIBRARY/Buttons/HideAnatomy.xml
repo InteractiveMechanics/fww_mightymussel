@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/HideAnatomy" itemID="57d740a2-00001cf5" symbolType="button" lastModified="1478027098">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/HideAnatomy" itemID="57d740a2-00001cf5" symbolType="button" lastModified="1481739486">
   <timeline>
     <DOMTimeline name="HideAnatomy">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -302,7 +302,7 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Buttons/Icons- AI symbols/&amp;#060Group&amp;#062_1">
+                <DOMSymbolInstance libraryItemName="Buttons/Icons- AI symbols/&amp;#060Group&amp;#062_1" selected="true">
                   <matrix>
                     <Matrix tx="22.6"/>
                   </matrix>
@@ -358,7 +358,7 @@
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" selected="true">
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton">
                   <matrix>
                     <Matrix tx="-15" ty="-8.95"/>
                   </matrix>

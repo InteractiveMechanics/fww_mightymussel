@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClosedMusselAnatomy" itemID="57fd2237-00000392" lastModified="1478125130">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClosedMusselAnatomy" itemID="57fd2237-00000392" lastModified="1481744597">
   <timeline>
     <DOMTimeline name="ClosedMusselAnatomy">
       <layers>
-        <DOMLayer name="Buttons" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Buttons" color="#9933CC" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4F80FF">
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -32,7 +32,7 @@
                   </strokes>
                   <edges>
                     <Edge strokeStyle="2" edges="!2157 -10018[2161 -10002 2537 -9638!2537 -9638[2541 -9634 2537 -7617!11959 -7617[11963 -7602 11639 -7297!11639 -7297[11624 -7282 11639 -5516"/>
-                    <Edge strokeStyle="1" edges="!7622 -2140/7542 2937!7542 2937/7966 3361!0 0|0 2424!0 2424/424 2848!6522 -1040/6442 4037!6442 4037/6866 4461"/>
+                    <Edge strokeStyle="1" edges="!7622 -2140/7542 2937!7542 2937/7966 3361!0 0|0 2424!0 2424/424 2848"/>
                     <Edge cubics="!0 0(;0,0 0,2424 0,2424q0 0 0 2424);"/>
                     <Edge cubics="!0 2424(;0,2424 424,2848 424,2848p0 2424q424 2848)424,2848;"/>
                     <Edge cubics="!7622 -2140(;7622,-2140 7542,2937 7542,2937q7622 -2140 7542 2937);"/>
@@ -65,19 +65,6 @@
                   <textRuns>
                     <DOMTextRun>
                       <characters>PERIOSTRACUM</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                  </textRuns>
-                </DOMStaticText>
-                <DOMStaticText fontRenderingMode="standard" width="370.1" height="36" isSelectable="false">
-                  <matrix>
-                    <Matrix tx="361.05" ty="208.1"/>
-                  </matrix>
-                  <textRuns>
-                    <DOMTextRun>
-                      <characters>GROWTH LINES</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -144,7 +131,7 @@
                     <DOMTextRun>
                       <characters>UMBO</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -157,7 +144,7 @@
                     <DOMTextRun>
                       <characters>POSTERIOR&#xD;RIDGE</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

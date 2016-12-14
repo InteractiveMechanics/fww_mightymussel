@@ -2,7 +2,7 @@
   <timeline>
     <DOMTimeline name="popUp_window-titles" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="pop-up_whiteBkgr" color="#9933CC" autoNamed="false">
+        <DOMLayer name="pop-up_whiteBkgr" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -24,7 +24,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up_black" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="pop-up_black" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

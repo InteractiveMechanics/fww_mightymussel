@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step3_mc" itemID="581a4c27-00005e8c" symbolType="graphic" lastModified="1478118439" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step3_mc" itemID="581a4c27-00005e8c" symbolType="graphic" lastModified="1481745207" lastUniqueIdentifier="3">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="filtration-Step3_mc" currentFrame="97">
+    <DOMTimeline name="filtration-Step3_mc">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -15,7 +15,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="FILTRATION STEPS" color="#009999" autoNamed="false">
+        <DOMLayer name="FILTRATION STEPS" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="137" keyMode="9728">
               <elements>
@@ -26,25 +26,6 @@
                   <transformationPoint>
                     <Point x="1362.15" y="833.3"/>
                   </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="upper inside" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" duration="137" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" symbolType="graphic" loop="loop">
-                  <matrix>
-                    <Matrix a="1.07597351074219" b="-0.17559814453125" c="-0.161346435546875" d="-0.988632202148438" tx="-744.25" ty="1775.05"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="1342.8" y="786.25"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0.16015625"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>

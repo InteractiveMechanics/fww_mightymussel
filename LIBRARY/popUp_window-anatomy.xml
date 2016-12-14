@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1477576189" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481746356" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="6">
+    <DOMTimeline name="popUp_window-anatomy">
       <layers>
-        <DOMLayer name="markers" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="markers" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" name="labial palps" labelType="name" keyMode="9728">
               <elements/>
@@ -22,14 +22,35 @@
             <DOMFrame index="5" name="foot" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="6" name="blank" labelType="name" keyMode="9728">
+            <DOMFrame index="6" name="posterior ridge" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" name="dorsal" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" name="UMBO" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" name="POSTERIOR" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" name="ANTERIOR" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" name="Ventral" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" name="Periostracum" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" name="blank" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="icon" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" loop="single frame">
                   <matrix>
@@ -43,7 +64,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#9933CC" autoNamed="false">
+        <DOMLayer name="text" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -174,7 +195,7 @@
             </DOMFrame>
             <DOMFrame index="5" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="230" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="304.5"/>
                   </matrix>
@@ -182,11 +203,149 @@
                     <DOMTextRun>
                       <characters>FOOT: </characters>
                       <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="6" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR RIDGE: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>This mussel feature can be used to help identify mussels in the wild as it can be more prominent in some species and not quite as noticeable in others.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>DORSAL: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>The side of the mussel where the hinge is located which lets the mussel open and close.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>UMBO: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>The oldest part of the mussel which can be useful in mussel species identification. It is often eroded in older mussels.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>Typically the only visible part of a mussel in a stream or river, water enters the mussel at this end.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ANTERIOR: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel burrows this end into the bottom of streams and rivers. This end is not visible when a mussel is burrowed.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>VENTRAL: </characters>
+                      <textAttrs>
                         <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" bitmapSize="800" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
-                      <characters>A muscular part of the mussel that allows the bivalve to slowly crawl around and burrow in the bottom of the river or lake. Juvenile mussels will use their foot to grab food to eat until they can grow large enough to filter-feed (using their siphon).</characters>
+                      <characters>This side of the mussel can be straight, curved, or even wavy which can help people identify different species of mussels.</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -195,16 +354,39 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="6" keyMode="9728">
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>PERIOSTRACUM: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>This outer layer of the mussel shell helps protect the shell. Shells can be different colors and even have unique patterns for different mussel species.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bkgr" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="bkgr" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
                   <matrix>
                     <Matrix a="0.877609252929688" d="0.9141845703125" tx="171.25" ty="274.05"/>
                   </matrix>
@@ -222,25 +404,22 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="blackbox" color="#FF800A" autoNamed="false">
+        <DOMLayer name="blackbox" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
-                  <matrix>
-                    <Matrix a="0.877609252929688" d="0.9141845703125" tx="171.25" ty="274.05"/>
-                  </matrix>
+                <DOMShape selected="true" isDrawingObject="true">
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.498039215686275"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
-                    <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
-                    <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
-                    <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>
-                    <Edge cubics="!60 8892(60,8892;60,8892 16387,8892 16387,8892q60 8892p16387 8892)16387,8892;"/>
+                    <Edge fillStyle0="1" edges="!17806 13610|17806 5481!17806 5481|3478 5481!3478 5481|3478 13610!3478 13610|17806 13610"/>
+                    <Edge cubics="!17806 13610(;17806,13610 17806,5481 17806,5481p17806 13610 17806 5481);"/>
+                    <Edge cubics="!17806 5481(;17806,5481 3478,5481 3478,5481q17806 5481 3478 5481);"/>
+                    <Edge cubics="!3478 5481(;3478,5481 3478,13610 3478,13610q3478 5481 3478 13610);"/>
+                    <Edge cubics="!3478 13610(3478,13610;3478,13610 17806,13610 17806,13610q3478 13610p17806 13610)17806,13610;"/>
                   </edges>
                 </DOMShape>
               </elements>
