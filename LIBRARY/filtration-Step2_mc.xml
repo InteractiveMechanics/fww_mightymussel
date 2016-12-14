@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step2_mc" itemID="581a2a59-0000087e" symbolType="graphic" lastModified="1478182962" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step2_mc" itemID="581a2a59-0000087e" symbolType="graphic" lastModified="1481745205" lastUniqueIdentifier="3">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="filtration-Step2_mc" currentFrame="1">
+    <DOMTimeline name="filtration-Step2_mc">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>

@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1477407859" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1481745404" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="popUp_window-filtration" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1126&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_window-filtration" currentFrame="2" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1126&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -55,9 +55,9 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>These solids are processed as nutrients inside the mussel</characters>
+                      <characters>The more nutritious solids are eaten and other particles are discarded</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -66,15 +66,15 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>These nutrients are released back into the water as food for other living things</characters>
+                      <characters>The waste products of mussels then provide food for other animals.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -83,7 +83,7 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>

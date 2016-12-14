@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1481743707" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1481744571" lastUniqueIdentifier="5">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc">
+    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="30">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -136,7 +136,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
           </frames>
         </DOMLayer>
         <DOMLayer name="Anatomy" color="#FF4FFF" autoNamed="false" layerType="folder"/>
-        <DOMLayer name="anatomyOpen" color="#FF4F4F" parentLayerIndex="2" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="anatomyOpen" color="#FF4F4F" parentLayerIndex="2" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements>
@@ -167,7 +167,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="anatomyClosed" color="#FF800A" parentLayerIndex="2" autoNamed="false">
+        <DOMLayer name="anatomyClosed" color="#FF800A" parentLayerIndex="2" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements>
