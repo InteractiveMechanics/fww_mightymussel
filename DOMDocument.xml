@@ -910,7 +910,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="17" locked="true" autoNamed="false">
                          <frames>
@@ -1066,7 +1066,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="46" duration="37" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="popUp_lifecycle_mc" symbolType="graphic" firstFrame="13" centerPoint3DX="547.15" centerPoint3DY="1153.55" loop="single frame">
+                                        <DOMSymbolInstance libraryItemName="popUp_lifecycle_mc" selected="true" symbolType="graphic" firstFrame="13" centerPoint3DX="547.15" centerPoint3DY="1153.55" loop="single frame">
                                              <matrix>
                                                   <Matrix tx="48.1" ty="-88.05"/>
                                              </matrix>
@@ -2385,8 +2385,8 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -2409,7 +2409,7 @@ this.BackgroundLoop.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
