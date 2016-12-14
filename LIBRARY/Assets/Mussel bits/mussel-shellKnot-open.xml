@@ -87,7 +87,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-outterShell-png">
                   <matrix>
                     <Matrix a="0" b="1" c="-1" d="0" tx="651" ty="-341.45"/>
                   </matrix>

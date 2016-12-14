@@ -60,7 +60,7 @@
                     <DOMTextRun>
                       <characters>INHALENT SIPHON</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -73,7 +73,7 @@
                     <DOMTextRun>
                       <characters>EXHALENT SIPHON</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -86,7 +86,7 @@
                     <DOMTextRun>
                       <characters>POSTERIOR ADDUCTOR&#xD;MUSCLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -99,7 +99,7 @@
                     <DOMTextRun>
                       <characters>ANTERIOR ADDUCTOR&#xD;MUSCLE</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.72156862745098" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.717647058823529" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

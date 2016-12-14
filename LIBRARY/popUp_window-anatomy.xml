@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481743055" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481746356" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="5">
+    <DOMTimeline name="popUp_window-anatomy">
       <layers>
-        <DOMLayer name="markers" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="markers" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" name="labial palps" labelType="name" keyMode="9728">
               <elements/>
@@ -64,7 +64,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#9933CC" autoNamed="false">
+        <DOMLayer name="text" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -386,7 +386,7 @@
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
                   <matrix>
                     <Matrix a="0.877609252929688" d="0.9141845703125" tx="171.25" ty="274.05"/>
                   </matrix>
@@ -404,25 +404,22 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="blackbox" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="blackbox" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
-                  <matrix>
-                    <Matrix a="0.877609252929688" d="0.9141845703125" tx="171.25" ty="274.05"/>
-                  </matrix>
+                <DOMShape selected="true" isDrawingObject="true">
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.498039215686275"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
-                    <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
-                    <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
-                    <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>
-                    <Edge cubics="!60 8892(60,8892;60,8892 16387,8892 16387,8892q60 8892p16387 8892)16387,8892;"/>
+                    <Edge fillStyle0="1" edges="!17806 13610|17806 5481!17806 5481|3478 5481!3478 5481|3478 13610!3478 13610|17806 13610"/>
+                    <Edge cubics="!17806 13610(;17806,13610 17806,5481 17806,5481p17806 13610 17806 5481);"/>
+                    <Edge cubics="!17806 5481(;17806,5481 3478,5481 3478,5481q17806 5481 3478 5481);"/>
+                    <Edge cubics="!3478 5481(;3478,5481 3478,13610 3478,13610q3478 5481 3478 13610);"/>
+                    <Edge cubics="!3478 13610(3478,13610;3478,13610 17806,13610 17806,13610q3478 13610p17806 13610)17806,13610;"/>
                   </edges>
                 </DOMShape>
               </elements>
