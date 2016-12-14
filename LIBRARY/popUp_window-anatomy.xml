@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1477576189" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481741826" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="6">
+    <DOMTimeline name="popUp_window-anatomy" currentFrame="13">
       <layers>
-        <DOMLayer name="markers" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="markers" color="#808080" autoNamed="false">
           <frames>
             <DOMFrame index="0" name="labial palps" labelType="name" keyMode="9728">
               <elements/>
@@ -22,14 +22,35 @@
             <DOMFrame index="5" name="foot" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="6" name="blank" labelType="name" keyMode="9728">
+            <DOMFrame index="6" name="posterior ridge" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" name="blank" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="icon" color="#FF4FFF" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" loop="single frame">
                   <matrix>
@@ -43,7 +64,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#9933CC" autoNamed="false">
+        <DOMLayer name="text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -174,7 +195,7 @@
             </DOMFrame>
             <DOMFrame index="5" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="230" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="304.5"/>
                   </matrix>
@@ -182,13 +203,13 @@
                     <DOMTextRun>
                       <characters>FOOT: </characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" bitmapSize="800" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
-                      <characters>A muscular part of the mussel that allows the bivalve to slowly crawl around and burrow in the bottom of the river or lake. Juvenile mussels will use their foot to grab food to eat until they can grow large enough to filter-feed (using their siphon).</characters>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -196,13 +217,194 @@
               </elements>
             </DOMFrame>
             <DOMFrame index="6" keyMode="9728">
-              <elements/>
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="7" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="8" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="9" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="11" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="12" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>FOOT: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>A mussel uses this strong organ to crawl around on the bottom of streams and rivers. It is so strong that mussels use their foot to dig into sand, dirt, and rocks as they burrow into the river bottom.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="220.05" ty="304.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>POSTERIOR RIDGE: </characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" letterSpacing="0.5" lineHeight="40" size="40" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>This mussel feature can be used to help identify mussels in the wild as it can be more prominent in some species and not quite as noticeable in others.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" letterSpacing="0.5" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="bkgr" color="#4F80FF" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
@@ -224,7 +426,7 @@
         </DOMLayer>
         <DOMLayer name="blackbox" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="7" keyMode="9728">
+            <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>

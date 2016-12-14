@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Filtration" itemID="57d740af-00001d0a" symbolType="button" lastModified="1478027092">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Buttons/Filtration" itemID="57d740af-00001d0a" symbolType="button" lastModified="1481739475">
   <timeline>
     <DOMTimeline name="Filtration">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
