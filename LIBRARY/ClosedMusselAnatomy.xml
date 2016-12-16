@@ -131,7 +131,7 @@
                     <DOMTextRun>
                       <characters>UMBO</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.705882352941177" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -144,7 +144,7 @@
                     <DOMTextRun>
                       <characters>POSTERIOR&#xD;RIDGE</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.705882352941177" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>

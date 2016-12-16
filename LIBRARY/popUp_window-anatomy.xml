@@ -386,7 +386,7 @@
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
                     <Matrix a="0.877609252929688" d="0.9141845703125" tx="171.25" ty="274.05"/>
                   </matrix>
@@ -408,7 +408,7 @@
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#026275" alpha="0.498039215686275"/>
