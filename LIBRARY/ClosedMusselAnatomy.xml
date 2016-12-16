@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClosedMusselAnatomy" itemID="57fd2237-00000392" lastModified="1481744597">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ClosedMusselAnatomy" itemID="57fd2237-00000392" lastModified="1481927459">
   <timeline>
     <DOMTimeline name="ClosedMusselAnatomy">
       <layers>
@@ -9,7 +9,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" outline="true" current="true" isSelected="true" useOutlineView="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -149,6 +149,70 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMStaticText>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="anterior">
+                  <matrix>
+                    <Matrix a="0.840530395507812" d="0.349563598632812" tx="-236.05" ty="-257"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.65" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="foot">
+                  <matrix>
+                    <Matrix a="0.505355834960938" d="0.34954833984375" tx="25.5" ty="106.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.75" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="ventral">
+                  <matrix>
+                    <Matrix a="0.84051513671875" d="0.34954833984375" tx="429.6" ty="22.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.65" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="dorsal">
+                  <matrix>
+                    <Matrix a="0.84051513671875" d="0.34954833984375" tx="235.55" ty="-480.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.65" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="posterior">
+                  <matrix>
+                    <Matrix a="1.03550720214844" d="0.34954833984375" tx="562.65" ty="-263.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.7" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="periostracum">
+                  <matrix>
+                    <Matrix a="1.364990234375" d="0.34954833984375" tx="387.7" ty="130.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.75" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="umbo">
+                  <matrix>
+                    <Matrix a="0.685440063476562" d="0.34954833984375" tx="-13.45" ty="-536.6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.55" y="99.7"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="posteriorridge">
+                  <matrix>
+                    <Matrix a="0.974777221679688" d="0.634841918945312" tx="581.75" ty="-424.55"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="99.7" y="99.65"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>

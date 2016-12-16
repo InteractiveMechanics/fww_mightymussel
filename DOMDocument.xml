@@ -230,7 +230,7 @@
           <Include href="Buttons/OpenMussel.xml" itemIcon="0" loadImmediate="false" itemID="57d7408e-00001ce1" lastModified="1478027121"/>
           <Include href="Buttons/ReplayButton.xml" itemIcon="0" loadImmediate="false" itemID="57d9ac8b-00000dc8" lastModified="1478027127"/>
           <Include href="Buttons/ShowAnatomy.xml" itemIcon="0" loadImmediate="false" itemID="57d74045-00001cab" lastModified="1478027130"/>
-          <Include href="ClosedMusselAnatomy.xml" loadImmediate="false" itemID="57fd2237-00000392" lastModified="1481744597"/>
+          <Include href="ClosedMusselAnatomy.xml" loadImmediate="false" itemID="57fd2237-00000392" lastModified="1481927459"/>
           <Include href="ClosedMusselAnatomy-Descriptions.xml" loadImmediate="false" itemID="57fd2278-000004b3" lastModified="1476279792"/>
           <Include href="filtration-Step1_mc.xml" loadImmediate="false" itemID="581a2684-00000624" lastModified="1481745203"/>
           <Include href="filtration-Step2_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2a59-0000087e" lastModified="1481745205"/>
@@ -249,24 +249,25 @@
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
           <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
           <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1481922020"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1481927857"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
-          <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1478148898"/>
-          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1481745758"/>
+          <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1481927166"/>
+          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1481926319"/>
           <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1481745239"/>
           <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1481746033"/>
           <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1477421621"/>
-          <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1481746356"/>
+          <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1481925180"/>
           <Include href="popUp_window-filtration.xml" itemIcon="1" loadImmediate="false" itemID="580e6bec-00000a4f" lastModified="1481745404"/>
           <Include href="popUp_window-lifecycle.xml" itemIcon="1" loadImmediate="false" itemID="580e6e2b-00000d5f" lastModified="1481746107"/>
           <Include href="popUp_window-titles.xml" itemIcon="1" loadImmediate="false" itemID="580f641f-0000020d" lastModified="1477408438"/>
-          <Include href="TapGetStarted.xml" loadImmediate="false" itemID="57dac75d-0000012c" lastModified="1473955677"/>
+          <Include href="TapGetStarted.xml" loadImmediate="false" itemID="57dac75d-0000012c" lastModified="1481929342"/>
+          <Include href="TapToGetStarted.xml" itemIcon="1" loadImmediate="false" itemID="58547265-0000073f" lastModified="1481929317"/>
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="29" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
-                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
+                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
@@ -339,8 +340,11 @@ this.gotoFiltration = false;
 // Global Functions
 this.resetInteractive = function() {
 	this.gotoAndStop("AttractLoop");
-	this.backgroundOverlay.gotoAndPlay('OverlayFadeOut');
-	this.startFade(this.TapGetStarted);
+	this.backgroundOverlay.gotoAndStop('OverlayFadeIn');
+	this.popupAnatomy.gotoAndStop('closed');
+	
+	this.hideAllNav();
+	this.hideAnatomy();
 }
 this.toggleAnatomy = function() {
 	// Toggle anatomy buttons
@@ -428,7 +432,7 @@ this.playLifeCycle = function() {
 this.closeAnimation = function() {
 	this.gotoAndStop("MainMenu");
 	this.MusselMC.gotoAndStop("MusselOpen");
-	this.popupAnatomy.gotoAndStop('open');
+	this.popupAnatomy.gotoAndStop('closed');
 	this.backgroundOverlay.gotoAndPlay('OverlayOpen');
 	
 	this.toggleNav();
@@ -461,8 +465,6 @@ this.attractLoopClose = function() {
 	this.play();
 	this.MusselMC.gotoAndPlay('MusselEnlarge');
 	this.backgroundOverlay.gotoAndPlay('OverlayFadeIn');
-	
-	this.endFade(this.TapGetStarted);
 	this.toggleNav();
 }
 
@@ -470,11 +472,11 @@ this.attractLoopClose = function() {
 this.showAnatomyOverlay = function(anatomy) {
 	if (this.anatomyOverlay == false){
 		this.anatomyOverlay = true;
-		this.popupAnatomy.gotoAndPlay('open');
+		this.popupAnatomy.gotoAndPlay('opening');
 		
 		clearTimeout(eventTimer);
 		var root = this;
-		var eventTimer = window.setTimeout(function(){ root.popupAnatomy.gotoAndPlay(anatomy); }, 500);
+		var eventTimer = window.setTimeout(function(){ root.popupAnatomy.gotoAndStop(anatomy); }, 500);
  
 		this.popupAnatomy.gotoAndStop(anatomy);
 	} else {
@@ -485,33 +487,8 @@ this.showAnatomyOverlay = function(anatomy) {
 this.hideAnatomyOverlay = function() {
 	if (this.anatomyOverlay == true){
 		this.anatomyOverlay = false;
-		this.popupAnatomy.gotoAndPlay('close');
+		this.popupAnatomy.gotoAndPlay('closing');
 	}
-}
-
-
-this.timeout;
-this.inout = true;
-this.startFade = function(elem) {
-	this.timeout = setInterval(function(){
-		if (elem.alpha <= 1){
-			if (root.inout){
-				elem.alpha -= 0.025;
-			} else {
-				elem.alpha += 0.025;
-			}
-			if (elem.alpha >= 1){
-				root.inout = true;          
-			}
-			if (elem.alpha <= 0.65){
-				root.inout = false;          
-			}
-		}
-	}, 100);
-}
-this.endFade = function(elem) {
-	elem.alpha = 1;
-	clearInterval(this.timeout);
 }
 
 
@@ -546,13 +523,21 @@ if (!this.OpenMusselButton._listeners.click){
 	this.MusselMC.OpenMusselAnatomy.labialpalps.addEventListener("click", this.showAnatomyOverlay.bind(this, 'labialpalps'));
 	this.MusselMC.OpenMusselAnatomy.foot.addEventListener("click", this.showAnatomyOverlay.bind(this, 'foot'));
 	this.MusselMC.OpenMusselAnatomy.gill.addEventListener("click", this.showAnatomyOverlay.bind(this, 'gill'));
+	
+	this.MusselMC.ClosedMusselAnatomy.umbo.addEventListener("click", this.showAnatomyOverlay.bind(this, 'umbo'));
+	this.MusselMC.ClosedMusselAnatomy.anterior.addEventListener("click", this.showAnatomyOverlay.bind(this, 'anterior'));
+	this.MusselMC.ClosedMusselAnatomy.posterior.addEventListener("click", this.showAnatomyOverlay.bind(this, 'posterior'));
+	this.MusselMC.ClosedMusselAnatomy.dorsal.addEventListener("click", this.showAnatomyOverlay.bind(this, 'dorsal'));
+	this.MusselMC.ClosedMusselAnatomy.ventral.addEventListener("click", this.showAnatomyOverlay.bind(this, 'ventral'));
+	this.MusselMC.ClosedMusselAnatomy.posteriorridge.addEventListener("click", this.showAnatomyOverlay.bind(this, 'posteriorridge'));
+	this.MusselMC.ClosedMusselAnatomy.periostracum.addEventListener("click", this.showAnatomyOverlay.bind(this, 'periostracum'));
+	this.MusselMC.ClosedMusselAnatomy.foot.addEventListener("click", this.showAnatomyOverlay.bind(this, 'foot'));
 }
 
 // Frame 1 Specific
 this.stop();
 this.hideAllNav();
 this.hideAnatomy();
-this.startFade(this.TapGetStarted);
 
 sendGAEvent('Attract Screen');]]></script>
                                    </Framescript>
@@ -807,7 +792,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="AttractLoop" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="AttractLoop" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
                     <DOMLayer name="invisButton" color="#4F80FF" parentLayerIndex="10" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
@@ -827,12 +812,12 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="TapPrompt" color="#4F80FF" parentLayerIndex="10" locked="true" autoNamed="false" animationType="motion object">
+                    <DOMLayer name="TapPrompt" color="#4F80FF" parentLayerIndex="10" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
                          <frames>
                               <DOMFrame index="0" duration="20" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="2097151" keyMode="8195">
                                    <motionObjectXML><AnimationCore TimeScale="18000" Version="1" duration="20000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="en_US" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"><PropertyContainer id="Alpha_ColorXform"><Property enabled="1" id="Alpha_Amount" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="11000"/><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="19000"/></Property></PropertyContainer></PropertyContainer><PropertyContainer id="Filters"><PropertyContainer id="DropShadow_Filter"><Property enabled="1" id="DropShadow_BlurX" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_BlurY" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Strength" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Quality" readonly="0" value="2" visible="1"/><Property enabled="1" id="DropShadow_Angle" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,90" next="0,90" previous="0,90" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Distance" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,4" next="0,4" previous="0,4" roving="0" timevalue="0"/></Property><Property enabled="1" id="DropShadow_Knockout" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_InnerShadow" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_HideObject" readonly="0" value="0" visible="1"/><Property enabled="1" id="DropShadow_Color" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe roving="0" timevalue="0" value="0x0000007f"/></Property></PropertyContainer></PropertyContainer></PropertyContainer></AnimationCore></motionObjectXML>
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="TapGetStarted" name="TapGetStarted">
+                                        <DOMSymbolInstance libraryItemName="TapGetStarted" name="TapGetStarted" selected="true">
                                              <matrix>
                                                   <Matrix tx="340.1" ty="1754.85"/>
                                              </matrix>
@@ -874,10 +859,7 @@ this.LCgrassWave.play();]]></script>
                     </DOMLayer>
                     <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
-                              <DOMFrame index="0" duration="20" keyMode="9728">
-                                   <elements/>
-                              </DOMFrame>
-                              <DOMFrame index="20" duration="9" keyMode="9728">
+                              <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="popUp_anatomy_mc" name="popupAnatomy" centerPoint3DX="540" centerPoint3DY="964.95">
                                              <transformationPoint>
@@ -891,7 +873,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussel open/close" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -2369,11 +2351,11 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="BackgroundOverlay" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" name="backgroundOverlay" selected="true">
+                                        <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" name="backgroundOverlay">
                                              <matrix>
                                                   <Matrix tx="-16" ty="-15.95"/>
                                              </matrix>

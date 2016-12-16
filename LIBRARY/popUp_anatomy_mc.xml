@@ -1,82 +1,85 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1481745758" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1481926319" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="31" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="10" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="Labels" color="#808080" autoNamed="false">
+        <DOMLayer name="Labels" color="#808080" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="9" name="open" labelType="name" keyMode="9728">
+            <DOMFrame index="0" name="closed" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="9" name="stop" labelType="name" keyMode="9728">
+            <DOMFrame index="1" duration="9" name="opening" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="10" duration="9" name="close" labelType="name" keyMode="9728">
+            <DOMFrame index="10" name="opened" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="19" name="labial palps" labelType="name" keyMode="9728">
+            <DOMFrame index="11" duration="9" name="closing" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="20" name="Exhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="20" name="labialpalps" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="21" name="inhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="21" name="exhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="22" name="adductor muscle" labelType="name" keyMode="9728">
+            <DOMFrame index="22" name="inhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="23" name="gill" labelType="name" keyMode="9728">
+            <DOMFrame index="23" name="adductormuscle" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="24" name="foot" labelType="name" keyMode="9728">
+            <DOMFrame index="24" name="gill" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="25" name="posterior ridge" labelType="name" keyMode="9728">
+            <DOMFrame index="25" name="foot" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="26" name="dorsal" labelType="name" keyMode="9728">
+            <DOMFrame index="26" name="posteriorridge" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="27" name="UMBO" labelType="name" keyMode="9728">
+            <DOMFrame index="27" name="dorsal" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="28" name="POSTERIOR" labelType="name" keyMode="9728">
+            <DOMFrame index="28" name="umbo" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="29" name="ANTERIOR" labelType="name" keyMode="9728">
+            <DOMFrame index="29" name="posterior" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="30" name="Ventral" labelType="name" keyMode="9728">
+            <DOMFrame index="30" name="anterior" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="31" name="Periostracum" labelType="name" keyMode="9728">
+            <DOMFrame index="31" name="ventral" labelType="name" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="32" name="periostracum" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="Actions" color="#9933CC" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="9" keyMode="9728">
+            <DOMFrame index="0" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[this.stop();]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="9" duration="9" keyMode="9728">
+            <DOMFrame index="1" duration="9" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="10" keyMode="9728">
               <Framescript language="JavaScript">
                 <script><![CDATA[this.stop();]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
-            <DOMFrame index="18" keyMode="9728">
-              <Framescript language="JavaScript">
-                <script><![CDATA[this.gotoAndStop('open');]]></script>
-              </Framescript>
+            <DOMFrame index="11" duration="8" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="19" keyMode="9728">
               <Framescript language="JavaScript">
-                <script><![CDATA[this.stop();]]></script>
+                <script><![CDATA[this.gotoAndStop('closed');]]></script>
               </Framescript>
               <elements/>
             </DOMFrame>
@@ -152,16 +155,22 @@
               </Framescript>
               <elements/>
             </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <Framescript language="JavaScript">
+                <script><![CDATA[this.stop();]]></script>
+              </Framescript>
+              <elements/>
+            </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="pop-up" color="#FF800A" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="3" keyMode="9728">
+            <DOMFrame index="0" duration="4" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="3" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="4" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
                   </matrix>
@@ -174,27 +183,27 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="9" keyMode="9728">
+            <DOMFrame index="10" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="10" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="11" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="15" keyMode="9728">
+            <DOMFrame index="16" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
                   </matrix>
@@ -207,28 +216,19 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="16" duration="16" keyMode="9728">
+            <DOMFrame index="17" duration="16" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#808080" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="19" keyMode="9728">
+            <DOMFrame index="0" duration="20" keyMode="9728">
               <elements/>
-            </DOMFrame>
-            <DOMFrame index="19" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
             </DOMFrame>
             <DOMFrame index="20" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="1" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="1" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -291,7 +291,7 @@
             </DOMFrame>
             <DOMFrame index="27" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="8" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="8" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -327,7 +327,16 @@
             </DOMFrame>
             <DOMFrame index="31" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="12" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="12" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                  <transformationPoint>
+                    <Point x="499.05" y="525.95"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="32" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="13" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -338,7 +347,7 @@
         </DOMLayer>
         <DOMLayer name="OVERLAY" color="#009999" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay">
                   <matrix>
@@ -353,7 +362,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" duration="6" keyMode="9728">
+            <DOMFrame index="6" duration="6" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
                   <matrix>
@@ -368,9 +377,9 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="11" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="12" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" selected="true" centerPoint3DX="540" centerPoint3DY="964.95">
                   <matrix>
                     <Matrix a="0.908859252929688" d="0.934814453125"/>
                   </matrix>
@@ -383,7 +392,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="18" keyMode="9728">
+            <DOMFrame index="19" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay">
                   <matrix>
@@ -398,7 +407,7 @@
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
-            <DOMFrame index="19" duration="13" keyMode="9728">
+            <DOMFrame index="20" duration="13" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
                   <matrix>

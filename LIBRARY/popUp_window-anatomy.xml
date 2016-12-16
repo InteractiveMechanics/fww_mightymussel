@@ -1,49 +1,49 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481746356" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1481925180" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy">
+    <DOMTimeline name="popUp_window-anatomy" currentFrame="13">
       <layers>
         <DOMLayer name="markers" color="#808080" autoNamed="false">
           <frames>
-            <DOMFrame index="0" name="labial palps" labelType="name" keyMode="9728">
+            <DOMFrame index="0" name="blank" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="1" name="Exhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="1" name="labialpalps" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="2" name="inhalent siphon" labelType="name" keyMode="9728">
+            <DOMFrame index="2" name="exhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="3" name="adductor muscle" labelType="name" keyMode="9728">
+            <DOMFrame index="3" name="inhalentsiphon" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="4" name="gill" labelType="name" keyMode="9728">
+            <DOMFrame index="4" name="adductormuscle" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="5" name="foot" labelType="name" keyMode="9728">
+            <DOMFrame index="5" name="gill" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="6" name="posterior ridge" labelType="name" keyMode="9728">
+            <DOMFrame index="6" name="foot" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="7" name="dorsal" labelType="name" keyMode="9728">
+            <DOMFrame index="7" name="posteriorridge" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="8" name="UMBO" labelType="name" keyMode="9728">
+            <DOMFrame index="8" name="dorsal" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="9" name="POSTERIOR" labelType="name" keyMode="9728">
+            <DOMFrame index="9" name="umbo" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="10" name="ANTERIOR" labelType="name" keyMode="9728">
+            <DOMFrame index="10" name="posterior" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="11" name="Ventral" labelType="name" keyMode="9728">
+            <DOMFrame index="11" name="anterior" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="12" name="Periostracum" labelType="name" keyMode="9728">
+            <DOMFrame index="12" name="ventral" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
-            <DOMFrame index="13" name="blank" labelType="name" keyMode="9728">
+            <DOMFrame index="13" name="periostracum" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
@@ -67,6 +67,9 @@
         <DOMLayer name="text" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="622.05" height="344" isSelectable="false">
                   <matrix>
@@ -95,7 +98,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="1" keyMode="9728">
+            <DOMFrame index="2" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="608.25" height="192" isSelectable="false">
                   <matrix>
@@ -124,7 +127,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="2" keyMode="9728">
+            <DOMFrame index="3" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="610.55" height="154" isSelectable="false">
                   <matrix>
@@ -147,7 +150,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="3" keyMode="9728">
+            <DOMFrame index="4" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="234" isSelectable="false">
                   <matrix>
@@ -170,7 +173,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="4" keyMode="9728">
+            <DOMFrame index="5" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="612.85" height="344" isSelectable="false">
                   <matrix>
@@ -193,7 +196,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="5" keyMode="9728">
+            <DOMFrame index="6" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="192" isSelectable="false">
                   <matrix>
@@ -216,7 +219,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="6" keyMode="9728">
+            <DOMFrame index="7" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
                   <matrix>
@@ -239,7 +242,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="7" keyMode="9728">
+            <DOMFrame index="8" keyMode="9728">
               <elements>
                 <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
                   <matrix>
@@ -262,7 +265,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="8" keyMode="9728">
+            <DOMFrame index="9" keyMode="9728">
               <elements>
                 <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
                   <matrix>
@@ -285,7 +288,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="9" keyMode="9728">
+            <DOMFrame index="10" keyMode="9728">
               <elements>
                 <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
                   <matrix>
@@ -308,7 +311,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="10" keyMode="9728">
+            <DOMFrame index="11" keyMode="9728">
               <elements>
                 <DOMStaticText selected="true" fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
                   <matrix>
@@ -331,7 +334,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="11" keyMode="9728">
+            <DOMFrame index="12" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="116" isSelectable="false">
                   <matrix>
@@ -354,7 +357,7 @@
                 </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="12" keyMode="9728">
+            <DOMFrame index="13" keyMode="9728">
               <elements>
                 <DOMStaticText fontRenderingMode="standard" left="6.7" width="601.4" height="154" isSelectable="false">
                   <matrix>
@@ -376,9 +379,6 @@
                   </textRuns>
                 </DOMStaticText>
               </elements>
-            </DOMFrame>
-            <DOMFrame index="13" keyMode="9728">
-              <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
