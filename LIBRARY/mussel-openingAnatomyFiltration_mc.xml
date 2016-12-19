@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1482165272" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1482172157" lastUniqueIdentifier="5">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc">
+    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="171">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -198,7 +198,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mussel" color="#669900" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false" layerType="mask">
+        <DOMLayer name="mussel" color="#669900" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="mask">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
@@ -1033,7 +1033,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Filtration- pop-up" color="#FF4FFF" locked="true" autoNamed="false">
+        <DOMLayer name="Filtration- pop-up" color="#FF4FFF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
@@ -1139,7 +1139,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
             <DOMFrame index="163" duration="49" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_filtration_mc" symbolType="graphic" firstFrame="32" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_filtration_mc" selected="true" symbolType="graphic" firstFrame="32" centerPoint3DX="503.05" centerPoint3DY="1491.65" loop="single frame">
                   <matrix>
                     <Matrix tx="4" ty="250.05"/>
                   </matrix>

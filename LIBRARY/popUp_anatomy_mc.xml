@@ -1,6 +1,6 @@
 <DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1482169586" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="24" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="32" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Labels" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -228,7 +228,7 @@
             </DOMFrame>
             <DOMFrame index="20" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="1" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="1" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -264,7 +264,7 @@
             </DOMFrame>
             <DOMFrame index="24" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="5" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="5" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -318,7 +318,7 @@
             </DOMFrame>
             <DOMFrame index="30" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="11" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="11" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>

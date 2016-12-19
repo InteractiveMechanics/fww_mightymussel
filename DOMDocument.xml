@@ -4,7 +4,7 @@
      </brushdefinitions>
      <folders>
           <DOMFolderItem name="Assets" itemID="58054522-000047f8" isExpanded="true"/>
-          <DOMFolderItem name="Assets/bkgrElements" itemID="57b98bc1-000001f7"/>
+          <DOMFolderItem name="Assets/bkgrElements" itemID="57b98bc1-000001f7" isExpanded="true"/>
           <DOMFolderItem name="Assets/bkgrElements/Sunbeams- AI symbols" itemID="5804f112-000004b1"/>
           <DOMFolderItem name="Assets/Fish" itemID="58053ffb-00004606"/>
           <DOMFolderItem name="Assets/Fish/Alewife-AI symbols" itemID="5804eb91-0000047d"/>
@@ -25,8 +25,8 @@
           <DOMBitmapItem name="Assets/Mussel bits/internal-upperRidge" itemID="5804f1aa-000004bc" sourceLastImported="1476719018" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/internal-upperRidge" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-foot-color" itemID="58051692-00000e19" sourceLastImported="1476728466" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-foot-color" bitmapDataHRef="M 12 1473312293.dat" frameRight="15040" frameBottom="8540"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-mantelColor" itemID="5804fbb2-000005ec" sourceLastImported="1476721586" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-mantelColor" bitmapDataHRef="M 15 1473312293.dat" frameRight="13780" frameBottom="7460"/>
-          <DOMBitmapItem name="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" itemID="585824b2-000026ca" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" sourceLastImported="1482171422" externalFileCRC32="3485932206" externalFileSize="594694" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" bitmapDataHRef="M 8 1482170607.dat" frameRight="13780" frameBottom="24520"/>
-          <DOMBitmapItem name="Assets/Mussel bits/mussel-outterShell.png" itemID="5858242d-000026c5" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/mussel-outterShell.png" sourceLastImported="1478098992" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" itemID="585824b2-000026ca" sourceLastImported="1482171422" externalFileCRC32="3485932206" externalFileSize="594694" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" bitmapDataHRef="M 8 1482170607.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/Mussel bits/mussel-outterShell.png" itemID="5858242d-000026c5" sourceLastImported="1478098992" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-stomach" itemID="5804fbbd-000005ee" sourceLastImported="1476721597" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-stomach" bitmapDataHRef="M 13 1473312293.dat" frameRight="4980" frameBottom="3480"/>
      </media>
      <symbols>
@@ -252,15 +252,15 @@
           <Include href="mussel-burried_rotating_mc.xml" itemIcon="1" loadImmediate="false" itemID="57c4db1b-000000fe" lastModified="1476739266"/>
           <Include href="mussel-close_mc.xml" itemIcon="1" loadImmediate="false" itemID="58050512-000006a4" lastModified="1478107656"/>
           <Include href="mussel-opening_mc.xml" itemIcon="1" loadImmediate="false" itemID="581a2230-000002d5" lastModified="1478108743"/>
-          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1482165272"/>
+          <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1482172157"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
           <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1481927166"/>
           <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1482169586"/>
-          <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1481745239"/>
+          <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1482172163"/>
           <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1481746033"/>
           <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1482169840"/>
           <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1482169616"/>
-          <Include href="popUp_window-filtration.xml" itemIcon="1" loadImmediate="false" itemID="580e6bec-00000a4f" lastModified="1481745404"/>
+          <Include href="popUp_window-filtration.xml" itemIcon="1" loadImmediate="false" itemID="580e6bec-00000a4f" lastModified="1482172654"/>
           <Include href="popUp_window-lifecycle.xml" itemIcon="1" loadImmediate="false" itemID="580e6e2b-00000d5f" lastModified="1482169796"/>
           <Include href="popUp_window-titles.xml" itemIcon="1" loadImmediate="false" itemID="580f641f-0000020d" lastModified="1482169962"/>
           <Include href="TapGetStarted.xml" loadImmediate="false" itemID="57dac75d-0000012c" lastModified="1481929342"/>
@@ -268,7 +268,7 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="445" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="665" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
@@ -305,7 +305,7 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Labels" color="#669900" locked="true" autoNamed="false">
+                    <DOMLayer name="Labels" color="#669900" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" name="AttractLoop" labelType="name" keyMode="9728">
                                    <elements/>
@@ -876,7 +876,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Mussel open/close" color="#4F80FF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -895,7 +895,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="17" locked="true" autoNamed="false">
                          <frames>
