@@ -3,7 +3,7 @@
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="filtration-Step1_mc" currentFrame="17">
+    <DOMTimeline name="filtration-Step1_mc" currentFrame="11">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>

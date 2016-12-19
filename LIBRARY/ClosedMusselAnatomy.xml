@@ -159,7 +159,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="foot">
                   <matrix>
-                    <Matrix a="0.505355834960938" d="0.34954833984375" tx="25.5" ty="106.6"/>
+                    <Matrix a="0.505355834960938" d="0.349563598632812" tx="25.5" ty="106.6"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.75" y="99.7"/>
@@ -167,7 +167,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="ventral">
                   <matrix>
-                    <Matrix a="0.84051513671875" d="0.34954833984375" tx="429.6" ty="22.55"/>
+                    <Matrix a="0.840530395507812" d="0.349563598632812" tx="429.6" ty="22.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.65" y="99.7"/>
@@ -175,7 +175,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="dorsal">
                   <matrix>
-                    <Matrix a="0.84051513671875" d="0.34954833984375" tx="235.55" ty="-480.55"/>
+                    <Matrix a="0.840530395507812" d="0.349563598632812" tx="235.55" ty="-480.55"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.65" y="99.7"/>
@@ -183,7 +183,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="posterior">
                   <matrix>
-                    <Matrix a="1.03550720214844" d="0.34954833984375" tx="562.65" ty="-263.5"/>
+                    <Matrix a="1.03550720214844" d="0.349563598632812" tx="562.65" ty="-263.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.7" y="99.7"/>
@@ -191,7 +191,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="periostracum">
                   <matrix>
-                    <Matrix a="1.364990234375" d="0.34954833984375" tx="387.7" ty="130.6"/>
+                    <Matrix a="1.364990234375" d="0.349563598632812" tx="387.7" ty="130.6"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.75" y="99.7"/>
@@ -199,7 +199,7 @@
                 </DOMSymbolInstance>
                 <DOMSymbolInstance libraryItemName="Buttons/InvisibleButton" name="umbo">
                   <matrix>
-                    <Matrix a="0.685440063476562" d="0.34954833984375" tx="-13.45" ty="-536.6"/>
+                    <Matrix a="0.685440063476562" d="0.349563598632812" tx="-13.45" ty="-536.6"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="99.55" y="99.7"/>

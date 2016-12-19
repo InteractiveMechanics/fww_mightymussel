@@ -138,7 +138,7 @@
                     <DOMTextRun>
                       <characters>UMBO</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.713725490196078" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -151,7 +151,7 @@
                     <DOMTextRun>
                       <characters>POSTERIOR&#xD;RIDGE</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.713725490196078" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -172,7 +172,7 @@
                     <DOMTextRun>
                       <characters>Lorem Ipsum dolor sit amet, consectetuer adipiscingelit.</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.709803921568627" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" autoKern="false" alpha="0.705882352941177" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
