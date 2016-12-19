@@ -269,7 +269,7 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-0.05572509765625" b="-2.59486389160156" c="2.09712219238281" d="-0.534011840820312" tx="-909.9" ty="447.2"/>
                   </matrix>

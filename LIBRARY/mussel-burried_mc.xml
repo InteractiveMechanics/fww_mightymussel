@@ -128,7 +128,7 @@
           <frames>
             <DOMFrame index="0" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell">
                   <matrix>
                     <Matrix a="0.15814208984375" b="-0.641952514648438" c="0.554443359375" d="0.136566162109375" tx="-477.25" ty="1034.65"/>
                   </matrix>
@@ -164,7 +164,7 @@
             </DOMFrame>
             <DOMFrame index="34" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell" selected="true">
+                <DOMSymbolInstance libraryItemName="Assets/Mussel bits/mussel-innerShell">
                   <matrix>
                     <Matrix a="0.15814208984375" b="-0.641952514648438" c="0.554443359375" d="0.136566162109375" tx="-476.25" ty="1033.65"/>
                   </matrix>
