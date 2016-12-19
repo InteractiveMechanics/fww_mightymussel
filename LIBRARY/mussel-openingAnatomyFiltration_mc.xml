@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1482164270" lastUniqueIdentifier="5">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mussel-openingAnatomyFiltration_mc" itemID="580a7125-00000557" symbolType="graphic" lastModified="1482165272" lastUniqueIdentifier="5">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="mussel-openingAnatomyFiltration_mc" currentFrame="252">
+    <DOMTimeline name="mussel-openingAnatomyFiltration_mc">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
@@ -198,11 +198,11 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="mussel" color="#669900" locked="true" outline="true" useOutlineView="true" autoNamed="false" layerType="mask">
+        <DOMLayer name="mussel" color="#669900" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false" layerType="mask">
           <frames>
             <DOMFrame index="0" duration="6" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix tx="404.3" ty="1308.8"/>
                   </matrix>
@@ -214,9 +214,9 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                   <edges>
                     <Edge fillStyle1="1" edges="!314 7181[276 7012 -819 6738!-819 6738[-1584 6546 -3196 6230!-3196 6230[-5223 5833 -5538 5766!-5538 5766[-6590 5540 -6566 5451!-6566 5451[-6520 5281 -6578 4378!-6578 4378|-6645 3509!-6645 3509[-6651 -111 -6529 -4101!-6529 -4101[-6284
  -12081 -5645 -13934!-5645 -13934[-5166 -15320 -4099 -16358!-4099 -16358[-3104 -17325 -1663 -17930!-1663 -17930[-304 -18501 1328 -18701!1328 -18701[2903 -18893 4543 -18719!4543 -18719[6173 -18546 7647 -18034!7647 -18034[9158 -17509 10306
- -16695!10306 -16695[11515 -15838 12188 -14751!12188 -14751[12909 -13589 12960 -12252!12960 -12252[12961 -12230 12873 -4554!12873 -4554[12786 3067 12800 3191!12800 3191[12808 3260 11781 3513!11781 3513[11365 3616 9512 4044!9512 4044[7942
- 4406 7226 4598!7226 4598[6179 4878 6157 4991!6157 4991[6113 5209 5682 6235!5682 6235[5320 7094 5144 7467!5144 7467[5085 7592 4850 7567!4850 7567[4769 7558 4425 7471!4425 7471[4266 7431 3790 7298!3790 7298[3261 7149 3074 7097!3074 7097
-[2871 7041 2460 7051!2460 7051[2019 7061 1959 7050!1959 7050[1899 7040 1678 7087!1678 7087[1390 7154 1224 7187!1224 7187[572 7316 314 7181"/>
+ -16695!10306 -16695[11515 -15838 12188 -14751!12188 -14751[12909 -13589 12960 -12252!12960 -12252[12961 -12230 12873 -4554!12873 -4554[12786 3067 12800 3191!12800 3191[12808 3260 11788 3515!11788 3515[11315 3634 9530 4049!9530 4049[7952
+ 4416 7247 4604!7247 4604[6196 4883 5951.5 5422.5!5951.5 5422.5[5707 5962 5516.5 6450!5516.5 6450[#14CD.EA #1B19.EA 5264 7238.5!5264 7238.5[#1452.42 #1D73.42 4997 7540!4997 7540[#12B7.BE #1D74.BE 4529 7486!4529 7486[#10AA.16 #1D07.16
+ 3790 7298!3790 7298[3261 7149 3074 7097!3074 7097[2871 7041 2460 7051!2460 7051[2019 7061 1959 7050!1959 7050[1899 7040 1678 7087!1678 7087[1390 7154 1224 7187!1224 7187[572 7316 314 7181"/>
                     <Edge cubics="!314 7181(;201,6680 -6639,5723 -6566,5451q314 7181Q276 7012q-819 6738Q-1584 6546q-3196 6230Q-5223 5833q-5538 5766Q-6590 5540q-6566 5451);"/>
                     <Edge cubics="!-6566 5451(;-6493,5179 -6645,3509 -6645,3509q-6566 5451Q-6520 5281q-6578 4378Q-6645 3509q-6645 3509);"/>
                     <Edge cubics="!-5645 -13934(;-3004,-21576 12680,-19613 12960,-12252q-5645 -13934Q-5166 -15320q-4099 -16358Q-3104 -17325q-1663 -17930Q-304 -18501q1328 -18701Q2903 -18893q4543 -18719Q6173 -18546q7647 -18034Q9158 -17509q10306 -16695Q11515 -15838q12188
@@ -224,19 +224,31 @@ this.ReplayButtonFiltration.visible = true;]]></script>
                     <Edge cubics="
 !12960 -12252(;12965,-12105 12777,2982 12800,3191q12960 -12252Q12961 -12230q12873 -4554Q12786 3067q12800 3191);"/>
                     <Edge cubics="
-!12800 3191(;12823,3400 6223,4656 6157,4991q12800 3191Q12808 3260q11781 3513Q11365 3616q9512 4044Q7942 4406q7226 4598Q6179 4878q6157 4991);"/>
-                    <Edge cubics="
-!6157 4991(;6090,5325 5294,7150 5144,7467q6157 4991Q6113 5209q5682 6235Q5320 7094q5144 7467);"/>
-                    <Edge cubics="
-!5144 7467(;5053,7660 4691,7538 4425,7471q5144 7467Q5085 7592q4850 7567Q4769 7558q4425 7471);"/>
-                    <Edge cubics="
-!4425 7471(;4160,7405 3447,7200 3074,7097q4425 7471Q4266 7431q3790 7298Q3261 7149q3074 7097);"/>
-                    <Edge cubics="
 !3074 7097(;2722,7000 2159,7086 1959,7050q3074 7097Q2871 7041q2460 7051Q2019 7061q1959 7050);"/>
                     <Edge cubics="
 !1959 7050(;1759,7015 747,7407 314,7181q1959 7050Q1899 7040q1678 7087Q1390 7154q1224 7187Q572 7316q314 7181);"/>
                     <Edge cubics="
 !-6645 3509(;-6645,3509 -6668,-10970 -5645,-13934q-6645 3509Q-6651 -111q-6529 -4101Q-6284 -12081q-5645 -13934);"/>
+                    <Edge cubics="
+!12800 3191(;12805,3237 12468,3345 11788,3515q12800 3191Q12808 3260q11788 3515);"/>
+                    <Edge cubics="
+!9530 4049(9530,4049;8478,4294 7717,4479 7247,4604q9530 4049Q7952 4416q7247 4604)7247,4604;"/>
+                    <Edge cubics="
+!11788 3515(;11473,3594 10720,3772 9530,4049q11788 3515Q11315 3634q9530 4049);"/>
+                    <Edge cubics="
+!4529 7486(;4354,7449 4107,7387 3790,7298q4529 7486Q4266 7431q3790 7298);"/>
+                    <Edge cubics="
+!5264 7239(;5223,7439 5134,7539 4997,7540q5264 7239Q5202 7539q4997 7540);"/>
+                    <Edge cubics="
+!5517 6450(;5390,6775 5305,7038 5264,7239q5517 6450Q5326 6938q5264 7239);"/>
+                    <Edge cubics="
+!4997 7540(;4860,7541 4704,7523 4529,7486q4997 7540Q4792 7541q4529 7486);"/>
+                    <Edge cubics="
+!5952 5423(;5789,5782 5644,6125 5517,6450q5952 5423Q5707 5962q5517 6450);"/>
+                    <Edge cubics="
+!3790 7298(3790,7298;3437,7199 3199,7132 3074,7097q3790 7298Q3261 7149q3074 7097)3074,7097;"/>
+                    <Edge cubics="
+!7247 4604(;6546,4790 6115,5063 5952,5423q7247 4604Q6196 4883q5952 5423);"/>
                   </edges>
                 </DOMShape>
               </elements>
@@ -699,12 +711,12 @@ this.ReplayButtonFiltration.visible = true;]]></script>
           <frames>
             <DOMFrame index="0" duration="10" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" centerPoint3DX="538.15" centerPoint3DY="1484.55" loop="single frame">
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" selected="true" symbolType="graphic" centerPoint3DX="533.85" centerPoint3DY="1483.35" loop="single frame">
                   <matrix>
-                    <Matrix a="0.167877197265625" b="-0.624481201171875" c="0.570953369140625" d="0.150802612304688" tx="-125.45" ty="2305.4"/>
+                    <Matrix a="0.162307739257812" b="-0.625900268554688" c="0.562896728515625" d="0.143310546875" tx="-113.95" ty="2311.6"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="1361.7" y="833.2"/>
+                    <Point x="1361.45" y="832.95"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
               </elements>
@@ -1288,7 +1300,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="NEW FILT STAGES" color="#4F80FF" autoNamed="false">
+        <DOMLayer name="NEW FILT STAGES" color="#4F80FF" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
@@ -1343,7 +1355,7 @@ this.ReplayButtonFiltration.visible = true;]]></script>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="dirt overlay" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false" animationType="motion object">
+        <DOMLayer name="dirt overlay" color="#9933CC" locked="true" autoNamed="false" animationType="motion object">
           <frames>
             <DOMFrame index="0" duration="35" keyMode="9728">
               <elements/>
