@@ -876,7 +876,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussel open/close" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="Mussel open/close" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="20" keyMode="9728">
                                    <elements/>
@@ -2258,7 +2258,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussels being dropped" color="#669900" parentLayerIndex="16" autoNamed="false">
+                    <DOMLayer name="Mussels being dropped" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="463" keyMode="9728">
                                    <elements/>
@@ -2314,7 +2314,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle-Bkg drift" color="#4F80FF" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Lifecycle-Bkg drift" color="#4F80FF" parentLayerIndex="16" locked="true" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="406" keyMode="9728">
                                    <elements/>
@@ -2346,8 +2346,8 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -2370,7 +2370,7 @@ this.BackgroundLoop.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
