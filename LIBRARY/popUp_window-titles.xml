@@ -1,17 +1,17 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-titles" itemID="580f641f-0000020d" symbolType="graphic" lastModified="1477408438" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-titles" itemID="580f641f-0000020d" symbolType="graphic" lastModified="1482169962" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-titles" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="pop-up_whiteBkgr" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="pop-up_whiteBkgr" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
                   <matrix>
-                    <Matrix a="0.347991943359375" d="0.171646118164062" tx="200.75" ty="1154.65"/>
+                    <Matrix a="0.347915649414062" d="0.170944213867188" tx="199.9" ty="1155"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="411.65" y="222.85"/>
+                    <Point x="411.9" y="222.9"/>
                   </transformationPoint>
                   <filters>
                     <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
@@ -24,21 +24,21 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up_black" color="#FF800A" autoNamed="false">
+        <DOMLayer name="pop-up_black" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
-                    <Matrix a="0.347991943359375" d="0.171646118164062" tx="200.75" ty="1154.65"/>
+                    <Matrix a="0.347915649414062" d="0.170944213867188" tx="198.9" ty="1155"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.498039215686275"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
+                    <Edge fillStyle0="1" edges="!16387 8892S1|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
                     <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
                     <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
                     <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>

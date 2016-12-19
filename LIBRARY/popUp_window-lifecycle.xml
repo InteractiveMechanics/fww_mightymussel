@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1481746107" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1482169796" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-lifecycle" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -22,12 +22,12 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
                   <matrix>
-                    <Matrix a="0.803939819335938" d="0.378753662109375" tx="171.45" ty="1126.65"/>
+                    <Matrix a="0.803558349609375" d="0.377838134765625" tx="172" ty="1126.9"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="411.2" y="222.3"/>
+                    <Point x="411.25" y="222.6"/>
                   </transformationPoint>
                   <filters>
                     <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
@@ -44,17 +44,17 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
-                    <Matrix a="0.803939819335938" d="0.378753662109375" tx="171.45" ty="1126.65"/>
+                    <Matrix a="0.803558349609375" d="0.377838134765625" tx="169.6" ty="1127"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.498039215686275"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892S1|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
+                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
                     <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
                     <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
                     <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>

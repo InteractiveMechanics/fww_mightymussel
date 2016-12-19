@@ -1,12 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB/pop-ups/pop-up_whiteBkgr" itemID="580e6c96-00000a57" lastModified="1477340310">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="FlashAICB/pop-ups/pop-up_whiteBkgr" itemID="580e6c96-00000a57" lastModified="1482169532">
   <timeline>
     <DOMTimeline name="pop-up_whiteBkgr">
       <layers>
-        <DOMLayer name="Layer 1" color="#4F80FF" current="true" isSelected="true">
+        <DOMLayer name="Layer 1" color="#4F80FF" locked="true" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMShape selected="true" isDrawingObject="true">
+                  <matrix>
+                    <Matrix tx="-3"/>
+                  </matrix>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#FFFFFF"/>
