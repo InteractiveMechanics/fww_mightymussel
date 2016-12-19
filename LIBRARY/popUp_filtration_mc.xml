@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_filtration_mc" itemID="580e6de0-00000a88" symbolType="graphic" lastModified="1482172163" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_filtration_mc" itemID="580e6de0-00000a88" symbolType="graphic" lastModified="1482185851" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_filtration_mc" currentFrame="32" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_filtration_mc" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -42,7 +42,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="pop-up" color="#9933CC" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>

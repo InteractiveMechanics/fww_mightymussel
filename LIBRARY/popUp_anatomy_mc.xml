@@ -1,8 +1,8 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1482169586" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1482185849" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="32" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="31" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="Labels" color="#808080" locked="true" autoNamed="false">
+        <DOMLayer name="Labels" color="#808080" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" name="closed" labelType="name" keyMode="9728">
               <elements/>
@@ -57,7 +57,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Actions" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="Actions" color="#9933CC" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <Framescript language="JavaScript">
@@ -163,7 +163,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="pop-up" color="#FF800A" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements/>
@@ -221,7 +221,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#808080" locked="true" outline="true" current="true" isSelected="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="20" keyMode="9728">
               <elements/>
@@ -345,7 +345,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="OVERLAY" color="#009999" locked="true" autoNamed="false">
+        <DOMLayer name="OVERLAY" color="#009999" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -379,7 +379,7 @@
             </DOMFrame>
             <DOMFrame index="12" duration="7" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" selected="true" centerPoint3DX="540" centerPoint3DY="964.95">
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
                   <matrix>
                     <Matrix a="0.908859252929688" d="0.934814453125"/>
                   </matrix>
@@ -409,7 +409,7 @@
             </DOMFrame>
             <DOMFrame index="20" duration="13" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" selected="true" centerPoint3DX="540" centerPoint3DY="964.95">
+                <DOMSymbolInstance libraryItemName="Assets/bkgrElements/BKGR-overlay" centerPoint3DX="540" centerPoint3DY="964.95">
                   <matrix>
                     <Matrix a="0.908859252929688" d="0.934814453125"/>
                   </matrix>

@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1482172654" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1482185933" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-filtration" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1126&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -38,7 +38,7 @@
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>Mussels eat by sucking in water and trapping solids... dirt, algae, pollutants</characters>
+                      <characters>Mussels eat by sucking in water and trapping solids... dirt, algae, pollutants.</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -49,13 +49,13 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>The more nutritious solids are eaten and other particles are discarded</characters>
+                      <characters>The more nutritious solids are eaten and other particles are discarded.</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -104,7 +104,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
                     <Matrix a="0.913818359375" d="0.377838134765625" tx="173.95" ty="1127"/>
                   </matrix>
@@ -126,7 +126,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix a="0.913818359375" d="0.377838134765625" tx="171.25" ty="1127"/>
                   </matrix>

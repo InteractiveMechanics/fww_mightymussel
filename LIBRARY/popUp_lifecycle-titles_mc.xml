@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1482169840" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1482185918" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_lifecycle-titles_mc" currentFrame="6" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_lifecycle-titles_mc" currentFrame="17" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>

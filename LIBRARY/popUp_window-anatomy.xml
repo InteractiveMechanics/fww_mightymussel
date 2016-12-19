@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1482169616" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1482185927" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="3">
+    <DOMTimeline name="popUp_window-anatomy" currentFrame="13">
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -52,7 +52,7 @@
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix tx="78" ty="548.05"/>
                   </matrix>
@@ -392,7 +392,7 @@
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
                     <Matrix a="0.877090454101562" d="0.764694213867188" tx="174" ty="274"/>
                   </matrix>
