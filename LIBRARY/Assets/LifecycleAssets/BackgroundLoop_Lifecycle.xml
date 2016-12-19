@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/BackgroundLoop_Lifecycle" itemID="57fd46b2-000007b0" symbolType="graphic" lastModified="1477083568" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/BackgroundLoop_Lifecycle" itemID="57fd46b2-000007b0" symbolType="graphic" lastModified="1482185663" lastUniqueIdentifier="8">
   <timeline>
     <DOMTimeline name="BackgroundLoop_Lifecycle">
       <layers>
@@ -24,11 +24,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="rocks-foreground" color="#009999" locked="true" autoNamed="false">
+        <DOMLayer name="rocks-foreground" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC_BkgrObjects" selected="true" symbolType="graphic" loop="loop">
                   <matrix>
                     <Matrix tx="604.65" ty="1353.35"/>
                   </matrix>
@@ -219,7 +219,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="sunbeams_mc copy 2" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="sunbeams_mc copy 2" color="#FF4F4F" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="64" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>

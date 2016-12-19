@@ -1,56 +1,53 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/LC-YoungMussel_mc" itemID="58053659-00003228" symbolType="graphic" lastModified="1476889719" lastUniqueIdentifier="8">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/LC-YoungMussel_mc" itemID="58053659-00003228" symbolType="graphic" lastModified="1482185780" lastUniqueIdentifier="8">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="LC-YoungMussel_mc">
       <layers>
-        <DOMLayer name="Layer 5" color="#009999" outline="true" current="true" isSelected="true" useOutlineView="true" layerType="mask">
+        <DOMLayer name="Layer 5" color="#009999" locked="true" outline="true" useOutlineView="true" layerType="mask">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isFloating="true">
-                  <matrix>
-                    <Matrix tx="-3.15" ty="41.05"/>
-                  </matrix>
+                <DOMShape>
                   <fills>
                     <FillStyle index="1">
                       <SolidColor color="#FFFFFF" alpha="0.733333333333333"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle1="1" edges="!2926 11007S2[2869 10904 2843 10757!2843 10757[2827 10669 2815 10492!2815 10492|2782 9952!2782 9952[2764 9686 2762 9552!2762 9552[2758 9330 2782 9153!2782 9153[2811 8943 2881 8766!2881 8766[2960 8569 3085 8426!3085 8426[3194 8304 3360
- 8199!3360 8199[3485 8120 3677 8030!3677 8030[3898 7924 4081 7861!4081 7861[4302 7784 4503 7756!4503 7756[4770 7717 5167 7753!5167 7753[5697 7801 6103 7924!6103 7924[6593 8073 6944 8341!6944 8341[7333 8639 7578 9104!7578 9104[7813 9549
- 7873 10062!7873 10062[7899 10276 7864 10438!7864 10438[7820 10639 7684 10741!7684 10741[7611 10795 7500 10823!7500 10823[7435 10840 7295 10858!7295 10858[7056 10887 6870 10854!6870 10854[6759 10833 6582 10765!6582 10765[6405 10696 6294
- 10676!6294 10676[6108 10643 5869 10673!5869 10673[5784 10684 5615 10779!5615 10779[5535 10824 5288 10981!5288 10981[4843 11262 4704 11257!4704 11257[4381 11243 4258 11387!4258 11387[4235 11414 4188 11496!4188 11496[4156 11553 4123 11565
-!4123 11565[3975 11615 3787 11568!3787 11568[3652 11535 3459 11439!3459 11439[3266 11343 3155 11261!3155 11261[3000 11146 2926 11007"/>
-                    <Edge cubics="!2926 11007(;2840,10852 2827,10667 2815,10492q2926 11007Q2869 10904q2843 10757Q2827 10669q2815 10492);"/>
-                    <Edge cubics="!2815 10492(;2804,10312 2793,10132 2782,9952q2815 10492 2782 9952);"/>
-                    <Edge cubics="!2782 9952(;2764,9686 2746,9418 2782,9153q2782 9952Q2764 9686q2762 9552Q2758 9330q2782 9153);"/>
-                    <Edge cubics="!2782 9153(;2818,8890 2910,8626 3085,8426q2782 9153Q2811 8943q2881 8766Q2960 8569q3085 8426);"/>
-                    <Edge cubics="!3085 8426(;3245,8248 3461,8131 3677,8030q3085 8426Q3194 8304q3360 8199Q3485 8120q3677 8030);"/>
-                    <Edge cubics="!3677 8030(;3940,7904 4215,7796 4503,7756q3677 8030Q3898 7924q4081 7861Q4302 7784q4503 7756);"/>
-                    <Edge cubics="!4503 7756(;4723,7724 4946,7733 5167,7753q4503 7756Q4770 7717q5167 7753);"/>
-                    <Edge cubics="!5167 7753(;5797,7810 6440,7956 6944,8341q5167 7753Q5697 7801q6103 7924Q6593 8073q6944 8341);"/>
-                    <Edge cubics="!6944 8341(;7475,8748 7795,9396 7873,10062q6944 8341Q7333 8639q7578 9104Q7813 9549q7873 10062);"/>
-                    <Edge cubics="!7873 10062(;7903,10307 7882,10593 7684,10741q7873 10062Q7899 10276q7864 10438Q7820 10639q7684 10741);"/>
-                    <Edge cubics="!7684 10741(;7574,10822 7432,10840 7295,10858q7684 10741Q7611 10795q7500 10823Q7435 10840q7295 10858);"/>
-                    <Edge cubics="!7295 10858(;6577,10946 6587,10583 5869,10673q7295 10858Q7056 10887q6870 10854Q6759 10833q6582 10765Q6405 10696q6294 10676Q6108 10643q5869 10673);"/>
-                    <Edge cubics="!5869 10673(;5612,10705 4965,11267 4704,11257q5869 10673Q5784 10684q5615 10779Q5535 10824q5288 10981Q4843 11262q4704 11257);"/>
-                    <Edge cubics="!4704 11257(;4171,11234 4240,11524 4123,11565q4704 11257Q4381 11243q4258 11387Q4235 11414q4188 11496Q4156 11553q4123 11565);"/>
-                    <Edge cubics="!4123 11565(;3904,11639 3666,11542 3459,11439q4123 11565Q3975 11615q3787 11568Q3652 11535q3459 11439);"/>
-                    <Edge cubics="!3459 11439(;3250,11335 3036,11212 2926,11007q3459 11439Q3266 11343q3155 11261Q3000 11146q2926 11007);"/>
+                    <Edge fillStyle1="1" edges="!2863 11828[2806 11725 2780 11578!2780 11578[2764 11490 2752 11313!2752 11313|2719 10773!2719 10773[2701 10507 2699 10373!2699 10373[2695 10151 2719 9974!2719 9974[2748 9764 2818 9587!2818 9587[2897 9390 3022 9247!3022 9247[3131 9125
+ 3297 9020!3297 9020[3422 8941 3614 8851!3614 8851[3835 8745 4018 8682!4018 8682[4239 8605 4440 8577!4440 8577[4707 8538 5104 8574!5104 8574[5634 8622 6040 8745!6040 8745[6530 8894 6881 9162!6881 9162[7270 9460 7515 9925!7515 9925[7750
+ 10370 7810 10883!7810 10883[7836 11097 7801 11259!7801 11259[7757 11460 7621 11562!7621 11562[7548 11616 7437 11644!7437 11644[7372 11661 7232 11679!7232 11679[6993 11708 6807 11675!6807 11675[6696 11654 6519 11586!6519 11586[6342 11517
+ 6231 11497!6231 11497[6045 11464 5806 11494!5806 11494[5721 11505 5552 11600!5552 11600[5472 11645 5225 11802!5225 11802[4780 12083 4641 12078!4641 12078[4318 12064 4195 12208!4195 12208[4172 12235 4125 12317!4125 12317[4093 12374 4060
+ 12386!4060 12386[3912 12436 3724 12389!3724 12389[3589 12356 3396 12260!3396 12260[3203 12164 3092 12082!3092 12082[2937 11967 2863 11828"/>
+                    <Edge cubics="!2863 11828(;2777,11673 2764,11488 2752,11313q2863 11828Q2806 11725q2780 11578Q2764 11490q2752 11313);"/>
+                    <Edge cubics="!2752 11313(;2741,11133 2730,10953 2719,10773q2752 11313 2719 10773);"/>
+                    <Edge cubics="!2719 10773(;2701,10507 2683,10239 2719,9974q2719 10773Q2701 10507q2699 10373Q2695 10151q2719 9974);"/>
+                    <Edge cubics="!2719 9974(;2755,9711 2847,9447 3022,9247q2719 9974Q2748 9764q2818 9587Q2897 9390q3022 9247);"/>
+                    <Edge cubics="!3022 9247(;3182,9069 3398,8952 3614,8851q3022 9247Q3131 9125q3297 9020Q3422 8941q3614 8851);"/>
+                    <Edge cubics="!3614 8851(;3877,8725 4152,8617 4440,8577q3614 8851Q3835 8745q4018 8682Q4239 8605q4440 8577);"/>
+                    <Edge cubics="!4440 8577(;4660,8545 4883,8554 5104,8574q4440 8577Q4707 8538q5104 8574);"/>
+                    <Edge cubics="!5104 8574(;5734,8631 6377,8777 6881,9162q5104 8574Q5634 8622q6040 8745Q6530 8894q6881 9162);"/>
+                    <Edge cubics="!6881 9162(;7412,9569 7732,10217 7810,10883q6881 9162Q7270 9460q7515 9925Q7750 10370q7810 10883);"/>
+                    <Edge cubics="!7810 10883(;7840,11128 7819,11414 7621,11562q7810 10883Q7836 11097q7801 11259Q7757 11460q7621 11562);"/>
+                    <Edge cubics="!7621 11562(;7511,11643 7369,11661 7232,11679q7621 11562Q7548 11616q7437 11644Q7372 11661q7232 11679);"/>
+                    <Edge cubics="!7232 11679(;6514,11767 6524,11404 5806,11494q7232 11679Q6993 11708q6807 11675Q6696 11654q6519 11586Q6342 11517q6231 11497Q6045 11464q5806 11494);"/>
+                    <Edge cubics="!5806 11494(;5549,11526 4902,12088 4641,12078q5806 11494Q5721 11505q5552 11600Q5472 11645q5225 11802Q4780 12083q4641 12078);"/>
+                    <Edge cubics="!4641 12078(;4108,12055 4177,12345 4060,12386q4641 12078Q4318 12064q4195 12208Q4172 12235q4125 12317Q4093 12374q4060 12386);"/>
+                    <Edge cubics="!4060 12386(;3841,12460 3603,12363 3396,12260q4060 12386Q3912 12436q3724 12389Q3589 12356q3396 12260);"/>
+                    <Edge cubics="!3396 12260(;3187,12156 2973,12033 2863,11828q3396 12260Q3203 12164q3092 12082Q2937 11967q2863 11828);"/>
                   </edges>
                 </DOMShape>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="0" autoNamed="false">
+        <DOMLayer name="YoungMussel" color="#9933CC" parentLayerIndex="0" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="1.47886657714844" b="-1.45368957519531" c="1.75814819335938" d="0.883865356445312" tx="97.65" ty="654.4"/>
                   </matrix>
@@ -268,26 +265,23 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="7" locked="true" autoNamed="false">
+        <DOMLayer name="YoungMussel" color="#FF4FFF" parentLayerIndex="7" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" symbolType="graphic" loop="single frame">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/YoungMussel-brown" selected="true" symbolType="graphic" loop="single frame">
                   <matrix>
                     <Matrix a="-0.05572509765625" b="-2.59486389160156" c="2.09712219238281" d="-0.534011840820312" tx="-909.9" ty="447.2"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="60.6" y="55.4"/>
                   </transformationPoint>
-                  <color>
-                    <Color tintMultiplier="0.2" tintColor="#002E1B"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="shadow" color="#808080" autoNamed="false">
+        <DOMLayer name="shadow" color="#808080" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -307,7 +301,7 @@
                     <Point x="204.65" y="45.75"/>
                   </transformationPoint>
                 </DOMSymbolInstance>
-                <DOMSymbolInstance libraryItemName="mussel-shadow" selected="true">
+                <DOMSymbolInstance libraryItemName="mussel-shadow">
                   <matrix>
                     <Matrix a="0.649642944335938" b="-0.092315673828125" c="0.7332763671875" d="0.960601806640625" tx="153.75" ty="564"/>
                   </matrix>
