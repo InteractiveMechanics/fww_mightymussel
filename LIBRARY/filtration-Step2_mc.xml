@@ -1,22 +1,22 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step2_mc" itemID="581a2a59-0000087e" symbolType="graphic" lastModified="1481745205" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="filtration-Step2_mc" itemID="581a2a59-0000087e" symbolType="graphic" lastModified="1482173318" lastUniqueIdentifier="3">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="filtration-Step2_mc">
+    <DOMTimeline name="filtration-Step2_mc" currentFrame="53">
       <layers>
         <DOMLayer name="Labels" color="#FF800A" locked="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="56" name="FiltrationStep2" labelType="name" keyMode="9728">
+            <DOMFrame index="0" duration="54" name="FiltrationStep2" labelType="name" keyMode="9728">
               <elements/>
             </DOMFrame>
           </frames>
         </DOMLayer>
         <DOMLayer name="FILTRATION STEPS" color="#009999" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="56" keyMode="9728">
+            <DOMFrame index="0" duration="54" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" selected="true" symbolType="graphic" firstFrame="42" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
+                <DOMSymbolInstance libraryItemName="mussel-AnatomyFiltration_mc" symbolType="graphic" firstFrame="42" centerPoint3DX="674.35" centerPoint3DY="1120.35" loop="play once">
                   <matrix>
                     <Matrix a="1.07516479492188" b="0.155502319335938" c="-0.137710571289063" d="0.982452392578125" tx="-785.95" ty="123.6"/>
                   </matrix>
