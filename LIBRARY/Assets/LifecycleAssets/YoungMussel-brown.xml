@@ -1,31 +1,28 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/YoungMussel-brown" itemID="57d0e0d0-00000121" symbolType="graphic" lastModified="1476738336">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/LifecycleAssets/YoungMussel-brown" itemID="57d0e0d0-00000121" symbolType="graphic" lastModified="1482171219">
   <timeline>
     <DOMTimeline name="YoungMussel-brown">
       <layers>
-        <DOMLayer name="mussel-outterShell.png" color="#FF800A" autoNamed="false">
+        <DOMLayer name="mussel-outterShell.png" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/youngMussel-brownShell" symbolType="graphic" loop="loop">
+                <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/youngMussel-brownShell" selected="true" symbolType="graphic" loop="loop">
                   <matrix>
                     <Matrix tx="22.15" ty="-46.5"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="61.7" y="69.5"/>
                   </transformationPoint>
-                  <color>
-                    <Color redOffset="-40" blueOffset="5" greenOffset="-71"/>
-                  </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Foot" color="#009999" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Foot" color="#009999" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix c="-0.303924560546875" tx="13.4" ty="22.55"/>
                   </matrix>

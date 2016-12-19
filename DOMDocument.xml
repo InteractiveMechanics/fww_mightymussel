@@ -10,8 +10,10 @@
           <DOMFolderItem name="Assets/Fish/Alewife-AI symbols" itemID="5804eb91-0000047d"/>
           <DOMFolderItem name="Assets/Fish/American Shad- AI symbols" itemID="5804ebaf-00000481"/>
           <DOMFolderItem name="Assets/Fish/Brook Trout- AI symbols" itemID="5804f0f0-000004ae"/>
-          <DOMFolderItem name="Assets/LifecycleAssets" itemID="57d9764c-00001414"/>
-          <DOMFolderItem name="Assets/Mussel bits" itemID="580a7088-00000554"/>
+          <DOMFolderItem name="Assets/LifecycleAssets" itemID="57d9764c-00001414" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Mussel bits" itemID="580a7088-00000554" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Mussel bits/Assets" itemID="585820ef-000026a6" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Mussel bits/Assets/Mussel bits" itemID="585820ef-000026a7" isExpanded="true"/>
           <DOMFolderItem name="Buttons" itemID="57d556b4-0000022c"/>
           <DOMFolderItem name="Buttons/Icons- AI symbols" itemID="580507d6-00000713"/>
           <DOMFolderItem name="FlashAICB" itemID="580e3e98-000000f0" isExpanded="true"/>
@@ -23,7 +25,8 @@
           <DOMBitmapItem name="Assets/Mussel bits/internal-upperRidge" itemID="5804f1aa-000004bc" sourceLastImported="1476719018" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/internal-upperRidge" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-foot-color" itemID="58051692-00000e19" sourceLastImported="1476728466" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-foot-color" bitmapDataHRef="M 12 1473312293.dat" frameRight="15040" frameBottom="8540"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-mantelColor" itemID="5804fbb2-000005ec" sourceLastImported="1476721586" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-mantelColor" bitmapDataHRef="M 15 1473312293.dat" frameRight="13780" frameBottom="7460"/>
-          <DOMBitmapItem name="Assets/Mussel bits/mussel-outterShell.png" itemID="58062c71-00004d4a" sourceLastImported="1477683547" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" itemID="58582464-000026c8" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" sourceLastImported="1482171423" externalFileCRC32="3485932206" externalFileSize="594694" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" bitmapDataHRef="M 8 1482170607.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/Mussel bits/mussel-outterShell.png" itemID="5858242d-000026c5" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/mussel-outterShell.png" sourceLastImported="1478098992" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-stomach" itemID="5804fbbd-000005ee" sourceLastImported="1476721597" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-stomach" bitmapDataHRef="M 13 1473312293.dat" frameRight="4980" frameBottom="3480"/>
      </media>
      <symbols>
@@ -193,8 +196,8 @@
           <Include href="Assets/LifecycleAssets/LC-YoungMussel_mc.xml" itemIcon="1" loadImmediate="false" itemID="58053659-00003228" lastModified="1476889719"/>
           <Include href="Assets/LifecycleAssets/Tween 2.xml" itemIcon="1" loadImmediate="false" itemID="57c52ed9-00001060" lastModified="1472540377"/>
           <Include href="Assets/LifecycleAssets/Tween 3.xml" itemIcon="1" loadImmediate="false" itemID="57c52ed9-00001064" lastModified="1472540377"/>
-          <Include href="Assets/LifecycleAssets/YoungMussel-brown.xml" itemIcon="1" loadImmediate="false" itemID="57d0e0d0-00000121" lastModified="1476738336"/>
-          <Include href="Assets/LifecycleAssets/youngMussel-brownShell.xml" itemIcon="1" loadImmediate="false" itemID="58053891-00003871" lastModified="1476737169"/>
+          <Include href="Assets/LifecycleAssets/YoungMussel-brown.xml" itemIcon="1" loadImmediate="false" itemID="57d0e0d0-00000121" lastModified="1482171219"/>
+          <Include href="Assets/LifecycleAssets/youngMussel-brownShell.xml" itemIcon="1" loadImmediate="false" itemID="58053891-00003871" lastModified="1482171238"/>
           <Include href="Assets/LifecycleAssets/youngMussel-darkShell.xml" itemIcon="1" loadImmediate="false" itemID="580538a0-00003872" lastModified="1476737184"/>
           <Include href="Assets/MMlogo.xml" loadImmediate="false" itemID="580517c7-00000f46" lastModified="1476728775"/>
           <Include href="Assets/Mussel bits/mussel-adductorMuscle_Anterior.xml" loadImmediate="false" itemID="5804fdbc-00000604" lastModified="1476722108"/>
@@ -265,7 +268,7 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="619" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
@@ -2262,7 +2265,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="463" duration="287" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC-MusselsDroping_mc" selected="true" symbolType="graphic" loop="play once">
+                                        <DOMSymbolInstance libraryItemName="Assets/LifecycleAssets/LC-MusselsDroping_mc" symbolType="graphic" loop="play once">
                                              <matrix>
                                                   <Matrix tx="4.8" ty="-10.15"/>
                                              </matrix>
