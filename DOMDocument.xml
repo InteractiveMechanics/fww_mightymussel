@@ -25,14 +25,14 @@
           <DOMBitmapItem name="Assets/Mussel bits/internal-upperRidge" itemID="5804f1aa-000004bc" sourceLastImported="1476719018" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/internal-upperRidge" bitmapDataHRef="M 17 1473312293.dat" frameRight="9440" frameBottom="1660"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-foot-color" itemID="58051692-00000e19" sourceLastImported="1476728466" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-foot-color" bitmapDataHRef="M 12 1473312293.dat" frameRight="15040" frameBottom="8540"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-mantelColor" itemID="5804fbb2-000005ec" sourceLastImported="1476721586" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-mantelColor" bitmapDataHRef="M 15 1473312293.dat" frameRight="13780" frameBottom="7460"/>
-          <DOMBitmapItem name="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" itemID="58582464-000026c8" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" sourceLastImported="1482171423" externalFileCRC32="3485932206" externalFileSize="594694" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" bitmapDataHRef="M 8 1482170607.dat" frameRight="13780" frameBottom="24520"/>
+          <DOMBitmapItem name="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" itemID="585824b2-000026ca" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" sourceLastImported="1482171422" externalFileCRC32="3485932206" externalFileSize="594694" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/Assets/Mussel bits/mussel-outterShell-brown.png" bitmapDataHRef="M 8 1482170607.dat" frameRight="13780" frameBottom="24520"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-outterShell.png" itemID="5858242d-000026c5" sourceExternalFilepath="./LIBRARY/Assets/Mussel bits/mussel-outterShell.png" sourceLastImported="1478098992" externalFileCRC32="3485932206" externalFileSize="633676" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-outterShell.png" bitmapDataHRef="M 2 1471682334.dat" frameRight="13780" frameBottom="24520"/>
           <DOMBitmapItem name="Assets/Mussel bits/mussel-stomach" itemID="5804fbbd-000005ee" sourceLastImported="1476721597" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="Assets/Mussel bits/mussel-stomach" bitmapDataHRef="M 13 1473312293.dat" frameRight="4980" frameBottom="3480"/>
      </media>
      <symbols>
           <Include href="Assets/arrow.xml" loadImmediate="false" itemID="580517b7-00000f43" lastModified="1476728759"/>
           <Include href="Assets/bkgrElements/bkgr.xml" loadImmediate="false" itemID="57d0faca-00001ea9" lastModified="1477083470"/>
-          <Include href="Assets/bkgrElements/BKGR-bubbles_mc.xml" itemIcon="1" loadImmediate="false" itemID="58052063-000025bd" lastModified="1476738101"/>
+          <Include href="Assets/bkgrElements/BKGR-bubbles_mc.xml" itemIcon="1" loadImmediate="false" itemID="58052063-000025bd" lastModified="1482171671"/>
           <Include href="Assets/bkgrElements/bkgr-color_mc.xml" loadImmediate="false" itemID="58052071-000025be" lastModified="1476730993"/>
           <Include href="Assets/bkgrElements/bkgr-fishGroup_mc.xml" loadImmediate="false" itemID="580520ce-000025cf" lastModified="1476736113"/>
           <Include href="Assets/bkgrElements/BKGR-overlay.xml" loadImmediate="false" itemID="580520bc-000025cd" lastModified="1481922244"/>
@@ -268,7 +268,7 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="619" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="445" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
@@ -895,7 +895,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="17" locked="true" autoNamed="false">
                          <frames>
@@ -2258,7 +2258,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Mussels being dropped" color="#669900" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="Mussels being dropped" color="#669900" parentLayerIndex="16" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="463" keyMode="9728">
                                    <elements/>
