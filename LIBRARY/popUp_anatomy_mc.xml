@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1484159077" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_anatomy_mc" itemID="580e53b7-000002fa" symbolType="graphic" lastModified="1484161146" lastUniqueIdentifier="3">
   <timeline>
-    <DOMTimeline name="popUp_anatomy_mc" currentFrame="32" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_anatomy_mc" currentFrame="24" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;-398&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="Labels" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -221,7 +221,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#808080" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#808080" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="20" keyMode="9728">
               <elements/>
@@ -273,7 +273,7 @@
             </DOMFrame>
             <DOMFrame index="25" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" selected="true" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-anatomy" symbolType="graphic" firstFrame="6" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>

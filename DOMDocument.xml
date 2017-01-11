@@ -255,10 +255,10 @@
           <Include href="mussel-openingAnatomyFiltration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580a7125-00000557" lastModified="1482188053"/>
           <Include href="mussel-shadow.xml" loadImmediate="false" itemID="580515df-00000e10" lastModified="1476728287"/>
           <Include href="OpenMusselAnatomy.xml" loadImmediate="false" itemID="57d769b9-00005b34" lastModified="1481927166"/>
-          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1484159077"/>
+          <Include href="popUp_anatomy_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e53b7-000002fa" lastModified="1484161146"/>
           <Include href="popUp_filtration_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6de0-00000a88" lastModified="1482185851"/>
-          <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1484160542"/>
-          <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1482185918"/>
+          <Include href="popUp_lifecycle_mc.xml" itemIcon="1" loadImmediate="false" itemID="580e6c47-00000a52" lastModified="1484161716"/>
+          <Include href="popUp_lifecycle-titles_mc.xml" itemIcon="1" loadImmediate="false" itemID="580f63f0-0000010f" lastModified="1484161842"/>
           <Include href="popUp_window-anatomy.xml" itemIcon="1" loadImmediate="false" itemID="580e5ad5-0000060e" lastModified="1484160446"/>
           <Include href="popUp_window-filtration.xml" itemIcon="1" loadImmediate="false" itemID="580e6bec-00000a4f" lastModified="1482185933"/>
           <Include href="popUp_window-lifecycle.xml" itemIcon="1" loadImmediate="false" itemID="580e6e2b-00000d5f" lastModified="1482185938"/>
@@ -268,7 +268,7 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="13" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="332" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
                     <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
                          <frames>
@@ -862,7 +862,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" locked="true" autoNamed="false">
+                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements>
@@ -956,7 +956,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="lifecycle-text" color="#FF800A" parentLayerIndex="16" locked="true" autoNamed="false">
+                    <DOMLayer name="lifecycle-text" color="#FF800A" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -980,13 +980,13 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="311" duration="95" keyMode="9728">
                                    <elements>
-                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="790.2" height="260" isSelectable="false">
+                                        <DOMStaticText selected="true" fontRenderingMode="standard" width="790.2" height="214" isSelectable="false">
                                              <matrix>
                                                   <Matrix tx="144.9" ty="356.1"/>
                                              </matrix>
                                              <textRuns>
                                                   <DOMTextRun>
-                                                       <characters>During fish migrations, females release their glochidia into the water in hopes they attach to fish gills and fins. This is a very difficult task as different mussel species use different fish species as hosts. In our case, the Alewife mussel needs an Alewife fish as a host. Some mussel species have evolved part of their body as special lures that they wave around to attract specific fish.</characters>
+                                                       <characters>During fish migrations, females release their glochidia into the water in hopes they attach to fish gills and fins. This is a very difficult task as different mussel species use different fish species as hosts. Some mussel species have evolved part of their body as special lures that they wave around to attract specific fish.</characters>
                                                        <textAttrs>
                                                             <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="16" lineHeight="30" size="30" face="AGaramondPro-Regular" fillColor="#FFFFFF"/>
                                                        </textAttrs>
@@ -1031,7 +1031,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-pop-up-sperm" color="#808080" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="LC-pop-up-sperm" color="#808080" parentLayerIndex="16" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="38" keyMode="9728">
                                    <elements/>
@@ -1053,7 +1053,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                               <DOMFrame index="46" duration="37" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="popUp_lifecycle_mc" selected="true" symbolType="graphic" firstFrame="13" centerPoint3DX="547.15" centerPoint3DY="1153.55" loop="single frame">
+                                        <DOMSymbolInstance libraryItemName="popUp_lifecycle_mc" symbolType="graphic" firstFrame="13" centerPoint3DX="547.15" centerPoint3DY="1153.55" loop="single frame">
                                              <matrix>
                                                   <Matrix tx="48.1" ty="-88.05"/>
                                              </matrix>
@@ -1277,7 +1277,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-cap muss 2" color="#009999" parentLayerIndex="16" locked="true" autoNamed="false">
+                    <DOMLayer name="LC-cap muss 2" color="#009999" parentLayerIndex="16" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>

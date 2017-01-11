@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1482185918" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1484161842" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="popUp_lifecycle-titles_mc" currentFrame="17" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -30,34 +30,22 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
             </DOMFrame>
             <DOMFrame index="13" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
-                      <characters>ALEWIFE FISH</characters>
+                      <characters>SPECIAL FISH HOST</characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>&#xD;</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>(SPECIAL FISH HOST)</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -66,7 +54,7 @@
             </DOMFrame>
             <DOMFrame index="14" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
@@ -95,7 +83,7 @@
             </DOMFrame>
             <DOMFrame index="15" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
@@ -107,13 +95,7 @@
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
-                      <characters>&#xD;</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>(DADDY ALEWIFE FLOATER)</characters>
+                      <characters></characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -124,7 +106,7 @@
             </DOMFrame>
             <DOMFrame index="16" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
                   <matrix>
                     <Matrix tx="220.05" ty="1165.8"/>
                   </matrix>
@@ -136,13 +118,7 @@
                       </textAttrs>
                     </DOMTextRun>
                     <DOMTextRun>
-                      <characters>&#xD;</characters>
-                      <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-BdCn20" fillColor="#FFFFFF"/>
-                      </textAttrs>
-                    </DOMTextRun>
-                    <DOMTextRun>
-                      <characters>(MOMMY ALEWIFE FLOATER)</characters>
+                      <characters></characters>
                       <textAttrs>
                         <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
@@ -170,63 +146,118 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text shadow" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
-            <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-titles" symbolType="graphic" loop="single frame">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
                   <matrix>
-                    <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
+                    <Matrix tx="222" ty="1168"/>
                   </matrix>
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>SPECIAL FISH HOST</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="6" keyMode="9728">
+            <DOMFrame index="14" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-titles" selected="true" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="7" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
-              <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-titles" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-            <DOMFrame index="12" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-titles" symbolType="graphic" loop="single frame">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="56" isSelectable="false">
                   <matrix>
-                    <Matrix a="0.872772216796875" d="0.872772216796875" tx="63.5" ty="102.95"/>
+                    <Matrix tx="222" ty="1168"/>
                   </matrix>
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                  <color>
-                    <Color alphaMultiplier="0"/>
-                  </color>
-                </DOMSymbolInstance>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>GLOCHIDIA</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>&#xD;</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters>(MUSSEL BABIES)</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
-            <DOMFrame index="13" duration="5" keyMode="9728">
+            <DOMFrame index="15" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-titles" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
-                  <transformationPoint>
-                    <Point x="499.05" y="525.95"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="222" ty="1168"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ADULT MALE MUSSEL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="222" ty="1168"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>ADULT FEMALE MUSSEL</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                    <DOMTextRun>
+                      <characters></characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="25" size="25" bitmapSize="500" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="222" ty="1168"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>JUVENILE MUSSELS</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" lineSpacing="1" lineHeight="30" size="30" bitmapSize="600" face="TradeGothicLTStd-BdCn20"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
               </elements>
             </DOMFrame>
           </frames>
