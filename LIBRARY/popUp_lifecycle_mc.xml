@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1482185913" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1484160542" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_lifecycle_mc" currentFrame="18">
+    <DOMTimeline name="popUp_lifecycle_mc" currentFrame="13">
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
@@ -33,7 +33,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
@@ -142,7 +142,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="pop-up" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -194,7 +194,7 @@
             </DOMFrame>
             <DOMFrame index="13" duration="6" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" selected="true" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
