@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1484161842" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle-titles_mc" itemID="580f63f0-0000010f" symbolType="graphic" lastModified="1484162194" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="popUp_lifecycle-titles_mc" currentFrame="17" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -30,7 +30,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
@@ -146,7 +146,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text shadow" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text shadow" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
@@ -199,7 +199,7 @@
             </DOMFrame>
             <DOMFrame index="15" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="260.1" height="30" isSelectable="false">
                   <matrix>
                     <Matrix tx="222" ty="1168"/>
                   </matrix>

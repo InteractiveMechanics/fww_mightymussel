@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1484160446" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1484162348" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="13" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;225&lt;/guideline&gt;&lt;guideline direction="v"&gt;850&lt;/guideline&gt;&lt;guideline direction="h"&gt;302&lt;/guideline&gt;&lt;guideline direction="h"&gt;577&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_window-anatomy" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;225&lt;/guideline&gt;&lt;guideline direction="v"&gt;850&lt;/guideline&gt;&lt;guideline direction="h"&gt;302&lt;/guideline&gt;&lt;guideline direction="h"&gt;577&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -696,7 +696,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="bkgr" color="#4F80FF" locked="true" autoNamed="false">
+        <DOMLayer name="bkgr" color="#4F80FF" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
@@ -718,7 +718,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="blackbox" color="#FF800A" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="blackbox" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>

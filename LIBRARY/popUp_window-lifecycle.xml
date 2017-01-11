@@ -1,56 +1,40 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1482185938" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1484162731" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-lifecycle" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
-        <DOMLayer name="anatomyIcon" color="#9933CC" locked="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" firstFrame="2" loop="single frame">
-                  <matrix>
-                    <Matrix tx="78" ty="1228.7"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="81.85" y="81.85"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="pop-up_whiteBkgr" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="pop-up_whiteBkgr" color="#FF800A" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
-                    <Matrix a="0.803558349609375" d="0.377838134765625" tx="172" ty="1126.9"/>
+                    <Matrix a="0.786239624023438" d="0.27203369140625" tx="185.8" ty="1141.75"/>
                   </matrix>
                   <transformationPoint>
-                    <Point x="411.25" y="222.6"/>
+                    <Point x="411.75" y="223.85"/>
                   </transformationPoint>
                   <filters>
                     <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
                   </filters>
                   <color>
-                    <Color alphaMultiplier="0.48046875"/>
+                    <Color alphaMultiplier="0.30078125"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true" current="true" isSelected="true">
+        <DOMLayer name="Layer 4" color="#FF4FFF">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
                 <DOMShape isDrawingObject="true">
                   <matrix>
-                    <Matrix a="0.803558349609375" d="0.377838134765625" tx="169.6" ty="1127"/>
+                    <Matrix a="0.786239624023438" d="0.27203369140625" tx="183.5" ty="1141.8"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#026275" alpha="0.498039215686275"/>
+                      <SolidColor color="#026275" alpha="0.298039215686275"/>
                     </FillStyle>
                   </fills>
                   <edges>
