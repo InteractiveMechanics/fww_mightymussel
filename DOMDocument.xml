@@ -268,9 +268,9 @@
           <Include href="Tween 1.xml" itemIcon="1" loadImmediate="false" itemID="580e1be2-000000f6" lastModified="1477319650"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="394" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
+          <DOMTimeline name="Scene 1" currentFrame="25" guides='&lt;guidelines&gt;&lt;guideline direction="h"&gt;16&lt;/guideline&gt;&lt;guideline direction="h"&gt;-12&lt;/guideline&gt;&lt;/guidelines&gt;'>
                <layers>
-                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" layerType="guide">
+                    <DOMLayer name="BLOCKOUT" color="#808080" locked="true" autoNamed="false" visible="false" layerType="guide">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
@@ -862,11 +862,11 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" autoNamed="false">
+                    <DOMLayer name="Anatomy-pop-ups" color="#4F80FF" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="popUp_anatomy_mc" name="popupAnatomy" selected="true" centerPoint3DX="540" centerPoint3DY="964.95">
+                                        <DOMSymbolInstance libraryItemName="popUp_anatomy_mc" name="popupAnatomy" centerPoint3DX="540" centerPoint3DY="964.95">
                                              <transformationPoint>
                                                   <Point/>
                                              </transformationPoint>
@@ -897,7 +897,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" autoNamed="false" layerType="folder"/>
+                    <DOMLayer name="Lifecycle" color="#4F80FF" locked="true" current="true" isSelected="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Buttons" color="#669900" parentLayerIndex="16" locked="true" autoNamed="false" open="false" layerType="folder"/>
                     <DOMLayer name="Replay" color="#FF4F4F" parentLayerIndex="17" locked="true" autoNamed="false">
                          <frames>
@@ -1277,7 +1277,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-cap muss 2" color="#009999" parentLayerIndex="16" autoNamed="false">
+                    <DOMLayer name="LC-cap muss 2" color="#009999" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="29" keyMode="9728">
                                    <elements/>
@@ -1369,7 +1369,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-caption-Alewives" color="#4F80FF" parentLayerIndex="16" autoNamed="false">
+                    <DOMLayer name="LC-caption-Alewives" color="#4F80FF" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="327" keyMode="9728">
                                    <elements/>
@@ -1400,7 +1400,7 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="LC-caption-gloch" color="#9933CC" parentLayerIndex="16" current="true" isSelected="true" autoNamed="false">
+                    <DOMLayer name="LC-caption-gloch" color="#9933CC" parentLayerIndex="16" locked="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" duration="352" keyMode="9728">
                                    <elements/>
@@ -2312,8 +2312,8 @@ this.LCgrassWave.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" open="false" layerType="folder"/>
-                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="Background" color="#4F80FF" locked="true" autoNamed="false" visible="false" open="false" layerType="folder"/>
+                    <DOMLayer name="BackgroundLogo" color="#FF4FFF" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <Framescript language="JavaScript">
@@ -2336,7 +2336,7 @@ this.BackgroundLoop.play();]]></script>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false">
+                    <DOMLayer name="BackgroundLoop" color="#FF4F4F" parentLayerIndex="55" locked="true" autoNamed="false" visible="false">
                          <frames>
                               <DOMFrame index="0" duration="750" keyMode="9728">
                                    <elements>
