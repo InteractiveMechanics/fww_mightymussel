@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1482185913" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1484162739" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_lifecycle_mc" currentFrame="18">
+    <DOMTimeline name="popUp_lifecycle_mc" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;203&lt;/guideline&gt;&lt;guideline direction="h"&gt;1160&lt;/guideline&gt;&lt;guideline direction="h"&gt;1242&lt;/guideline&gt;&lt;guideline direction="v"&gt;807&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" outline="true" useOutlineView="true" autoNamed="false">
           <frames>
@@ -33,7 +33,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#FF800A" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
@@ -142,7 +142,116 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#9933CC" locked="true" autoNamed="false">
+        <DOMLayer name="text shadow" color="#FF800A" locked="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="13" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="13" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="36" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sperm from male mussel enters water.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="14" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="78" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sperm from male mussel enters water and is drawn in by female.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="15" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="78" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>When host fish gets just close enough, female spits out her glochidia ("glo-kid-ee-ya").</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="16" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="78" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Glochidia attach themselves to the fish host to hitch a ride.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="17" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="78" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Babies grow into juvenile mussels and, when ready, they release from the fish.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="18" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="600.15" height="78" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="206" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>They sink into the stream bottom to begin their important work.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.247058823529412" letterSpacing="0.5" lineSpacing="6" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="pop-up" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -194,7 +303,7 @@
             </DOMFrame>
             <DOMFrame index="13" duration="6" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" selected="true" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
