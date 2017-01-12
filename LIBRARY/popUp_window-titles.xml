@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-titles" itemID="580f641f-0000020d" symbolType="graphic" lastModified="1482169962" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-titles" itemID="580f641f-0000020d" symbolType="graphic" lastModified="1482169962">
   <timeline>
-    <DOMTimeline name="popUp_window-titles" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_window-titles">
       <layers>
         <DOMLayer name="pop-up_whiteBkgr" color="#9933CC" locked="true" autoNamed="false">
           <frames>
@@ -8,7 +8,7 @@
               <elements>
                 <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
                   <matrix>
-                    <Matrix a="0.347915649414062" d="0.170944213867188" tx="199.9" ty="1155"/>
+                    <Matrix a="0.347900390625" d="0.170944213867188" tx="199.9" ty="1155"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="411.9" y="222.9"/>
@@ -30,7 +30,7 @@
               <elements>
                 <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
-                    <Matrix a="0.347915649414062" d="0.170944213867188" tx="198.9" ty="1155"/>
+                    <Matrix a="0.347900390625" d="0.170944213867188" tx="198.9" ty="1155"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">

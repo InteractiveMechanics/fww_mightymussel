@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1484162739" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_lifecycle_mc" itemID="580e6c47-00000a52" symbolType="graphic" lastModified="1484241496" lastUniqueIdentifier="2">
   <timeline>
     <DOMTimeline name="popUp_lifecycle_mc" currentFrame="18" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;203&lt;/guideline&gt;&lt;guideline direction="h"&gt;1160&lt;/guideline&gt;&lt;guideline direction="h"&gt;1242&lt;/guideline&gt;&lt;guideline direction="v"&gt;807&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -142,7 +142,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="text shadow" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="text shadow" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="13" keyMode="9728">
               <elements/>
@@ -251,7 +251,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="pop-up" color="#9933CC" locked="true" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="pop-up" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="6" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
@@ -270,7 +270,10 @@
             </DOMFrame>
             <DOMFrame index="6" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="497.05" centerPoint3DY="519.95" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-2" ty="-6"/>
+                  </matrix>
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -279,7 +282,10 @@
             </DOMFrame>
             <DOMFrame index="7" duration="5" tweenType="motion" motionTweenSnap="true" keyMode="22017">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="497.05" centerPoint3DY="519.95" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-2" ty="-6"/>
+                  </matrix>
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>
@@ -303,7 +309,10 @@
             </DOMFrame>
             <DOMFrame index="13" duration="6" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" selected="true" symbolType="graphic" centerPoint3DX="499.05" centerPoint3DY="525.95" loop="single frame">
+                <DOMSymbolInstance libraryItemName="popUp_window-lifecycle" symbolType="graphic" centerPoint3DX="497.05" centerPoint3DY="519.95" loop="single frame">
+                  <matrix>
+                    <Matrix tx="-2" ty="-6"/>
+                  </matrix>
                   <transformationPoint>
                     <Point x="499.05" y="525.95"/>
                   </transformationPoint>

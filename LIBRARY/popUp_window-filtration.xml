@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1482185933" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-filtration" itemID="580e6bec-00000a4f" symbolType="graphic" lastModified="1484241795" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-filtration" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1126&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -12,35 +12,19 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="icon" color="#FF4FFF" locked="true" autoNamed="false">
-          <frames>
-            <DOMFrame index="0" duration="4" keyMode="9728">
-              <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/anatomyIcon" symbolType="graphic" firstFrame="1" loop="single frame">
-                  <matrix>
-                    <Matrix tx="78" ty="1228.7"/>
-                  </matrix>
-                  <transformationPoint>
-                    <Point x="81.85" y="81.85"/>
-                  </transformationPoint>
-                </DOMSymbolInstance>
-              </elements>
-            </DOMFrame>
-          </frames>
-        </DOMLayer>
-        <DOMLayer name="text" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="text" color="#9933CC" locked="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="656" height="69" isSelectable="false">
                   <matrix>
-                    <Matrix tx="220.05" ty="1165.8"/>
+                    <Matrix tx="212" ty="1160"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Mussels eat by sucking in water and trapping solids... dirt, algae, pollutants.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -49,15 +33,15 @@
             </DOMFrame>
             <DOMFrame index="1" keyMode="9728">
               <elements>
-                <DOMStaticText selected="true" fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText selected="true" fontRenderingMode="standard" width="666" height="69" isSelectable="false">
                   <matrix>
-                    <Matrix tx="220.05" ty="1165.8"/>
+                    <Matrix tx="212" ty="1160"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>The more nutritious solids are eaten and other particles are discarded.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -66,15 +50,15 @@
             </DOMFrame>
             <DOMFrame index="2" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="660.15" height="100" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="669" height="106" isSelectable="false">
                   <matrix>
-                    <Matrix tx="220.05" ty="1155.8"/>
+                    <Matrix tx="212" ty="1160"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>The mussel grows bigger and stronger by filtering these nutrients out of the water. The waste products of mussels then provide food for other animals.</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -83,15 +67,87 @@
             </DOMFrame>
             <DOMFrame index="3" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="660.15" height="74" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" width="666" height="32" isSelectable="false">
                   <matrix>
-                    <Matrix tx="220.05" ty="1165.8"/>
+                    <Matrix tx="212" ty="1160"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Mussels naturally "clean" the water in which they live!</characters>
                       <textAttrs>
-                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="36" size="36" bitmapSize="720" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="textshadow" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="656" height="69" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mussels eat by sucking in water and trapping solids... dirt, algae, pollutants.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.298039215686275" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="1" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="666" height="69" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The more nutritious solids are eaten and other particles are discarded.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.298039215686275" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="2" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="669" height="106" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>The mussel grows bigger and stronger by filtering these nutrients out of the water. The waste products of mussels then provide food for other animals.</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.298039215686275" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMStaticText>
+              </elements>
+            </DOMFrame>
+            <DOMFrame index="3" keyMode="9728">
+              <elements>
+                <DOMStaticText fontRenderingMode="standard" width="666" height="32" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="214" ty="1162"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Mussels naturally "clean" the water in which they live!</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" alpha="0.298039215686275" lineSpacing="5" lineHeight="32" size="32" bitmapSize="640" face="TradeGothicLTStd-Cn18"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -104,7 +160,7 @@
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr">
+                <DOMSymbolInstance libraryItemName="FlashAICB/pop-ups/pop-up_whiteBkgr" selected="true">
                   <matrix>
                     <Matrix a="0.913818359375" d="0.377838134765625" tx="173.95" ty="1127"/>
                   </matrix>
@@ -112,17 +168,17 @@
                     <Point x="411.25" y="222.3"/>
                   </transformationPoint>
                   <filters>
-                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
+                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" isEnabled="false" quality="2" strength="0.9"/>
                   </filters>
                   <color>
-                    <Color alphaMultiplier="0.48046875"/>
+                    <Color alphaMultiplier="0"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="blackbox" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="blackbox" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="4" keyMode="9728">
               <elements>
@@ -132,11 +188,11 @@
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#026275" alpha="0.498039215686275"/>
+                      <SolidColor color="#026275" alpha="0.0980392156862745"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892S1|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
+                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
                     <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
                     <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
                     <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>

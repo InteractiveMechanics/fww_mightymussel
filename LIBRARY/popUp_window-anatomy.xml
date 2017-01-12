@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1484162348" lastUniqueIdentifier="2">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-anatomy" itemID="580e5ad5-0000060e" symbolType="graphic" lastModified="1484241573" lastUniqueIdentifier="2">
   <timeline>
-    <DOMTimeline name="popUp_window-anatomy" currentFrame="3" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;225&lt;/guideline&gt;&lt;guideline direction="v"&gt;850&lt;/guideline&gt;&lt;guideline direction="h"&gt;302&lt;/guideline&gt;&lt;guideline direction="h"&gt;577&lt;/guideline&gt;&lt;/guidelines&gt;'>
+    <DOMTimeline name="popUp_window-anatomy" currentFrame="5" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;225&lt;/guideline&gt;&lt;guideline direction="v"&gt;850&lt;/guideline&gt;&lt;guideline direction="h"&gt;302&lt;/guideline&gt;&lt;guideline direction="h"&gt;577&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
         <DOMLayer name="markers" color="#808080" locked="true" autoNamed="false">
           <frames>
@@ -708,27 +708,27 @@
                     <Point x="411.3" y="222.45"/>
                   </transformationPoint>
                   <filters>
-                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
+                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" isEnabled="false" quality="2" strength="0.9"/>
                   </filters>
                   <color>
-                    <Color alphaMultiplier="0.30078125"/>
+                    <Color alphaMultiplier="0"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="blackbox" color="#FF800A" locked="true" autoNamed="false">
+        <DOMLayer name="blackbox" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" duration="14" keyMode="9728">
               <elements>
-                <DOMShape selected="true" isDrawingObject="true">
+                <DOMShape isDrawingObject="true">
                   <matrix>
                     <Matrix a="0.958877563476562" d="0.979248046875" tx="26.15" ty="-59.3"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#026275" alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.0980392156862745"/>
                     </FillStyle>
                   </fills>
                   <edges>

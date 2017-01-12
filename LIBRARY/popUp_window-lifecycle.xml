@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1484162731" lastUniqueIdentifier="3">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="popUp_window-lifecycle" itemID="580e6e2b-00000d5f" symbolType="graphic" lastModified="1484238737" lastUniqueIdentifier="3">
   <timeline>
     <DOMTimeline name="popUp_window-lifecycle" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;539&lt;/guideline&gt;&lt;guideline direction="h"&gt;1116&lt;/guideline&gt;&lt;/guidelines&gt;'>
       <layers>
@@ -14,31 +14,31 @@
                     <Point x="411.75" y="223.85"/>
                   </transformationPoint>
                   <filters>
-                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" quality="2" strength="0.9"/>
+                    <DropShadowFilter alpha="0.349019607843137" angle="49.9999988616352" blurX="3" blurY="7" color="#231F20" distance="15" isEnabled="false" quality="2" strength="0.9"/>
                   </filters>
                   <color>
-                    <Color alphaMultiplier="0.30078125"/>
+                    <Color alphaMultiplier="0"/>
                   </color>
                 </DOMSymbolInstance>
               </elements>
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer 4" color="#FF4FFF">
+        <DOMLayer name="Layer 4" color="#FF4FFF" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMShape isDrawingObject="true">
+                <DOMShape selected="true" isDrawingObject="true">
                   <matrix>
                     <Matrix a="0.786239624023438" d="0.27203369140625" tx="183.5" ty="1141.8"/>
                   </matrix>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor color="#026275" alpha="0.298039215686275"/>
+                      <SolidColor color="#026275" alpha="0.0980392156862745"/>
                     </FillStyle>
                   </fills>
                   <edges>
-                    <Edge fillStyle0="1" edges="!16387 8892|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
+                    <Edge fillStyle0="1" edges="!16387 8892S1|16387 0!16387 0|60 0!60 0|60 8892!60 8892|16387 8892"/>
                     <Edge cubics="!16387 8892(;16387,8892 16387,0 16387,0p16387 8892 16387 0);"/>
                     <Edge cubics="!16387 0(;16387,0 60,0 60,0q16387 0 60 0);"/>
                     <Edge cubics="!60 0(;60,0 60,8892 60,8892q60 0 60 8892);"/>
